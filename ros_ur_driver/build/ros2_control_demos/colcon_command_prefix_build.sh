@@ -1,0 +1,13 @@
+# generated from colcon_core/shell/template/command_prefix.sh.em
+. "/home/d-lab/workspace/ros_ur_driver/install/control_msgs/share/control_msgs/package.sh"
+. "/home/d-lab/workspace/ros_ur_driver/install/diffbot_description/share/diffbot_description/package.sh"
+. "/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes/share/ros2_control_test_nodes/package.sh"
+. "/home/d-lab/workspace/ros_ur_driver/install/rrbot_description/share/rrbot_description/package.sh"
+. "/home/d-lab/workspace/ros_ur_driver/install/hardware_interface/share/hardware_interface/package.sh"
+. "/home/d-lab/workspace/ros_ur_driver/install/controller_interface/share/controller_interface/package.sh"
+. "/home/d-lab/workspace/ros_ur_driver/install/ros2_control_demo_hardware/share/ros2_control_demo_hardware/package.sh"
+. "/home/d-lab/workspace/ros_ur_driver/install/force_torque_sensor_broadcaster/share/force_torque_sensor_broadcaster/package.sh"
+. "/home/d-lab/workspace/ros_ur_driver/install/forward_command_controller/share/forward_command_controller/package.sh"
+. "/home/d-lab/workspace/ros_ur_driver/install/joint_state_broadcaster/share/joint_state_broadcaster/package.sh"
+. "/home/d-lab/workspace/ros_ur_driver/install/joint_trajectory_controller/share/joint_trajectory_controller/package.sh"
+. "/home/d-lab/workspace/ros_ur_driver/install/ros2_control_demo_bringup/share/ros2_control_demo_bringup/package.sh"

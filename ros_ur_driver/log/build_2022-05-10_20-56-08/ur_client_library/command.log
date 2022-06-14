@@ -1,0 +1,1 @@
+Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/ur_client_library': /usr/bin/cmake /home/d-lab/workspace/ros_ur_driver/src/Universal_Robots_Client_Library -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/d-lab/workspace/ros_ur_driver/install/ur_client_library

@@ -1,0 +1,38 @@
+[0.035s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/diffbot_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/d-lab/workspace/ros_ur_driver/src/ros2_control_demos/ros2_control_demo_description/diffbot_description -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/d-lab/workspace/ros_ur_driver/install/diffbot_description
+[0.190s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.190s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.190s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.219s] -- Configuring done
+[0.220s] -- Generating done
+[0.221s] -- Build files have been written to: /home/d-lab/workspace/ros_ur_driver/build/diffbot_description
+[0.223s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/build/diffbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/d-lab/workspace/ros_ur_driver/src/ros2_control_demos/ros2_control_demo_description/diffbot_description -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/d-lab/workspace/ros_ur_driver/install/diffbot_description
+[0.225s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/diffbot_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/diffbot_description -- -j16 -l16
+[0.252s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/build/diffbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/diffbot_description -- -j16 -l16
+[0.278s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/diffbot_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/d-lab/workspace/ros_ur_driver/build/diffbot_description
+[0.285s] -- Install configuration: "Release"
+[0.285s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/diffbot_description/share/diffbot_description/config
+[0.286s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/diffbot_description/share/diffbot_description/config/diffbot.rviz
+[0.286s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/diffbot_description/share/diffbot_description/gazebo
+[0.286s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/diffbot_description/share/diffbot_description/gazebo/diffbot.materials.xacro
+[0.286s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/diffbot_description/share/diffbot_description/gazebo/diffbot.gazebo.xacro
+[0.286s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/diffbot_description/share/diffbot_description/ros2_control
+[0.286s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/diffbot_description/share/diffbot_description/ros2_control/diffbot_system.ros2_control.xacro
+[0.286s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/diffbot_description/share/diffbot_description/urdf
+[0.286s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/diffbot_description/share/diffbot_description/urdf/diffbot_system.urdf.xacro
+[0.286s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/diffbot_description/share/diffbot_description/urdf/diffbot.urdf.xacro
+[0.289s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/diffbot_description/share/ament_index/resource_index/package_run_dependencies/diffbot_description
+[0.289s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/diffbot_description/share/ament_index/resource_index/parent_prefix_path/diffbot_description
+[0.290s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/diffbot_description/share/diffbot_description/environment/ament_prefix_path.sh
+[0.290s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/diffbot_description/share/diffbot_description/environment/ament_prefix_path.dsv
+[0.290s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/diffbot_description/share/diffbot_description/environment/path.sh
+[0.290s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/diffbot_description/share/diffbot_description/environment/path.dsv
+[0.290s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/diffbot_description/share/diffbot_description/local_setup.bash
+[0.290s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/diffbot_description/share/diffbot_description/local_setup.sh
+[0.290s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/diffbot_description/share/diffbot_description/local_setup.zsh
+[0.291s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/diffbot_description/share/diffbot_description/local_setup.dsv
+[0.291s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/diffbot_description/share/diffbot_description/package.dsv
+[0.293s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/diffbot_description/share/ament_index/resource_index/packages/diffbot_description
+[0.293s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/diffbot_description/share/diffbot_description/cmake/diffbot_descriptionConfig.cmake
+[0.294s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/diffbot_description/share/diffbot_description/cmake/diffbot_descriptionConfig-version.cmake
+[0.294s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/diffbot_description/share/diffbot_description/package.xml
+[0.294s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/build/diffbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/d-lab/workspace/ros_ur_driver/build/diffbot_description

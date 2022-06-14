@@ -1,0 +1,15 @@
+{
+  "package_name": "ur_msgs",
+  "non_idl_tuples": [
+    "/home/d-lab/workspace/ros_ur_driver/src/ur_msgs:msg/Analog.msg",
+    "/home/d-lab/workspace/ros_ur_driver/src/ur_msgs:msg/Digital.msg",
+    "/home/d-lab/workspace/ros_ur_driver/src/ur_msgs:msg/IOStates.msg",
+    "/home/d-lab/workspace/ros_ur_driver/src/ur_msgs:msg/RobotStateRTMsg.msg",
+    "/home/d-lab/workspace/ros_ur_driver/src/ur_msgs:msg/MasterboardDataMsg.msg",
+    "/home/d-lab/workspace/ros_ur_driver/src/ur_msgs:msg/RobotModeDataMsg.msg",
+    "/home/d-lab/workspace/ros_ur_driver/src/ur_msgs:msg/ToolDataMsg.msg",
+    "/home/d-lab/workspace/ros_ur_driver/src/ur_msgs:srv/SetPayload.srv",
+    "/home/d-lab/workspace/ros_ur_driver/src/ur_msgs:srv/SetSpeedSliderFraction.srv",
+    "/home/d-lab/workspace/ros_ur_driver/src/ur_msgs:srv/SetIO.srv"
+  ]
+}

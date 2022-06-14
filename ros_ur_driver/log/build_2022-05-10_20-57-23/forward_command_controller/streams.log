@@ -1,0 +1,100 @@
+[0.031s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/forward_command_controller': AMENT_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/controller_manager:/home/d-lab/workspace/ros_ur_driver/install/controller_interface:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_assets:/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs:/home/d-lab/workspace/ros_ur_driver/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/controller_manager:/home/d-lab/workspace/ros_ur_driver/install/controller_interface:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_assets:/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs:/home/d-lab/workspace/ros_ur_driver/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/d-lab/workspace/ros_ur_driver/install/controller_manager/lib:/home/d-lab/workspace/ros_ur_driver/install/controller_interface/lib:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface/lib:/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs/lib:/home/d-lab/workspace/ros_ur_driver/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/d-lab/workspace/ros_ur_driver/install/controller_manager/lib/python3.8/site-packages:/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs/lib/python3.8/site-packages:/home/d-lab/workspace/ros_ur_driver/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/d-lab/workspace/ros_ur_driver/src/ros2_controllers/forward_command_controller -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/d-lab/workspace/ros_ur_driver/install/forward_command_controller
+[0.067s] -- The C compiler identification is GNU 9.4.0
+[0.105s] -- The CXX compiler identification is GNU 9.4.0
+[0.110s] -- Check for working C compiler: /usr/bin/cc
+[0.154s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.155s] -- Detecting C compiler ABI info
+[0.196s] -- Detecting C compiler ABI info - done
+[0.204s] -- Detecting C compile features
+[0.204s] -- Detecting C compile features - done
+[0.206s] -- Check for working CXX compiler: /usr/bin/c++
+[0.257s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.258s] -- Detecting CXX compiler ABI info
+[0.310s] -- Detecting CXX compiler ABI info - done
+[0.317s] -- Detecting CXX compile features
+[0.318s] -- Detecting CXX compile features - done
+[0.319s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.336s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.336s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.461s] -- Found controller_interface: 0.10.0 (/home/d-lab/workspace/ros_ur_driver/install/controller_interface/share/controller_interface/cmake)
+[0.485s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.490s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.539s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.559s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.612s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.987s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.988s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.989s] -- Looking for pthread.h
+[1.032s] -- Looking for pthread.h - found
+[1.033s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.086s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.086s] -- Looking for pthread_create in pthreads
+[1.128s] -- Looking for pthread_create in pthreads - not found
+[1.128s] -- Looking for pthread_create in pthread
+[1.175s] -- Looking for pthread_create in pthread - found
+[1.176s] -- Found Threads: TRUE  
+[1.372s] -- Found realtime_tools: 2.2.0 (/opt/ros/foxy/share/realtime_tools/cmake)
+[1.437s] -- Found ament_cmake_gmock: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gmock/cmake)
+[1.438s] -- Found controller_manager: 0.10.0 (/home/d-lab/workspace/ros_ur_driver/install/controller_manager/share/controller_manager/cmake)
+[1.482s] -- Found ros2_control_test_assets: 0.10.0 (/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[1.484s] -- Found gmock sources under '/opt/ros/foxy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[1.487s] -- Found ament_cmake_gtest: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[1.488s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.604s] -- Configuring done
+[1.653s] -- Generating done
+[1.655s] -- Build files have been written to: /home/d-lab/workspace/ros_ur_driver/build/forward_command_controller
+[1.667s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/build/forward_command_controller' returned '0': AMENT_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/controller_manager:/home/d-lab/workspace/ros_ur_driver/install/controller_interface:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_assets:/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs:/home/d-lab/workspace/ros_ur_driver/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/controller_manager:/home/d-lab/workspace/ros_ur_driver/install/controller_interface:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_assets:/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs:/home/d-lab/workspace/ros_ur_driver/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/d-lab/workspace/ros_ur_driver/install/controller_manager/lib:/home/d-lab/workspace/ros_ur_driver/install/controller_interface/lib:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface/lib:/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs/lib:/home/d-lab/workspace/ros_ur_driver/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/d-lab/workspace/ros_ur_driver/install/controller_manager/lib/python3.8/site-packages:/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs/lib/python3.8/site-packages:/home/d-lab/workspace/ros_ur_driver/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/d-lab/workspace/ros_ur_driver/src/ros2_controllers/forward_command_controller -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/d-lab/workspace/ros_ur_driver/install/forward_command_controller
+[1.670s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/forward_command_controller': AMENT_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/controller_manager:/home/d-lab/workspace/ros_ur_driver/install/controller_interface:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_assets:/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs:/home/d-lab/workspace/ros_ur_driver/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/controller_manager:/home/d-lab/workspace/ros_ur_driver/install/controller_interface:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_assets:/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs:/home/d-lab/workspace/ros_ur_driver/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/d-lab/workspace/ros_ur_driver/install/controller_manager/lib:/home/d-lab/workspace/ros_ur_driver/install/controller_interface/lib:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface/lib:/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs/lib:/home/d-lab/workspace/ros_ur_driver/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/d-lab/workspace/ros_ur_driver/install/controller_manager/lib/python3.8/site-packages:/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs/lib/python3.8/site-packages:/home/d-lab/workspace/ros_ur_driver/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/forward_command_controller -- -j16 -l16
+[1.714s] [35m[1mScanning dependencies of target gmock[0m
+[1.714s] [35m[1mScanning dependencies of target gmock_main[0m
+[1.714s] [35m[1mScanning dependencies of target forward_command_controller[0m
+[1.731s] [  9%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[1.735s] [ 18%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[1.736s] [ 27%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/foxy/src/gtest_vendor/src/gtest-all.cc.o[0m
+[1.759s] [ 36%] [32mBuilding CXX object CMakeFiles/forward_command_controller.dir/src/forward_command_controller.cpp.o[0m
+[3.274s] [ 45%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[3.399s] [ 45%] Built target gmock_main
+[10.950s] [ 54%] [32m[1mLinking CXX shared library libforward_command_controller.so[0m
+[11.116s] [ 54%] Built target forward_command_controller
+[11.307s] [ 63%] [32m[1mLinking CXX static library libgmock.a[0m
+[11.348s] [ 63%] Built target gmock
+[11.359s] [35m[1mScanning dependencies of target test_load_forward_command_controller[0m
+[11.359s] [35m[1mScanning dependencies of target test_forward_command_controller[0m
+[11.412s] [ 72%] [32mBuilding CXX object CMakeFiles/test_forward_command_controller.dir/test/test_forward_command_controller.cpp.o[0m
+[11.421s] [ 81%] [32mBuilding CXX object CMakeFiles/test_load_forward_command_controller.dir/test/test_load_forward_command_controller.cpp.o[0m
+[15.351s] [ 90%] [32m[1mLinking CXX executable test_load_forward_command_controller[0m
+[15.568s] [ 90%] Built target test_load_forward_command_controller
+[18.092s] [100%] [32m[1mLinking CXX executable test_forward_command_controller[0m
+[18.222s] [100%] Built target test_forward_command_controller
+[18.229s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/build/forward_command_controller' returned '0': AMENT_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/controller_manager:/home/d-lab/workspace/ros_ur_driver/install/controller_interface:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_assets:/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs:/home/d-lab/workspace/ros_ur_driver/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/controller_manager:/home/d-lab/workspace/ros_ur_driver/install/controller_interface:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_assets:/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs:/home/d-lab/workspace/ros_ur_driver/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/d-lab/workspace/ros_ur_driver/install/controller_manager/lib:/home/d-lab/workspace/ros_ur_driver/install/controller_interface/lib:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface/lib:/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs/lib:/home/d-lab/workspace/ros_ur_driver/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/d-lab/workspace/ros_ur_driver/install/controller_manager/lib/python3.8/site-packages:/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs/lib/python3.8/site-packages:/home/d-lab/workspace/ros_ur_driver/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/forward_command_controller -- -j16 -l16
+[18.250s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/forward_command_controller': AMENT_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/controller_manager:/home/d-lab/workspace/ros_ur_driver/install/controller_interface:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_assets:/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs:/home/d-lab/workspace/ros_ur_driver/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/controller_manager:/home/d-lab/workspace/ros_ur_driver/install/controller_interface:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_assets:/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs:/home/d-lab/workspace/ros_ur_driver/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/d-lab/workspace/ros_ur_driver/install/controller_manager/lib:/home/d-lab/workspace/ros_ur_driver/install/controller_interface/lib:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface/lib:/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs/lib:/home/d-lab/workspace/ros_ur_driver/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/d-lab/workspace/ros_ur_driver/install/controller_manager/lib/python3.8/site-packages:/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs/lib/python3.8/site-packages:/home/d-lab/workspace/ros_ur_driver/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/d-lab/workspace/ros_ur_driver/build/forward_command_controller
+[18.257s] -- Install configuration: "Release"
+[18.257s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/forward_command_controller/share/forward_command_controller/forward_command_plugin.xml
+[18.257s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/forward_command_controller/include
+[18.257s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/forward_command_controller/include/forward_command_controller
+[18.257s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/forward_command_controller/include/forward_command_controller/visibility_control.h
+[18.257s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/forward_command_controller/include/forward_command_controller/forward_command_controller.hpp
+[18.257s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/forward_command_controller/lib/libforward_command_controller.so
+[18.257s] -- Set runtime path of "/home/d-lab/workspace/ros_ur_driver/install/forward_command_controller/lib/libforward_command_controller.so" to ""
+[18.257s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/forward_command_controller/share/forward_command_controller/environment/library_path.sh
+[18.257s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/forward_command_controller/share/forward_command_controller/environment/library_path.dsv
+[18.257s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/forward_command_controller/share/ament_index/resource_index/package_run_dependencies/forward_command_controller
+[18.258s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/forward_command_controller/share/ament_index/resource_index/parent_prefix_path/forward_command_controller
+[18.258s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/forward_command_controller/share/forward_command_controller/environment/ament_prefix_path.sh
+[18.258s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/forward_command_controller/share/forward_command_controller/environment/ament_prefix_path.dsv
+[18.258s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/forward_command_controller/share/forward_command_controller/environment/path.sh
+[18.258s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/forward_command_controller/share/forward_command_controller/environment/path.dsv
+[18.258s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/forward_command_controller/share/forward_command_controller/local_setup.bash
+[18.258s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/forward_command_controller/share/forward_command_controller/local_setup.sh
+[18.258s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/forward_command_controller/share/forward_command_controller/local_setup.zsh
+[18.258s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/forward_command_controller/share/forward_command_controller/local_setup.dsv
+[18.258s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/forward_command_controller/share/forward_command_controller/package.dsv
+[18.258s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/forward_command_controller/share/ament_index/resource_index/packages/forward_command_controller
+[18.258s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/forward_command_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/forward_command_controller
+[18.259s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/forward_command_controller/share/forward_command_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[18.259s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/forward_command_controller/share/forward_command_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[18.259s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/forward_command_controller/share/forward_command_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[18.259s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/forward_command_controller/share/forward_command_controller/cmake/forward_command_controllerConfig.cmake
+[18.259s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/forward_command_controller/share/forward_command_controller/cmake/forward_command_controllerConfig-version.cmake
+[18.259s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/forward_command_controller/share/forward_command_controller/package.xml
+[18.261s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/build/forward_command_controller' returned '0': AMENT_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/controller_manager:/home/d-lab/workspace/ros_ur_driver/install/controller_interface:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_assets:/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs:/home/d-lab/workspace/ros_ur_driver/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/controller_manager:/home/d-lab/workspace/ros_ur_driver/install/controller_interface:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_assets:/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs:/home/d-lab/workspace/ros_ur_driver/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/d-lab/workspace/ros_ur_driver/install/controller_manager/lib:/home/d-lab/workspace/ros_ur_driver/install/controller_interface/lib:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface/lib:/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs/lib:/home/d-lab/workspace/ros_ur_driver/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/d-lab/workspace/ros_ur_driver/install/controller_manager/lib/python3.8/site-packages:/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs/lib/python3.8/site-packages:/home/d-lab/workspace/ros_ur_driver/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/d-lab/workspace/ros_ur_driver/build/forward_command_controller

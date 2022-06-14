@@ -1,0 +1,42 @@
+[0.466s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/src/ros2_control_demos/ros2_control_test_nodes': PYTHONPATH=/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ros2_control_test_nodes build --build-base /home/d-lab/workspace/ros_ur_driver/build/ros2_control_test_nodes/build install --prefix /home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes --record /home/d-lab/workspace/ros_ur_driver/build/ros2_control_test_nodes/install.log --single-version-externally-managed
+[0.588s] running egg_info
+[0.589s] creating ../../../build/ros2_control_test_nodes/ros2_control_test_nodes.egg-info
+[0.589s] writing ../../../build/ros2_control_test_nodes/ros2_control_test_nodes.egg-info/PKG-INFO
+[0.589s] writing dependency_links to ../../../build/ros2_control_test_nodes/ros2_control_test_nodes.egg-info/dependency_links.txt
+[0.589s] writing entry points to ../../../build/ros2_control_test_nodes/ros2_control_test_nodes.egg-info/entry_points.txt
+[0.589s] writing requirements to ../../../build/ros2_control_test_nodes/ros2_control_test_nodes.egg-info/requires.txt
+[0.589s] writing top-level names to ../../../build/ros2_control_test_nodes/ros2_control_test_nodes.egg-info/top_level.txt
+[0.591s] writing manifest file '../../../build/ros2_control_test_nodes/ros2_control_test_nodes.egg-info/SOURCES.txt'
+[0.611s] reading manifest file '../../../build/ros2_control_test_nodes/ros2_control_test_nodes.egg-info/SOURCES.txt'
+[0.612s] writing manifest file '../../../build/ros2_control_test_nodes/ros2_control_test_nodes.egg-info/SOURCES.txt'
+[0.612s] running build
+[0.612s] running build_py
+[0.612s] creating /home/d-lab/workspace/ros_ur_driver/build/ros2_control_test_nodes/build
+[0.612s] creating /home/d-lab/workspace/ros_ur_driver/build/ros2_control_test_nodes/build/lib
+[0.612s] creating /home/d-lab/workspace/ros_ur_driver/build/ros2_control_test_nodes/build/lib/ros2_control_test_nodes
+[0.612s] copying ros2_control_test_nodes/publisher_joint_trajectory_controller.py -> /home/d-lab/workspace/ros_ur_driver/build/ros2_control_test_nodes/build/lib/ros2_control_test_nodes
+[0.612s] copying ros2_control_test_nodes/__init__.py -> /home/d-lab/workspace/ros_ur_driver/build/ros2_control_test_nodes/build/lib/ros2_control_test_nodes
+[0.613s] copying ros2_control_test_nodes/publisher_forward_position_controller.py -> /home/d-lab/workspace/ros_ur_driver/build/ros2_control_test_nodes/build/lib/ros2_control_test_nodes
+[0.613s] running install
+[0.613s] running install_lib
+[0.614s] creating /home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes/lib/python3.8/site-packages/ros2_control_test_nodes
+[0.614s] copying /home/d-lab/workspace/ros_ur_driver/build/ros2_control_test_nodes/build/lib/ros2_control_test_nodes/publisher_joint_trajectory_controller.py -> /home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes/lib/python3.8/site-packages/ros2_control_test_nodes
+[0.614s] copying /home/d-lab/workspace/ros_ur_driver/build/ros2_control_test_nodes/build/lib/ros2_control_test_nodes/__init__.py -> /home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes/lib/python3.8/site-packages/ros2_control_test_nodes
+[0.614s] copying /home/d-lab/workspace/ros_ur_driver/build/ros2_control_test_nodes/build/lib/ros2_control_test_nodes/publisher_forward_position_controller.py -> /home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes/lib/python3.8/site-packages/ros2_control_test_nodes
+[0.614s] byte-compiling /home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes/lib/python3.8/site-packages/ros2_control_test_nodes/publisher_joint_trajectory_controller.py to publisher_joint_trajectory_controller.cpython-38.pyc
+[0.616s] byte-compiling /home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes/lib/python3.8/site-packages/ros2_control_test_nodes/__init__.py to __init__.cpython-38.pyc
+[0.616s] byte-compiling /home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes/lib/python3.8/site-packages/ros2_control_test_nodes/publisher_forward_position_controller.py to publisher_forward_position_controller.cpython-38.pyc
+[0.616s] running install_data
+[0.616s] creating /home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes/share/ament_index
+[0.616s] creating /home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes/share/ament_index/resource_index
+[0.617s] creating /home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes/share/ament_index/resource_index/packages
+[0.617s] copying resource/ros2_control_test_nodes -> /home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes/share/ament_index/resource_index/packages
+[0.617s] copying package.xml -> /home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes/share/ros2_control_test_nodes
+[0.617s] creating /home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes/share/ros2_control_test_nodes/configs
+[0.617s] running install_egg_info
+[0.618s] Copying ../../../build/ros2_control_test_nodes/ros2_control_test_nodes.egg-info to /home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes/lib/python3.8/site-packages/ros2_control_test_nodes-0.0.1-py3.8.egg-info
+[0.618s] running install_scripts
+[0.628s] Installing publisher_forward_position_controller script to /home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes/lib/ros2_control_test_nodes
+[0.629s] Installing publisher_joint_trajectory_controller script to /home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes/lib/ros2_control_test_nodes
+[0.629s] writing list of installed files to '/home/d-lab/workspace/ros_ur_driver/build/ros2_control_test_nodes/install.log'
+[0.642s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/src/ros2_control_demos/ros2_control_test_nodes' returned '0': PYTHONPATH=/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ros2_control_test_nodes build --build-base /home/d-lab/workspace/ros_ur_driver/build/ros2_control_test_nodes/build install --prefix /home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes --record /home/d-lab/workspace/ros_ur_driver/build/ros2_control_test_nodes/install.log --single-version-externally-managed

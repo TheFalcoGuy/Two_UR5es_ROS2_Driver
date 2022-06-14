@@ -1,0 +1,34 @@
+[0.140s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/ur_description': /usr/bin/cmake /home/d-lab/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_description -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/d-lab/workspace/ros_ur_driver/install/ur_description
+[0.182s] -- The C compiler identification is GNU 9.4.0
+[0.228s] -- The CXX compiler identification is GNU 9.4.0
+[0.232s] -- Check for working C compiler: /usr/bin/cc
+[0.281s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.282s] -- Detecting C compiler ABI info
+[0.328s] -- Detecting C compiler ABI info - done
+[0.336s] -- Detecting C compile features
+[0.337s] -- Detecting C compile features - done
+[0.338s] -- Check for working CXX compiler: /usr/bin/c++
+[0.391s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.392s] -- Detecting CXX compiler ABI info
+[0.442s] -- Detecting CXX compiler ABI info - done
+[0.449s] -- Detecting CXX compile features
+[0.449s] -- Detecting CXX compile features - done
+[0.455s] CMake Error at CMakeLists.txt:4 (find_package):
+[0.455s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.455s]   has asked CMake to find a package configuration file provided by
+[0.455s]   "ament_cmake", but CMake did not find one.
+[0.455s] 
+[0.455s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.455s]   any of the following names:
+[0.455s] 
+[0.455s]     ament_cmakeConfig.cmake
+[0.456s]     ament_cmake-config.cmake
+[0.456s] 
+[0.456s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.456s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.456s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.456s]   has been installed.
+[0.456s] 
+[0.456s] 
+[0.456s] -- Configuring incomplete, errors occurred!
+[0.456s] See also "/home/d-lab/workspace/ros_ur_driver/build/ur_description/CMakeFiles/CMakeOutput.log".
