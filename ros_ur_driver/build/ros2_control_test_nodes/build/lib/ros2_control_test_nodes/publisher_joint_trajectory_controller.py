@@ -30,14 +30,19 @@ class PublisherJointTrajectory(Node):
         self.declare_parameter("joints")
         self.declare_parameter("check_starting_point", False)
         self.declare_parameter("starting_point_limits")
+        self.declare_parameter("ns")
 
         # Read parameters
         controller_name = self.get_parameter("controller_name").value
+        self.get_logger().info(f"\n\n\n\nController name: {controller_name}")
+
         wait_sec_between_publish = self.get_parameter("wait_sec_between_publish").value
         goal_names = self.get_parameter("goal_names").value
         self.joints = self.get_parameter("joints").value
         self.check_starting_point = self.get_parameter("check_starting_point").value
         self.starting_point = {}
+        self.ns = self.get_parameter("ns").value
+        self.get_logger().info(f"Namespace: {self.ns}")
 
         if self.joints is None or len(self.joints) == 0:
             raise Exception('"joints" parameter is not set!')
@@ -54,8 +59,9 @@ class PublisherJointTrajectory(Node):
                 if len(self.starting_point[name]) != 2:
                     raise Exception('"starting_point" parameter is not set correctly!')
             self.joint_state_sub = self.create_subscription(
-                JointState, "joint_states", self.joint_state_callback, 10
+                JointState, self.ns+"/joint_states", self.joint_state_callback, 10
             )
+            
         # initialize starting point status
         if not self.check_starting_point:
             self.starting_point_ok = True
@@ -77,7 +83,7 @@ class PublisherJointTrajectory(Node):
                 float_goal.append(float(value))
             self.goals.append(float_goal)
 
-        publish_topic = "/" + controller_name + "/" + "joint_trajectory"
+        publish_topic = self.ns + "/" + controller_name + "/" + "joint_trajectory"
 
         self.get_logger().info(
             'Publishing {} goals on topic "{}" every {} s'.format(
@@ -113,7 +119,7 @@ class PublisherJointTrajectory(Node):
             self.get_logger().warn("Start configuration is not within configured limits!")
 
     def joint_state_callback(self, msg):
-
+        
         if not self.joint_state_msg_received:
 
             # check start state

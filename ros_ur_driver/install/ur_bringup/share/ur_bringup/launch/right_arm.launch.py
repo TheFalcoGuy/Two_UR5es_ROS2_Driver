@@ -20,6 +20,9 @@ from launch.conditions import IfCondition
 from launch.substitutions import Command, FindExecutable, LaunchConfiguration, PathJoinSubstitution
 from launch_ros.actions import Node
 from launch_ros.substitutions import FindPackageShare
+from launch.actions import GroupAction
+from launch_ros.actions import PushRosNamespace
+
 import sys
 from pprint import pprint
 
@@ -76,7 +79,7 @@ def generate_launch_description():
     declared_arguments.append(
         DeclareLaunchArgument(
             "controllers_file",
-            default_value="ur_controllers.yaml",
+            default_value="right_controller.yaml",
             description="YAML file with the controllers configuration.",
         )
     )
@@ -91,7 +94,7 @@ def generate_launch_description():
     declared_arguments.append(
         DeclareLaunchArgument(
             "description_file",
-            default_value="ur.urdf.xacro",
+            default_value="ur.urdf_right.xacro",
             description="URDF/XACRO description file with the robot.",
         )
     )
@@ -295,13 +298,13 @@ def generate_launch_description():
     joint_state_broadcaster_spawner = Node(
         package="controller_manager",
         executable="spawner.py",
-        arguments=["joint_state_broadcaster", "--controller-manager", "/controller_manager"],
+        arguments=["joint_state_broadcaster", "--controller-manager", "/right/controller_manager"],
     )
 
     io_and_status_controller_spawner = Node(
         package="controller_manager",
         executable="spawner.py",
-        arguments=["io_and_status_controller", "-c", "/controller_manager"],
+        arguments=["io_and_status_controller", "-c", "/right/controller_manager"],
     )
 
     speed_scaling_state_broadcaster_spawner = Node(
@@ -310,7 +313,7 @@ def generate_launch_description():
         arguments=[
             "speed_scaling_state_broadcaster",
             "--controller-manager",
-            "/controller_manager",
+            "/right/controller_manager",
         ],
     )
 
@@ -320,14 +323,14 @@ def generate_launch_description():
         arguments=[
             "force_torque_sensor_broadcaster",
             "--controller-manager",
-            "/controller_manager",
+            "/right/controller_manager",
         ],
     )
 
     robot_controller_spawner = Node(
         package="controller_manager",
         executable="spawner.py",
-        arguments=[robot_controller, "-c", "/controller_manager"],
+        arguments=[robot_controller, "-c", "/right/controller_manager"],
     )
 
     nodes_to_start = [
@@ -343,4 +346,13 @@ def generate_launch_description():
         robot_controller_spawner,
     ]
 
+    # right_launch_namespace = GroupAction(
+    #     actions=[
+    #         PushRosNamespace('right')
+    #     ]+declared_arguments+nodes_to_start
+    # )
+
+    print ("right namespace instantiated")
+
     return LaunchDescription(declared_arguments + nodes_to_start)
+    #return LaunchDescription([right_launch_namespace])

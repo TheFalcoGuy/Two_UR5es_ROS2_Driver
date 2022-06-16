@@ -104,6 +104,7 @@ def main(args=None):
     command_line_args = rclpy.utilities.remove_ros_args(args=sys.argv)[1:]
     args = parser.parse_args(command_line_args)
     controller_name = args.controller_name
+    print ("controller manager name: ", args.controller_manager, "\n\n\n\n\n")
     controller_manager_name = make_absolute(args.controller_manager)
     param_file = args.param_file
     controller_type = args.controller_type

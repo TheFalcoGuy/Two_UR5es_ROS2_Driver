@@ -11,7 +11,6 @@ from launch.launch_description_sources import PythonLaunchDescriptionSource
 
 def generate_launch_description():
 
-    base_path="/home/d-lab/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_bringup/launch"
     base = PathJoinSubstitution([FindPackageShare('ur_bringup'),'launch/'])
 
 
