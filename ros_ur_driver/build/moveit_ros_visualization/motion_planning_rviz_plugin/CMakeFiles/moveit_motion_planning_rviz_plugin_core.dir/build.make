@@ -293,6 +293,7 @@ motion_planning_rviz_plugin/libmoveit_motion_planning_rviz_plugin_core.so.2.2.3:
 motion_planning_rviz_plugin/libmoveit_motion_planning_rviz_plugin_core.so.2.2.3: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.12.8
 motion_planning_rviz_plugin/libmoveit_motion_planning_rviz_plugin_core.so.2.2.3: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
 motion_planning_rviz_plugin/libmoveit_motion_planning_rviz_plugin_core.so.2.2.3: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+motion_planning_rviz_plugin/libmoveit_motion_planning_rviz_plugin_core.so.2.2.3: /usr/lib/x86_64-linux-gnu/libfreeimage.so
 motion_planning_rviz_plugin/libmoveit_motion_planning_rviz_plugin_core.so.2.2.3: /usr/lib/x86_64-linux-gnu/libfreetype.so
 motion_planning_rviz_plugin/libmoveit_motion_planning_rviz_plugin_core.so.2.2.3: /usr/lib/x86_64-linux-gnu/libz.so
 motion_planning_rviz_plugin/libmoveit_motion_planning_rviz_plugin_core.so.2.2.3: /usr/lib/x86_64-linux-gnu/libOpenGL.so

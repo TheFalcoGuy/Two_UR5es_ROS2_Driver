@@ -286,6 +286,9 @@ ament_cmake_test_DIR:PATH=/opt/ros/foxy/share/ament_cmake_test/cmake
 //The directory containing a CMake configuration file for ament_cmake_version.
 ament_cmake_version_DIR:PATH=/opt/ros/foxy/share/ament_cmake_version/cmake
 
+//The directory containing a CMake configuration file for rclpy.
+rclpy_DIR:PATH=/opt/ros/foxy/share/rclpy/cmake
+
 //Value Computed by CMake
 ur_moveit_config_BINARY_DIR:STATIC=/home/d-lab/workspace/ros_ur_driver/build/ur_moveit_config
 
@@ -444,4 +447,7 @@ CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[/usr/bin/python3][v3.8.10(3)]
 //ADVANCED property for variable: PYTHON_EXECUTABLE
 PYTHON_EXECUTABLE-ADVANCED:INTERNAL=1
+//The directory for Python library installation. This needs to
+// be in PYTHONPATH when 'setup.py install' is called.
+PYTHON_INSTALL_DIR:INTERNAL=lib/python3.8/site-packages
 

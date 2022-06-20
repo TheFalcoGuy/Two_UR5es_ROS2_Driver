@@ -117,12 +117,18 @@
 /home/d-lab/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10/collision/shoulder.stl
 /home/d-lab/workspace/ros_ur_driver/install/ur_description/share/ur_description/meshes/ur10/collision/base.stl
 /home/d-lab/workspace/ros_ur_driver/install/ur_description/share/ur_description/rviz/view_robot.rviz
+/home/d-lab/workspace/ros_ur_driver/install/ur_description/share/ur_description/urdf/joint_limits.yaml
+/home/d-lab/workspace/ros_ur_driver/install/ur_description/share/ur_description/urdf/default_kinematics.yaml
 /home/d-lab/workspace/ros_ur_driver/install/ur_description/share/ur_description/urdf/ur_macro.xacro
+/home/d-lab/workspace/ros_ur_driver/install/ur_description/share/ur_description/urdf/ur5_robotiq85_gripper.urdf copy.xacro
+/home/d-lab/workspace/ros_ur_driver/install/ur_description/share/ur_description/urdf/visual_parameters.yaml
 /home/d-lab/workspace/ros_ur_driver/install/ur_description/share/ur_description/urdf/ur.urdf_right.xacro
+/home/d-lab/workspace/ros_ur_driver/install/ur_description/share/ur_description/urdf/ur5_robotiq85_gripper.urdf.xacro
 /home/d-lab/workspace/ros_ur_driver/install/ur_description/share/ur_description/urdf/inc/ur_transmissions.xacro
 /home/d-lab/workspace/ros_ur_driver/install/ur_description/share/ur_description/urdf/inc/ur_common.xacro
 /home/d-lab/workspace/ros_ur_driver/install/ur_description/share/ur_description/urdf/ur.urdf.xacro
 /home/d-lab/workspace/ros_ur_driver/install/ur_description/share/ur_description/urdf/ur_macro_right.xacro
+/home/d-lab/workspace/ros_ur_driver/install/ur_description/share/ur_description/urdf/physical_parameters.yaml
 /home/d-lab/workspace/ros_ur_driver/install/ur_description/share/ur_description/urdf/ur.ros2_control.xacro
 /home/d-lab/workspace/ros_ur_driver/install/ur_description/share/ur_description/urdf/ur.ros2_control_right.xacro
 /home/d-lab/workspace/ros_ur_driver/install/ur_description/share/ament_index/resource_index/package_run_dependencies/ur_description

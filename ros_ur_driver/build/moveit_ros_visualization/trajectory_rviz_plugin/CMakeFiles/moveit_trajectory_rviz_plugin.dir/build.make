@@ -284,6 +284,7 @@ trajectory_rviz_plugin/libmoveit_trajectory_rviz_plugin.so.2.2.3: /usr/lib/x86_6
 trajectory_rviz_plugin/libmoveit_trajectory_rviz_plugin.so.2.2.3: /usr/lib/x86_64-linux-gnu/libassimp.so.5
 trajectory_rviz_plugin/libmoveit_trajectory_rviz_plugin.so.2.2.3: /usr/lib/x86_64-linux-gnu/libqhull_r.so
 trajectory_rviz_plugin/libmoveit_trajectory_rviz_plugin.so.2.2.3: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+trajectory_rviz_plugin/libmoveit_trajectory_rviz_plugin.so.2.2.3: /usr/lib/x86_64-linux-gnu/libfreeimage.so
 trajectory_rviz_plugin/libmoveit_trajectory_rviz_plugin.so.2.2.3: /usr/lib/x86_64-linux-gnu/libfreetype.so
 trajectory_rviz_plugin/libmoveit_trajectory_rviz_plugin.so.2.2.3: /usr/lib/x86_64-linux-gnu/libz.so
 trajectory_rviz_plugin/libmoveit_trajectory_rviz_plugin.so.2.2.3: /usr/lib/x86_64-linux-gnu/libOpenGL.so

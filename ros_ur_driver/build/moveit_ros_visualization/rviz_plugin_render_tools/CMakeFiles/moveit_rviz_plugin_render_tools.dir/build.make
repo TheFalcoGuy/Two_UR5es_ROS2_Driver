@@ -315,6 +315,7 @@ rviz_plugin_render_tools/libmoveit_rviz_plugin_render_tools.so.2.2.3: /usr/lib/x
 rviz_plugin_render_tools/libmoveit_rviz_plugin_render_tools.so.2.2.3: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.12.8
 rviz_plugin_render_tools/libmoveit_rviz_plugin_render_tools.so.2.2.3: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
 rviz_plugin_render_tools/libmoveit_rviz_plugin_render_tools.so.2.2.3: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+rviz_plugin_render_tools/libmoveit_rviz_plugin_render_tools.so.2.2.3: /usr/lib/x86_64-linux-gnu/libfreeimage.so
 rviz_plugin_render_tools/libmoveit_rviz_plugin_render_tools.so.2.2.3: /usr/lib/x86_64-linux-gnu/libfreetype.so
 rviz_plugin_render_tools/libmoveit_rviz_plugin_render_tools.so.2.2.3: /usr/lib/x86_64-linux-gnu/libz.so
 rviz_plugin_render_tools/libmoveit_rviz_plugin_render_tools.so.2.2.3: /usr/lib/x86_64-linux-gnu/libOpenGL.so

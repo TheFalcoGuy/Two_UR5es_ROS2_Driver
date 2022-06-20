@@ -105,6 +105,7 @@ planning_scene_rviz_plugin/libmoveit_planning_scene_rviz_plugin.so.2.2.3: /usr/l
 planning_scene_rviz_plugin/libmoveit_planning_scene_rviz_plugin.so.2.2.3: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.12.8
 planning_scene_rviz_plugin/libmoveit_planning_scene_rviz_plugin.so.2.2.3: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
 planning_scene_rviz_plugin/libmoveit_planning_scene_rviz_plugin.so.2.2.3: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+planning_scene_rviz_plugin/libmoveit_planning_scene_rviz_plugin.so.2.2.3: /usr/lib/x86_64-linux-gnu/libfreeimage.so
 planning_scene_rviz_plugin/libmoveit_planning_scene_rviz_plugin.so.2.2.3: /usr/lib/x86_64-linux-gnu/libfreetype.so
 planning_scene_rviz_plugin/libmoveit_planning_scene_rviz_plugin.so.2.2.3: /usr/lib/x86_64-linux-gnu/libz.so
 planning_scene_rviz_plugin/libmoveit_planning_scene_rviz_plugin.so.2.2.3: /usr/lib/x86_64-linux-gnu/libOpenGL.so

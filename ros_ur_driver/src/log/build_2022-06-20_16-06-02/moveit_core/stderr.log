@@ -1,0 +1,26 @@
+moveit_core: You did not request a specific build type: Choosing 'Release' for maximum performance
+make[2]: *** [robot_state/CMakeFiles/test_robot_state_benchmark.dir/build.make:63: robot_state/CMakeFiles/test_robot_state_benchmark.dir/test/robot_state_benchmark.cpp.o] Interrupt
+make[2]: *** [collision_detection/CMakeFiles/moveit_collision_detection.dir/build.make:63: collision_detection/CMakeFiles/moveit_collision_detection.dir/src/allvalid/collision_env_allvalid.cpp.o] Interrupt
+make[2]: *** [dynamics_solver/CMakeFiles/moveit_dynamics_solver.dir/build.make:63: dynamics_solver/CMakeFiles/moveit_dynamics_solver.dir/src/dynamics_solver.cpp.o] Interrupt
+make[2]: *** [kinematics_metrics/CMakeFiles/moveit_kinematics_metrics.dir/build.make:63: kinematics_metrics/CMakeFiles/moveit_kinematics_metrics.dir/src/kinematics_metrics.cpp.o] Interrupt
+make[2]: *** [robot_state/CMakeFiles/test_cartesian_interpolator.dir/build.make:63: robot_state/CMakeFiles/test_cartesian_interpolator.dir/test/test_cartesian_interpolator.cpp.o] Interrupt
+make[2]: *** [collision_detection/CMakeFiles/moveit_collision_detection.dir/build.make:115: collision_detection/CMakeFiles/moveit_collision_detection.dir/src/collision_tools.cpp.o] Interrupt
+make[2]: *** [collision_detection/CMakeFiles/moveit_collision_detection.dir/build.make:102: collision_detection/CMakeFiles/moveit_collision_detection.dir/src/collision_octomap_filter.cpp.o] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:1430: robot_state/CMakeFiles/test_robot_state_benchmark.dir/all] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:2440: dynamics_solver/CMakeFiles/moveit_dynamics_solver.dir/all] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:2408: kinematics_metrics/CMakeFiles/moveit_kinematics_metrics.dir/all] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:1286: robot_state/CMakeFiles/test_cartesian_interpolator.dir/all] Interrupt
+make[2]: *** [robot_state/CMakeFiles/test_aabb.dir/build.make:63: robot_state/CMakeFiles/test_aabb.dir/test/test_aabb.cpp.o] Interrupt
+make[2]: *** [collision_detection/CMakeFiles/moveit_collision_detection.dir/build.make:128: collision_detection/CMakeFiles/moveit_collision_detection.dir/src/world.cpp.o] Interrupt
+make[2]: *** [robot_trajectory/CMakeFiles/moveit_robot_trajectory.dir/build.make:63: robot_trajectory/CMakeFiles/moveit_robot_trajectory.dir/src/robot_trajectory.cpp.o] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:1712: robot_trajectory/CMakeFiles/moveit_robot_trajectory.dir/all] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:1322: robot_state/CMakeFiles/test_aabb.dir/all] Interrupt
+make[2]: *** [robot_state/CMakeFiles/test_robot_state.dir/build.make:63: robot_state/CMakeFiles/test_robot_state.dir/test/robot_state_test.cpp.o] Interrupt
+make[2]: *** [robot_state/CMakeFiles/test_robot_state_complex.dir/build.make:63: robot_state/CMakeFiles/test_robot_state_complex.dir/test/test_kinematic_complex.cpp.o] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:1358: robot_state/CMakeFiles/test_robot_state.dir/all] Interrupt
+make[2]: *** [collision_detection/CMakeFiles/moveit_collision_detection.dir/build.make:89: collision_detection/CMakeFiles/moveit_collision_detection.dir/src/collision_matrix.cpp.o] Interrupt
+make[2]: *** [collision_detection/CMakeFiles/moveit_collision_detection.dir/build.make:76: collision_detection/CMakeFiles/moveit_collision_detection.dir/src/collision_common.cpp.o] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:1394: robot_state/CMakeFiles/test_robot_state_complex.dir/all] Interrupt
+make[2]: *** [collision_detection/CMakeFiles/moveit_collision_detection.dir/build.make:154: collision_detection/CMakeFiles/moveit_collision_detection.dir/src/collision_env.cpp.o] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:1168: collision_detection/CMakeFiles/moveit_collision_detection.dir/all] Interrupt
+make: *** [Makefile:141: all] Interrupt
