@@ -1,0 +1,30 @@
+[0.055s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/diffbot_description': /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/diffbot_description -- -j16 -l16
+[0.263s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/build/diffbot_description' returned '0': /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/diffbot_description -- -j16 -l16
+[0.332s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/diffbot_description': /usr/bin/cmake --install /home/d-lab/workspace/ros_ur_driver/build/diffbot_description
+[0.343s] -- Install configuration: "Release"
+[0.343s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/diffbot_description/share/diffbot_description/config
+[0.343s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/diffbot_description/share/diffbot_description/config/diffbot.rviz
+[0.343s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/diffbot_description/share/diffbot_description/gazebo
+[0.343s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/diffbot_description/share/diffbot_description/gazebo/diffbot.materials.xacro
+[0.343s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/diffbot_description/share/diffbot_description/gazebo/diffbot.gazebo.xacro
+[0.343s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/diffbot_description/share/diffbot_description/ros2_control
+[0.343s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/diffbot_description/share/diffbot_description/ros2_control/diffbot_system.ros2_control.xacro
+[0.343s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/diffbot_description/share/diffbot_description/urdf
+[0.343s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/diffbot_description/share/diffbot_description/urdf/diffbot_system.urdf.xacro
+[0.343s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/diffbot_description/share/diffbot_description/urdf/diffbot.urdf.xacro
+[0.344s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/diffbot_description/share/ament_index/resource_index/package_run_dependencies/diffbot_description
+[0.344s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/diffbot_description/share/ament_index/resource_index/parent_prefix_path/diffbot_description
+[0.344s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/diffbot_description/share/diffbot_description/environment/ament_prefix_path.sh
+[0.344s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/diffbot_description/share/diffbot_description/environment/ament_prefix_path.dsv
+[0.344s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/diffbot_description/share/diffbot_description/environment/path.sh
+[0.344s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/diffbot_description/share/diffbot_description/environment/path.dsv
+[0.344s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/diffbot_description/share/diffbot_description/local_setup.bash
+[0.345s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/diffbot_description/share/diffbot_description/local_setup.sh
+[0.346s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/diffbot_description/share/diffbot_description/local_setup.zsh
+[0.348s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/diffbot_description/share/diffbot_description/local_setup.dsv
+[0.348s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/diffbot_description/share/diffbot_description/package.dsv
+[0.349s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/diffbot_description/share/ament_index/resource_index/packages/diffbot_description
+[0.349s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/diffbot_description/share/diffbot_description/cmake/diffbot_descriptionConfig.cmake
+[0.349s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/diffbot_description/share/diffbot_description/cmake/diffbot_descriptionConfig-version.cmake
+[0.349s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/diffbot_description/share/diffbot_description/package.xml
+[0.457s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/build/diffbot_description' returned '0': /usr/bin/cmake --install /home/d-lab/workspace/ros_ur_driver/build/diffbot_description

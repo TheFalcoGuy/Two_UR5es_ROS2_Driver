@@ -1,0 +1,30 @@
+[0.209s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/src/build/robotiq_description': /usr/bin/cmake /home/d-lab/workspace/ros_ur_driver/src/robotiq_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/d-lab/workspace/ros_ur_driver/src/install/robotiq_description
+[0.229s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.267s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.267s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.524s] CMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:41 (if):
+[0.524s]   Policy CMP0057 is not set: Support new IN_LIST if() operator.  Run "cmake
+[0.524s]   --help-policy CMP0057" for policy details.  Use the cmake_policy command to
+[0.524s]   set the policy and suppress this warning.
+[0.524s] 
+[0.524s]   IN_LIST will be interpreted as an operator when the policy is set to NEW.
+[0.524s]   Since the policy is not set the OLD behavior will be used.
+[0.524s] Call Stack (most recent call first):
+[0.524s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)
+[0.525s]   CMakeLists.txt:7 (ament_package)
+[0.525s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.525s] 
+[0.525s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:41 (if):
+[0.525s]   if given arguments:
+[0.525s] 
+[0.525s]     "ament_cmake_core" "IN_LIST" "_ARG_EXCLUDE"
+[0.525s] 
+[0.525s]   Unknown arguments specified
+[0.525s] Call Stack (most recent call first):
+[0.525s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)
+[0.525s]   CMakeLists.txt:7 (ament_package)
+[0.525s] 
+[0.525s] 
+[0.525s] -- Configuring incomplete, errors occurred!
+[0.525s] See also "/home/d-lab/workspace/ros_ur_driver/src/build/robotiq_description/CMakeFiles/CMakeOutput.log".
+[0.543s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/src/build/robotiq_description' returned '1': /usr/bin/cmake /home/d-lab/workspace/ros_ur_driver/src/robotiq_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/d-lab/workspace/ros_ur_driver/src/install/robotiq_description

@@ -1,0 +1,7 @@
+[0.085s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/srdfdom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes:/opt/ros/foxy /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/srdfdom -- -j16 -l16
+[0.288s] [ 18%] Built target gtest
+[0.288s] [ 36%] Built target gtest_main
+[0.288s] [ 63%] Built target srdfdom
+[0.288s] [ 81%] Built target test_cpp_C
+[0.288s] [100%] Built target test_cpp_nl_NL.UTF-8
+[0.298s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/build/srdfdom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes:/opt/ros/foxy /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/srdfdom -- -j16 -l16

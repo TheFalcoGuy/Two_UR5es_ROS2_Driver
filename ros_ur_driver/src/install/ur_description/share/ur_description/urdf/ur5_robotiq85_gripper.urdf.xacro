@@ -1,7 +1,24 @@
 <?xml version="1.0"?>
-<robot name="ur5" xmlns:xacro="http://www.ros.org/wiki/xacro">
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="ur5" >
 
   <xacro:include filename="$(find ur_description)/urdf/ur.urdf.xacro" />
+<!-- parameters -->
+   <xacro:arg name="prefix" default="" />
+   <xacro:arg name="joint_limit_params" default=""/>
+   <xacro:arg name="kinematics_params" default=""/>
+   <xacro:arg name="physical_params" default=""/>
+   <xacro:arg name="visual_params" default=""/>
+   <xacro:arg name="transmission_hw_interface" default=""/>
+   <xacro:arg name="safety_limits" default="false"/>
+   <xacro:arg name="safety_pos_margin" default="0.15"/>
+   <xacro:arg name="safety_k_position" default="20"/>
+   <!-- ros2_control related parameters -->
+   <xacro:arg name="use_fake_hardware" default="false" />
+   <xacro:arg name="fake_sensor_commands" default="false" />
+
+   <!-- initial position -->
+   <xacro:arg name="initial_positions_file" default="$(find ur_description)/config/initial_positions.yaml"/>
+
   <xacro:include filename="$(find robotiq_description)/urdf/robotiq_85_gripper.urdf.xacro" />
   
   <!-- Robotiq Coupler -->
@@ -29,7 +46,7 @@
 
   <joint name="robotiq_coupler_joint" type="fixed">
     <origin xyz="0 0 0.004" rpy="0 0 ${-pi/2.0}" />
-    <parent link="tool0"/>
+    <parent link="flange"/>
     <child link="robotiq_coupler"/>
   </joint>
   <gazebo reference="robotiq_coupler">
@@ -52,7 +69,7 @@
   </xacro:robotiq_85_gripper> 
   
   <!-- Gazebo FT sensor plugin -->
-  <gazebo reference="wrist_3_joint">
+  <!-- <gazebo reference="wrist_3_joint">
     <provideFeedback>true</provideFeedback>
   </gazebo>
   <gazebo>
@@ -62,20 +79,20 @@
       <gaussianNoise>0.0</gaussianNoise>
       <jointName>wrist_3_joint</jointName>
     </plugin>
-  </gazebo>
+  </gazebo> -->
   
   <!-- Gazebo grasping plugin -->
-  <gazebo>
+  <!-- <gazebo>
     <gripper name="gazebo_gripper">
       <grasp_check>
-        <attach_steps>2</attach_steps>    <!-- default: 20 -->
-        <detach_steps>2</detach_steps>    <!-- default: 40 -->
+        <attach_steps>2</attach_steps>    
+        <detach_steps>2</detach_steps>  
         <min_contact_count>3</min_contact_count>
       </grasp_check>
       <gripper_link>robotiq_85_left_finger_tip_link</gripper_link>
       <gripper_link>robotiq_85_right_finger_tip_link</gripper_link>
       <palm_link>robotiq_85_base_link</palm_link>
     </gripper>
-  </gazebo>
+  </gazebo> -->
   
 </robot>

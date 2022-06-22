@@ -59,13 +59,15 @@ def generate_launch_description():
         is not set, it enables use of a custom description.",
         )
     )
+    xacro_file = "ur5_robotiq85_gripper.urdf.xacro"
     declared_arguments.append(
         DeclareLaunchArgument(
             "description_file",
-            default_value="ur.urdf.xacro",
+            default_value= xacro_file,
             description="URDF/XACRO description file with the robot.",
         )
     )
+    
     declared_arguments.append(
         DeclareLaunchArgument(
             "prefix",

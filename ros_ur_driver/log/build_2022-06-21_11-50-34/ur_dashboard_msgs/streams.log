@@ -1,0 +1,16 @@
+[0.215s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/ur_dashboard_msgs': /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/ur_dashboard_msgs -- -j16 -l16
+[0.260s] [  0%] Built target ur_dashboard_msgs__cpp
+[0.263s] [ 12%] Built target ur_dashboard_msgs__rosidl_generator_c
+[0.286s] [ 24%] Built target ur_dashboard_msgs__rosidl_typesupport_cpp
+[0.287s] [ 36%] Built target ur_dashboard_msgs__rosidl_typesupport_c
+[0.295s] [ 48%] Built target ur_dashboard_msgs__rosidl_typesupport_introspection_cpp
+[0.302s] [ 72%] Built target ur_dashboard_msgs__rosidl_typesupport_introspection_c
+[0.302s] [ 72%] Built target ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp
+[0.331s] [ 84%] Built target ur_dashboard_msgs__rosidl_typesupport_fastrtps_c
+[0.385s] [ 84%] Built target ur_dashboard_msgs
+[0.401s] [ 85%] Built target ur_dashboard_msgs__py
+[0.421s] [ 96%] Built target ur_dashboard_msgs__python
+[0.438s] [ 98%] Built target ur_dashboard_msgs__rosidl_typesupport_introspection_c__pyext
+[0.438s] [ 99%] Built target ur_dashboard_msgs__rosidl_typesupport_c__pyext
+[0.438s] [100%] Built target ur_dashboard_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.521s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/build/ur_dashboard_msgs' returned '0': /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/ur_dashboard_msgs -- -j16 -l16

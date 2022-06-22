@@ -1,0 +1,15 @@
+[0.217s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/ur_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes:/opt/ros/foxy /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/ur_msgs -- -j16 -l16
+[0.280s] [  0%] Built target ur_msgs__cpp
+[0.284s] [ 12%] Built target ur_msgs__rosidl_generator_c
+[0.315s] [ 24%] Built target ur_msgs__rosidl_typesupport_introspection_cpp
+[0.333s] [ 36%] Built target ur_msgs__rosidl_typesupport_cpp
+[0.335s] [ 47%] Built target ur_msgs__rosidl_typesupport_fastrtps_cpp
+[0.352s] [ 59%] Built target ur_msgs__rosidl_typesupport_introspection_c
+[0.352s] [ 70%] Built target ur_msgs__rosidl_typesupport_c
+[0.365s] [ 82%] Built target ur_msgs__rosidl_typesupport_fastrtps_c
+[0.384s] [ 82%] Built target ur_msgs
+[0.404s] [ 83%] Built target ur_msgs__py
+[0.431s] [ 94%] Built target ur_msgs__python
+[0.458s] [100%] Built target ur_msgs__rosidl_typesupport_c__pyext
+[0.458s] [100%] Built target ur_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.458s] [100%] Built target ur_msgs__rosidl_typesupport_introspection_c__pyext

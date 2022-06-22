@@ -1,0 +1,4 @@
+Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/ros2_control_test_assets': /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/ros2_control_test_assets -- -j16 -l16
+Invoked command in '/home/d-lab/workspace/ros_ur_driver/build/ros2_control_test_assets' returned '0': /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/ros2_control_test_assets -- -j16 -l16
+Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/ros2_control_test_assets': /usr/bin/cmake --install /home/d-lab/workspace/ros_ur_driver/build/ros2_control_test_assets
+Invoked command in '/home/d-lab/workspace/ros_ur_driver/build/ros2_control_test_assets' returned '0': /usr/bin/cmake --install /home/d-lab/workspace/ros_ur_driver/build/ros2_control_test_assets

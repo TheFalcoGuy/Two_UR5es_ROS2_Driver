@@ -1,0 +1,6 @@
+[0.075s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/warehouse_ros_mongo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes:/opt/ros/foxy /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/warehouse_ros_mongo -- -j16 -l16
+[0.268s] [ 20%] Built target gtest_main
+[0.268s] [ 40%] Built target gtest
+[0.270s] [ 80%] Built target warehouse_ros_mongo
+[0.270s] [100%] Built target test_warehouse_ros_mongo_cpp
+[0.281s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/build/warehouse_ros_mongo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes:/opt/ros/foxy /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/warehouse_ros_mongo -- -j16 -l16

@@ -37,4 +37,5 @@
      use_fake_hardware="$(arg use_fake_hardware)"
      fake_sensor_commands="$(arg fake_sensor_commands)"
      initial_positions="${load_yaml(initial_positions_file)}" />
+  
 </robot>

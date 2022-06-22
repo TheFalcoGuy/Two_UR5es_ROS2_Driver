@@ -1,0 +1,74 @@
+[ 20%] Built target gmock_main
+[ 20%] Built target gmock
+[ 28%] Built target controller_manager
+[ 52%] Built target ros2_control_node
+[ 52%] Built target test_controller_failed_init
+[ 52%] Built target test_controller_with_interfaces
+[ 60%] Built target test_controller
+[ 64%] [32mBuilding CXX object CMakeFiles/test_controller_manager.dir/test/test_controller_manager.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/test_controller_manager_srvs.dir/test/test_controller_manager_srvs.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/test_load_controller.dir/test/test_load_controller.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/test_spawner_unspawner.dir/test/test_spawner_unspawner.cpp.o[0m
+[ 80%] [32m[1mLinking CXX executable test_spawner_unspawner[0m
+[ 84%] [32m[1mLinking CXX executable test_controller_manager[0m
+[ 84%] Built target test_spawner_unspawner
+[ 88%] [32mBuilding CXX object CMakeFiles/test_release_interfaces.dir/test/test_release_interfaces.cpp.o[0m
+[ 88%] Built target test_controller_manager
+[ 92%] [32m[1mLinking CXX executable test_load_controller[0m
+[ 92%] Built target test_load_controller
+[ 96%] [32m[1mLinking CXX executable test_controller_manager_srvs[0m
+[ 96%] Built target test_controller_manager_srvs
+[100%] [32m[1mLinking CXX executable test_release_interfaces[0m
+[100%] Built target test_release_interfaces
+-- Install configuration: ""
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/controller_manager/lib/libcontroller_manager.so
+-- Set runtime path of "/home/d-lab/workspace/ros_ur_driver/src/install/controller_manager/lib/libcontroller_manager.so" to ""
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/controller_manager/lib/controller_manager/ros2_control_node
+-- Set runtime path of "/home/d-lab/workspace/ros_ur_driver/src/install/controller_manager/lib/controller_manager/ros2_control_node" to ""
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/controller_manager/include
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/controller_manager/include/controller_manager
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/controller_manager/include/controller_manager/controller_manager.hpp
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/controller_manager/include/controller_manager/visibility_control.h
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/controller_manager/include/controller_manager/controller_spec.hpp
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/controller_manager/lib/controller_manager/spawner.py
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/controller_manager/lib/controller_manager/unspawner.py
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/controller_manager/share/controller_manager/test/test_controller/test_controller.xml
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/controller_manager/lib/libtest_controller.so
+-- Set runtime path of "/home/d-lab/workspace/ros_ur_driver/src/install/controller_manager/lib/libtest_controller.so" to ""
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/controller_manager/share/controller_manager/test/test_controller_failed_init/test_controller_failed_init.xml
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/controller_manager/lib/libtest_controller_failed_init.so
+-- Set runtime path of "/home/d-lab/workspace/ros_ur_driver/src/install/controller_manager/lib/libtest_controller_failed_init.so" to ""
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/controller_manager/share/controller_manager/test/test_controller_with_interfaces/test_controller_with_interfaces.xml
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/controller_manager/lib/libtest_controller_with_interfaces.so
+-- Set runtime path of "/home/d-lab/workspace/ros_ur_driver/src/install/controller_manager/lib/libtest_controller_with_interfaces.so" to ""
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/controller_manager/share/controller_manager/environment/pythonpath.sh
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/controller_manager/share/controller_manager/environment/pythonpath.dsv
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/controller_manager/lib/python3.8/site-packages/controller_manager
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/controller_manager/lib/python3.8/site-packages/controller_manager/launch_utils.py
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/controller_manager/lib/python3.8/site-packages/controller_manager/controller_manager_services.py
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/controller_manager/lib/python3.8/site-packages/controller_manager/__init__.py
+Listing '/home/d-lab/workspace/ros_ur_driver/src/install/controller_manager/lib/python3.8/site-packages/controller_manager'...
+Compiling '/home/d-lab/workspace/ros_ur_driver/src/install/controller_manager/lib/python3.8/site-packages/controller_manager/__init__.py'...
+Compiling '/home/d-lab/workspace/ros_ur_driver/src/install/controller_manager/lib/python3.8/site-packages/controller_manager/controller_manager_services.py'...
+Compiling '/home/d-lab/workspace/ros_ur_driver/src/install/controller_manager/lib/python3.8/site-packages/controller_manager/launch_utils.py'...
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/controller_manager/share/controller_manager/environment/library_path.sh
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/controller_manager/share/controller_manager/environment/library_path.dsv
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/controller_manager/share/ament_index/resource_index/package_run_dependencies/controller_manager
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/controller_manager/share/ament_index/resource_index/parent_prefix_path/controller_manager
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/controller_manager/share/controller_manager/environment/ament_prefix_path.sh
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/controller_manager/share/controller_manager/environment/ament_prefix_path.dsv
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/controller_manager/share/controller_manager/environment/path.sh
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/controller_manager/share/controller_manager/environment/path.dsv
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/controller_manager/share/controller_manager/local_setup.bash
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/controller_manager/share/controller_manager/local_setup.sh
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/controller_manager/share/controller_manager/local_setup.zsh
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/controller_manager/share/controller_manager/local_setup.dsv
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/controller_manager/share/controller_manager/package.dsv
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/controller_manager/share/ament_index/resource_index/packages/controller_manager
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/controller_manager/share/ament_index/resource_index/controller_interface__pluginlib__plugin/controller_manager
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/controller_manager/share/controller_manager/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/controller_manager/share/controller_manager/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/controller_manager/share/controller_manager/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/controller_manager/share/controller_manager/cmake/controller_managerConfig.cmake
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/controller_manager/share/controller_manager/cmake/controller_managerConfig-version.cmake
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/controller_manager/share/controller_manager/package.xml

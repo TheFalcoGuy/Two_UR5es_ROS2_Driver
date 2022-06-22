@@ -1,12 +1,14 @@
 <?xml version="1.0"?>
-<robot name="ur5" xmlns:xacro="http://www.ros.org/wiki/xacro">
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="ur5_2f" >
+
+  
 
   <xacro:include filename="$(find ur_description)/urdf/ur.urdf.xacro" />
   <xacro:include filename="$(find robotiq_description)/urdf/robotiq_85_gripper.urdf.xacro" />
+  <!-- parameters -->
+   
   
   <!-- Robotiq Coupler -->
-  <!--  + Height added by the coupler: 8mm -->
-  <!--  + Reference frame: at the middle (4mm) -->
   <link name="robotiq_coupler">
     <visual>
       <geometry>
@@ -68,8 +70,8 @@
   <gazebo>
     <gripper name="gazebo_gripper">
       <grasp_check>
-        <attach_steps>2</attach_steps>    <!-- default: 20 -->
-        <detach_steps>2</detach_steps>    <!-- default: 40 -->
+        <attach_steps>2</attach_steps>    
+        <detach_steps>2</detach_steps>  
         <min_contact_count>3</min_contact_count>
       </grasp_check>
       <gripper_link>robotiq_85_left_finger_tip_link</gripper_link>
@@ -77,5 +79,4 @@
       <palm_link>robotiq_85_base_link</palm_link>
     </gripper>
   </gazebo>
-  
 </robot>

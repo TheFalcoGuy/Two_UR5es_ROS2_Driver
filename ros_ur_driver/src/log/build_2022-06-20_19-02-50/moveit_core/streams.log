@@ -1,0 +1,105 @@
+[0.027s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/src/build/moveit_core': AMENT_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/src/install/srdfdom:/home/d-lab/workspace/ros_ur_driver/src/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/src/install/srdfdom:/home/d-lab/workspace/ros_ur_driver/src/install/moveit_common:/home/d-lab/workspace/ros_ur_driver/install/run_ompl_constrained_planning:/home/d-lab/workspace/ros_ur_driver/install/run_moveit_cpp:/home/d-lab/workspace/ros_ur_driver/install/run_move_group:/home/d-lab/workspace/ros_ur_driver/install/warehouse_ros_mongo:/home/d-lab/workspace/ros_ur_driver/install/ros2_controllers:/home/d-lab/workspace/ros_ur_driver/install/velocity_controllers:/home/d-lab/workspace/ros_ur_driver/install/ur_robot_driver:/home/d-lab/workspace/ros_ur_driver/install/ur_controllers:/home/d-lab/workspace/ros_ur_driver/install/ur_msgs:/home/d-lab/workspace/ros_ur_driver/install/ur_moveit_config:/home/d-lab/workspace/ros_ur_driver/install/ur_description:/home/d-lab/workspace/ros_ur_driver/install/ur_dashboard_msgs:/home/d-lab/workspace/ros_ur_driver/install/ur_client_library:/home/d-lab/workspace/ros_ur_driver/install/ur_bringup:/home/d-lab/workspace/ros_ur_driver/install/transmission_interface:/home/d-lab/workspace/ros_ur_driver/install/moveit_runtime:/home/d-lab/workspace/ros_ur_driver/install/moveit:/home/d-lab/workspace/ros_ur_driver/install/moveit_plugins:/home/d-lab/workspace/ros_ur_driver/install/moveit_simple_controller_manager:/home/d-lab/workspace/ros_ur_driver/install/moveit_servo:/home/d-lab/workspace/ros_ur_driver/install/moveit_ros:/home/d-lab/workspace/ros_ur_driver/install/moveit_ros_visualization:/home/d-lab/workspace/ros_ur_driver/install/moveit_ros_planning_interface:/home/d-lab/workspace/ros_ur_driver/install/moveit_ros_benchmarks:/home/d-lab/workspace/ros_ur_driver/install/moveit_ros_warehouse:/home/d-lab/workspace/ros_ur_driver/install/moveit_ros_robot_interaction:/home/d-lab/workspace/ros_ur_driver/install/moveit_ros_perception:/home/d-lab/workspace/ros_ur_driver/install/moveit_ros_move_group:/home/d-lab/workspace/ros_ur_driver/install/moveit_planners:/home/d-lab/workspace/ros_ur_driver/install/moveit_planners_ompl:/home/d-lab/workspace/ros_ur_driver/install/moveit_ros_planning:/home/d-lab/workspace/ros_ur_driver/install/moveit_ros_occupancy_map_monitor:/home/d-lab/workspace/ros_ur_driver/install/moveit_planners_chomp:/home/d-lab/workspace/ros_ur_driver/install/moveit_kinematics:/home/d-lab/workspace/ros_ur_driver/install/moveit_chomp_optimizer_adapter:/home/d-lab/workspace/ros_ur_driver/install/chomp_motion_planner:/home/d-lab/workspace/ros_ur_driver/install/moveit_core:/home/d-lab/workspace/ros_ur_driver/install/srdfdom:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_demos:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_demo_bringup:/home/d-lab/workspace/ros_ur_driver/install/rrbot_description:/home/d-lab/workspace/ros_ur_driver/install/ros2_control:/home/d-lab/workspace/ros_ur_driver/install/controller_manager:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_assets:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_demo_hardware:/home/d-lab/workspace/ros_ur_driver/install/position_controllers:/home/d-lab/workspace/ros_ur_driver/install/moveit_common:/home/d-lab/workspace/ros_ur_driver/install/joint_trajectory_controller:/home/d-lab/workspace/ros_ur_driver/install/joint_state_controller:/home/d-lab/workspace/ros_ur_driver/install/joint_state_broadcaster:/home/d-lab/workspace/ros_ur_driver/install/imu_sensor_broadcaster:/home/d-lab/workspace/ros_ur_driver/install/gripper_controllers:/home/d-lab/workspace/ros_ur_driver/install/effort_controllers:/home/d-lab/workspace/ros_ur_driver/install/forward_command_controller:/home/d-lab/workspace/ros_ur_driver/install/force_torque_sensor_broadcaster:/home/d-lab/workspace/ros_ur_driver/install/diff_drive_controller:/home/d-lab/workspace/ros_ur_driver/install/controller_interface:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/install/diffbot_description:/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs:/home/d-lab/workspace/ros_ur_driver/install/control_msgs:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes:/opt/ros/foxy LD_LIBRARY_PATH=/home/d-lab/workspace/ros_ur_driver/src/install/srdfdom/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/d-lab/workspace/ros_ur_driver/src/install/srdfdom/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/src/build/moveit_core -- -j16 -l16
+[0.094s] [  1%] Built target moveit_version
+[0.094s] [  3%] Built target gtest_main
+[0.103s] [  6%] Built target moveit_utils
+[0.103s] [  7%] Built target gtest
+[0.105s] [  8%] Built target moveit_exceptions
+[0.106s] [  9%] Built target moveit_background_processing
+[0.106s] [ 11%] Built target moveit_profiler
+[0.109s] [ 13%] Built target moveit_kinematics_base
+[0.117s] [ 14%] Built target moveit_transforms
+[0.118s] [ 17%] Built target moveit_distance_field
+[0.158s] [ 19%] Built target test_transforms
+[0.159s] [ 20%] Built target test_voxel_grid
+[0.163s] [ 21%] Built target test_distance_field
+[0.164s] [ 28%] Built target moveit_robot_model
+[0.199s] [ 30%] Built target moveit_test_utils
+[0.209s] [ 33%] Built target moveit_robot_state
+[0.244s] [ 35%] Built target test_robot_model
+[0.253s] [ 35%] [32mBuilding CXX object robot_state/CMakeFiles/test_cartesian_interpolator.dir/test/test_cartesian_interpolator.cpp.o[0m
+[0.259s] [ 35%] [32mBuilding CXX object robot_state/CMakeFiles/test_robot_state.dir/test/robot_state_test.cpp.o[0m
+[0.260s] [ 35%] [32mBuilding CXX object dynamics_solver/CMakeFiles/moveit_dynamics_solver.dir/src/dynamics_solver.cpp.o[0m
+[0.260s] [ 35%] [32mBuilding CXX object kinematics_metrics/CMakeFiles/moveit_kinematics_metrics.dir/src/kinematics_metrics.cpp.o[0m
+[0.260s] [ 36%] [32mBuilding CXX object robot_state/CMakeFiles/test_robot_state_complex.dir/test/test_kinematic_complex.cpp.o[0m
+[0.260s] [ 37%] [32mBuilding CXX object robot_trajectory/CMakeFiles/moveit_robot_trajectory.dir/src/robot_trajectory.cpp.o[0m
+[0.262s] [ 38%] [32mBuilding CXX object robot_state/CMakeFiles/test_robot_state_benchmark.dir/test/robot_state_benchmark.cpp.o[0m
+[0.262s] [ 38%] [32mBuilding CXX object robot_state/CMakeFiles/test_aabb.dir/test/test_aabb.cpp.o[0m
+[0.279s] [ 40%] [32mBuilding CXX object collision_detection/CMakeFiles/moveit_collision_detection.dir/src/collision_matrix.cpp.o[0m
+[0.279s] [ 40%] [32mBuilding CXX object collision_detection/CMakeFiles/moveit_collision_detection.dir/src/allvalid/collision_env_allvalid.cpp.o[0m
+[0.281s] [ 41%] [32mBuilding CXX object collision_detection/CMakeFiles/moveit_collision_detection.dir/src/collision_octomap_filter.cpp.o[0m
+[0.288s] [ 41%] [32mBuilding CXX object collision_detection/CMakeFiles/moveit_collision_detection.dir/src/collision_common.cpp.o[0m
+[0.290s] [ 42%] [32mBuilding CXX object collision_detection/CMakeFiles/moveit_collision_detection.dir/src/world.cpp.o[0m
+[0.291s] [ 42%] [32mBuilding CXX object collision_detection/CMakeFiles/moveit_collision_detection.dir/src/collision_tools.cpp.o[0m
+[0.299s] [ 42%] [32mBuilding CXX object collision_detection/CMakeFiles/moveit_collision_detection.dir/src/collision_env.cpp.o[0m
+[4.809s] [ 43%] [32m[1mLinking CXX executable test_cartesian_interpolator[0m
+[5.079s] [ 43%] Built target test_cartesian_interpolator
+[6.718s] [ 44%] [32m[1mLinking CXX shared library libmoveit_dynamics_solver.so[0m
+[6.859s] [ 44%] Built target moveit_dynamics_solver
+[6.925s] [ 45%] [32m[1mLinking CXX shared library libmoveit_collision_detection.so[0m
+[7.031s] [ 45%] [32m[1mLinking CXX executable test_aabb[0m
+[7.083s] [ 46%] Built target moveit_collision_detection
+[7.096s] [35m[1mScanning dependencies of target test_world[0m
+[7.096s] [35m[1mScanning dependencies of target moveit_collision_detection_bullet[0m
+[7.099s] [35m[1mScanning dependencies of target test_all_valid[0m
+[7.099s] [35m[1mScanning dependencies of target moveit_collision_detection_fcl[0m
+[7.099s] [35m[1mScanning dependencies of target test_world_diff[0m
+[7.135s] [ 47%] [32mBuilding CXX object collision_detection/CMakeFiles/test_world.dir/test/test_world.cpp.o[0m
+[7.152s] [ 48%] [32mBuilding CXX object collision_detection/CMakeFiles/test_world_diff.dir/test/test_world_diff.cpp.o[0m
+[7.215s] [ 49%] [32mBuilding CXX object collision_detection/CMakeFiles/test_all_valid.dir/test/test_all_valid.cpp.o[0m
+[7.226s] [ 50%] [32mBuilding CXX object collision_detection_fcl/CMakeFiles/moveit_collision_detection_fcl.dir/src/collision_common.cpp.o[0m
+[7.226s] [ 50%] [32mBuilding CXX object collision_detection_fcl/CMakeFiles/moveit_collision_detection_fcl.dir/src/collision_env_fcl.cpp.o[0m
+[7.271s] [ 52%] [32mBuilding CXX object collision_detection_bullet/CMakeFiles/moveit_collision_detection_bullet.dir/src/bullet_integration/bullet_cast_bvh_manager.cpp.o[0m
+[7.271s] [ 52%] [32mBuilding CXX object collision_detection_bullet/CMakeFiles/moveit_collision_detection_bullet.dir/src/bullet_integration/bullet_utils.cpp.o[0m
+[7.272s] [ 52%] [32mBuilding CXX object collision_detection_bullet/CMakeFiles/moveit_collision_detection_bullet.dir/src/bullet_integration/bullet_discrete_bvh_manager.cpp.o[0m
+[7.274s] [ 52%] [32mBuilding CXX object collision_detection_bullet/CMakeFiles/moveit_collision_detection_bullet.dir/src/collision_env_bullet.cpp.o[0m
+[7.274s] [ 53%] [32mBuilding CXX object collision_detection_bullet/CMakeFiles/moveit_collision_detection_bullet.dir/src/bullet_integration/bullet_bvh_manager.cpp.o[0m
+[7.331s] [ 53%] Built target test_aabb
+[7.348s] [ 54%] [32mBuilding CXX object collision_detection_bullet/CMakeFiles/moveit_collision_detection_bullet.dir/src/bullet_integration/contact_checker_common.cpp.o[0m
+[7.751s] [ 55%] [32m[1mLinking CXX executable test_robot_state_benchmark[0m
+[8.074s] [ 55%] Built target test_robot_state_benchmark
+[8.097s] [ 55%] [32mBuilding CXX object collision_detection_bullet/CMakeFiles/moveit_collision_detection_bullet.dir/src/bullet_integration/ros_bullet_utils.cpp.o[0m
+[9.024s] [ 56%] [32m[1mLinking CXX executable test_robot_state[0m
+[9.391s] [ 56%] Built target test_robot_state
+[9.527s] [ 56%] [32m[1mLinking CXX shared library libmoveit_robot_trajectory.so[0m
+[9.757s] [ 56%] Built target moveit_robot_trajectory
+[9.776s] [35m[1mScanning dependencies of target moveit_trajectory_processing[0m
+[9.780s] [35m[1mScanning dependencies of target test_robot_trajectory[0m
+[9.898s] [ 57%] [32mBuilding CXX object robot_trajectory/CMakeFiles/test_robot_trajectory.dir/test/test_robot_trajectory.cpp.o[0m
+[9.943s] [ 57%] [32mBuilding CXX object trajectory_processing/CMakeFiles/moveit_trajectory_processing.dir/src/iterative_time_parameterization.cpp.o[0m
+[10.689s] [ 57%] [32m[1mLinking CXX executable test_robot_state_complex[0m
+[11.066s] [ 57%] Built target test_robot_state_complex
+[11.086s] [35m[1mScanning dependencies of target moveit_planning_interface[0m
+[11.229s] [ 58%] [32mBuilding CXX object planning_interface/CMakeFiles/moveit_planning_interface.dir/src/planning_interface.cpp.o[0m
+[11.742s] [ 59%] [32m[1mLinking CXX executable test_world_diff[0m
+[12.063s] [ 59%] Built target test_world_diff
+[12.087s] [ 59%] [32mBuilding CXX object planning_interface/CMakeFiles/moveit_planning_interface.dir/src/planning_response.cpp.o[0m
+[13.016s] [ 59%] [32m[1mLinking CXX executable test_world[0m
+[13.312s] [ 59%] Built target test_world
+[13.341s] [ 60%] [32mBuilding CXX object trajectory_processing/CMakeFiles/moveit_trajectory_processing.dir/src/iterative_spline_parameterization.cpp.o[0m
+[13.541s] [ 61%] [32mBuilding CXX object trajectory_processing/CMakeFiles/moveit_trajectory_processing.dir/src/trajectory_tools.cpp.o[0m
+[13.798s] [ 61%] [32mBuilding CXX object trajectory_processing/CMakeFiles/moveit_trajectory_processing.dir/src/time_optimal_trajectory_generation.cpp.o[0m
+[13.997s] [ 62%] [32m[1mLinking CXX executable test_all_valid[0m
+[14.032s] make[2]: *** [trajectory_processing/CMakeFiles/moveit_trajectory_processing.dir/build.make:102: trajectory_processing/CMakeFiles/moveit_trajectory_processing.dir/src/time_optimal_trajectory_generation.cpp.o] Interrupt
+[14.032s] make[2]: *** [trajectory_processing/CMakeFiles/moveit_trajectory_processing.dir/build.make:63: trajectory_processing/CMakeFiles/moveit_trajectory_processing.dir/src/iterative_time_parameterization.cpp.o] Interrupt
+[14.032s] make[2]: *** [planning_interface/CMakeFiles/moveit_planning_interface.dir/build.make:76: planning_interface/CMakeFiles/moveit_planning_interface.dir/src/planning_response.cpp.o] Interrupt
+[14.033s] make[2]: *** [planning_interface/CMakeFiles/moveit_planning_interface.dir/build.make:63: planning_interface/CMakeFiles/moveit_planning_interface.dir/src/planning_interface.cpp.o] Interrupt
+[14.033s] make[2]: *** [robot_trajectory/CMakeFiles/test_robot_trajectory.dir/build.make:63: robot_trajectory/CMakeFiles/test_robot_trajectory.dir/test/test_robot_trajectory.cpp.o] Interrupt
+[14.033s] make[2]: *** [collision_detection_bullet/CMakeFiles/moveit_collision_detection_bullet.dir/build.make:141: collision_detection_bullet/CMakeFiles/moveit_collision_detection_bullet.dir/src/bullet_integration/ros_bullet_utils.cpp.o] Interrupt
+[14.033s] make[2]: *** [trajectory_processing/CMakeFiles/moveit_trajectory_processing.dir/build.make:76: trajectory_processing/CMakeFiles/moveit_trajectory_processing.dir/src/iterative_spline_parameterization.cpp.o] Interrupt
+[14.033s] make[1]: *** [CMakeFiles/Makefile2:1680: robot_trajectory/CMakeFiles/test_robot_trajectory.dir/all] Interrupt
+[14.033s] make[1]: *** [CMakeFiles/Makefile2:1931: trajectory_processing/CMakeFiles/moveit_trajectory_processing.dir/all] Interrupt
+[14.033s] make[2]: *** [collision_detection_fcl/CMakeFiles/moveit_collision_detection_fcl.dir/build.make:63: collision_detection_fcl/CMakeFiles/moveit_collision_detection_fcl.dir/src/collision_common.cpp.o] Interrupt
+[14.033s] make[1]: *** [CMakeFiles/Makefile2:2168: planning_interface/CMakeFiles/moveit_planning_interface.dir/all] Interrupt
+[14.033s] make[2]: *** Deleting file 'collision_detection/test_all_valid'
+[14.033s] make[2]: *** [kinematics_metrics/CMakeFiles/moveit_kinematics_metrics.dir/build.make:63: kinematics_metrics/CMakeFiles/moveit_kinematics_metrics.dir/src/kinematics_metrics.cpp.o] Interrupt
+[14.033s] make[2]: *** [collision_detection_bullet/CMakeFiles/moveit_collision_detection_bullet.dir/build.make:63: collision_detection_bullet/CMakeFiles/moveit_collision_detection_bullet.dir/src/bullet_integration/bullet_utils.cpp.o] Interrupt
+[14.034s] make[2]: *** wait: No child processes.  Stop.
+[14.034s] make[2]: *** Waiting for unfinished jobs....
+[14.034s] make[2]: *** wait: No child processes.  Stop.
+[14.034s] make[2]: *** [collision_detection_fcl/CMakeFiles/moveit_collision_detection_fcl.dir/build.make:76: collision_detection_fcl/CMakeFiles/moveit_collision_detection_fcl.dir/src/collision_env_fcl.cpp.o] Interrupt
+[14.034s] make[1]: *** [CMakeFiles/Makefile2:2624: collision_detection_bullet/CMakeFiles/moveit_collision_detection_bullet.dir/all] Error 2
+[14.034s] make[1]: *** [CMakeFiles/Makefile2:2408: kinematics_metrics/CMakeFiles/moveit_kinematics_metrics.dir/all] Interrupt
+[14.034s] make[1]: *** [CMakeFiles/Makefile2:1644: collision_detection_fcl/CMakeFiles/moveit_collision_detection_fcl.dir/all] Interrupt
+[14.034s] make[2]: *** [collision_detection/CMakeFiles/test_all_valid.dir/build.make:263: collision_detection/test_all_valid] Interrupt
+[14.034s] make[1]: *** [CMakeFiles/Makefile2:1066: collision_detection/CMakeFiles/test_all_valid.dir/all] Interrupt
+[14.034s] make: *** [Makefile:141: all] Interrupt

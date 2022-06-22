@@ -1,0 +1,48 @@
+[0.211s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/src/build/robotiq_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes:/opt/ros/foxy /usr/bin/cmake /home/d-lab/workspace/ros_ur_driver/src/robotiq_description -DCMAKE_INSTALL_PREFIX=/home/d-lab/workspace/ros_ur_driver/src/install/robotiq_description
+[0.229s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.244s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.448s] -- Found rclpy: 1.0.8 (/opt/ros/foxy/share/rclpy/cmake)
+[0.453s] -- Found robot_state_publisher: 2.4.5 (/opt/ros/foxy/share/robot_state_publisher/cmake)
+[0.487s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.506s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.603s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.633s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.724s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.756s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[0.761s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[0.839s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.843s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.844s] -- Looking for pthread.h
+[0.924s] -- Looking for pthread.h - found
+[0.924s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.013s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.013s] -- Looking for pthread_create in pthreads
+[1.070s] -- Looking for pthread_create in pthreads - not found
+[1.070s] -- Looking for pthread_create in pthread
+[1.140s] -- Looking for pthread_create in pthread - found
+[1.140s] -- Found Threads: TRUE  
+[1.654s] -- Found xacro: 2.0.7 (/opt/ros/foxy/share/xacro/cmake)
+[1.698s] -- Configuring done
+[1.700s] -- Generating done
+[1.701s] -- Build files have been written to: /home/d-lab/workspace/ros_ur_driver/src/build/robotiq_description
+[1.708s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/src/build/robotiq_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes:/opt/ros/foxy /usr/bin/cmake /home/d-lab/workspace/ros_ur_driver/src/robotiq_description -DCMAKE_INSTALL_PREFIX=/home/d-lab/workspace/ros_ur_driver/src/install/robotiq_description
+[1.709s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/src/build/robotiq_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes:/opt/ros/foxy /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/src/build/robotiq_description -- -j16 -l16
+[1.759s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/src/build/robotiq_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes:/opt/ros/foxy /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/src/build/robotiq_description -- -j16 -l16
+[1.788s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/src/build/robotiq_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes:/opt/ros/foxy /usr/bin/cmake --install /home/d-lab/workspace/ros_ur_driver/src/build/robotiq_description
+[1.796s] -- Install configuration: ""
+[1.796s] -- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/robotiq_description/share/ament_index/resource_index/package_run_dependencies/robotiq_description
+[1.796s] -- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/robotiq_description/share/ament_index/resource_index/parent_prefix_path/robotiq_description
+[1.796s] -- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/robotiq_description/share/robotiq_description/environment/ament_prefix_path.sh
+[1.796s] -- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/robotiq_description/share/robotiq_description/environment/ament_prefix_path.dsv
+[1.796s] -- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/robotiq_description/share/robotiq_description/environment/path.sh
+[1.796s] -- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/robotiq_description/share/robotiq_description/environment/path.dsv
+[1.797s] -- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/robotiq_description/share/robotiq_description/local_setup.bash
+[1.797s] -- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/robotiq_description/share/robotiq_description/local_setup.sh
+[1.797s] -- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/robotiq_description/share/robotiq_description/local_setup.zsh
+[1.797s] -- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/robotiq_description/share/robotiq_description/local_setup.dsv
+[1.797s] -- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/robotiq_description/share/robotiq_description/package.dsv
+[1.797s] -- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/robotiq_description/share/ament_index/resource_index/packages/robotiq_description
+[1.797s] -- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/robotiq_description/share/robotiq_description/cmake/robotiq_descriptionConfig.cmake
+[1.797s] -- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/robotiq_description/share/robotiq_description/cmake/robotiq_descriptionConfig-version.cmake
+[1.797s] -- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/robotiq_description/share/robotiq_description/package.xml
+[1.799s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/src/build/robotiq_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes:/opt/ros/foxy /usr/bin/cmake --install /home/d-lab/workspace/ros_ur_driver/src/build/robotiq_description

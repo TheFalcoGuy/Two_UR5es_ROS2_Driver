@@ -1,0 +1,15 @@
+/home/d-lab/workspace/ros_ur_driver/src/install/moveit_ros/share/ament_index/resource_index/package_run_dependencies/moveit_ros
+/home/d-lab/workspace/ros_ur_driver/src/install/moveit_ros/share/ament_index/resource_index/parent_prefix_path/moveit_ros
+/home/d-lab/workspace/ros_ur_driver/src/install/moveit_ros/share/moveit_ros/environment/ament_prefix_path.sh
+/home/d-lab/workspace/ros_ur_driver/src/install/moveit_ros/share/moveit_ros/environment/ament_prefix_path.dsv
+/home/d-lab/workspace/ros_ur_driver/src/install/moveit_ros/share/moveit_ros/environment/path.sh
+/home/d-lab/workspace/ros_ur_driver/src/install/moveit_ros/share/moveit_ros/environment/path.dsv
+/home/d-lab/workspace/ros_ur_driver/src/install/moveit_ros/share/moveit_ros/local_setup.bash
+/home/d-lab/workspace/ros_ur_driver/src/install/moveit_ros/share/moveit_ros/local_setup.sh
+/home/d-lab/workspace/ros_ur_driver/src/install/moveit_ros/share/moveit_ros/local_setup.zsh
+/home/d-lab/workspace/ros_ur_driver/src/install/moveit_ros/share/moveit_ros/local_setup.dsv
+/home/d-lab/workspace/ros_ur_driver/src/install/moveit_ros/share/moveit_ros/package.dsv
+/home/d-lab/workspace/ros_ur_driver/src/install/moveit_ros/share/ament_index/resource_index/packages/moveit_ros
+/home/d-lab/workspace/ros_ur_driver/src/install/moveit_ros/share/moveit_ros/cmake/moveit_rosConfig.cmake
+/home/d-lab/workspace/ros_ur_driver/src/install/moveit_ros/share/moveit_ros/cmake/moveit_rosConfig-version.cmake
+/home/d-lab/workspace/ros_ur_driver/src/install/moveit_ros/share/moveit_ros/package.xml
