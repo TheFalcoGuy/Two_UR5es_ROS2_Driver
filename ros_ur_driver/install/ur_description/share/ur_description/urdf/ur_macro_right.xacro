@@ -65,7 +65,8 @@
     safety_k_position:=20
     use_fake_hardware:=false
     fake_sensor_commands:=false
-    initial_positions:=${dict(shoulder_pan_joint=0.0,shoulder_lift_joint=-1.57,elbow_joint=0.0,wrist_1_joint=-1.57,wrist_2_joint=0.0,wrist_3_joint=0.0)}">
+    initial_positions:=${dict(shoulder_pan_joint=0.0,shoulder_lift_joint=-1.57,elbow_joint=0.0,wrist_1_joint=-1.57,wrist_2_joint=0.0,wrist_3_joint=0.0)}
+    reverse_port script_sender_port trajectory_port">
     <!-- Load configuration data from the provided .yaml files -->
     <xacro:read_model_data
       joint_limits_parameters_file="${joint_limits_parameters_file}"
@@ -93,7 +94,11 @@
       input_recipe_filename="$(arg input_recipe_filename)"
       tf_prefix=""
       hash_kinematics="${kinematics_hash}"
-      robot_ip="$(arg robot_ip)" />
+      robot_ip="$(arg robot_ip)" 
+      reverse_port="$(arg reverse_port)"
+      script_sender_port="$(arg script_sender_port)"
+      trajectory_port="$(arg trajectory_port)"
+    />
 
     <!-- Add URDF transmission elements (for ros_control) -->
     <!--<xacro:ur_arm_transmission prefix="${prefix}" hw_interface="${transmission_hw_interface}" />-->

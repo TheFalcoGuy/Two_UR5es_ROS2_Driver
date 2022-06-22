@@ -15,6 +15,9 @@
    <xacro:arg name="safety_limits" default="false"/>
    <xacro:arg name="safety_pos_margin" default="0.15"/>
    <xacro:arg name="safety_k_position" default="20"/>
+   <xacro:arg name="reverse_port" default="50001"/>
+   <xacro:arg name="script_sender_port" default="50002"/>
+   <xacro:arg name="trajectory_port" default="50003"/>
    <!-- ros2_control related parameters -->
    <xacro:arg name="use_fake_hardware" default="false" />
    <xacro:arg name="fake_sensor_commands" default="false" />
@@ -36,5 +39,9 @@
      safety_k_position="$(arg safety_k_position)"
      use_fake_hardware="$(arg use_fake_hardware)"
      fake_sensor_commands="$(arg fake_sensor_commands)"
-     initial_positions="${load_yaml(initial_positions_file)}" />
+     initial_positions="${load_yaml(initial_positions_file)}" 
+     reverse_port="$(arg reverse_port)"
+     script_sender_port="$(arg script_sender_port)"
+     trajectory_port="$(arg trajectory_port)"
+     />
 </robot>

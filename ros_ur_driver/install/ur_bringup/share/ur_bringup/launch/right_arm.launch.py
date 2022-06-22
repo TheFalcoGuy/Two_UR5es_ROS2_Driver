@@ -129,6 +129,38 @@ def generate_launch_description():
             description="Robot controller to start.",
         )
     )
+
+
+
+    ##### ADDED STUFF HERE #####
+    declared_arguments.append(
+        DeclareLaunchArgument(
+            "reverse_port",
+            default_value="50004",
+            description="Reverse port number",
+        )
+    )
+    declared_arguments.append(
+        DeclareLaunchArgument(
+            "script_sender_port",
+            default_value="50005",
+            description="Script sender port number",
+        )
+    )
+    declared_arguments.append(
+        DeclareLaunchArgument(
+            "trajectory_port",
+            default_value="50006",
+            description="Trajectory port number",
+        )
+    )
+    reverse_port = LaunchConfiguration("reverse_port")
+    script_sender_port = LaunchConfiguration("script_sender_port")
+    trajectory_port = LaunchConfiguration("trajectory_port")
+    ### END OF ADDED STUFF
+
+
+
     declared_arguments.append(
         DeclareLaunchArgument("launch_rviz", default_value="false", description="Launch RViz?")
     )
@@ -144,6 +176,7 @@ def generate_launch_description():
     controllers_file = LaunchConfiguration("controllers_file")
     description_package = LaunchConfiguration("description_package")
     description_file = LaunchConfiguration("description_file")
+    
     pprint (vars(description_file))
     #print (type(description_file))
     
@@ -229,6 +262,15 @@ def generate_launch_description():
             "fake_sensor_commands:=",
             fake_sensor_commands,
             " ",
+            "reverse_port:=", #### ADDDED STUFF
+            reverse_port,
+            " ",
+            "script_sender_port:=",
+            script_sender_port,
+            " ",
+            "trajectory_port:=",
+            trajectory_port,
+            " ",### END OF ADDED STUFF
         ]
     )
     robot_description = {"robot_description": robot_description_content}
