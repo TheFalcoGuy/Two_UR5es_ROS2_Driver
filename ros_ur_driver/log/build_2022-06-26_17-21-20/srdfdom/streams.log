@@ -1,0 +1,44 @@
+[0.059s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/srdfdom': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/srdfdom -- -j16 -l16
+[0.381s] [ 18%] Built target gtest_main
+[0.381s] [ 36%] Built target gtest
+[0.382s] [ 63%] Built target srdfdom
+[0.382s] [ 81%] Built target test_cpp_C
+[0.382s] [100%] Built target test_cpp_nl_NL.UTF-8
+[0.409s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/build/srdfdom' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/srdfdom -- -j16 -l16
+[0.426s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/srdfdom': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/d-lab/workspace/ros_ur_driver/build/srdfdom
+[0.450s] -- Install configuration: "Release"
+[0.451s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/srdfdom/lib/libsrdfdom.so.2.0.4
+[0.452s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/srdfdom/lib/libsrdfdom.so
+[0.452s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/srdfdom/include/srdfdom
+[0.454s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/srdfdom/include/srdfdom/visibility_control.h
+[0.454s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/srdfdom/include/srdfdom/model.h
+[0.456s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/srdfdom/include/srdfdom/srdf_writer.h
+[0.456s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/srdfdom/lib/srdfdom/display_srdf
+[0.457s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/srdfdom/share/srdfdom/environment/pythonpath.sh
+[0.457s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/srdfdom/share/srdfdom/environment/pythonpath.dsv
+[0.457s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/srdfdom/lib/python3.8/site-packages/srdfdom
+[0.457s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/srdfdom/lib/python3.8/site-packages/srdfdom/srdf.py
+[0.458s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/srdfdom/lib/python3.8/site-packages/srdfdom/__init__.py
+[0.521s] Listing '/home/d-lab/workspace/ros_ur_driver/install/srdfdom/lib/python3.8/site-packages/srdfdom'...
+[0.538s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/srdfdom/share/srdfdom/environment/library_path.sh
+[0.538s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/srdfdom/share/srdfdom/environment/library_path.dsv
+[0.538s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/srdfdom/share/ament_index/resource_index/package_run_dependencies/srdfdom
+[0.538s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/srdfdom/share/ament_index/resource_index/parent_prefix_path/srdfdom
+[0.538s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/srdfdom/share/srdfdom/environment/ament_prefix_path.sh
+[0.538s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/srdfdom/share/srdfdom/environment/ament_prefix_path.dsv
+[0.539s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/srdfdom/share/srdfdom/environment/path.sh
+[0.539s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/srdfdom/share/srdfdom/environment/path.dsv
+[0.539s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/srdfdom/share/srdfdom/local_setup.bash
+[0.539s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/srdfdom/share/srdfdom/local_setup.sh
+[0.539s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/srdfdom/share/srdfdom/local_setup.zsh
+[0.539s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/srdfdom/share/srdfdom/local_setup.dsv
+[0.540s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/srdfdom/share/srdfdom/package.dsv
+[0.540s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/srdfdom/share/ament_index/resource_index/packages/srdfdom
+[0.540s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/srdfdom/share/srdfdom/cmake/srdfdomTargetsExport.cmake
+[0.540s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/srdfdom/share/srdfdom/cmake/srdfdomTargetsExport-release.cmake
+[0.540s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/srdfdom/share/srdfdom/cmake/ament_cmake_export_targets-extras.cmake
+[0.540s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/srdfdom/share/srdfdom/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.540s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/srdfdom/share/srdfdom/cmake/srdfdomConfig.cmake
+[0.541s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/srdfdom/share/srdfdom/cmake/srdfdomConfig-version.cmake
+[0.542s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/srdfdom/share/srdfdom/package.xml
+[0.562s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/build/srdfdom' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/d-lab/workspace/ros_ur_driver/build/srdfdom

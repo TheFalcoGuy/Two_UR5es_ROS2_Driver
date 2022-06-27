@@ -92,7 +92,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libur_msgs__rosidl_typesupport_fastrtps_c.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libur_msgs__rosidl_typesupport_fastrtps_c.so"
-         OLD_RPATH "/opt/ros/foxy/lib:/home/d-lab/workspace/ros_ur_driver/build/ur_msgs:"
+         OLD_RPATH "/home/d-lab/workspace/ros_ur_driver/build/ur_msgs:/opt/ros/foxy/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libur_msgs__rosidl_typesupport_fastrtps_c.so")

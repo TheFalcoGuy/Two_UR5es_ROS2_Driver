@@ -433,8 +433,6 @@ motion_planning_rviz_plugin/libmoveit_motion_planning_rviz_plugin_core.so.2.2.3:
 motion_planning_rviz_plugin/libmoveit_motion_planning_rviz_plugin_core.so.2.2.3: /opt/ros/foxy/lib/libtrajectory_msgs__rosidl_typesupport_cpp.so
 motion_planning_rviz_plugin/libmoveit_motion_planning_rviz_plugin_core.so.2.2.3: /opt/ros/foxy/lib/libgeometric_shapes.so.2.1.2
 motion_planning_rviz_plugin/libmoveit_motion_planning_rviz_plugin_core.so.2.2.3: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
-motion_planning_rviz_plugin/libmoveit_motion_planning_rviz_plugin_core.so.2.2.3: /opt/ros/foxy/lib/liboctomap.so
-motion_planning_rviz_plugin/libmoveit_motion_planning_rviz_plugin_core.so.2.2.3: /opt/ros/foxy/lib/liboctomath.so
 motion_planning_rviz_plugin/libmoveit_motion_planning_rviz_plugin_core.so.2.2.3: /opt/ros/foxy/lib/librandom_numbers.so
 motion_planning_rviz_plugin/libmoveit_motion_planning_rviz_plugin_core.so.2.2.3: /opt/ros/foxy/lib/libresource_retriever.so
 motion_planning_rviz_plugin/libmoveit_motion_planning_rviz_plugin_core.so.2.2.3: /usr/lib/x86_64-linux-gnu/libcurl.so
@@ -445,6 +443,8 @@ motion_planning_rviz_plugin/libmoveit_motion_planning_rviz_plugin_core.so.2.2.3:
 motion_planning_rviz_plugin/libmoveit_motion_planning_rviz_plugin_core.so.2.2.3: /opt/ros/foxy/lib/libshape_msgs__rosidl_typesupport_introspection_cpp.so
 motion_planning_rviz_plugin/libmoveit_motion_planning_rviz_plugin_core.so.2.2.3: /opt/ros/foxy/lib/libshape_msgs__rosidl_typesupport_cpp.so
 motion_planning_rviz_plugin/libmoveit_motion_planning_rviz_plugin_core.so.2.2.3: /usr/lib/x86_64-linux-gnu/libqhull_r.so
+motion_planning_rviz_plugin/libmoveit_motion_planning_rviz_plugin_core.so.2.2.3: /opt/ros/foxy/lib/liboctomap.so
+motion_planning_rviz_plugin/libmoveit_motion_planning_rviz_plugin_core.so.2.2.3: /opt/ros/foxy/lib/liboctomath.so
 motion_planning_rviz_plugin/libmoveit_motion_planning_rviz_plugin_core.so.2.2.3: /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0
 motion_planning_rviz_plugin/libmoveit_motion_planning_rviz_plugin_core.so.2.2.3: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
 motion_planning_rviz_plugin/libmoveit_motion_planning_rviz_plugin_core.so.2.2.3: /opt/ros/foxy/lib/liburdf.so

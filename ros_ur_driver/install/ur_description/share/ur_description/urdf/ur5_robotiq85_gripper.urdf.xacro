@@ -5,7 +5,7 @@
 
   <xacro:include filename="$(find ur_description)/urdf/ur.urdf.xacro" />
   <xacro:include filename="$(find robotiq_description)/urdf/robotiq_85_gripper.urdf.xacro" />
-  <!-- parameters -->
+
    
   
   <!-- Robotiq Coupler -->
@@ -40,13 +40,6 @@
     <material>Gazebo/FlatBlack</material>
   </gazebo>
   
-  <!-- Equivalent to the OpenRAVE manipulator denso_robotiq_85_gripper -->
-  <!-- <link name="denso_robotiq_85_gripper" /> -->
-  <!-- <joint name="manipulator_dummy_joint" type="fixed"> -->
-  <!--   <origin xyz="0 0 0.1441" rpy="0 0 0" /> -->
-  <!--   <parent link="robotiq_coupler"/> -->
-  <!--   <child link="denso_robotiq_85_gripper"/> -->
-  <!-- </joint> -->
   
   <!-- Attach the robotiq 85 gripper -->
   <xacro:robotiq_85_gripper prefix="" parent="robotiq_coupler" >
@@ -79,4 +72,5 @@
       <palm_link>robotiq_85_base_link</palm_link>
     </gripper>
   </gazebo>
+
 </robot>

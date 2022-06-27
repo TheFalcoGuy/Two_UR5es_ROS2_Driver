@@ -1,4 +1,0 @@
-[ 20%] Built target gtest_main
-[ 40%] Built target gtest
-[ 80%] Built target warehouse_ros_mongo
-[100%] Built target test_warehouse_ros_mongo_cpp

@@ -1,0 +1,30 @@
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclpy: 1.0.8 (/opt/ros/foxy/share/rclpy/cmake)
+-- Found robot_state_publisher: 2.4.5 (/opt/ros/foxy/share/robot_state_publisher/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+CMake Warning at CMakeLists.txt:12 (find_package):
+  By not providing "Findxacro.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "xacro", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "xacro" with any of
+  the following names:
+
+    xacroConfig.cmake
+    xacro-config.cmake
+
+  Add the installation prefix of "xacro" to CMAKE_PREFIX_PATH or set
+  "xacro_DIR" to a directory containing one of the above files.  If "xacro"
+  provides a separate development package or SDK, be sure it has been
+  installed.
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/d-lab/workspace/ros_ur_driver/build/robotiq_description

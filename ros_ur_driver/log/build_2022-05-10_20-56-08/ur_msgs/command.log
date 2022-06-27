@@ -1,1 +1,0 @@
-Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/ur_msgs': /usr/bin/cmake /home/d-lab/workspace/ros_ur_driver/src/ur_msgs -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/d-lab/workspace/ros_ur_driver/install/ur_msgs

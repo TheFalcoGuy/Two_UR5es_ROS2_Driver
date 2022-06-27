@@ -1,4 +1,0 @@
-Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/srdfdom': /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/srdfdom -- -j16 -l16
-Invoked command in '/home/d-lab/workspace/ros_ur_driver/build/srdfdom' returned '0': /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/srdfdom -- -j16 -l16
-Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/srdfdom': /usr/bin/cmake --install /home/d-lab/workspace/ros_ur_driver/build/srdfdom
-Invoked command in '/home/d-lab/workspace/ros_ur_driver/build/srdfdom' returned '0': /usr/bin/cmake --install /home/d-lab/workspace/ros_ur_driver/build/srdfdom

@@ -1,0 +1,16 @@
+make[1]: *** wait: No child processes.  Stop.
+make[1]: *** Waiting for unfinished jobs....
+make[1]: *** wait: No child processes.  Stop.
+make[2]: *** [collision_detection/CMakeFiles/moveit_collision_detection.dir/build.make:418: collision_detection/CMakeFiles/moveit_collision_detection.dir/depend] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:948: robot_model/CMakeFiles/test_robot_model.dir/all] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:1394: robot_state/CMakeFiles/test_robot_state_complex.dir/all] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:1286: robot_state/CMakeFiles/test_cartesian_interpolator.dir/all] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:1712: robot_trajectory/CMakeFiles/moveit_robot_trajectory.dir/all] Interrupt
+make[2]: *** [dynamics_solver/CMakeFiles/moveit_dynamics_solver.dir/build.make:277: dynamics_solver/CMakeFiles/moveit_dynamics_solver.dir/depend] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:1430: robot_state/CMakeFiles/test_robot_state_benchmark.dir/all] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:1322: robot_state/CMakeFiles/test_aabb.dir/all] Error 2
+make[1]: *** [CMakeFiles/Makefile2:2439: dynamics_solver/CMakeFiles/moveit_dynamics_solver.dir/all] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:1167: collision_detection/CMakeFiles/moveit_collision_detection.dir/all] Interrupt
+make[2]: *** [robot_state/CMakeFiles/test_robot_state.dir/build.make:276: robot_state/CMakeFiles/test_robot_state.dir/depend] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:1357: robot_state/CMakeFiles/test_robot_state.dir/all] Interrupt
+make: *** [Makefile:141: all] Interrupt

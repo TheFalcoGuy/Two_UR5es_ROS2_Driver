@@ -1,0 +1,53 @@
+[  2%] Built target gtest_main
+[  3%] Built target moveit_version
+[  4%] Built target gtest
+[  7%] Built target moveit_utils
+[  8%] Built target moveit_exceptions
+[ 10%] Built target moveit_profiler
+[ 11%] Built target moveit_background_processing
+[ 13%] Built target moveit_transforms
+[ 14%] Built target moveit_kinematics_base
+[ 17%] Built target moveit_distance_field
+[ 19%] Built target test_transforms
+[ 20%] Built target test_voxel_grid
+[ 21%] Built target test_distance_field
+[ 28%] Built target moveit_robot_model
+[ 30%] Built target moveit_test_utils
+[ 33%] Built target moveit_robot_state
+[ 35%] Built target test_robot_model
+[ 36%] Built target test_robot_state_benchmark
+[ 39%] Built target moveit_kinematics_metrics
+[ 39%] Built target moveit_dynamics_solver
+[ 39%] Built target test_cartesian_interpolator
+[ 40%] Built target moveit_robot_trajectory
+[ 41%] Built target test_aabb
+[ 42%] Built target test_robot_state
+[ 43%] Built target test_robot_state_complex
+[ 49%] Built target moveit_collision_detection
+[ 51%] Built target test_robot_trajectory
+[ 53%] Built target moveit_planning_interface
+[ 56%] Built target moveit_trajectory_processing
+[ 58%] Built target test_world_diff
+[ 59%] Built target test_world
+[ 61%] Built target test_all_valid
+[ 63%] Built target moveit_collision_detection_fcl
+[ 64%] Built target test_time_parameterization
+[ 65%] Built target test_time_optimal_trajectory_generation
+[ 70%] Built target moveit_collision_detection_bullet
+[ 71%] Built target test_fcl_collision_env
+[ 72%] [32mBuilding CXX object collision_detection_fcl/CMakeFiles/test_fcl_collision_detection_panda.dir/test/test_fcl_collision_detection_panda.cpp.o[0m
+[ 73%] Built target moveit_kinematic_constraints
+[ 75%] Built target test_fcl_collision_detection
+[35m[1mScanning dependencies of target test_orientation_constraints[0m
+[35m[1mScanning dependencies of target test_constraints[0m
+[35m[1mScanning dependencies of target moveit_planning_scene[0m
+[ 76%] [32mBuilding CXX object collision_detection_bullet/CMakeFiles/test_bullet_collision_detection_panda.dir/test/test_bullet_collision_detection_panda.cpp.o[0m
+[ 77%] [32mBuilding CXX object collision_detection_bullet/CMakeFiles/test_bullet_continuous_collision_checking.dir/test/test_bullet_continuous_collision_checking.cpp.o[0m
+[ 78%] Built target test_bullet_collision_detection
+[ 78%] [32mBuilding CXX object kinematic_constraints/CMakeFiles/test_orientation_constraints.dir/test/test_orientation_constraints.cpp.o[0m
+[ 78%] [32mBuilding CXX object kinematic_constraints/CMakeFiles/test_constraints.dir/test/test_constraints.cpp.o[0m
+[ 79%] [32mBuilding CXX object planning_scene/CMakeFiles/moveit_planning_scene.dir/src/planning_scene.cpp.o[0m
+[ 80%] [32m[1mLinking CXX executable test_orientation_constraints[0m
+[ 80%] Built target test_orientation_constraints
+[ 81%] [32m[1mLinking CXX executable test_constraints[0m
+[ 81%] Built target test_constraints

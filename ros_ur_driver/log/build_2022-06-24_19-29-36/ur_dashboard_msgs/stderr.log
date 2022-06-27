@@ -1,0 +1,23 @@
+make[2]: *** [CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/build.make:249: CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/is_program_saved__type_support.cpp.o] Interrupt
+make[2]: *** [CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/build.make:267: CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support.c.o] Interrupt
+make[2]: *** [CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/build.make:197: CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/get_program_state__type_support.cpp.o] Interrupt
+make[2]: *** [CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/build.make:210: CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/get_robot_mode__type_support.cpp.o] Interrupt
+make[2]: *** [CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/build.make:223: CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/get_safety_mode__type_support.cpp.o] Interrupt
+make[2]: *** [CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/build.make:261: CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/load__type_support.cpp.o] Interrupt
+make[2]: *** [CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make:293: CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/is_program_saved__type_support.cpp.o] Interrupt
+make[2]: *** [CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make:267: CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/get_safety_mode__type_support.cpp.o] Interrupt
+make[2]: *** [CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make:280: CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/is_program_running__type_support.cpp.o] Interrupt
+make[2]: *** [CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make:306: CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/load__type_support.cpp.o] Interrupt
+make[2]: *** [CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make:332: CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/raw_request__type_support.cpp.o] Interrupt
+make[2]: *** [CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make:345: CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/action/detail/dds_fastrtps/set_mode__type_support.cpp.o] Interrupt
+make[2]: *** wait: No child processes.  Stop.
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** wait: No child processes.  Stop.
+make[2]: *** [CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/build.make:236: CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/is_program_running__type_support.cpp.o] Interrupt
+make[2]: *** [CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/build.make:345: CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/action/detail/set_mode__type_support.cpp.o] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:465: CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2
+make[1]: *** [CMakeFiles/Makefile2:526: CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/all] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:384: CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/all] Interrupt
+make[2]: *** [CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/build.make:254: CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support.c.o] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:330: CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/all] Interrupt
+make: *** [Makefile:141: all] Interrupt

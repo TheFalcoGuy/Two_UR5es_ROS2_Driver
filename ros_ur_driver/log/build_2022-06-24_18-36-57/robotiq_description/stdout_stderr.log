@@ -1,0 +1,80 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclpy: 1.0.8 (/opt/ros/foxy/share/rclpy/cmake)
+-- Found robot_state_publisher: 2.4.5 (/opt/ros/foxy/share/robot_state_publisher/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.3.7") 
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found xacro: 2.0.7 (/opt/ros/foxy/share/xacro/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/d-lab/workspace/ros_ur_driver/build/robotiq_description
+-- Install configuration: ""
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/robotiq_description/share/robotiq_description/config
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/robotiq_description/share/robotiq_description/config/robotiq_85.rviz
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/robotiq_description/share/robotiq_description/launch
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/robotiq_description/share/robotiq_description/launch/display_robotiq85.launch
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/robotiq_description/share/robotiq_description/meshes
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/robotiq_description/share/robotiq_description/meshes/visual
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/robotiq_description/share/robotiq_description/meshes/visual/robotiq_85_knuckle_link.dae
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/robotiq_description/share/robotiq_description/meshes/visual/robotiq_85_finger_tip_link.dae
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/robotiq_description/share/robotiq_description/meshes/visual/robotiq_85_inner_knuckle_link.dae
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/robotiq_description/share/robotiq_description/meshes/visual/robotiq_85_finger_link.dae
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/robotiq_description/share/robotiq_description/meshes/visual/robotiq_85_base_link.dae
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/robotiq_description/share/robotiq_description/meshes/collision
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/robotiq_description/share/robotiq_description/meshes/collision/robotiq_85_base_link.stl
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/robotiq_description/share/robotiq_description/meshes/collision/robotiq_85_knuckle_link.stl
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/robotiq_description/share/robotiq_description/meshes/collision/robotiq_85_finger_tip_link.stl
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/robotiq_description/share/robotiq_description/meshes/collision/robotiq_85_finger_link.stl
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/robotiq_description/share/robotiq_description/meshes/collision/robotiq_85_inner_knuckle_link.stl
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/robotiq_description/share/robotiq_description/meshes/robotiq_85_coupler.stl
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/robotiq_description/share/robotiq_description/urdf
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/robotiq_description/share/robotiq_description/urdf/robotiq_85_gripper_sim_base.urdf.xacro
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/robotiq_description/share/robotiq_description/urdf/robotiq_85_gripper.xacro
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/robotiq_description/share/robotiq_description/urdf/robotiq_85_gripper.transmission.xacro
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/robotiq_description/share/robotiq_description/urdf/robotiq_85_gripper.urdf.xacro
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/robotiq_description/share/ament_index/resource_index/package_run_dependencies/robotiq_description
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/robotiq_description/share/ament_index/resource_index/parent_prefix_path/robotiq_description
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/robotiq_description/share/robotiq_description/environment/ament_prefix_path.sh
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/robotiq_description/share/robotiq_description/environment/ament_prefix_path.dsv
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/robotiq_description/share/robotiq_description/environment/path.sh
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/robotiq_description/share/robotiq_description/environment/path.dsv
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/robotiq_description/share/robotiq_description/local_setup.bash
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/robotiq_description/share/robotiq_description/local_setup.sh
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/robotiq_description/share/robotiq_description/local_setup.zsh
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/robotiq_description/share/robotiq_description/local_setup.dsv
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/robotiq_description/share/robotiq_description/package.dsv
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/robotiq_description/share/ament_index/resource_index/packages/robotiq_description
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/robotiq_description/share/robotiq_description/cmake/robotiq_descriptionConfig.cmake
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/robotiq_description/share/robotiq_description/cmake/robotiq_descriptionConfig-version.cmake
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/robotiq_description/share/robotiq_description/package.xml

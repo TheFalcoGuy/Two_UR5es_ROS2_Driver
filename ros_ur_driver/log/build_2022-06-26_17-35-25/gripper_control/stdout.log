@@ -1,0 +1,42 @@
+running egg_info
+creating ../../../build/gripper_control/robotiq_control.egg-info
+writing ../../../build/gripper_control/robotiq_control.egg-info/PKG-INFO
+writing dependency_links to ../../../build/gripper_control/robotiq_control.egg-info/dependency_links.txt
+writing entry points to ../../../build/gripper_control/robotiq_control.egg-info/entry_points.txt
+writing requirements to ../../../build/gripper_control/robotiq_control.egg-info/requires.txt
+writing top-level names to ../../../build/gripper_control/robotiq_control.egg-info/top_level.txt
+writing manifest file '../../../build/gripper_control/robotiq_control.egg-info/SOURCES.txt'
+reading manifest file '../../../build/gripper_control/robotiq_control.egg-info/SOURCES.txt'
+writing manifest file '../../../build/gripper_control/robotiq_control.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/d-lab/workspace/ros_ur_driver/build/gripper_control/build
+creating /home/d-lab/workspace/ros_ur_driver/build/gripper_control/build/lib
+creating /home/d-lab/workspace/ros_ur_driver/build/gripper_control/build/lib/robotiq_control
+copying robotiq_control/gripper_controller_node.py -> /home/d-lab/workspace/ros_ur_driver/build/gripper_control/build/lib/robotiq_control
+copying robotiq_control/gripper_abstract.py -> /home/d-lab/workspace/ros_ur_driver/build/gripper_control/build/lib/robotiq_control
+copying robotiq_control/__init__.py -> /home/d-lab/workspace/ros_ur_driver/build/gripper_control/build/lib/robotiq_control
+copying robotiq_control/rtu_robotiq_gripper.py -> /home/d-lab/workspace/ros_ur_driver/build/gripper_control/build/lib/robotiq_control
+copying robotiq_control/ur_robotiq_gripper.py -> /home/d-lab/workspace/ros_ur_driver/build/gripper_control/build/lib/robotiq_control
+running install
+running install_lib
+creating /home/d-lab/workspace/ros_ur_driver/install/gripper_control/lib/python3.8/site-packages/robotiq_control
+copying /home/d-lab/workspace/ros_ur_driver/build/gripper_control/build/lib/robotiq_control/gripper_controller_node.py -> /home/d-lab/workspace/ros_ur_driver/install/gripper_control/lib/python3.8/site-packages/robotiq_control
+copying /home/d-lab/workspace/ros_ur_driver/build/gripper_control/build/lib/robotiq_control/gripper_abstract.py -> /home/d-lab/workspace/ros_ur_driver/install/gripper_control/lib/python3.8/site-packages/robotiq_control
+copying /home/d-lab/workspace/ros_ur_driver/build/gripper_control/build/lib/robotiq_control/__init__.py -> /home/d-lab/workspace/ros_ur_driver/install/gripper_control/lib/python3.8/site-packages/robotiq_control
+copying /home/d-lab/workspace/ros_ur_driver/build/gripper_control/build/lib/robotiq_control/rtu_robotiq_gripper.py -> /home/d-lab/workspace/ros_ur_driver/install/gripper_control/lib/python3.8/site-packages/robotiq_control
+copying /home/d-lab/workspace/ros_ur_driver/build/gripper_control/build/lib/robotiq_control/ur_robotiq_gripper.py -> /home/d-lab/workspace/ros_ur_driver/install/gripper_control/lib/python3.8/site-packages/robotiq_control
+byte-compiling /home/d-lab/workspace/ros_ur_driver/install/gripper_control/lib/python3.8/site-packages/robotiq_control/gripper_controller_node.py to gripper_controller_node.cpython-38.pyc
+byte-compiling /home/d-lab/workspace/ros_ur_driver/install/gripper_control/lib/python3.8/site-packages/robotiq_control/gripper_abstract.py to gripper_abstract.cpython-38.pyc
+byte-compiling /home/d-lab/workspace/ros_ur_driver/install/gripper_control/lib/python3.8/site-packages/robotiq_control/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/d-lab/workspace/ros_ur_driver/install/gripper_control/lib/python3.8/site-packages/robotiq_control/rtu_robotiq_gripper.py to rtu_robotiq_gripper.cpython-38.pyc
+byte-compiling /home/d-lab/workspace/ros_ur_driver/install/gripper_control/lib/python3.8/site-packages/robotiq_control/ur_robotiq_gripper.py to ur_robotiq_gripper.cpython-38.pyc
+running install_data
+copying resource/robotiq_control -> /home/d-lab/workspace/ros_ur_driver/install/gripper_control/share/ament_index/resource_index/packages
+creating /home/d-lab/workspace/ros_ur_driver/install/gripper_control/share/robotiq_control
+copying package.xml -> /home/d-lab/workspace/ros_ur_driver/install/gripper_control/share/robotiq_control
+running install_egg_info
+Copying ../../../build/gripper_control/robotiq_control.egg-info to /home/d-lab/workspace/ros_ur_driver/install/gripper_control/lib/python3.8/site-packages/robotiq_control-0.0.0-py3.8.egg-info
+running install_scripts
+Installing gripper script to /home/d-lab/workspace/ros_ur_driver/install/gripper_control/lib/gripper_control
+writing list of installed files to '/home/d-lab/workspace/ros_ur_driver/build/gripper_control/install.log'

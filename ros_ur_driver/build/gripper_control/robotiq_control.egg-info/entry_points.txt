@@ -1,0 +1,3 @@
+[console_scripts]
+gripper = robotiq_control.gripper_controller_node:main
+

@@ -1,0 +1,56 @@
+[0.017s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/chomp_motion_planner': AMENT_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/moveit_core:/home/d-lab/workspace/ros_ur_driver/install/srdfdom:/home/d-lab/workspace/ros_ur_driver/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/moveit_core:/home/d-lab/workspace/ros_ur_driver/install/srdfdom:/home/d-lab/workspace/ros_ur_driver/install/moveit_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/d-lab/workspace/ros_ur_driver/install/moveit_core/lib:/home/d-lab/workspace/ros_ur_driver/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/d-lab/workspace/ros_ur_driver/install/moveit_core/bin:${PATH} PYTHONPATH=/home/d-lab/workspace/ros_ur_driver/install/srdfdom/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/chomp_motion_planner -- -j16 -l16
+[0.035s] -- Found moveit_common: 2.2.3 (/home/d-lab/workspace/ros_ur_driver/install/moveit_common/share/moveit_common/cmake)
+[0.035s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.051s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.211s] -- Found moveit_core: 2.2.3 (/home/d-lab/workspace/ros_ur_driver/install/moveit_core/share/moveit_core/cmake)
+[0.222s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[0.233s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: filesystem 
+[0.256s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.258s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.345s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.438s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.439s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.548s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[1.916s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.920s] -- Added test 'xmllint' to check XML markup files
+[1.923s] -- Configuring done
+[1.952s] -- Generating done
+[1.954s] -- Build files have been written to: /home/d-lab/workspace/ros_ur_driver/build/chomp_motion_planner
+[2.008s] [ 16%] [32m[1mLinking CXX shared library libchomp_motion_planner.so[0m
+[2.180s] [100%] Built target chomp_motion_planner
+[2.191s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/build/chomp_motion_planner' returned '0': AMENT_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/moveit_core:/home/d-lab/workspace/ros_ur_driver/install/srdfdom:/home/d-lab/workspace/ros_ur_driver/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/moveit_core:/home/d-lab/workspace/ros_ur_driver/install/srdfdom:/home/d-lab/workspace/ros_ur_driver/install/moveit_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/d-lab/workspace/ros_ur_driver/install/moveit_core/lib:/home/d-lab/workspace/ros_ur_driver/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/d-lab/workspace/ros_ur_driver/install/moveit_core/bin:${PATH} PYTHONPATH=/home/d-lab/workspace/ros_ur_driver/install/srdfdom/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/chomp_motion_planner -- -j16 -l16
+[2.214s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/chomp_motion_planner': AMENT_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/moveit_core:/home/d-lab/workspace/ros_ur_driver/install/srdfdom:/home/d-lab/workspace/ros_ur_driver/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/moveit_core:/home/d-lab/workspace/ros_ur_driver/install/srdfdom:/home/d-lab/workspace/ros_ur_driver/install/moveit_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/d-lab/workspace/ros_ur_driver/install/moveit_core/lib:/home/d-lab/workspace/ros_ur_driver/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/d-lab/workspace/ros_ur_driver/install/moveit_core/bin:${PATH} PYTHONPATH=/home/d-lab/workspace/ros_ur_driver/install/srdfdom/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/d-lab/workspace/ros_ur_driver/build/chomp_motion_planner
+[2.221s] -- Install configuration: "Release"
+[2.221s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/chomp_motion_planner/lib/libchomp_motion_planner.so.2.2.3
+[2.221s] -- Set runtime path of "/home/d-lab/workspace/ros_ur_driver/install/chomp_motion_planner/lib/libchomp_motion_planner.so.2.2.3" to ""
+[2.222s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/chomp_motion_planner/lib/libchomp_motion_planner.so
+[2.222s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/chomp_motion_planner/include
+[2.222s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/chomp_motion_planner/include/chomp_motion_planner
+[2.222s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/chomp_motion_planner/include/chomp_motion_planner/chomp_cost.h
+[2.222s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/chomp_motion_planner/include/chomp_motion_planner/chomp_trajectory.h
+[2.222s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/chomp_motion_planner/include/chomp_motion_planner/chomp_parameters.h
+[2.222s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/chomp_motion_planner/include/chomp_motion_planner/multivariate_gaussian.h
+[2.222s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/chomp_motion_planner/include/chomp_motion_planner/chomp_utils.h
+[2.222s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/chomp_motion_planner/include/chomp_motion_planner/chomp_planner.h
+[2.222s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/chomp_motion_planner/include/chomp_motion_planner/chomp_optimizer.h
+[2.222s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/chomp_motion_planner/share/chomp_motion_planner/environment/library_path.sh
+[2.223s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/chomp_motion_planner/share/chomp_motion_planner/environment/library_path.dsv
+[2.223s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/chomp_motion_planner/share/ament_index/resource_index/package_run_dependencies/chomp_motion_planner
+[2.223s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/chomp_motion_planner/share/ament_index/resource_index/parent_prefix_path/chomp_motion_planner
+[2.223s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/chomp_motion_planner/share/chomp_motion_planner/environment/ament_prefix_path.sh
+[2.223s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/chomp_motion_planner/share/chomp_motion_planner/environment/ament_prefix_path.dsv
+[2.223s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/chomp_motion_planner/share/chomp_motion_planner/environment/path.sh
+[2.223s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/chomp_motion_planner/share/chomp_motion_planner/environment/path.dsv
+[2.223s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/chomp_motion_planner/share/chomp_motion_planner/local_setup.bash
+[2.223s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/chomp_motion_planner/share/chomp_motion_planner/local_setup.sh
+[2.223s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/chomp_motion_planner/share/chomp_motion_planner/local_setup.zsh
+[2.223s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/chomp_motion_planner/share/chomp_motion_planner/local_setup.dsv
+[2.223s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/chomp_motion_planner/share/chomp_motion_planner/package.dsv
+[2.223s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/chomp_motion_planner/share/ament_index/resource_index/packages/chomp_motion_planner
+[2.223s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/chomp_motion_planner/share/chomp_motion_planner/cmake/chomp_motion_plannerTargetsExport.cmake
+[2.224s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/chomp_motion_planner/share/chomp_motion_planner/cmake/chomp_motion_plannerTargetsExport-release.cmake
+[2.224s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/chomp_motion_planner/share/chomp_motion_planner/cmake/ament_cmake_export_targets-extras.cmake
+[2.225s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/chomp_motion_planner/share/chomp_motion_planner/cmake/chomp_motion_plannerConfig.cmake
+[2.225s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/chomp_motion_planner/share/chomp_motion_planner/cmake/chomp_motion_plannerConfig-version.cmake
+[2.225s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/chomp_motion_planner/share/chomp_motion_planner/package.xml
+[2.226s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/build/chomp_motion_planner' returned '0': AMENT_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/moveit_core:/home/d-lab/workspace/ros_ur_driver/install/srdfdom:/home/d-lab/workspace/ros_ur_driver/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/moveit_core:/home/d-lab/workspace/ros_ur_driver/install/srdfdom:/home/d-lab/workspace/ros_ur_driver/install/moveit_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/d-lab/workspace/ros_ur_driver/install/moveit_core/lib:/home/d-lab/workspace/ros_ur_driver/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/d-lab/workspace/ros_ur_driver/install/moveit_core/bin:${PATH} PYTHONPATH=/home/d-lab/workspace/ros_ur_driver/install/srdfdom/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/d-lab/workspace/ros_ur_driver/build/chomp_motion_planner

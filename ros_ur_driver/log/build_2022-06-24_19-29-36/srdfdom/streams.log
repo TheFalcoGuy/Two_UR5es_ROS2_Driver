@@ -1,0 +1,18 @@
+[0.253s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/srdfdom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes:/opt/ros/foxy /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/srdfdom -- -j16 -l16
+[1.557s] [  9%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[1.557s] [ 27%] [32mBuilding CXX object CMakeFiles/srdfdom.dir/src/srdf_writer.cpp.o[0m
+[1.557s] [ 27%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[1.557s] [ 36%] [32mBuilding CXX object CMakeFiles/srdfdom.dir/src/model.cpp.o[0m
+[4.028s] [ 45%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[4.389s] [ 45%] Built target gtest_main
+[12.286s] make[2]: *** [gtest/CMakeFiles/gtest.dir/build.make:63: gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o] Interrupt
+[12.313s] make[2]: *** [CMakeFiles/srdfdom.dir/build.make:63: CMakeFiles/srdfdom.dir/src/model.cpp.o] Interrupt
+[12.315s] make[2]: *** wait: No child processes.  Stop.
+[12.315s] make[2]: *** Waiting for unfinished jobs....
+[12.315s] make[2]: *** wait: No child processes.  Stop.
+[12.316s] make[1]: *** [CMakeFiles/Makefile2:188: CMakeFiles/srdfdom.dir/all] Error 2
+[12.317s] make[1]: *** wait: No child processes.  Stop.
+[12.317s] make[1]: *** Waiting for unfinished jobs....
+[12.317s] make[1]: *** wait: No child processes.  Stop.
+[12.317s] make: *** [Makefile:141: all] Error 2
+[12.397s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/build/srdfdom' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes:/opt/ros/foxy /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/srdfdom -- -j16 -l16

@@ -1,0 +1,5 @@
+[  2%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/rtde/data_package.cpp.o[0m
+[  5%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/rtde/rtde_client.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/ur/dashboard_client.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/ur/ur_driver.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/rtde/rtde_writer.cpp.o[0m

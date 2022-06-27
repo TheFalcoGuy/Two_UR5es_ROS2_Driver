@@ -1,0 +1,3 @@
+[console_scripts]
+torque_broadcaster = utils.joint_torque_broadcaster:main
+

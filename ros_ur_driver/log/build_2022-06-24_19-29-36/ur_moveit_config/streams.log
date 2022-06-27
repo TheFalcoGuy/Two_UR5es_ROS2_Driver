@@ -1,0 +1,31 @@
+[1.736s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/ur_moveit_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes:/opt/ros/foxy /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/ur_moveit_config -- -j16 -l16
+[2.182s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/build/ur_moveit_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes:/opt/ros/foxy /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/ur_moveit_config -- -j16 -l16
+[2.613s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/ur_moveit_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes:/opt/ros/foxy /usr/bin/cmake --install /home/d-lab/workspace/ros_ur_driver/build/ur_moveit_config
+[2.714s] -- Install configuration: "Release"
+[2.714s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/config
+[2.714s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/config/ompl_planning.yaml
+[2.714s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/config/controllers.yaml
+[2.714s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/config/kinematics.yaml
+[2.714s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/launch
+[2.714s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/launch/ur_moveit.launch.py
+[2.733s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/rviz
+[2.734s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/rviz/view_robot.rviz
+[2.734s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/srdf
+[2.734s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/srdf/ur_macro.srdf.xacro
+[2.739s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/srdf/ur.srdf.xacro
+[2.739s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/ur_moveit_config/share/ament_index/resource_index/package_run_dependencies/ur_moveit_config
+[2.739s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/ur_moveit_config/share/ament_index/resource_index/parent_prefix_path/ur_moveit_config
+[2.739s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/environment/ament_prefix_path.sh
+[2.740s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/environment/ament_prefix_path.dsv
+[2.740s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/environment/path.sh
+[2.740s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/environment/path.dsv
+[2.740s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/local_setup.bash
+[2.740s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/local_setup.sh
+[2.740s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/local_setup.zsh
+[2.740s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/local_setup.dsv
+[2.740s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/package.dsv
+[2.740s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/ur_moveit_config/share/ament_index/resource_index/packages/ur_moveit_config
+[2.740s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/cmake/ur_moveit_configConfig.cmake
+[2.740s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/cmake/ur_moveit_configConfig-version.cmake
+[2.740s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/package.xml
+[2.784s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/build/ur_moveit_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes:/opt/ros/foxy /usr/bin/cmake --install /home/d-lab/workspace/ros_ur_driver/build/ur_moveit_config

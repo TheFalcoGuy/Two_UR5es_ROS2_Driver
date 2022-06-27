@@ -167,8 +167,6 @@ ompl_interface/generate_state_database: /opt/ros/foxy/lib/libvisualization_msgs_
 ompl_interface/generate_state_database: /opt/ros/foxy/lib/libvisualization_msgs__rosidl_typesupport_c.so
 ompl_interface/generate_state_database: /opt/ros/foxy/lib/libvisualization_msgs__rosidl_typesupport_introspection_cpp.so
 ompl_interface/generate_state_database: /opt/ros/foxy/lib/libvisualization_msgs__rosidl_typesupport_cpp.so
-ompl_interface/generate_state_database: /opt/ros/foxy/lib/liboctomap.so
-ompl_interface/generate_state_database: /opt/ros/foxy/lib/liboctomath.so
 ompl_interface/generate_state_database: /opt/ros/foxy/lib/librandom_numbers.so
 ompl_interface/generate_state_database: /opt/ros/foxy/lib/libshape_msgs__rosidl_typesupport_introspection_c.so
 ompl_interface/generate_state_database: /opt/ros/foxy/lib/libshape_msgs__rosidl_generator_c.so
@@ -179,6 +177,8 @@ ompl_interface/generate_state_database: /opt/ros/foxy/lib/libresource_retriever.
 ompl_interface/generate_state_database: /usr/lib/x86_64-linux-gnu/libcurl.so
 ompl_interface/generate_state_database: /usr/lib/x86_64-linux-gnu/libassimp.so.5
 ompl_interface/generate_state_database: /usr/lib/x86_64-linux-gnu/libqhull_r.so
+ompl_interface/generate_state_database: /opt/ros/foxy/lib/liboctomap.so
+ompl_interface/generate_state_database: /opt/ros/foxy/lib/liboctomath.so
 ompl_interface/generate_state_database: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
 ompl_interface/generate_state_database: /opt/ros/foxy/lib/libstatic_transform_broadcaster_node.so
 ompl_interface/generate_state_database: /opt/ros/foxy/lib/libtf2_ros.so

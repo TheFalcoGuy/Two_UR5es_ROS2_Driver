@@ -1,0 +1,25 @@
+make[2]: *** [CMakeFiles/ur_msgs__rosidl_typesupport_cpp.dir/build.make:222: CMakeFiles/ur_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_msgs/msg/masterboard_data_msg__type_support.cpp.o] Interrupt
+make[2]: *** Deleting file 'CMakeFiles/ur_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_msgs/msg/detail/dds_fastrtps/masterboard_data_msg__type_support.cpp.o'
+make[2]: *** wait: No child processes.  Stop.
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** wait: No child processes.  Stop.
+make[1]: *** [CMakeFiles/Makefile2:389: CMakeFiles/ur_msgs__rosidl_typesupport_introspection_c.dir/all] Error 2
+make[2]: *** [CMakeFiles/ur_msgs__rosidl_typesupport_c.dir/build.make:235: CMakeFiles/ur_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_msgs/msg/robot_mode_data_msg__type_support.cpp.o] Interrupt
+make[2]: *** [CMakeFiles/ur_msgs__rosidl_typesupport_c.dir/build.make:261: CMakeFiles/ur_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_msgs/srv/set_payload__type_support.cpp.o] Interrupt
+make[2]: *** wait: No child processes.  Stop.
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** wait: No child processes.  Stop.
+make[1]: *** [CMakeFiles/Makefile2:244: CMakeFiles/ur_msgs__rosidl_typesupport_c.dir/all] Error 2
+make[2]: *** [CMakeFiles/ur_msgs__rosidl_typesupport_introspection_cpp.dir/build.make:228: CMakeFiles/ur_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_msgs/msg/detail/io_states__type_support.cpp.o] Interrupt
+make[2]: *** [CMakeFiles/ur_msgs__rosidl_typesupport_introspection_cpp.dir/build.make:319: CMakeFiles/ur_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_msgs/srv/detail/set_io__type_support.cpp.o] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:526: CMakeFiles/ur_msgs__rosidl_typesupport_introspection_cpp.dir/all] Interrupt
+make[2]: *** [CMakeFiles/ur_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make:254: CMakeFiles/ur_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_msgs/msg/detail/dds_fastrtps/masterboard_data_msg__type_support.cpp.o] Interrupt
+make[2]: *** [CMakeFiles/ur_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make:215: CMakeFiles/ur_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_msgs/msg/detail/dds_fastrtps/digital__type_support.cpp.o] Interrupt
+make[2]: *** wait: No child processes.  Stop.
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** wait: No child processes.  Stop.
+make[1]: *** [CMakeFiles/Makefile2:362: CMakeFiles/ur_msgs__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2
+make[1]: *** wait: No child processes.  Stop.
+make[1]: *** Waiting for unfinished jobs....
+make[1]: *** wait: No child processes.  Stop.
+make: *** [Makefile:141: all] Error 2

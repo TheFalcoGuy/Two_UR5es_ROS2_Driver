@@ -254,8 +254,6 @@ test/benchmark_ik: /opt/ros/foxy/lib/libvisualization_msgs__rosidl_generator_c.s
 test/benchmark_ik: /opt/ros/foxy/lib/libvisualization_msgs__rosidl_typesupport_c.so
 test/benchmark_ik: /opt/ros/foxy/lib/libvisualization_msgs__rosidl_typesupport_introspection_cpp.so
 test/benchmark_ik: /opt/ros/foxy/lib/libvisualization_msgs__rosidl_typesupport_cpp.so
-test/benchmark_ik: /opt/ros/foxy/lib/liboctomap.so
-test/benchmark_ik: /opt/ros/foxy/lib/liboctomath.so
 test/benchmark_ik: /opt/ros/foxy/lib/librandom_numbers.so
 test/benchmark_ik: /opt/ros/foxy/lib/libshape_msgs__rosidl_typesupport_introspection_c.so
 test/benchmark_ik: /opt/ros/foxy/lib/libshape_msgs__rosidl_generator_c.so
@@ -286,6 +284,8 @@ test/benchmark_ik: /opt/ros/foxy/lib/libresource_retriever.so
 test/benchmark_ik: /usr/lib/x86_64-linux-gnu/libcurl.so
 test/benchmark_ik: /usr/lib/x86_64-linux-gnu/libassimp.so.5
 test/benchmark_ik: /usr/lib/x86_64-linux-gnu/libqhull_r.so
+test/benchmark_ik: /opt/ros/foxy/lib/liboctomap.so
+test/benchmark_ik: /opt/ros/foxy/lib/liboctomath.so
 test/benchmark_ik: /opt/ros/foxy/lib/libament_index_cpp.so
 test/benchmark_ik: /opt/ros/foxy/lib/libclass_loader.so
 test/benchmark_ik: /opt/ros/foxy/lib/librcpputils.so

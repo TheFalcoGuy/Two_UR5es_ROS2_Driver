@@ -1,0 +1,18 @@
+CMake Error at CMakeLists.txt:22 (find_package):
+  By not providing "Findwarehouse_ros.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "warehouse_ros", but CMake did not find one.
+
+  Could not find a package configuration file provided by "warehouse_ros"
+  with any of the following names:
+
+    warehouse_rosConfig.cmake
+    warehouse_ros-config.cmake
+
+  Add the installation prefix of "warehouse_ros" to CMAKE_PREFIX_PATH or set
+  "warehouse_ros_DIR" to a directory containing one of the above files.  If
+  "warehouse_ros" provides a separate development package or SDK, be sure it
+  has been installed.
+
+
+make: *** [Makefile:398: cmake_check_build_system] Error 1

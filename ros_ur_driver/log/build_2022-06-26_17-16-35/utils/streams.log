@@ -1,0 +1,25 @@
+[0.755s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/utils': PYTHONPATH=/home/d-lab/workspace/ros_ur_driver/install/utils/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/utils build --build-base /home/d-lab/workspace/ros_ur_driver/build/utils/build install --prefix /home/d-lab/workspace/ros_ur_driver/install/utils --record /home/d-lab/workspace/ros_ur_driver/build/utils/install.log --single-version-externally-managed
+[0.867s] running egg_info
+[0.867s] writing ../build/utils/utils.egg-info/PKG-INFO
+[0.867s] writing dependency_links to ../build/utils/utils.egg-info/dependency_links.txt
+[0.867s] writing entry points to ../build/utils/utils.egg-info/entry_points.txt
+[0.867s] writing requirements to ../build/utils/utils.egg-info/requires.txt
+[0.867s] writing top-level names to ../build/utils/utils.egg-info/top_level.txt
+[0.892s] reading manifest file '../build/utils/utils.egg-info/SOURCES.txt'
+[0.893s] writing manifest file '../build/utils/utils.egg-info/SOURCES.txt'
+[0.893s] running build
+[0.893s] running build_py
+[0.893s] copying utils/__init__.py -> /home/d-lab/workspace/ros_ur_driver/build/utils/build/lib/utils
+[0.893s] running install
+[0.894s] running install_lib
+[0.894s] copying /home/d-lab/workspace/ros_ur_driver/build/utils/build/lib/utils/__init__.py -> /home/d-lab/workspace/ros_ur_driver/install/utils/lib/python3.8/site-packages/utils
+[0.894s] byte-compiling /home/d-lab/workspace/ros_ur_driver/install/utils/lib/python3.8/site-packages/utils/__init__.py to __init__.cpython-38.pyc
+[0.895s] running install_data
+[0.896s] copying resource/utils -> /home/d-lab/workspace/ros_ur_driver/install/utils/share/ament_index/resource_index/packages
+[0.896s] copying package.xml -> /home/d-lab/workspace/ros_ur_driver/install/utils/share/utils
+[0.896s] running install_egg_info
+[0.897s] removing '/home/d-lab/workspace/ros_ur_driver/install/utils/lib/python3.8/site-packages/utils-0.0.0-py3.8.egg-info' (and everything under it)
+[0.897s] Copying ../build/utils/utils.egg-info to /home/d-lab/workspace/ros_ur_driver/install/utils/lib/python3.8/site-packages/utils-0.0.0-py3.8.egg-info
+[0.897s] running install_scripts
+[0.910s] writing list of installed files to '/home/d-lab/workspace/ros_ur_driver/build/utils/install.log'
+[0.926s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/utils' returned '0': PYTHONPATH=/home/d-lab/workspace/ros_ur_driver/install/utils/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/utils build --build-base /home/d-lab/workspace/ros_ur_driver/build/utils/build install --prefix /home/d-lab/workspace/ros_ur_driver/install/utils --record /home/d-lab/workspace/ros_ur_driver/build/utils/install.log --single-version-externally-managed

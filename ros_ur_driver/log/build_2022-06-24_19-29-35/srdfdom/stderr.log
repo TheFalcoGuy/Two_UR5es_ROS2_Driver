@@ -1,0 +1,4 @@
+make[2]: *** Deleting file 'gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o'
+make[2]: *** [gtest/CMakeFiles/gtest.dir/build.make:63: gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:269: gtest/CMakeFiles/gtest.dir/all] Interrupt
+make: *** [Makefile:141: all] Interrupt

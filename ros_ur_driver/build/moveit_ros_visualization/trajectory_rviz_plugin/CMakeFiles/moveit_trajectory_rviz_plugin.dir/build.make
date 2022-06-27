@@ -275,14 +275,14 @@ trajectory_rviz_plugin/libmoveit_trajectory_rviz_plugin.so.2.2.3: /opt/ros/foxy/
 trajectory_rviz_plugin/libmoveit_trajectory_rviz_plugin.so.2.2.3: /opt/ros/foxy/lib/libvisualization_msgs__rosidl_typesupport_c.so
 trajectory_rviz_plugin/libmoveit_trajectory_rviz_plugin.so.2.2.3: /opt/ros/foxy/lib/libvisualization_msgs__rosidl_typesupport_introspection_cpp.so
 trajectory_rviz_plugin/libmoveit_trajectory_rviz_plugin.so.2.2.3: /opt/ros/foxy/lib/libvisualization_msgs__rosidl_typesupport_cpp.so
-trajectory_rviz_plugin/libmoveit_trajectory_rviz_plugin.so.2.2.3: /opt/ros/foxy/lib/liboctomap.so
-trajectory_rviz_plugin/libmoveit_trajectory_rviz_plugin.so.2.2.3: /opt/ros/foxy/lib/liboctomath.so
 trajectory_rviz_plugin/libmoveit_trajectory_rviz_plugin.so.2.2.3: /opt/ros/foxy/lib/librandom_numbers.so
 trajectory_rviz_plugin/libmoveit_trajectory_rviz_plugin.so.2.2.3: /opt/ros/foxy/lib/libresource_retriever.so
 trajectory_rviz_plugin/libmoveit_trajectory_rviz_plugin.so.2.2.3: /opt/ros/foxy/lib/libament_index_cpp.so
 trajectory_rviz_plugin/libmoveit_trajectory_rviz_plugin.so.2.2.3: /usr/lib/x86_64-linux-gnu/libcurl.so
 trajectory_rviz_plugin/libmoveit_trajectory_rviz_plugin.so.2.2.3: /usr/lib/x86_64-linux-gnu/libassimp.so.5
 trajectory_rviz_plugin/libmoveit_trajectory_rviz_plugin.so.2.2.3: /usr/lib/x86_64-linux-gnu/libqhull_r.so
+trajectory_rviz_plugin/libmoveit_trajectory_rviz_plugin.so.2.2.3: /opt/ros/foxy/lib/liboctomap.so
+trajectory_rviz_plugin/libmoveit_trajectory_rviz_plugin.so.2.2.3: /opt/ros/foxy/lib/liboctomath.so
 trajectory_rviz_plugin/libmoveit_trajectory_rviz_plugin.so.2.2.3: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so
 trajectory_rviz_plugin/libmoveit_trajectory_rviz_plugin.so.2.2.3: /usr/lib/x86_64-linux-gnu/libfreeimage.so
 trajectory_rviz_plugin/libmoveit_trajectory_rviz_plugin.so.2.2.3: /usr/lib/x86_64-linux-gnu/libfreetype.so

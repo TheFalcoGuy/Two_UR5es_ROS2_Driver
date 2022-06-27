@@ -538,8 +538,6 @@ ompl_interface/libmoveit_ompl_interface.so.2.2.3: /opt/ros/foxy/lib/libvisualiza
 ompl_interface/libmoveit_ompl_interface.so.2.2.3: /opt/ros/foxy/lib/libvisualization_msgs__rosidl_typesupport_c.so
 ompl_interface/libmoveit_ompl_interface.so.2.2.3: /opt/ros/foxy/lib/libvisualization_msgs__rosidl_typesupport_introspection_cpp.so
 ompl_interface/libmoveit_ompl_interface.so.2.2.3: /opt/ros/foxy/lib/libvisualization_msgs__rosidl_typesupport_cpp.so
-ompl_interface/libmoveit_ompl_interface.so.2.2.3: /opt/ros/foxy/lib/liboctomap.so
-ompl_interface/libmoveit_ompl_interface.so.2.2.3: /opt/ros/foxy/lib/liboctomath.so
 ompl_interface/libmoveit_ompl_interface.so.2.2.3: /opt/ros/foxy/lib/librandom_numbers.so
 ompl_interface/libmoveit_ompl_interface.so.2.2.3: /opt/ros/foxy/lib/libshape_msgs__rosidl_typesupport_introspection_c.so
 ompl_interface/libmoveit_ompl_interface.so.2.2.3: /opt/ros/foxy/lib/libshape_msgs__rosidl_generator_c.so
@@ -557,6 +555,8 @@ ompl_interface/libmoveit_ompl_interface.so.2.2.3: /opt/ros/foxy/lib/libament_ind
 ompl_interface/libmoveit_ompl_interface.so.2.2.3: /usr/lib/x86_64-linux-gnu/libcurl.so
 ompl_interface/libmoveit_ompl_interface.so.2.2.3: /usr/lib/x86_64-linux-gnu/libassimp.so.5
 ompl_interface/libmoveit_ompl_interface.so.2.2.3: /usr/lib/x86_64-linux-gnu/libqhull_r.so
+ompl_interface/libmoveit_ompl_interface.so.2.2.3: /opt/ros/foxy/lib/liboctomap.so
+ompl_interface/libmoveit_ompl_interface.so.2.2.3: /opt/ros/foxy/lib/liboctomath.so
 ompl_interface/libmoveit_ompl_interface.so.2.2.3: /opt/ros/foxy/lib/librclcpp.so
 ompl_interface/libmoveit_ompl_interface.so.2.2.3: /opt/ros/foxy/lib/liblibstatistics_collector.so
 ompl_interface/libmoveit_ompl_interface.so.2.2.3: /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_introspection_c.so

@@ -1,0 +1,32 @@
+[0.054s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/warehouse_ros_mongo': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/warehouse_ros_mongo -- -j16 -l16
+[0.370s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.371s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.371s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.372s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.373s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.373s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.374s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.375s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.375s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.517s] CMake Error at CMakeLists.txt:22 (find_package):
+[0.517s]   By not providing "Findwarehouse_ros.cmake" in CMAKE_MODULE_PATH this
+[0.517s]   project has asked CMake to find a package configuration file provided by
+[0.517s]   "warehouse_ros", but CMake did not find one.
+[0.517s] 
+[0.517s]   Could not find a package configuration file provided by "warehouse_ros"
+[0.517s]   with any of the following names:
+[0.517s] 
+[0.518s]     warehouse_rosConfig.cmake
+[0.518s]     warehouse_ros-config.cmake
+[0.519s] 
+[0.519s]   Add the installation prefix of "warehouse_ros" to CMAKE_PREFIX_PATH or set
+[0.519s]   "warehouse_ros_DIR" to a directory containing one of the above files.  If
+[0.519s]   "warehouse_ros" provides a separate development package or SDK, be sure it
+[0.519s]   has been installed.
+[0.519s] 
+[0.519s] 
+[0.520s] -- Configuring incomplete, errors occurred!
+[0.520s] See also "/home/d-lab/workspace/ros_ur_driver/build/warehouse_ros_mongo/CMakeFiles/CMakeOutput.log".
+[0.520s] See also "/home/d-lab/workspace/ros_ur_driver/build/warehouse_ros_mongo/CMakeFiles/CMakeError.log".
+[0.520s] make: *** [Makefile:398: cmake_check_build_system] Error 1
+[0.543s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/build/warehouse_ros_mongo' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/warehouse_ros_mongo -- -j16 -l16

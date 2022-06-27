@@ -1,0 +1,24 @@
+[0.901s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/src/robotiq/robotiq_control': PYTHONPATH=/home/d-lab/workspace/ros_ur_driver/install/robotiq_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/robotiq_control build --build-base /home/d-lab/workspace/ros_ur_driver/build/robotiq_control/build install --prefix /home/d-lab/workspace/ros_ur_driver/install/robotiq_control --record /home/d-lab/workspace/ros_ur_driver/build/robotiq_control/install.log --single-version-externally-managed
+[1.102s] running egg_info
+[1.102s] writing ../../../build/robotiq_control/robotiq_control.egg-info/PKG-INFO
+[1.102s] writing dependency_links to ../../../build/robotiq_control/robotiq_control.egg-info/dependency_links.txt
+[1.102s] writing entry points to ../../../build/robotiq_control/robotiq_control.egg-info/entry_points.txt
+[1.102s] writing requirements to ../../../build/robotiq_control/robotiq_control.egg-info/requires.txt
+[1.102s] writing top-level names to ../../../build/robotiq_control/robotiq_control.egg-info/top_level.txt
+[1.115s] reading manifest file '../../../build/robotiq_control/robotiq_control.egg-info/SOURCES.txt'
+[1.115s] writing manifest file '../../../build/robotiq_control/robotiq_control.egg-info/SOURCES.txt'
+[1.115s] running build
+[1.115s] running build_py
+[1.115s] copying robotiq_control/gripper_controller_node.py -> /home/d-lab/workspace/ros_ur_driver/build/robotiq_control/build/lib/robotiq_control
+[1.115s] running install
+[1.115s] running install_lib
+[1.115s] copying /home/d-lab/workspace/ros_ur_driver/build/robotiq_control/build/lib/robotiq_control/gripper_controller_node.py -> /home/d-lab/workspace/ros_ur_driver/install/robotiq_control/lib/python3.8/site-packages/robotiq_control
+[1.115s] byte-compiling /home/d-lab/workspace/ros_ur_driver/install/robotiq_control/lib/python3.8/site-packages/robotiq_control/gripper_controller_node.py to gripper_controller_node.cpython-38.pyc
+[1.116s] running install_data
+[1.116s] running install_egg_info
+[1.116s] removing '/home/d-lab/workspace/ros_ur_driver/install/robotiq_control/lib/python3.8/site-packages/robotiq_control-0.0.0-py3.8.egg-info' (and everything under it)
+[1.116s] Copying ../../../build/robotiq_control/robotiq_control.egg-info to /home/d-lab/workspace/ros_ur_driver/install/robotiq_control/lib/python3.8/site-packages/robotiq_control-0.0.0-py3.8.egg-info
+[1.116s] running install_scripts
+[1.126s] Installing gripper script to /home/d-lab/workspace/ros_ur_driver/install/robotiq_control/lib/robotiq_control
+[1.126s] writing list of installed files to '/home/d-lab/workspace/ros_ur_driver/build/robotiq_control/install.log'
+[1.152s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/src/robotiq/robotiq_control' returned '0': PYTHONPATH=/home/d-lab/workspace/ros_ur_driver/install/robotiq_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/robotiq_control build --build-base /home/d-lab/workspace/ros_ur_driver/build/robotiq_control/build install --prefix /home/d-lab/workspace/ros_ur_driver/install/robotiq_control --record /home/d-lab/workspace/ros_ur_driver/build/robotiq_control/install.log --single-version-externally-managed

@@ -325,8 +325,6 @@ motion_planning_rviz_plugin/libmoveit_motion_planning_rviz_plugin.so.2.2.3: /opt
 motion_planning_rviz_plugin/libmoveit_motion_planning_rviz_plugin.so.2.2.3: /opt/ros/foxy/lib/libvisualization_msgs__rosidl_typesupport_c.so
 motion_planning_rviz_plugin/libmoveit_motion_planning_rviz_plugin.so.2.2.3: /opt/ros/foxy/lib/libvisualization_msgs__rosidl_typesupport_introspection_cpp.so
 motion_planning_rviz_plugin/libmoveit_motion_planning_rviz_plugin.so.2.2.3: /opt/ros/foxy/lib/libvisualization_msgs__rosidl_typesupport_cpp.so
-motion_planning_rviz_plugin/libmoveit_motion_planning_rviz_plugin.so.2.2.3: /opt/ros/foxy/lib/liboctomap.so
-motion_planning_rviz_plugin/libmoveit_motion_planning_rviz_plugin.so.2.2.3: /opt/ros/foxy/lib/liboctomath.so
 motion_planning_rviz_plugin/libmoveit_motion_planning_rviz_plugin.so.2.2.3: /opt/ros/foxy/lib/librandom_numbers.so
 motion_planning_rviz_plugin/libmoveit_motion_planning_rviz_plugin.so.2.2.3: /opt/ros/foxy/lib/x86_64-linux-gnu/libconsole_bridge.so.1.0
 motion_planning_rviz_plugin/libmoveit_motion_planning_rviz_plugin.so.2.2.3: /opt/ros/foxy/lib/libresource_retriever.so
@@ -361,6 +359,8 @@ motion_planning_rviz_plugin/libmoveit_motion_planning_rviz_plugin.so.2.2.3: /opt
 motion_planning_rviz_plugin/libmoveit_motion_planning_rviz_plugin.so.2.2.3: /opt/ros/foxy/lib/librosidl_runtime_c.so
 motion_planning_rviz_plugin/libmoveit_motion_planning_rviz_plugin.so.2.2.3: /opt/ros/foxy/lib/librcutils.so
 motion_planning_rviz_plugin/libmoveit_motion_planning_rviz_plugin.so.2.2.3: /usr/lib/x86_64-linux-gnu/libqhull_r.so
+motion_planning_rviz_plugin/libmoveit_motion_planning_rviz_plugin.so.2.2.3: /opt/ros/foxy/lib/liboctomap.so
+motion_planning_rviz_plugin/libmoveit_motion_planning_rviz_plugin.so.2.2.3: /opt/ros/foxy/lib/liboctomath.so
 motion_planning_rviz_plugin/libmoveit_motion_planning_rviz_plugin.so.2.2.3: motion_planning_rviz_plugin/CMakeFiles/moveit_motion_planning_rviz_plugin.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/d-lab/workspace/ros_ur_driver/build/moveit_ros_visualization/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library libmoveit_motion_planning_rviz_plugin.so"
 	cd /home/d-lab/workspace/ros_ur_driver/build/moveit_ros_visualization/motion_planning_rviz_plugin && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/moveit_motion_planning_rviz_plugin.dir/link.txt --verbose=$(VERBOSE)

@@ -1,0 +1,85 @@
+[0.252s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/control_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes:/opt/ros/foxy /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/control_msgs -- -j16 -l16
+[1.531s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.531s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.532s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.532s] -- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)
+[1.532s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.532s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.799s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.887s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.967s] -- Found action_msgs: 1.0.0 (/opt/ros/foxy/share/action_msgs/cmake)
+[2.223s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[2.582s] -- Found trajectory_msgs: 2.0.5 (/opt/ros/foxy/share/trajectory_msgs/cmake)
+[3.082s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.416s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[5.021s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[6.443s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.291s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.779s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[7.779s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[7.995s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[8.015s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[8.015s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[9.293s] -- Added test 'copyright' to check source files copyright and LICENSE
+[9.308s] -- Added test 'lint_cmake' to check CMake code style
+[9.315s] -- Added test 'xmllint' to check XML markup files
+[9.355s] -- Configuring done
+[10.164s] -- Generating done
+[10.186s] -- Build files have been written to: /home/d-lab/workspace/ros_ur_driver/build/control_msgs
+[10.591s] [  3%] Built target control_msgs__cpp
+[10.735s] [  6%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_msgs/msg/detail/dynamic_joint_state__functions.c.o[0m
+[10.740s] [  7%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_msgs/msg/detail/joint_controller_state__functions.c.o[0m
+[10.789s] [  8%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_msgs/msg/detail/gripper_command__functions.c.o[0m
+[10.803s] [  9%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_msgs/msg/detail/interface_value__functions.c.o[0m
+[10.841s] [ 11%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_msgs/msg/detail/joint_jog__functions.c.o[0m
+[10.859s] [ 12%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_msgs/msg/detail/joint_tolerance__functions.c.o[0m
+[10.873s] [ 16%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_msgs/msg/detail/pid_state__functions.c.o[0m
+[10.878s] [ 15%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_msgs/msg/detail/joint_trajectory_controller_state__functions.c.o[0m
+[10.938s] [ 19%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_msgs/msg/joint_controller_state__type_support.cpp.o[0m
+[10.939s] [ 20%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_msgs/msg/dynamic_joint_state__type_support.cpp.o[0m
+[10.946s] [ 21%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_msgs/msg/detail/dds_fastrtps/dynamic_joint_state__type_support.cpp.o[0m
+[11.008s] [ 21%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_msgs/msg/gripper_command__type_support.cpp.o[0m
+[11.008s] [ 22%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/control_msgs/msg/detail/dynamic_joint_state__type_support.cpp.o[0m
+[11.035s] [ 23%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_msgs/msg/interface_value__type_support.cpp.o[0m
+[11.089s] [ 24%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_msgs/msg/detail/dds_fastrtps/gripper_command__type_support.cpp.o[0m
+[11.103s] [ 24%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_msgs/msg/detail/dds_fastrtps/joint_tolerance__type_support.cpp.o[0m
+[11.217s] [ 25%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_msgs/srv/detail/query_trajectory_state__functions.c.o[0m
+[11.224s] [ 36%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_msgs/srv/detail/query_calibration_state__functions.c.o[0m
+[11.286s] [ 53%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/control_msgs/msg/detail/interface_value__type_support.cpp.o[0m
+[11.300s] [ 53%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_msgs/action/detail/follow_joint_trajectory__functions.c.o[0m
+[11.327s] [ 54%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_msgs/action/detail/gripper_command__functions.c.o[0m
+[11.399s] [ 55%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_msgs/msg/detail/dds_fastrtps/joint_trajectory_controller_state__type_support.cpp.o[0m
+[11.407s] [ 55%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/control_msgs/msg/detail/gripper_command__type_support.cpp.o[0m
+[11.504s] [ 56%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_msgs/action/detail/joint_trajectory__functions.c.o[0m
+[11.566s] [ 56%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_msgs/msg/joint_jog__type_support.cpp.o[0m
+[11.678s] [ 56%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/control_msgs/msg/detail/joint_controller_state__type_support.cpp.o[0m
+[11.788s] [ 66%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_msgs/action/detail/point_head__functions.c.o[0m
+[12.016s] [ 66%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/control_msgs/msg/detail/joint_jog__type_support.cpp.o[0m
+[12.109s] [ 66%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_msgs/action/detail/single_joint_position__functions.c.o[0m
+[12.135s] [ 66%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_msgs/msg/joint_tolerance__type_support.cpp.o[0m
+[12.170s] [ 66%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/control_msgs/msg/detail/joint_tolerance__type_support.cpp.o[0m
+[12.337s] make[2]: *** [CMakeFiles/control_msgs__rosidl_typesupport_cpp.dir/build.make:212: CMakeFiles/control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_msgs/msg/gripper_command__type_support.cpp.o] Interrupt
+[12.337s] make[2]: *** [CMakeFiles/control_msgs__rosidl_typesupport_cpp.dir/build.make:251: CMakeFiles/control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_msgs/msg/joint_jog__type_support.cpp.o] Interrupt
+[12.337s] make[2]: *** [CMakeFiles/control_msgs__rosidl_generator_c.dir/build.make:568: CMakeFiles/control_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_msgs/action/detail/single_joint_position__functions.c.o] Interrupt
+[12.337s] make[2]: *** wait: No child processes.  Stop.
+[12.337s] make[2]: *** Waiting for unfinished jobs....
+[12.347s] make[2]: *** wait: No child processes.  Stop.
+[12.348s] make[1]: *** [CMakeFiles/Makefile2:445: CMakeFiles/control_msgs__rosidl_generator_c.dir/all] Error 2
+[12.348s] make[2]: *** [CMakeFiles/control_msgs__rosidl_typesupport_cpp.dir/build.make:225: CMakeFiles/control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_msgs/msg/interface_value__type_support.cpp.o] Interrupt
+[12.348s] make[2]: *** [CMakeFiles/control_msgs__rosidl_typesupport_introspection_cpp.dir/build.make:259: CMakeFiles/control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/control_msgs/msg/detail/gripper_command__type_support.cpp.o] Interrupt
+[12.348s] make[2]: *** [CMakeFiles/control_msgs__rosidl_typesupport_introspection_cpp.dir/build.make:298: CMakeFiles/control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/control_msgs/msg/detail/joint_jog__type_support.cpp.o] Interrupt
+[12.348s] make[2]: *** [CMakeFiles/control_msgs__rosidl_typesupport_introspection_cpp.dir/build.make:311: CMakeFiles/control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/control_msgs/msg/detail/joint_tolerance__type_support.cpp.o] Interrupt
+[12.348s] make[2]: *** Deleting file 'CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_msgs/msg/detail/dds_fastrtps/joint_tolerance__type_support.cpp.o'
+[12.348s] make[2]: *** [CMakeFiles/control_msgs__rosidl_typesupport_introspection_cpp.dir/build.make:285: CMakeFiles/control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/control_msgs/msg/detail/joint_controller_state__type_support.cpp.o] Interrupt
+[12.348s] make[2]: *** [CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make:246: CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_msgs/msg/detail/dds_fastrtps/dynamic_joint_state__type_support.cpp.o] Interrupt
+[12.348s] make[2]: *** [CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make:324: CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_msgs/msg/detail/dds_fastrtps/joint_trajectory_controller_state__type_support.cpp.o] Interrupt
+[12.348s] make[1]: *** [CMakeFiles/Makefile2:499: CMakeFiles/control_msgs__rosidl_typesupport_introspection_cpp.dir/all] Interrupt
+[12.348s] make[2]: *** [CMakeFiles/control_msgs__rosidl_typesupport_cpp.dir/build.make:264: CMakeFiles/control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_msgs/msg/joint_tolerance__type_support.cpp.o] Interrupt
+[12.348s] make[2]: *** [CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make:311: CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_msgs/msg/detail/dds_fastrtps/joint_tolerance__type_support.cpp.o] Interrupt
+[12.348s] make[2]: *** [CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make:259: CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_msgs/msg/detail/dds_fastrtps/gripper_command__type_support.cpp.o] Interrupt
+[12.349s] make[2]: *** [CMakeFiles/control_msgs__rosidl_typesupport_cpp.dir/build.make:199: CMakeFiles/control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_msgs/msg/dynamic_joint_state__type_support.cpp.o] Interrupt
+[12.349s] make[1]: *** [CMakeFiles/Makefile2:526: CMakeFiles/control_msgs__rosidl_typesupport_cpp.dir/all] Interrupt
+[12.349s] make[2]: *** [CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make:336: CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_msgs/msg/detail/dds_fastrtps/pid_state__type_support.cpp.o] Interrupt
+[12.349s] make[1]: *** [CMakeFiles/Makefile2:391: CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_cpp.dir/all] Interrupt
+[12.349s] make: *** [Makefile:141: all] Interrupt
+[12.383s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/build/control_msgs' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes:/opt/ros/foxy /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/control_msgs -- -j16 -l16

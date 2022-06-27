@@ -1,0 +1,16 @@
+[  9%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/srdfdom.dir/src/srdf_writer.cpp.o[0m
+[ 27%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/srdfdom.dir/src/model.cpp.o[0m
+[ 45%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 45%] Built target gtest_main
+make[2]: *** [gtest/CMakeFiles/gtest.dir/build.make:63: gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o] Interrupt
+make[2]: *** [CMakeFiles/srdfdom.dir/build.make:63: CMakeFiles/srdfdom.dir/src/model.cpp.o] Interrupt
+make[2]: *** wait: No child processes.  Stop.
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** wait: No child processes.  Stop.
+make[1]: *** [CMakeFiles/Makefile2:188: CMakeFiles/srdfdom.dir/all] Error 2
+make[1]: *** wait: No child processes.  Stop.
+make[1]: *** Waiting for unfinished jobs....
+make[1]: *** wait: No child processes.  Stop.
+make: *** [Makefile:141: all] Error 2

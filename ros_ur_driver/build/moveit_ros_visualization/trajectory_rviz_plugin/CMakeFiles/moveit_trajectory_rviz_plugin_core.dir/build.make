@@ -350,8 +350,6 @@ trajectory_rviz_plugin/libmoveit_trajectory_rviz_plugin_core.so.2.2.3: /opt/ros/
 trajectory_rviz_plugin/libmoveit_trajectory_rviz_plugin_core.so.2.2.3: /opt/ros/foxy/lib/librcpputils.so
 trajectory_rviz_plugin/libmoveit_trajectory_rviz_plugin_core.so.2.2.3: /opt/ros/foxy/lib/librosidl_runtime_c.so
 trajectory_rviz_plugin/libmoveit_trajectory_rviz_plugin_core.so.2.2.3: /opt/ros/foxy/lib/librcutils.so
-trajectory_rviz_plugin/libmoveit_trajectory_rviz_plugin_core.so.2.2.3: /opt/ros/foxy/lib/liboctomap.so
-trajectory_rviz_plugin/libmoveit_trajectory_rviz_plugin_core.so.2.2.3: /opt/ros/foxy/lib/liboctomath.so
 trajectory_rviz_plugin/libmoveit_trajectory_rviz_plugin_core.so.2.2.3: /opt/ros/foxy/lib/librandom_numbers.so
 trajectory_rviz_plugin/libmoveit_trajectory_rviz_plugin_core.so.2.2.3: /opt/ros/foxy/lib/libresource_retriever.so
 trajectory_rviz_plugin/libmoveit_trajectory_rviz_plugin_core.so.2.2.3: /opt/ros/foxy/lib/libament_index_cpp.so
@@ -359,6 +357,8 @@ trajectory_rviz_plugin/libmoveit_trajectory_rviz_plugin_core.so.2.2.3: /usr/lib/
 trajectory_rviz_plugin/libmoveit_trajectory_rviz_plugin_core.so.2.2.3: /usr/lib/x86_64-linux-gnu/libassimp.so.5
 trajectory_rviz_plugin/libmoveit_trajectory_rviz_plugin_core.so.2.2.3: /opt/ros/foxy/lib/x86_64-linux-gnu/libconsole_bridge.so.1.0
 trajectory_rviz_plugin/libmoveit_trajectory_rviz_plugin_core.so.2.2.3: /usr/lib/x86_64-linux-gnu/libqhull_r.so
+trajectory_rviz_plugin/libmoveit_trajectory_rviz_plugin_core.so.2.2.3: /opt/ros/foxy/lib/liboctomap.so
+trajectory_rviz_plugin/libmoveit_trajectory_rviz_plugin_core.so.2.2.3: /opt/ros/foxy/lib/liboctomath.so
 trajectory_rviz_plugin/libmoveit_trajectory_rviz_plugin_core.so.2.2.3: trajectory_rviz_plugin/CMakeFiles/moveit_trajectory_rviz_plugin_core.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/d-lab/workspace/ros_ur_driver/build/moveit_ros_visualization/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library libmoveit_trajectory_rviz_plugin_core.so"
 	cd /home/d-lab/workspace/ros_ur_driver/build/moveit_ros_visualization/trajectory_rviz_plugin && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/moveit_trajectory_rviz_plugin_core.dir/link.txt --verbose=$(VERBOSE)

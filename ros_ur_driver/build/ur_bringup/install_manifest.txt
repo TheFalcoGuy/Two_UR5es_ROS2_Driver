@@ -1,5 +1,6 @@
 /home/d-lab/workspace/ros_ur_driver/install/ur_bringup/share/ur_bringup/config/left_controller.yaml
 /home/d-lab/workspace/ros_ur_driver/install/ur_bringup/share/ur_bringup/config/ur_controllers.yaml
+/home/d-lab/workspace/ros_ur_driver/install/ur_bringup/share/ur_bringup/config/ur_robotiq_controllers.yaml
 /home/d-lab/workspace/ros_ur_driver/install/ur_bringup/share/ur_bringup/config/test_goal_publishers_config.yaml
 /home/d-lab/workspace/ros_ur_driver/install/ur_bringup/share/ur_bringup/config/right_controller.yaml
 /home/d-lab/workspace/ros_ur_driver/install/ur_bringup/share/ur_bringup/launch/test_scaled_joint_trajectory_controller.launch.py

@@ -1,0 +1,92 @@
+[0.027s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/moveit_ros_warehouse': AMENT_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/moveit_ros_planning:/home/d-lab/workspace/ros_ur_driver/install/moveit_ros_occupancy_map_monitor:/home/d-lab/workspace/ros_ur_driver/install/moveit_core:/home/d-lab/workspace/ros_ur_driver/install/srdfdom:/home/d-lab/workspace/ros_ur_driver/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/moveit_ros_planning:/home/d-lab/workspace/ros_ur_driver/install/moveit_ros_occupancy_map_monitor:/home/d-lab/workspace/ros_ur_driver/install/moveit_core:/home/d-lab/workspace/ros_ur_driver/install/srdfdom:/home/d-lab/workspace/ros_ur_driver/install/moveit_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/d-lab/workspace/ros_ur_driver/install/moveit_ros_planning/lib:/home/d-lab/workspace/ros_ur_driver/install/moveit_ros_occupancy_map_monitor/lib:/home/d-lab/workspace/ros_ur_driver/install/moveit_core/lib:/home/d-lab/workspace/ros_ur_driver/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/d-lab/workspace/ros_ur_driver/install/moveit_core/bin:${PATH} PYTHONPATH=/home/d-lab/workspace/ros_ur_driver/install/srdfdom/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/moveit_ros_warehouse -- -j16 -l16
+[0.047s] -- Found moveit_common: 2.2.3 (/home/d-lab/workspace/ros_ur_driver/install/moveit_common/share/moveit_common/cmake)
+[0.047s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.065s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.238s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.264s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.267s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.365s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.402s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.403s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.511s] -- Found moveit_core: 2.2.3 (/home/d-lab/workspace/ros_ur_driver/install/moveit_core/share/moveit_core/cmake)
+[0.523s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[0.535s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: filesystem 
+[0.597s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[2.030s] -- Found warehouse_ros: 2.0.3 (/opt/ros/foxy/share/warehouse_ros/cmake)
+[2.053s] -- Found moveit_ros_planning: 2.2.3 (/home/d-lab/workspace/ros_ur_driver/install/moveit_ros_planning/share/moveit_ros_planning/cmake)
+[2.057s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system filesystem date_time program_options thread chrono 
+[2.254s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: thread 
+[2.714s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: thread system filesystem regex date_time program_options 
+[2.733s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.738s] -- Added test 'lint_cmake' to check CMake code style
+[2.738s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[2.738s] -- Added test 'xmllint' to check XML markup files
+[2.742s] -- Configuring done
+[2.912s] -- Generating done
+[2.915s] -- Build files have been written to: /home/d-lab/workspace/ros_ur_driver/build/moveit_ros_warehouse
+[2.973s] [  5%] [32m[1mLinking CXX shared library libmoveit_warehouse.so[0m
+[3.523s] [ 40%] Built target moveit_warehouse
+[3.568s] [ 45%] [32m[1mLinking CXX executable moveit_warehouse_broadcast[0m
+[3.569s] [ 50%] [32m[1mLinking CXX executable moveit_warehouse_services[0m
+[3.573s] [ 55%] [32m[1mLinking CXX executable moveit_init_demo_warehouse[0m
+[3.575s] [ 60%] [32m[1mLinking CXX executable moveit_save_to_warehouse[0m
+[3.575s] [ 65%] [32m[1mLinking CXX executable moveit_warehouse_import_from_text[0m
+[3.583s] [ 70%] [32m[1mLinking CXX executable moveit_warehouse_save_as_text[0m
+[3.915s] [ 75%] Built target moveit_warehouse_broadcast
+[3.954s] [ 80%] Built target moveit_warehouse_services
+[4.074s] [ 85%] Built target moveit_init_demo_warehouse
+[4.105s] [ 90%] Built target moveit_warehouse_save_as_text
+[4.110s] [ 95%] Built target moveit_warehouse_import_from_text
+[4.179s] [100%] Built target moveit_save_to_warehouse
+[4.193s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/build/moveit_ros_warehouse' returned '0': AMENT_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/moveit_ros_planning:/home/d-lab/workspace/ros_ur_driver/install/moveit_ros_occupancy_map_monitor:/home/d-lab/workspace/ros_ur_driver/install/moveit_core:/home/d-lab/workspace/ros_ur_driver/install/srdfdom:/home/d-lab/workspace/ros_ur_driver/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/moveit_ros_planning:/home/d-lab/workspace/ros_ur_driver/install/moveit_ros_occupancy_map_monitor:/home/d-lab/workspace/ros_ur_driver/install/moveit_core:/home/d-lab/workspace/ros_ur_driver/install/srdfdom:/home/d-lab/workspace/ros_ur_driver/install/moveit_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/d-lab/workspace/ros_ur_driver/install/moveit_ros_planning/lib:/home/d-lab/workspace/ros_ur_driver/install/moveit_ros_occupancy_map_monitor/lib:/home/d-lab/workspace/ros_ur_driver/install/moveit_core/lib:/home/d-lab/workspace/ros_ur_driver/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/d-lab/workspace/ros_ur_driver/install/moveit_core/bin:${PATH} PYTHONPATH=/home/d-lab/workspace/ros_ur_driver/install/srdfdom/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/moveit_ros_warehouse -- -j16 -l16
+[4.226s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/moveit_ros_warehouse': AMENT_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/moveit_ros_planning:/home/d-lab/workspace/ros_ur_driver/install/moveit_ros_occupancy_map_monitor:/home/d-lab/workspace/ros_ur_driver/install/moveit_core:/home/d-lab/workspace/ros_ur_driver/install/srdfdom:/home/d-lab/workspace/ros_ur_driver/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/moveit_ros_planning:/home/d-lab/workspace/ros_ur_driver/install/moveit_ros_occupancy_map_monitor:/home/d-lab/workspace/ros_ur_driver/install/moveit_core:/home/d-lab/workspace/ros_ur_driver/install/srdfdom:/home/d-lab/workspace/ros_ur_driver/install/moveit_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/d-lab/workspace/ros_ur_driver/install/moveit_ros_planning/lib:/home/d-lab/workspace/ros_ur_driver/install/moveit_ros_occupancy_map_monitor/lib:/home/d-lab/workspace/ros_ur_driver/install/moveit_core/lib:/home/d-lab/workspace/ros_ur_driver/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/d-lab/workspace/ros_ur_driver/install/moveit_core/bin:${PATH} PYTHONPATH=/home/d-lab/workspace/ros_ur_driver/install/srdfdom/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/d-lab/workspace/ros_ur_driver/build/moveit_ros_warehouse
+[4.241s] -- Install configuration: "Release"
+[4.241s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/moveit_ros_warehouse/lib/libmoveit_warehouse.so.2.2.3
+[4.243s] -- Set runtime path of "/home/d-lab/workspace/ros_ur_driver/install/moveit_ros_warehouse/lib/libmoveit_warehouse.so.2.2.3" to ""
+[4.243s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/moveit_ros_warehouse/lib/libmoveit_warehouse.so
+[4.243s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/moveit_ros_warehouse/share/moveit_ros_warehouse/environment/library_path.sh
+[4.243s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/moveit_ros_warehouse/share/moveit_ros_warehouse/environment/library_path.dsv
+[4.243s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/moveit_ros_warehouse/share/ament_index/resource_index/package_run_dependencies/moveit_ros_warehouse
+[4.243s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/moveit_ros_warehouse/share/ament_index/resource_index/parent_prefix_path/moveit_ros_warehouse
+[4.244s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/moveit_ros_warehouse/share/moveit_ros_warehouse/environment/ament_prefix_path.sh
+[4.244s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/moveit_ros_warehouse/share/moveit_ros_warehouse/environment/ament_prefix_path.dsv
+[4.244s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/moveit_ros_warehouse/share/moveit_ros_warehouse/environment/path.sh
+[4.244s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/moveit_ros_warehouse/share/moveit_ros_warehouse/environment/path.dsv
+[4.244s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/moveit_ros_warehouse/share/moveit_ros_warehouse/local_setup.bash
+[4.244s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/moveit_ros_warehouse/share/moveit_ros_warehouse/local_setup.sh
+[4.245s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/moveit_ros_warehouse/share/moveit_ros_warehouse/local_setup.zsh
+[4.245s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/moveit_ros_warehouse/share/moveit_ros_warehouse/local_setup.dsv
+[4.245s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/moveit_ros_warehouse/share/moveit_ros_warehouse/package.dsv
+[4.245s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/moveit_ros_warehouse/share/ament_index/resource_index/packages/moveit_ros_warehouse
+[4.245s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/export_moveit_ros_warehouseExport.cmake
+[4.245s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/export_moveit_ros_warehouseExport-release.cmake
+[4.245s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/ConfigExtras.cmake
+[4.245s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/ament_cmake_export_targets-extras.cmake
+[4.245s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.245s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/moveit_ros_warehouseConfig.cmake
+[4.246s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/moveit_ros_warehouseConfig-version.cmake
+[4.246s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/moveit_ros_warehouse/share/moveit_ros_warehouse/package.xml
+[4.246s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_save_to_warehouse
+[4.248s] -- Set runtime path of "/home/d-lab/workspace/ros_ur_driver/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_save_to_warehouse" to ""
+[4.248s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_broadcast
+[4.249s] -- Set runtime path of "/home/d-lab/workspace/ros_ur_driver/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_broadcast" to ""
+[4.250s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_import_from_text
+[4.250s] -- Set runtime path of "/home/d-lab/workspace/ros_ur_driver/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_import_from_text" to ""
+[4.250s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_save_as_text
+[4.251s] -- Set runtime path of "/home/d-lab/workspace/ros_ur_driver/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_save_as_text" to ""
+[4.252s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_init_demo_warehouse
+[4.252s] -- Set runtime path of "/home/d-lab/workspace/ros_ur_driver/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_init_demo_warehouse" to ""
+[4.252s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_services
+[4.253s] -- Set runtime path of "/home/d-lab/workspace/ros_ur_driver/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_services" to ""
+[4.253s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/moveit_ros_warehouse/include
+[4.253s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/moveit_ros_warehouse/include/moveit
+[4.253s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/moveit_ros_warehouse/include/moveit/warehouse
+[4.253s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/moveit_ros_warehouse/include/moveit/warehouse/state_storage.h
+[4.253s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/moveit_ros_warehouse/include/moveit/warehouse/moveit_message_storage.h
+[4.254s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/moveit_ros_warehouse/include/moveit/warehouse/constraints_storage.h
+[4.254s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/moveit_ros_warehouse/include/moveit/warehouse/planning_scene_storage.h
+[4.254s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/moveit_ros_warehouse/include/moveit/warehouse/planning_scene_world_storage.h
+[4.254s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/moveit_ros_warehouse/include/moveit/warehouse/trajectory_constraints_storage.h
+[4.254s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/moveit_ros_warehouse/include/moveit/warehouse/warehouse_connector.h
+[4.254s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/moveit_ros_warehouse/include/moveit_warehouse_export.h
+[4.260s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/build/moveit_ros_warehouse' returned '0': AMENT_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/moveit_ros_planning:/home/d-lab/workspace/ros_ur_driver/install/moveit_ros_occupancy_map_monitor:/home/d-lab/workspace/ros_ur_driver/install/moveit_core:/home/d-lab/workspace/ros_ur_driver/install/srdfdom:/home/d-lab/workspace/ros_ur_driver/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/moveit_ros_planning:/home/d-lab/workspace/ros_ur_driver/install/moveit_ros_occupancy_map_monitor:/home/d-lab/workspace/ros_ur_driver/install/moveit_core:/home/d-lab/workspace/ros_ur_driver/install/srdfdom:/home/d-lab/workspace/ros_ur_driver/install/moveit_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/d-lab/workspace/ros_ur_driver/install/moveit_ros_planning/lib:/home/d-lab/workspace/ros_ur_driver/install/moveit_ros_occupancy_map_monitor/lib:/home/d-lab/workspace/ros_ur_driver/install/moveit_core/lib:/home/d-lab/workspace/ros_ur_driver/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/d-lab/workspace/ros_ur_driver/install/moveit_core/bin:${PATH} PYTHONPATH=/home/d-lab/workspace/ros_ur_driver/install/srdfdom/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/d-lab/workspace/ros_ur_driver/build/moveit_ros_warehouse

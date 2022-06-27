@@ -1,0 +1,20 @@
+[0.760s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/src/utils': PYTHONPATH=/home/d-lab/workspace/ros_ur_driver/install/utils/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/utils build --build-base /home/d-lab/workspace/ros_ur_driver/build/utils/build install --prefix /home/d-lab/workspace/ros_ur_driver/install/utils --record /home/d-lab/workspace/ros_ur_driver/build/utils/install.log --single-version-externally-managed
+[0.829s] running egg_info
+[0.830s] writing ../../build/utils/utils.egg-info/PKG-INFO
+[0.830s] writing dependency_links to ../../build/utils/utils.egg-info/dependency_links.txt
+[0.832s] writing entry points to ../../build/utils/utils.egg-info/entry_points.txt
+[0.833s] writing requirements to ../../build/utils/utils.egg-info/requires.txt
+[0.833s] writing top-level names to ../../build/utils/utils.egg-info/top_level.txt
+[0.859s] reading manifest file '../../build/utils/utils.egg-info/SOURCES.txt'
+[0.859s] writing manifest file '../../build/utils/utils.egg-info/SOURCES.txt'
+[0.860s] running build
+[0.860s] running build_py
+[0.860s] running install
+[0.861s] running install_lib
+[0.861s] running install_data
+[0.861s] running install_egg_info
+[0.863s] removing '/home/d-lab/workspace/ros_ur_driver/install/utils/lib/python3.8/site-packages/utils-0.0.0-py3.8.egg-info' (and everything under it)
+[0.863s] Copying ../../build/utils/utils.egg-info to /home/d-lab/workspace/ros_ur_driver/install/utils/lib/python3.8/site-packages/utils-0.0.0-py3.8.egg-info
+[0.863s] running install_scripts
+[0.874s] writing list of installed files to '/home/d-lab/workspace/ros_ur_driver/build/utils/install.log'
+[0.893s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/src/utils' returned '0': PYTHONPATH=/home/d-lab/workspace/ros_ur_driver/install/utils/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/utils build --build-base /home/d-lab/workspace/ros_ur_driver/build/utils/build install --prefix /home/d-lab/workspace/ros_ur_driver/install/utils --record /home/d-lab/workspace/ros_ur_driver/build/utils/install.log --single-version-externally-managed

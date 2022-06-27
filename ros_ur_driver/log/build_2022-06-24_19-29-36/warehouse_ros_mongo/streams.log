@@ -1,0 +1,18 @@
+[0.245s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/warehouse_ros_mongo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes:/opt/ros/foxy /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/warehouse_ros_mongo -- -j16 -l16
+[1.568s] [ 10%] [32mBuilding CXX object CMakeFiles/warehouse_ros_mongo.dir/src/query_results.cpp.o[0m
+[1.568s] [ 20%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[1.568s] [ 30%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[1.568s] [ 40%] [32mBuilding CXX object CMakeFiles/warehouse_ros_mongo.dir/src/message_collection.cpp.o[0m
+[1.568s] [ 10%] [32mBuilding CXX object CMakeFiles/warehouse_ros_mongo.dir/src/database_connection.cpp.o[0m
+[4.288s] [ 60%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[4.617s] [ 60%] Built target gtest_main
+[12.216s] make[2]: *** [gtest/CMakeFiles/gtest.dir/build.make:63: gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o] Interrupt
+[12.217s] make[1]: *** [CMakeFiles/Makefile2:238: gtest/CMakeFiles/gtest.dir/all] Interrupt
+[12.245s] make[2]: *** [CMakeFiles/warehouse_ros_mongo.dir/build.make:76: CMakeFiles/warehouse_ros_mongo.dir/src/message_collection.cpp.o] Interrupt
+[12.245s] make[2]: *** [CMakeFiles/warehouse_ros_mongo.dir/build.make:89: CMakeFiles/warehouse_ros_mongo.dir/src/database_connection.cpp.o] Interrupt
+[12.245s] make[2]: *** wait: No child processes.  Stop.
+[12.245s] make[2]: *** Waiting for unfinished jobs....
+[12.245s] make[2]: *** wait: No child processes.  Stop.
+[12.245s] make[1]: *** [CMakeFiles/Makefile2:130: CMakeFiles/warehouse_ros_mongo.dir/all] Error 2
+[12.245s] make: *** [Makefile:141: all] Interrupt
+[12.309s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/build/warehouse_ros_mongo' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes:/opt/ros/foxy /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/warehouse_ros_mongo -- -j16 -l16

@@ -1,0 +1,45 @@
+[0.076s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/warehouse_ros_mongo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes:/opt/ros/foxy /usr/bin/cmake /home/d-lab/workspace/ros_ur_driver/src/warehouse_ros_mongo -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/d-lab/workspace/ros_ur_driver/install/warehouse_ros_mongo
+[0.263s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.263s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.263s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.263s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.263s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.263s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.393s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.454s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.460s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.670s] -- Found warehouse_ros: 2.0.3 (/opt/ros/foxy/share/warehouse_ros/cmake)
+[1.357s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[1.426s] -- Found MONGODB: /usr/include, /usr/lib/x86_64-linux-gnu/libmongoclient.so
+[1.427s] -- MONGODB using new interface: YES
+[1.427s] -- Found rclpy: 1.0.8 (/opt/ros/foxy/share/rclpy/cmake)
+[1.453s] -- Found launch_testing_ament_cmake: 0.10.8 (/opt/ros/foxy/share/launch_testing_ament_cmake/cmake)
+[1.453s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[1.525s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[1.527s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.527s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[1.527s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[1.529s] -- Found ament_cmake_gtest: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[1.530s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.534s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.750s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.756s] -- Configuring done
+[1.809s] -- Generating done
+[1.812s] -- Build files have been written to: /home/d-lab/workspace/ros_ur_driver/build/warehouse_ros_mongo
+[1.839s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/build/warehouse_ros_mongo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes:/opt/ros/foxy /usr/bin/cmake /home/d-lab/workspace/ros_ur_driver/src/warehouse_ros_mongo -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/d-lab/workspace/ros_ur_driver/install/warehouse_ros_mongo
+[1.840s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/warehouse_ros_mongo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes:/opt/ros/foxy /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/warehouse_ros_mongo -- -j16 -l16
+[2.212s] [ 20%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[2.270s] [ 30%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[2.408s] [ 40%] [32mBuilding CXX object CMakeFiles/warehouse_ros_mongo.dir/src/query_results.cpp.o[0m
+[2.465s] [ 50%] [32mBuilding CXX object CMakeFiles/warehouse_ros_mongo.dir/src/message_collection.cpp.o[0m
+[2.494s] [ 50%] [32mBuilding CXX object CMakeFiles/warehouse_ros_mongo.dir/src/database_connection.cpp.o[0m
+[6.996s] [ 60%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[7.427s] [ 60%] Built target gtest_main
+[17.264s] [ 70%] [32m[1mLinking CXX shared library libwarehouse_ros_mongo.so[0m
+[17.324s] [ 80%] [32m[1mLinking CXX static library libgtest.a[0m
+[17.373s] [ 80%] Built target gtest
+[17.375s] [ 80%] Built target warehouse_ros_mongo
+[17.402s] [ 90%] [32mBuilding CXX object CMakeFiles/test_warehouse_ros_mongo_cpp.dir/test/test_warehouse_ros_mongo.cpp.o[0m
+[18.787s] make[2]: *** [CMakeFiles/test_warehouse_ros_mongo_cpp.dir/build.make:63: CMakeFiles/test_warehouse_ros_mongo_cpp.dir/test/test_warehouse_ros_mongo.cpp.o] Interrupt
+[18.787s] make[1]: *** [CMakeFiles/Makefile2:103: CMakeFiles/test_warehouse_ros_mongo_cpp.dir/all] Interrupt
+[18.787s] make: *** [Makefile:141: all] Interrupt

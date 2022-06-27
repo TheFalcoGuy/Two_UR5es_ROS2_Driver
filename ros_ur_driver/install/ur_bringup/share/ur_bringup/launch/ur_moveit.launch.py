@@ -87,6 +87,8 @@ def generate_launch_description():
             description="URDF/XACRO description file with the robot.",
         )
     )
+    conf_pack = "ur_moveit_config"
+    # conf_pack = "ur5_robotiq_moveit_config"
     declared_arguments.append(
         DeclareLaunchArgument(
             "moveit_config_package",
@@ -95,6 +97,8 @@ def generate_launch_description():
         is not set, it enables use of a custom moveit config.",
         )
     )
+    conf_file = "ur.srdf.xacro"
+    # conf_file = "ur5_2f.srdf.xacro"
     declared_arguments.append(
         DeclareLaunchArgument(
             "moveit_config_file",

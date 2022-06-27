@@ -15,5 +15,5 @@
 /home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes/lib/python3.8/site-packages/ros2_control_test_nodes-0.0.1-py3.8.egg-info/requires.txt
 /home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes/lib/python3.8/site-packages/ros2_control_test_nodes-0.0.1-py3.8.egg-info/dependency_links.txt
 /home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes/lib/python3.8/site-packages/ros2_control_test_nodes-0.0.1-py3.8.egg-info/SOURCES.txt
-/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes/lib/ros2_control_test_nodes/publisher_forward_position_controller
-/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes/lib/ros2_control_test_nodes/publisher_joint_trajectory_controller
+/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes/bin/publisher_forward_position_controller
+/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes/bin/publisher_joint_trajectory_controller

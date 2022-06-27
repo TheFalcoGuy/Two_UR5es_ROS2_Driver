@@ -207,8 +207,6 @@ plan_execution/libmoveit_plan_execution.so.2.2.3: /opt/ros/foxy/lib/libvisualiza
 plan_execution/libmoveit_plan_execution.so.2.2.3: /opt/ros/foxy/lib/libvisualization_msgs__rosidl_typesupport_c.so
 plan_execution/libmoveit_plan_execution.so.2.2.3: /opt/ros/foxy/lib/libvisualization_msgs__rosidl_typesupport_introspection_cpp.so
 plan_execution/libmoveit_plan_execution.so.2.2.3: /opt/ros/foxy/lib/libvisualization_msgs__rosidl_typesupport_cpp.so
-plan_execution/libmoveit_plan_execution.so.2.2.3: /opt/ros/foxy/lib/liboctomap.so
-plan_execution/libmoveit_plan_execution.so.2.2.3: /opt/ros/foxy/lib/liboctomath.so
 plan_execution/libmoveit_plan_execution.so.2.2.3: /opt/ros/foxy/lib/librandom_numbers.so
 plan_execution/libmoveit_plan_execution.so.2.2.3: /opt/ros/foxy/lib/libshape_msgs__rosidl_typesupport_introspection_c.so
 plan_execution/libmoveit_plan_execution.so.2.2.3: /opt/ros/foxy/lib/libshape_msgs__rosidl_generator_c.so
@@ -219,6 +217,8 @@ plan_execution/libmoveit_plan_execution.so.2.2.3: /opt/ros/foxy/lib/libresource_
 plan_execution/libmoveit_plan_execution.so.2.2.3: /usr/lib/x86_64-linux-gnu/libcurl.so
 plan_execution/libmoveit_plan_execution.so.2.2.3: /usr/lib/x86_64-linux-gnu/libassimp.so.5
 plan_execution/libmoveit_plan_execution.so.2.2.3: /usr/lib/x86_64-linux-gnu/libqhull_r.so
+plan_execution/libmoveit_plan_execution.so.2.2.3: /opt/ros/foxy/lib/liboctomap.so
+plan_execution/libmoveit_plan_execution.so.2.2.3: /opt/ros/foxy/lib/liboctomath.so
 plan_execution/libmoveit_plan_execution.so.2.2.3: /opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so
 plan_execution/libmoveit_plan_execution.so.2.2.3: /opt/ros/foxy/lib/libsensor_msgs__rosidl_generator_c.so
 plan_execution/libmoveit_plan_execution.so.2.2.3: /opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_c.so

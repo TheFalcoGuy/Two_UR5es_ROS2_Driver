@@ -1,0 +1,6 @@
+make[2]: *** [CMakeFiles/urcl.dir/build.make:375: CMakeFiles/urcl.dir/src/rtde/rtde_writer.cpp.o] Interrupt
+make[2]: *** [CMakeFiles/urcl.dir/build.make:310: CMakeFiles/urcl.dir/src/rtde/rtde_client.cpp.o] Interrupt
+make[1]: *** wait: No child processes.  Stop.
+make[1]: *** Waiting for unfinished jobs....
+make[1]: *** wait: No child processes.  Stop.
+make: *** [Makefile:130: all] Error 2

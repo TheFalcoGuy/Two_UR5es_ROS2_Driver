@@ -1,4 +1,0 @@
-[35m[1mScanning dependencies of target ur_robot_driver_plugin[0m
-[ 36%] Built target dashboard_client
-[ 63%] Built target controller_stopper_node
-[ 72%] [32mBuilding CXX object CMakeFiles/ur_robot_driver_plugin.dir/src/hardware_interface.cpp.o[0m

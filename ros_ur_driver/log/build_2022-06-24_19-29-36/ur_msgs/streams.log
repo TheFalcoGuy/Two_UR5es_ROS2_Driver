@@ -1,0 +1,94 @@
+[1.232s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/ur_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes:/opt/ros/foxy /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/ur_msgs -- -j16 -l16
+[1.563s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.564s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.564s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.657s] -- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)
+[1.696s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.702s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.415s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.603s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[2.767s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[3.159s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.601s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[4.612s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[6.003s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.527s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.705s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[6.705s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[6.887s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.887s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[6.887s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[7.887s] -- Added test 'copyright' to check source files copyright and LICENSE
+[7.931s] -- Added test 'lint_cmake' to check CMake code style
+[7.951s] -- Added test 'xmllint' to check XML markup files
+[7.967s] -- Configuring done
+[8.500s] -- Generating done
+[8.521s] -- Build files have been written to: /home/d-lab/workspace/ros_ur_driver/build/ur_msgs
+[8.908s] [ 13%] Built target ur_msgs__cpp
+[8.977s] [ 15%] [32mBuilding C object CMakeFiles/ur_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_msgs/msg/detail/analog__functions.c.o[0m
+[9.021s] [ 28%] [32mBuilding C object CMakeFiles/ur_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_msgs/msg/detail/robot_state_rt_msg__functions.c.o[0m
+[9.033s] [ 29%] [32mBuilding C object CMakeFiles/ur_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_msgs/msg/detail/digital__functions.c.o[0m
+[9.073s] [ 30%] [32mBuilding C object CMakeFiles/ur_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_msgs/msg/detail/io_states__functions.c.o[0m
+[9.112s] [ 31%] [32mBuilding C object CMakeFiles/ur_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_msgs/msg/detail/robot_mode_data_msg__functions.c.o[0m
+[9.123s] [ 32%] [32mBuilding C object CMakeFiles/ur_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_msgs/msg/detail/masterboard_data_msg__functions.c.o[0m
+[9.163s] [ 33%] [32mBuilding C object CMakeFiles/ur_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_msgs/msg/detail/tool_data_msg__functions.c.o[0m
+[9.239s] [ 34%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_msgs/msg/detail/analog__type_support.cpp.o[0m
+[9.274s] [ 35%] [32mBuilding C object CMakeFiles/ur_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_msgs/srv/detail/set_speed_slider_fraction__functions.c.o[0m
+[9.285s] [ 35%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_msgs/msg/detail/robot_mode_data_msg__type_support.cpp.o[0m
+[9.303s] [ 35%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_msgs/msg/detail/masterboard_data_msg__type_support.cpp.o[0m
+[9.305s] [ 35%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_msgs/msg/detail/io_states__type_support.cpp.o[0m
+[9.308s] [ 36%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_msgs/msg/detail/dds_fastrtps/analog__type_support.cpp.o[0m
+[9.339s] [ 36%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_msgs/msg/detail/digital__type_support.cpp.o[0m
+[9.359s] [ 37%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_msgs/msg/detail/dds_fastrtps/digital__type_support.cpp.o[0m
+[9.363s] [ 38%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_msgs/msg/analog__type_support.cpp.o[0m
+[9.373s] [ 39%] [32mBuilding C object CMakeFiles/ur_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_msgs/srv/detail/set_payload__functions.c.o[0m
+[9.523s] [ 49%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_msgs/msg/digital__type_support.cpp.o[0m
+[9.587s] [ 50%] [32mBuilding C object CMakeFiles/ur_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_msgs/srv/detail/set_io__functions.c.o[0m
+[9.592s] [ 50%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_msgs/msg/detail/tool_data_msg__type_support.cpp.o[0m
+[9.604s] [ 51%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_msgs/msg/io_states__type_support.cpp.o[0m
+[9.643s] [ 52%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_msgs/srv/detail/set_payload__type_support.cpp.o[0m
+[9.651s] [ 52%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_msgs/msg/robot_state_rt_msg__type_support.cpp.o[0m
+[9.875s] [ 53%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_msgs/msg/detail/dds_fastrtps/robot_state_rt_msg__type_support.cpp.o[0m
+[9.875s] [ 53%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_msgs/srv/detail/set_speed_slider_fraction__type_support.cpp.o[0m
+[10.065s] [ 54%] [32m[1mLinking C shared library libur_msgs__rosidl_generator_c.so[0m
+[10.573s] [ 56%] Built target ur_msgs__rosidl_generator_c
+[10.867s] [ 62%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_msgs/msg/analog__type_support.cpp.o[0m
+[11.195s] [ 63%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_msgs/srv/detail/set_io__type_support.cpp.o[0m
+[11.196s] [ 63%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_msgs/msg/digital__type_support.cpp.o[0m
+[11.643s] [ 63%] [32mBuilding C object CMakeFiles/ur_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_msgs/msg/detail/analog__type_support.c.o[0m
+[11.643s] [ 63%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_msgs/msg/io_states__type_support.cpp.o[0m
+[11.711s] [ 64%] [32mBuilding C object CMakeFiles/ur_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_msgs/msg/detail/digital__type_support.c.o[0m
+[11.719s] [ 64%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_msgs/msg/detail/dds_fastrtps/masterboard_data_msg__type_support.cpp.o[0m
+[11.719s] [ 70%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_msgs/msg/robot_state_rt_msg__type_support.cpp.o[0m
+[11.741s] [ 70%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_msgs/msg/masterboard_data_msg__type_support.cpp.o[0m
+[11.827s] [ 70%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_msgs/msg/masterboard_data_msg__type_support.cpp.o[0m
+[11.837s] [ 70%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_msgs/msg/tool_data_msg__type_support.cpp.o[0m
+[11.919s] [ 71%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_msgs/msg/robot_mode_data_msg__type_support.cpp.o[0m
+[11.959s] [ 72%] [32mBuilding C object CMakeFiles/ur_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_msgs/msg/detail/io_states__type_support.c.o[0m
+[12.017s] [ 74%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_msgs/srv/set_payload__type_support.cpp.o[0m
+[12.124s] make[2]: *** [CMakeFiles/ur_msgs__rosidl_typesupport_cpp.dir/build.make:222: CMakeFiles/ur_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_msgs/msg/masterboard_data_msg__type_support.cpp.o] Interrupt
+[12.124s] make[2]: *** Deleting file 'CMakeFiles/ur_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_msgs/msg/detail/dds_fastrtps/masterboard_data_msg__type_support.cpp.o'
+[12.132s] make[2]: *** wait: No child processes.  Stop.
+[12.132s] make[2]: *** Waiting for unfinished jobs....
+[12.132s] make[2]: *** wait: No child processes.  Stop.
+[12.132s] make[1]: *** [CMakeFiles/Makefile2:389: CMakeFiles/ur_msgs__rosidl_typesupport_introspection_c.dir/all] Error 2
+[12.132s] make[2]: *** [CMakeFiles/ur_msgs__rosidl_typesupport_c.dir/build.make:235: CMakeFiles/ur_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_msgs/msg/robot_mode_data_msg__type_support.cpp.o] Interrupt
+[12.133s] make[2]: *** [CMakeFiles/ur_msgs__rosidl_typesupport_c.dir/build.make:261: CMakeFiles/ur_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_msgs/srv/set_payload__type_support.cpp.o] Interrupt
+[12.134s] make[2]: *** wait: No child processes.  Stop.
+[12.134s] make[2]: *** Waiting for unfinished jobs....
+[12.134s] make[2]: *** wait: No child processes.  Stop.
+[12.135s] make[1]: *** [CMakeFiles/Makefile2:244: CMakeFiles/ur_msgs__rosidl_typesupport_c.dir/all] Error 2
+[12.144s] make[2]: *** [CMakeFiles/ur_msgs__rosidl_typesupport_introspection_cpp.dir/build.make:228: CMakeFiles/ur_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_msgs/msg/detail/io_states__type_support.cpp.o] Interrupt
+[12.144s] make[2]: *** [CMakeFiles/ur_msgs__rosidl_typesupport_introspection_cpp.dir/build.make:319: CMakeFiles/ur_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_msgs/srv/detail/set_io__type_support.cpp.o] Interrupt
+[12.154s] make[1]: *** [CMakeFiles/Makefile2:526: CMakeFiles/ur_msgs__rosidl_typesupport_introspection_cpp.dir/all] Interrupt
+[12.156s] make[2]: *** [CMakeFiles/ur_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make:254: CMakeFiles/ur_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_msgs/msg/detail/dds_fastrtps/masterboard_data_msg__type_support.cpp.o] Interrupt
+[12.156s] make[2]: *** [CMakeFiles/ur_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make:215: CMakeFiles/ur_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_msgs/msg/detail/dds_fastrtps/digital__type_support.cpp.o] Interrupt
+[12.156s] make[2]: *** wait: No child processes.  Stop.
+[12.156s] make[2]: *** Waiting for unfinished jobs....
+[12.156s] make[2]: *** wait: No child processes.  Stop.
+[12.156s] make[1]: *** [CMakeFiles/Makefile2:362: CMakeFiles/ur_msgs__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2
+[12.156s] make[1]: *** wait: No child processes.  Stop.
+[12.157s] make[1]: *** Waiting for unfinished jobs....
+[12.157s] make[1]: *** wait: No child processes.  Stop.
+[12.157s] make: *** [Makefile:141: all] Error 2
+[12.169s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/build/ur_msgs' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes:/opt/ros/foxy /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/ur_msgs -- -j16 -l16

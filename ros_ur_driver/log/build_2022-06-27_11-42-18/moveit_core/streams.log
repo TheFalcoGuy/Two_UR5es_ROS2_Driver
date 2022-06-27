@@ -1,0 +1,206 @@
+[0.123s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/moveit_core': AMENT_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/srdfdom:/home/d-lab/workspace/ros_ur_driver/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/srdfdom:/home/d-lab/workspace/ros_ur_driver/install/moveit_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/d-lab/workspace/ros_ur_driver/install/srdfdom/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/d-lab/workspace/ros_ur_driver/install/srdfdom/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/moveit_core -- -j16 -l16
+[0.161s] [  2%] Built target gtest_main
+[0.163s] [  3%] Built target moveit_version
+[0.163s] [  4%] Built target gtest
+[0.166s] [  7%] Built target moveit_utils
+[0.169s] [  9%] Built target moveit_profiler
+[0.169s] [ 10%] Built target moveit_exceptions
+[0.171s] [ 11%] Built target moveit_background_processing
+[0.175s] [ 13%] Built target moveit_kinematics_base
+[0.178s] [ 14%] Built target moveit_transforms
+[0.179s] [ 17%] Built target moveit_distance_field
+[0.199s] [ 19%] Built target test_transforms
+[0.200s] [ 20%] Built target test_voxel_grid
+[0.206s] [ 21%] Built target test_distance_field
+[0.208s] [ 28%] Built target moveit_robot_model
+[0.236s] [ 30%] Built target moveit_test_utils
+[0.246s] [ 33%] Built target moveit_robot_state
+[0.266s] [ 35%] Built target test_robot_model
+[0.278s] [ 36%] Built target test_robot_state_complex
+[0.281s] [ 37%] Built target moveit_dynamics_solver
+[0.281s] [ 38%] Built target test_cartesian_interpolator
+[0.281s] [ 39%] Built target test_robot_state
+[0.282s] [ 40%] Built target moveit_robot_trajectory
+[0.283s] [ 41%] Built target test_aabb
+[0.283s] [ 42%] Built target test_robot_state_benchmark
+[0.283s] [ 43%] Built target moveit_kinematics_metrics
+[0.305s] [ 49%] Built target moveit_collision_detection
+[0.315s] [ 51%] Built target test_robot_trajectory
+[0.319s] [ 53%] Built target moveit_planning_interface
+[0.323s] [ 56%] Built target moveit_trajectory_processing
+[0.330s] [ 58%] Built target test_world_diff
+[0.331s] [ 59%] Built target test_world
+[0.337s] [ 61%] Built target test_all_valid
+[0.342s] [ 63%] Built target moveit_collision_detection_fcl
+[0.350s] [ 64%] Built target test_time_optimal_trajectory_generation
+[0.352s] [ 65%] Built target test_time_parameterization
+[0.360s] [ 70%] Built target moveit_collision_detection_bullet
+[0.367s] [ 70%] [32mBuilding CXX object collision_detection_fcl/CMakeFiles/test_fcl_collision_detection_panda.dir/test/test_fcl_collision_detection_panda.cpp.o[0m
+[0.371s] [ 72%] Built target test_fcl_collision_detection
+[0.372s] [ 73%] Built target test_fcl_collision_env
+[0.375s] [ 75%] Built target moveit_kinematic_constraints
+[0.389s] [ 76%] [32mBuilding CXX object collision_detection_bullet/CMakeFiles/test_bullet_collision_detection_panda.dir/test/test_bullet_collision_detection_panda.cpp.o[0m
+[0.392s] [ 77%] [32mBuilding CXX object collision_detection_bullet/CMakeFiles/test_bullet_continuous_collision_checking.dir/test/test_bullet_continuous_collision_checking.cpp.o[0m
+[0.397s] [ 78%] Built target test_bullet_collision_detection
+[0.405s] [ 79%] [32mBuilding CXX object planning_scene/CMakeFiles/moveit_planning_scene.dir/src/planning_scene.cpp.o[0m
+[0.406s] [ 80%] Built target test_constraints
+[0.411s] [ 81%] Built target test_orientation_constraints
+[3.085s] In file included from [01m[K/home/d-lab/workspace/ros_ur_driver/src/moveit2/moveit_core/collision_detection_bullet/test/test_bullet_collision_detection_panda.cpp:38[m[K:
+[3.085s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/moveit2/moveit_core/collision_detection/include/moveit/collision_detection/test_collision_common_panda.h:[m[K In member function ‘[01m[Kvoid CollisionDetectorPandaTest<CollisionAllocatorType>::SetUp()[m[K’:
+[3.085s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/moveit2/moveit_core/collision_detection/include/moveit/collision_detection/test_collision_common_panda.h:87:36:[m[K [01;31m[Kerror: [m[K‘[01m[KDisabledCollision[m[K’ is not a member of ‘[01m[Ksrdf::Model[m[K’
+[3.085s]    87 |     const std::vector<srdf::Model::[01;31m[KDisabledCollision[m[K>& dc = robot_model_->getSRDF()->getDisabledCollisionPairs();
+[3.085s]       |                                    [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[3.085s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/moveit2/moveit_core/collision_detection/include/moveit/collision_detection/test_collision_common_panda.h:87:36:[m[K [01;31m[Kerror: [m[K‘[01m[KDisabledCollision[m[K’ is not a member of ‘[01m[Ksrdf::Model[m[K’
+[3.085s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/moveit2/moveit_core/collision_detection/include/moveit/collision_detection/test_collision_common_panda.h:87:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.085s]    87 |     const std::vector<srdf::Model::DisabledCollision[01;31m[K>[m[K& dc = robot_model_->getSRDF()->getDisabledCollisionPairs();
+[3.085s]       |                                                     [01;31m[K^[m[K
+[3.085s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/moveit2/moveit_core/collision_detection/include/moveit/collision_detection/test_collision_common_panda.h:87:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[3.085s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/moveit2/moveit_core/collision_detection/include/moveit/collision_detection/test_collision_common_panda.h:88:29:[m[K [01;31m[Kerror: [m[K‘[01m[KDisabledCollision[m[K’ in ‘[01m[Kclass srdf::Model[m[K’ does not name a type
+[3.085s]    88 |     for (const srdf::Model::[01;31m[KDisabledCollision[m[K& it : dc)
+[3.086s]       |                             [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[3.086s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/moveit2/moveit_core/collision_detection/include/moveit/collision_detection/test_collision_common_panda.h:89:50:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kcenv_[m[K’
+[3.086s]    89 |       acm_->setEntry(it.link1_, it.link2_, true);
+[3.086s]       |                                                  [01;31m[K^[m[K
+[3.086s]       |                                                  [32m[K;[m[K
+[3.086s]    90 | 
+[3.086s]    91 |     [32m[Kcenv_[m[K = value_->allocateEnv(robot_model_);
+[3.086s]       |     [32m[K~~~~~[m[K                                         
+[3.086s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/moveit2/moveit_core/collision_detection/include/moveit/collision_detection/test_collision_common_panda.h:93:67:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+[3.086s]    93 |     robot_state_.reset(new moveit::core::RobotState(robot_model_))[01;31m[K;[m[K
+[3.086s]       |                                                                   [01;31m[K^[m[K
+[3.086s]       |                                                                   [32m[K)[m[K
+[3.086s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/moveit2/moveit_core/collision_detection/include/moveit/collision_detection/test_collision_common_panda.h:88:9:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[3.086s]    88 |     for [01;36m[K([m[Kconst srdf::Model::DisabledCollision& it : dc)
+[3.086s]       |         [01;36m[K^[m[K
+[3.086s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/moveit2/moveit_core/collision_detection_bullet/test/test_bullet_continuous_collision_checking.cpp:[m[K In member function ‘[01m[Kvirtual void BulletCollisionDetectionTester::SetUp()[m[K’:
+[3.086s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/moveit2/moveit_core/collision_detection_bullet/test/test_bullet_continuous_collision_checking.cpp:87:36:[m[K [01;31m[Kerror: [m[K‘[01m[KDisabledCollision[m[K’ is not a member of ‘[01m[Ksrdf::Model[m[K’
+[3.086s]    87 |     const std::vector<srdf::Model::[01;31m[KDisabledCollision[m[K>& dc = robot_model_->getSRDF()->getDisabledCollisionPairs();
+[3.086s]       |                                    [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[3.086s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/moveit2/moveit_core/collision_detection_bullet/test/test_bullet_continuous_collision_checking.cpp:87:36:[m[K [01;31m[Kerror: [m[K‘[01m[KDisabledCollision[m[K’ is not a member of ‘[01m[Ksrdf::Model[m[K’
+[3.086s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/moveit2/moveit_core/collision_detection_bullet/test/test_bullet_continuous_collision_checking.cpp:87:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.087s]    87 |     const std::vector<srdf::Model::DisabledCollision[01;31m[K>[m[K& dc = robot_model_->getSRDF()->getDisabledCollisionPairs();
+[3.087s]       |                                                     [01;31m[K^[m[K
+[3.087s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/moveit2/moveit_core/collision_detection_bullet/test/test_bullet_continuous_collision_checking.cpp:87:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[3.087s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/moveit2/moveit_core/collision_detection_bullet/test/test_bullet_continuous_collision_checking.cpp:87:111:[m[K [01;31m[Kerror: [m[Kinvalid initialization of reference of type ‘[01m[Kconst int&[m[K’ from expression of type ‘[01m[Kconst std::vector<srdf::Model::CollisionPair>[m[K’
+[3.087s]    87 |     const std::vector<srdf::Model::DisabledCollision>& dc = [01;31m[Krobot_model_->getSRDF()->getDisabledCollisionPairs()[m[K;
+[3.087s]       |                                                             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[3.087s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/moveit2/moveit_core/collision_detection_bullet/test/test_bullet_continuous_collision_checking.cpp:88:29:[m[K [01;31m[Kerror: [m[K‘[01m[KDisabledCollision[m[K’ in ‘[01m[Kclass srdf::Model[m[K’ does not name a type
+[3.087s]    88 |     for (const srdf::Model::[01;31m[KDisabledCollision[m[K& it : dc)
+[3.087s]       |                             [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[3.087s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/moveit2/moveit_core/collision_detection_bullet/test/test_bullet_continuous_collision_checking.cpp:89:50:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kcenv_[m[K’
+[3.087s]    89 |       acm_->setEntry(it.link1_, it.link2_, true);
+[3.087s]       |                                                  [01;31m[K^[m[K
+[3.087s]       |                                                  [32m[K;[m[K
+[3.087s]    90 | 
+[3.087s]    91 |     [32m[Kcenv_[m[K.reset(new collision_detection::CollisionEnvBullet(robot_model_));
+[3.087s]       |     [32m[K~~~~~[m[K                                         
+[3.087s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/moveit2/moveit_core/collision_detection_bullet/test/test_bullet_continuous_collision_checking.cpp:91:16:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[K((BulletCollisionDetectionTester*)this)->BulletCollisionDetectionTester::cenv_.std::shared_ptr<collision_detection::CollisionEnv>::<anonymous>.std::__shared_ptr<collision_detection::CollisionEnv, __gnu_cxx::_S_atomic>::reset<collision_detection::CollisionEnvBullet>((std::shared_ptr<const moveit::core::RobotModel>(((BulletCollisionDetectionTester*)this)->BulletCollisionDetectionTester::robot_model_), (operator new(256), (<statement>, ((collision_detection::CollisionEnvBullet*)<anonymous>)))))[m[K’ from ‘[01m[Kstd::__shared_ptr<collision_detection::CollisionEnv, __gnu_cxx::_S_atomic>::_SafeConv<collision_detection::CollisionEnvBullet>[m[K’ {aka ‘[01m[Kvoid[m[K’} to ‘[01m[Kbool[m[K’
+[3.087s]    91 |     [01;31m[Kcenv_.reset(new collision_detection::CollisionEnvBullet(robot_model_))[m[K;
+[3.087s]       |     [01;31m[K~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.087s]       |                [01;31m[K|[m[K
+[3.087s]       |                [01;31m[Kstd::__shared_ptr<collision_detection::CollisionEnv, __gnu_cxx::_S_atomic>::_SafeConv<collision_detection::CollisionEnvBullet> {aka void}[m[K
+[3.087s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/moveit2/moveit_core/collision_detection_bullet/test/test_bullet_continuous_collision_checking.cpp:93:67:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+[3.087s]    93 |     robot_state_.reset(new moveit::core::RobotState(robot_model_))[01;31m[K;[m[K
+[3.087s]       |                                                                   [01;31m[K^[m[K
+[3.087s]       |                                                                   [32m[K)[m[K
+[3.087s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/moveit2/moveit_core/collision_detection_bullet/test/test_bullet_continuous_collision_checking.cpp:88:9:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[3.088s]    88 |     for [01;36m[K([m[Kconst srdf::Model::DisabledCollision& it : dc)
+[3.088s]       |         [01;36m[K^[m[K
+[3.088s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/moveit2/moveit_core/collision_detection_bullet/test/test_bullet_continuous_collision_checking.cpp:87:56:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdc[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[3.088s]    87 |     const std::vector<srdf::Model::DisabledCollision>& [01;35m[Kdc[m[K = robot_model_->getSRDF()->getDisabledCollisionPairs();
+[3.088s]       |                                                        [01;35m[K^~[m[K
+[3.205s] In file included from [01m[K/home/d-lab/workspace/ros_ur_driver/src/moveit2/moveit_core/collision_detection_fcl/test/test_fcl_collision_detection_panda.cpp:38[m[K:
+[3.205s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/moveit2/moveit_core/collision_detection/include/moveit/collision_detection/test_collision_common_panda.h:[m[K In member function ‘[01m[Kvoid CollisionDetectorPandaTest<CollisionAllocatorType>::SetUp()[m[K’:
+[3.205s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/moveit2/moveit_core/collision_detection/include/moveit/collision_detection/test_collision_common_panda.h:87:36:[m[K [01;31m[Kerror: [m[K‘[01m[KDisabledCollision[m[K’ is not a member of ‘[01m[Ksrdf::Model[m[K’
+[3.205s]    87 |     const std::vector<srdf::Model::[01;31m[KDisabledCollision[m[K>& dc = robot_model_->getSRDF()->getDisabledCollisionPairs();
+[3.205s]       |                                    [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[3.205s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/moveit2/moveit_core/collision_detection/include/moveit/collision_detection/test_collision_common_panda.h:87:36:[m[K [01;31m[Kerror: [m[K‘[01m[KDisabledCollision[m[K’ is not a member of ‘[01m[Ksrdf::Model[m[K’
+[3.205s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/moveit2/moveit_core/collision_detection/include/moveit/collision_detection/test_collision_common_panda.h:87:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.205s]    87 |     const std::vector<srdf::Model::DisabledCollision[01;31m[K>[m[K& dc = robot_model_->getSRDF()->getDisabledCollisionPairs();
+[3.205s]       |                                                     [01;31m[K^[m[K
+[3.205s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/moveit2/moveit_core/collision_detection/include/moveit/collision_detection/test_collision_common_panda.h:87:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[3.205s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/moveit2/moveit_core/collision_detection/include/moveit/collision_detection/test_collision_common_panda.h:88:29:[m[K [01;31m[Kerror: [m[K‘[01m[KDisabledCollision[m[K’ in ‘[01m[Kclass srdf::Model[m[K’ does not name a type
+[3.206s]    88 |     for (const srdf::Model::[01;31m[KDisabledCollision[m[K& it : dc)
+[3.206s]       |                             [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[3.206s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/moveit2/moveit_core/collision_detection/include/moveit/collision_detection/test_collision_common_panda.h:89:50:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kcenv_[m[K’
+[3.206s]    89 |       acm_->setEntry(it.link1_, it.link2_, true);
+[3.206s]       |                                                  [01;31m[K^[m[K
+[3.206s]       |                                                  [32m[K;[m[K
+[3.206s]    90 | 
+[3.206s]    91 |     [32m[Kcenv_[m[K = value_->allocateEnv(robot_model_);
+[3.206s]       |     [32m[K~~~~~[m[K                                         
+[3.206s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/moveit2/moveit_core/collision_detection/include/moveit/collision_detection/test_collision_common_panda.h:93:67:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+[3.206s]    93 |     robot_state_.reset(new moveit::core::RobotState(robot_model_))[01;31m[K;[m[K
+[3.206s]       |                                                                   [01;31m[K^[m[K
+[3.206s]       |                                                                   [32m[K)[m[K
+[3.206s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/moveit2/moveit_core/collision_detection/include/moveit/collision_detection/test_collision_common_panda.h:88:9:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[3.206s]    88 |     for [01;36m[K([m[Kconst srdf::Model::DisabledCollision& it : dc)
+[3.206s]       |         [01;36m[K^[m[K
+[3.443s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/moveit2/moveit_core/planning_scene/src/planning_scene.cpp:[m[K In member function ‘[01m[Kvoid planning_scene::PlanningScene::initialize()[m[K’:
+[3.444s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/moveit2/moveit_core/planning_scene/src/planning_scene.cpp:160:34:[m[K [01;31m[Kerror: [m[K‘[01m[KDisabledCollision[m[K’ is not a member of ‘[01m[Ksrdf::Model[m[K’
+[3.444s]   160 |   const std::vector<srdf::Model::[01;31m[KDisabledCollision[m[K>& dc = getRobotModel()->getSRDF()->getDisabledCollisionPairs();
+[3.444s]       |                                  [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[3.444s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/moveit2/moveit_core/planning_scene/src/planning_scene.cpp:160:34:[m[K [01;31m[Kerror: [m[K‘[01m[KDisabledCollision[m[K’ is not a member of ‘[01m[Ksrdf::Model[m[K’
+[3.444s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/moveit2/moveit_core/planning_scene/src/planning_scene.cpp:160:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.444s]   160 |   const std::vector<srdf::Model::DisabledCollision[01;31m[K>[m[K& dc = getRobotModel()->getSRDF()->getDisabledCollisionPairs();
+[3.444s]       |                                                   [01;31m[K^[m[K
+[3.444s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/moveit2/moveit_core/planning_scene/src/planning_scene.cpp:160:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[3.444s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/moveit2/moveit_core/planning_scene/src/planning_scene.cpp:160:112:[m[K [01;31m[Kerror: [m[Kinvalid initialization of reference of type ‘[01m[Kconst int&[m[K’ from expression of type ‘[01m[Kconst std::vector<srdf::Model::CollisionPair>[m[K’
+[3.444s]   160 |   const std::vector<srdf::Model::DisabledCollision>& dc = [01;31m[KgetRobotModel()->getSRDF()->getDisabledCollisionPairs()[m[K;
+[3.444s]       |                                                           [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[3.444s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/moveit2/moveit_core/planning_scene/src/planning_scene.cpp:161:27:[m[K [01;31m[Kerror: [m[K‘[01m[KDisabledCollision[m[K’ in ‘[01m[Kclass srdf::Model[m[K’ does not name a type
+[3.444s]   161 |   for (const srdf::Model::[01;31m[KDisabledCollision[m[K& it : dc)
+[3.444s]       |                           [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[3.444s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/moveit2/moveit_core/planning_scene/src/planning_scene.cpp:162:48:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[KallocateCollisionDetector[m[K’
+[3.444s]   162 |     acm_->setEntry(it.link1_, it.link2_, true);
+[3.444s]       |                                                [01;31m[K^[m[K
+[3.444s]       |                                                [32m[K;[m[K
+[3.444s]   163 | 
+[3.444s]   164 |   [32m[KallocateCollisionDetector[m[K(collision_detection::CollisionDetectorAllocatorFCL::create());
+[3.444s]       |   [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                     
+[3.444s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/moveit2/moveit_core/planning_scene/src/planning_scene.cpp:164:28:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[K((planning_scene::PlanningScene*)this)->planning_scene::PlanningScene::allocateCollisionDetector(collision_detection::CollisionDetectorAllocatorTemplate<CollisionEnvType, CollisionDetectorAllocatorType>::create() [with CollisionEnvType = collision_detection::CollisionEnvFCL; CollisionDetectorAllocatorType = collision_detection::CollisionDetectorAllocatorFCL; collision_detection::CollisionDetectorAllocatorPtr = std::shared_ptr<collision_detection::CollisionDetectorAllocator>]())[m[K’ from ‘[01m[Kvoid[m[K’ to ‘[01m[Kbool[m[K’
+[3.444s]   164 |   [01;31m[KallocateCollisionDetector(collision_detection::CollisionDetectorAllocatorFCL::create())[m[K;
+[3.444s]       |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.444s]       |                            [01;31m[K|[m[K
+[3.445s]       |                            [01;31m[Kvoid[m[K
+[3.445s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/moveit2/moveit_core/planning_scene/src/planning_scene.cpp:165:1:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K}[m[K’ token
+[3.445s]   165 | [01;31m[K}[m[K
+[3.445s]       | [01;31m[K^[m[K
+[3.445s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/moveit2/moveit_core/planning_scene/src/planning_scene.cpp:164:91:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K}[m[K’ token
+[3.445s]   164 |   allocateCollisionDetector(collision_detection::CollisionDetectorAllocatorFCL::create());
+[3.445s]       |                                                                                           [01;31m[K^[m[K
+[3.445s]       |                                                                                           [32m[K)[m[K
+[3.445s]   165 | [32m[K}[m[K
+[3.445s]       | [32m[K~[m[K                                                                                          
+[3.445s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/moveit2/moveit_core/planning_scene/src/planning_scene.cpp:161:7:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[3.445s]   161 |   for [01;36m[K([m[Kconst srdf::Model::DisabledCollision& it : dc)
+[3.445s]       |       [01;36m[K^[m[K
+[3.445s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/moveit2/moveit_core/planning_scene/src/planning_scene.cpp:165:1:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K}[m[K’ token
+[3.445s]   165 | [01;31m[K}[m[K
+[3.445s]       | [01;31m[K^[m[K
+[3.445s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/moveit2/moveit_core/planning_scene/src/planning_scene.cpp:160:54:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdc[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[3.445s]   160 |   const std::vector<srdf::Model::DisabledCollision>& [01;35m[Kdc[m[K = getRobotModel()->getSRDF()->getDisabledCollisionPairs();
+[3.445s]       |                                                      [01;35m[K^~[m[K
+[4.212s] /home/d-lab/workspace/ros_ur_driver/src/moveit2/moveit_core/collision_detection/include/moveit/collision_detection/test_collision_common_panda.h: In instantiation of ‘[01m[Kvoid CollisionDetectorPandaTest<CollisionAllocatorType>::SetUp() [with CollisionAllocatorType = collision_detection::CollisionDetectorAllocatorBullet][m[K’:
+[4.212s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/moveit2/moveit_core/collision_detection/include/moveit/collision_detection/test_collision_common_panda.h:75:8:[m[K   required from here
+[4.212s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/moveit2/moveit_core/collision_detection/include/moveit/collision_detection/test_collision_common_panda.h:87:56:[m[K [01;31m[Kerror: [m[Kinvalid initialization of reference of type ‘[01m[Kconst int&[m[K’ from expression of type ‘[01m[Kconst std::vector<srdf::Model::CollisionPair>[m[K’
+[4.212s]    87 |     const std::vector<srdf::Model::DisabledCollision>& [01;31m[Kdc[m[K = robot_model_->getSRDF()->getDisabledCollisionPairs();
+[4.212s]       |                                                        [01;31m[K^~[m[K
+[4.212s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/moveit2/moveit_core/collision_detection/include/moveit/collision_detection/test_collision_common_panda.h:87:56:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdc[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[4.367s] /home/d-lab/workspace/ros_ur_driver/src/moveit2/moveit_core/collision_detection/include/moveit/collision_detection/test_collision_common_panda.h: In instantiation of ‘[01m[Kvoid CollisionDetectorPandaTest<CollisionAllocatorType>::SetUp() [with CollisionAllocatorType = collision_detection::CollisionDetectorAllocatorFCL][m[K’:
+[4.368s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/moveit2/moveit_core/collision_detection/include/moveit/collision_detection/test_collision_common_panda.h:75:8:[m[K   required from here
+[4.368s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/moveit2/moveit_core/collision_detection/include/moveit/collision_detection/test_collision_common_panda.h:87:56:[m[K [01;31m[Kerror: [m[Kinvalid initialization of reference of type ‘[01m[Kconst int&[m[K’ from expression of type ‘[01m[Kconst std::vector<srdf::Model::CollisionPair>[m[K’
+[4.368s]    87 |     const std::vector<srdf::Model::DisabledCollision>& [01;31m[Kdc[m[K = robot_model_->getSRDF()->getDisabledCollisionPairs();
+[4.368s]       |                                                        [01;31m[K^~[m[K
+[4.368s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/moveit2/moveit_core/collision_detection/include/moveit/collision_detection/test_collision_common_panda.h:87:56:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdc[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[4.372s] make[2]: *** [collision_detection_bullet/CMakeFiles/test_bullet_collision_detection_panda.dir/build.make:63: collision_detection_bullet/CMakeFiles/test_bullet_collision_detection_panda.dir/test/test_bullet_collision_detection_panda.cpp.o] Error 1
+[4.372s] make[1]: *** [CMakeFiles/Makefile2:2514: collision_detection_bullet/CMakeFiles/test_bullet_collision_detection_panda.dir/all] Error 2
+[4.372s] make[1]: *** Waiting for unfinished jobs....
+[4.399s] make[2]: *** [collision_detection_bullet/CMakeFiles/test_bullet_continuous_collision_checking.dir/build.make:63: collision_detection_bullet/CMakeFiles/test_bullet_continuous_collision_checking.dir/test/test_bullet_continuous_collision_checking.cpp.o] Error 1
+[4.399s] make[1]: *** [CMakeFiles/Makefile2:2477: collision_detection_bullet/CMakeFiles/test_bullet_continuous_collision_checking.dir/all] Error 2
+[4.552s] make[2]: *** [collision_detection_fcl/CMakeFiles/test_fcl_collision_detection_panda.dir/build.make:63: collision_detection_fcl/CMakeFiles/test_fcl_collision_detection_panda.dir/test/test_fcl_collision_detection_panda.cpp.o] Error 1
+[4.552s] make[1]: *** [CMakeFiles/Makefile2:1498: collision_detection_fcl/CMakeFiles/test_fcl_collision_detection_panda.dir/all] Error 2
+[5.966s] make[2]: *** [planning_scene/CMakeFiles/moveit_planning_scene.dir/build.make:63: planning_scene/CMakeFiles/moveit_planning_scene.dir/src/planning_scene.cpp.o] Error 1
+[5.966s] make[1]: *** [CMakeFiles/Makefile2:2053: planning_scene/CMakeFiles/moveit_planning_scene.dir/all] Error 2
+[5.966s] make: *** [Makefile:141: all] Error 2
+[5.969s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/build/moveit_core' returned '2': AMENT_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/srdfdom:/home/d-lab/workspace/ros_ur_driver/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/srdfdom:/home/d-lab/workspace/ros_ur_driver/install/moveit_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/d-lab/workspace/ros_ur_driver/install/srdfdom/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/d-lab/workspace/ros_ur_driver/install/srdfdom/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/moveit_core -- -j16 -l16

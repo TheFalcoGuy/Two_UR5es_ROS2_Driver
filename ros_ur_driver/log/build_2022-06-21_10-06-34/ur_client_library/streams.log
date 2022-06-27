@@ -1,5 +1,0 @@
-[0.213s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/ur_client_library': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes:/opt/ros/foxy /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/ur_client_library -- -j16 -l16
-[0.287s] [ 82%] Built target urcl
-[0.321s] [ 88%] Built target rtde_client_example
-[0.321s] [ 94%] Built target primary_pipeline_example
-[0.325s] [100%] Built target driver_example

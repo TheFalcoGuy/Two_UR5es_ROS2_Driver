@@ -85,7 +85,7 @@ def generate_launch_description():
     declared_arguments.append(
         DeclareLaunchArgument(
             "description_file",
-            default_value="ur.urdf_right.xacro",
+            default_value="ur.urdf.xacro",
             description="URDF/XACRO description file with the robot.",
         )
     )
@@ -264,8 +264,7 @@ def generate_launch_description():
         ]
     )
     robot_description = {"robot_description": robot_description_content}
-    print (str(robot_description_content))
-    #sys.exit()
+
     robot_controllers = PathJoinSubstitution(
         [FindPackageShare(runtime_config_package), "config", controllers_file]
     )
@@ -273,6 +272,22 @@ def generate_launch_description():
     rviz_config_file = PathJoinSubstitution(
         [FindPackageShare(description_package), "rviz", "view_robot.rviz"]
     )
+
+    ### Added node
+
+    torque_broadcaster = Node(
+        package="utils",
+        executable="torque_broadcaster",
+        parameters=[{"robot_ip": robot_ip}],
+    )
+
+    robotiq_node = Node(
+        package="robotiq_control",
+        executable="gripper",
+        parameters=[{"robot_ip": robot_ip}],
+    )
+
+    #### End of added node
 
     control_node = Node(
         package="controller_manager",
@@ -376,6 +391,7 @@ def generate_launch_description():
         speed_scaling_state_broadcaster_spawner,
         force_torque_sensor_broadcaster_spawner,
         robot_controller_spawner,
+        torque_broadcaster,
     ]
 
     return LaunchDescription(declared_arguments + nodes_to_start)

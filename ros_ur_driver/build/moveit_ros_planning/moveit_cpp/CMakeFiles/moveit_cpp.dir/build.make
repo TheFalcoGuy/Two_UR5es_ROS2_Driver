@@ -258,8 +258,6 @@ moveit_cpp/libmoveit_cpp.so.2.2.3: /opt/ros/foxy/lib/libvisualization_msgs__rosi
 moveit_cpp/libmoveit_cpp.so.2.2.3: /opt/ros/foxy/lib/libvisualization_msgs__rosidl_typesupport_c.so
 moveit_cpp/libmoveit_cpp.so.2.2.3: /opt/ros/foxy/lib/libvisualization_msgs__rosidl_typesupport_introspection_cpp.so
 moveit_cpp/libmoveit_cpp.so.2.2.3: /opt/ros/foxy/lib/libvisualization_msgs__rosidl_typesupport_cpp.so
-moveit_cpp/libmoveit_cpp.so.2.2.3: /opt/ros/foxy/lib/liboctomap.so
-moveit_cpp/libmoveit_cpp.so.2.2.3: /opt/ros/foxy/lib/liboctomath.so
 moveit_cpp/libmoveit_cpp.so.2.2.3: /opt/ros/foxy/lib/librandom_numbers.so
 moveit_cpp/libmoveit_cpp.so.2.2.3: /opt/ros/foxy/lib/libshape_msgs__rosidl_typesupport_introspection_c.so
 moveit_cpp/libmoveit_cpp.so.2.2.3: /opt/ros/foxy/lib/libshape_msgs__rosidl_generator_c.so
@@ -270,6 +268,8 @@ moveit_cpp/libmoveit_cpp.so.2.2.3: /opt/ros/foxy/lib/libresource_retriever.so
 moveit_cpp/libmoveit_cpp.so.2.2.3: /usr/lib/x86_64-linux-gnu/libcurl.so
 moveit_cpp/libmoveit_cpp.so.2.2.3: /usr/lib/x86_64-linux-gnu/libassimp.so.5
 moveit_cpp/libmoveit_cpp.so.2.2.3: /usr/lib/x86_64-linux-gnu/libqhull_r.so
+moveit_cpp/libmoveit_cpp.so.2.2.3: /opt/ros/foxy/lib/liboctomap.so
+moveit_cpp/libmoveit_cpp.so.2.2.3: /opt/ros/foxy/lib/liboctomath.so
 moveit_cpp/libmoveit_cpp.so.2.2.3: /opt/ros/foxy/lib/libament_index_cpp.so
 moveit_cpp/libmoveit_cpp.so.2.2.3: /opt/ros/foxy/lib/libclass_loader.so
 moveit_cpp/libmoveit_cpp.so.2.2.3: /opt/ros/foxy/lib/x86_64-linux-gnu/libconsole_bridge.so.1.0

@@ -1,0 +1,23 @@
+[0.055s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/moveit_common': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/moveit_common -- -j16 -l16
+[0.402s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/moveit_common -- -j16 -l16
+[0.436s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/moveit_common': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/d-lab/workspace/ros_ur_driver/build/moveit_common
+[0.452s] -- Install configuration: "Release"
+[0.452s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/moveit_common/share/ament_index/resource_index/package_run_dependencies/moveit_common
+[0.452s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/moveit_common/share/ament_index/resource_index/parent_prefix_path/moveit_common
+[0.453s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/moveit_common/share/moveit_common/environment/ament_prefix_path.sh
+[0.453s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/moveit_common/share/moveit_common/environment/ament_prefix_path.dsv
+[0.453s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/moveit_common/share/moveit_common/environment/path.sh
+[0.454s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/moveit_common/share/moveit_common/environment/path.dsv
+[0.455s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/moveit_common/share/moveit_common/local_setup.bash
+[0.456s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/moveit_common/share/moveit_common/local_setup.sh
+[0.456s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/moveit_common/share/moveit_common/local_setup.zsh
+[0.456s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/moveit_common/share/moveit_common/local_setup.dsv
+[0.456s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/moveit_common/share/moveit_common/package.dsv
+[0.456s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/moveit_common/share/ament_index/resource_index/packages/moveit_common
+[0.457s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/moveit_common/share/moveit_common/cmake/moveit_common-extras.cmake
+[0.457s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/moveit_common/share/moveit_common/cmake/moveit_commonConfig.cmake
+[0.457s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/moveit_common/share/moveit_common/cmake/moveit_commonConfig-version.cmake
+[0.457s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/moveit_common/share/moveit_common/package.xml
+[0.457s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/moveit_common/share/moveit_common/cmake
+[0.458s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/moveit_common/share/moveit_common/cmake/moveit_package.cmake
+[0.544s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/d-lab/workspace/ros_ur_driver/build/moveit_common

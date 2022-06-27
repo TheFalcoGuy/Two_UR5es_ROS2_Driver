@@ -103,6 +103,8 @@ libmoveit_ros_occupancy_map_monitor.so.2.2.3: /home/d-lab/workspace/ros_ur_drive
 libmoveit_ros_occupancy_map_monitor.so.2.2.3: /home/d-lab/workspace/ros_ur_driver/install/moveit_core/lib/libmoveit_kinematics_metrics.so.2.2.3
 libmoveit_ros_occupancy_map_monitor.so.2.2.3: /home/d-lab/workspace/ros_ur_driver/install/moveit_core/lib/libmoveit_dynamics_solver.so.2.2.3
 libmoveit_ros_occupancy_map_monitor.so.2.2.3: /home/d-lab/workspace/ros_ur_driver/install/moveit_core/lib/libmoveit_test_utils.so.2.2.3
+libmoveit_ros_occupancy_map_monitor.so.2.2.3: /opt/ros/foxy/lib/liboctomap.so
+libmoveit_ros_occupancy_map_monitor.so.2.2.3: /opt/ros/foxy/lib/liboctomath.so
 libmoveit_ros_occupancy_map_monitor.so.2.2.3: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
 libmoveit_ros_occupancy_map_monitor.so.2.2.3: /usr/lib/x86_64-linux-gnu/libBulletDynamics.so
 libmoveit_ros_occupancy_map_monitor.so.2.2.3: /usr/lib/x86_64-linux-gnu/libBulletCollision.so

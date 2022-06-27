@@ -350,8 +350,6 @@ warehouse/libmoveit_warehouse.so.2.2.3: /opt/ros/foxy/lib/libvisualization_msgs_
 warehouse/libmoveit_warehouse.so.2.2.3: /opt/ros/foxy/lib/libvisualization_msgs__rosidl_typesupport_c.so
 warehouse/libmoveit_warehouse.so.2.2.3: /opt/ros/foxy/lib/libvisualization_msgs__rosidl_typesupport_introspection_cpp.so
 warehouse/libmoveit_warehouse.so.2.2.3: /opt/ros/foxy/lib/libvisualization_msgs__rosidl_typesupport_cpp.so
-warehouse/libmoveit_warehouse.so.2.2.3: /opt/ros/foxy/lib/liboctomap.so
-warehouse/libmoveit_warehouse.so.2.2.3: /opt/ros/foxy/lib/liboctomath.so
 warehouse/libmoveit_warehouse.so.2.2.3: /opt/ros/foxy/lib/librandom_numbers.so
 warehouse/libmoveit_warehouse.so.2.2.3: /opt/ros/foxy/lib/libshape_msgs__rosidl_typesupport_introspection_c.so
 warehouse/libmoveit_warehouse.so.2.2.3: /opt/ros/foxy/lib/libshape_msgs__rosidl_generator_c.so
@@ -382,6 +380,8 @@ warehouse/libmoveit_warehouse.so.2.2.3: /opt/ros/foxy/lib/libresource_retriever.
 warehouse/libmoveit_warehouse.so.2.2.3: /usr/lib/x86_64-linux-gnu/libcurl.so
 warehouse/libmoveit_warehouse.so.2.2.3: /usr/lib/x86_64-linux-gnu/libassimp.so.5
 warehouse/libmoveit_warehouse.so.2.2.3: /usr/lib/x86_64-linux-gnu/libqhull_r.so
+warehouse/libmoveit_warehouse.so.2.2.3: /opt/ros/foxy/lib/liboctomap.so
+warehouse/libmoveit_warehouse.so.2.2.3: /opt/ros/foxy/lib/liboctomath.so
 warehouse/libmoveit_warehouse.so.2.2.3: /opt/ros/foxy/lib/libament_index_cpp.so
 warehouse/libmoveit_warehouse.so.2.2.3: /opt/ros/foxy/lib/libclass_loader.so
 warehouse/libmoveit_warehouse.so.2.2.3: /opt/ros/foxy/lib/librcpputils.so

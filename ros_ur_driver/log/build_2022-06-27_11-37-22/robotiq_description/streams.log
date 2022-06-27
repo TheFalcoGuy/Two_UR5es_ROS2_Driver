@@ -1,0 +1,31 @@
+[0.323s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/robotiq_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/robotiq_description -- -j16 -l16
+[0.363s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.368s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.514s] -- Found rclpy: 1.0.8 (/opt/ros/foxy/share/rclpy/cmake)
+[0.514s] -- Found robot_state_publisher: 2.4.5 (/opt/ros/foxy/share/robot_state_publisher/cmake)
+[0.514s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.515s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.668s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.673s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[0.674s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.674s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.026s] CMake Warning at CMakeLists.txt:12 (find_package):
+[1.026s]   By not providing "Findxacro.cmake" in CMAKE_MODULE_PATH this project has
+[1.027s]   asked CMake to find a package configuration file provided by "xacro", but
+[1.027s]   CMake did not find one.
+[1.027s] 
+[1.027s]   Could not find a package configuration file provided by "xacro" with any of
+[1.027s]   the following names:
+[1.027s] 
+[1.027s]     xacroConfig.cmake
+[1.027s]     xacro-config.cmake
+[1.027s] 
+[1.027s]   Add the installation prefix of "xacro" to CMAKE_PREFIX_PATH or set
+[1.027s]   "xacro_DIR" to a directory containing one of the above files.  If "xacro"
+[1.027s]   provides a separate development package or SDK, be sure it has been
+[1.027s]   installed.
+[1.027s] 
+[1.027s] 
+[1.061s] -- Configuring done
+[1.062s] -- Generating done
+[1.063s] -- Build files have been written to: /home/d-lab/workspace/ros_ur_driver/build/robotiq_description

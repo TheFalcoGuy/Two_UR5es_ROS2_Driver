@@ -1,0 +1,3 @@
+source;share/src/utils/hook/pythonpath.ps1
+source;share/src/utils/hook/pythonpath.dsv
+source;share/src/utils/hook/pythonpath.sh

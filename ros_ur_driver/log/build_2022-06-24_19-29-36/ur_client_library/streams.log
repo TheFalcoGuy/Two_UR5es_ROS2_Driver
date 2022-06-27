@@ -1,0 +1,13 @@
+[1.200s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/ur_client_library': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes:/opt/ros/foxy /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/ur_client_library -- -j16 -l16
+[1.670s] [  2%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/rtde/data_package.cpp.o[0m
+[1.684s] [  5%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/rtde/rtde_client.cpp.o[0m
+[1.742s] [  8%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/ur/dashboard_client.cpp.o[0m
+[1.746s] [ 11%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/ur/ur_driver.cpp.o[0m
+[1.784s] [ 14%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/rtde/rtde_writer.cpp.o[0m
+[12.179s] make[2]: *** [CMakeFiles/urcl.dir/build.make:375: CMakeFiles/urcl.dir/src/rtde/rtde_writer.cpp.o] Interrupt
+[12.180s] make[2]: *** [CMakeFiles/urcl.dir/build.make:310: CMakeFiles/urcl.dir/src/rtde/rtde_client.cpp.o] Interrupt
+[12.180s] make[1]: *** wait: No child processes.  Stop.
+[12.180s] make[1]: *** Waiting for unfinished jobs....
+[12.180s] make[1]: *** wait: No child processes.  Stop.
+[12.180s] make: *** [Makefile:130: all] Error 2
+[12.238s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/build/ur_client_library' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes:/opt/ros/foxy /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/ur_client_library -- -j16 -l16

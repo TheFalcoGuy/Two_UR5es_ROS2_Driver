@@ -282,13 +282,13 @@ planning_scene_monitor/libmoveit_planning_scene_monitor.so.2.2.3: /opt/ros/foxy/
 planning_scene_monitor/libmoveit_planning_scene_monitor.so.2.2.3: /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_cpp.so
 planning_scene_monitor/libmoveit_planning_scene_monitor.so.2.2.3: /opt/ros/foxy/lib/libtracetools.so
 planning_scene_monitor/libmoveit_planning_scene_monitor.so.2.2.3: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
+planning_scene_monitor/libmoveit_planning_scene_monitor.so.2.2.3: /opt/ros/foxy/lib/liboctomap.so
+planning_scene_monitor/libmoveit_planning_scene_monitor.so.2.2.3: /opt/ros/foxy/lib/liboctomath.so
 planning_scene_monitor/libmoveit_planning_scene_monitor.so.2.2.3: /opt/ros/foxy/lib/libshape_msgs__rosidl_typesupport_introspection_c.so
 planning_scene_monitor/libmoveit_planning_scene_monitor.so.2.2.3: /opt/ros/foxy/lib/libshape_msgs__rosidl_generator_c.so
 planning_scene_monitor/libmoveit_planning_scene_monitor.so.2.2.3: /opt/ros/foxy/lib/libshape_msgs__rosidl_typesupport_c.so
 planning_scene_monitor/libmoveit_planning_scene_monitor.so.2.2.3: /opt/ros/foxy/lib/libshape_msgs__rosidl_typesupport_introspection_cpp.so
 planning_scene_monitor/libmoveit_planning_scene_monitor.so.2.2.3: /opt/ros/foxy/lib/libshape_msgs__rosidl_typesupport_cpp.so
-planning_scene_monitor/libmoveit_planning_scene_monitor.so.2.2.3: /opt/ros/foxy/lib/liboctomap.so
-planning_scene_monitor/libmoveit_planning_scene_monitor.so.2.2.3: /opt/ros/foxy/lib/liboctomath.so
 planning_scene_monitor/libmoveit_planning_scene_monitor.so.2.2.3: /opt/ros/foxy/lib/librandom_numbers.so
 planning_scene_monitor/libmoveit_planning_scene_monitor.so.2.2.3: /opt/ros/foxy/lib/libresource_retriever.so
 planning_scene_monitor/libmoveit_planning_scene_monitor.so.2.2.3: /usr/lib/x86_64-linux-gnu/libcurl.so

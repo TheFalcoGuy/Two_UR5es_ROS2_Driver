@@ -1,0 +1,33 @@
+[0.887s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/src/robotiq/robotiq_control': PYTHONPATH=/home/d-lab/workspace/ros_ur_driver/install/robotiq_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/robotiq_control build --build-base /home/d-lab/workspace/ros_ur_driver/build/robotiq_control/build install --prefix /home/d-lab/workspace/ros_ur_driver/install/robotiq_control --record /home/d-lab/workspace/ros_ur_driver/build/robotiq_control/install.log --single-version-externally-managed
+[1.098s] running egg_info
+[1.098s] creating ../../../build/robotiq_control/robotiq_control.egg-info
+[1.098s] writing ../../../build/robotiq_control/robotiq_control.egg-info/PKG-INFO
+[1.098s] writing dependency_links to ../../../build/robotiq_control/robotiq_control.egg-info/dependency_links.txt
+[1.098s] writing entry points to ../../../build/robotiq_control/robotiq_control.egg-info/entry_points.txt
+[1.098s] writing requirements to ../../../build/robotiq_control/robotiq_control.egg-info/requires.txt
+[1.098s] writing top-level names to ../../../build/robotiq_control/robotiq_control.egg-info/top_level.txt
+[1.099s] writing manifest file '../../../build/robotiq_control/robotiq_control.egg-info/SOURCES.txt'
+[1.109s] reading manifest file '../../../build/robotiq_control/robotiq_control.egg-info/SOURCES.txt'
+[1.110s] writing manifest file '../../../build/robotiq_control/robotiq_control.egg-info/SOURCES.txt'
+[1.111s] running build
+[1.111s] running build_py
+[1.111s] creating /home/d-lab/workspace/ros_ur_driver/build/robotiq_control/build
+[1.111s] creating /home/d-lab/workspace/ros_ur_driver/build/robotiq_control/build/lib
+[1.111s] creating /home/d-lab/workspace/ros_ur_driver/build/robotiq_control/build/lib/robotiq_control
+[1.111s] copying robotiq_control/__init__.py -> /home/d-lab/workspace/ros_ur_driver/build/robotiq_control/build/lib/robotiq_control
+[1.111s] running install
+[1.114s] running install_lib
+[1.115s] creating /home/d-lab/workspace/ros_ur_driver/install/robotiq_control/lib/python3.8/site-packages/robotiq_control
+[1.115s] copying /home/d-lab/workspace/ros_ur_driver/build/robotiq_control/build/lib/robotiq_control/__init__.py -> /home/d-lab/workspace/ros_ur_driver/install/robotiq_control/lib/python3.8/site-packages/robotiq_control
+[1.116s] byte-compiling /home/d-lab/workspace/ros_ur_driver/install/robotiq_control/lib/python3.8/site-packages/robotiq_control/__init__.py to __init__.cpython-38.pyc
+[1.117s] running install_data
+[1.117s] creating /home/d-lab/workspace/ros_ur_driver/install/robotiq_control/share/ament_index
+[1.118s] creating /home/d-lab/workspace/ros_ur_driver/install/robotiq_control/share/ament_index/resource_index
+[1.118s] creating /home/d-lab/workspace/ros_ur_driver/install/robotiq_control/share/ament_index/resource_index/packages
+[1.118s] copying resource/robotiq_control -> /home/d-lab/workspace/ros_ur_driver/install/robotiq_control/share/ament_index/resource_index/packages
+[1.118s] copying package.xml -> /home/d-lab/workspace/ros_ur_driver/install/robotiq_control/share/robotiq_control
+[1.118s] running install_egg_info
+[1.119s] Copying ../../../build/robotiq_control/robotiq_control.egg-info to /home/d-lab/workspace/ros_ur_driver/install/robotiq_control/lib/python3.8/site-packages/robotiq_control-0.0.0-py3.8.egg-info
+[1.120s] running install_scripts
+[1.138s] writing list of installed files to '/home/d-lab/workspace/ros_ur_driver/build/robotiq_control/install.log'
+[1.159s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/src/robotiq/robotiq_control' returned '0': PYTHONPATH=/home/d-lab/workspace/ros_ur_driver/install/robotiq_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/robotiq_control build --build-base /home/d-lab/workspace/ros_ur_driver/build/robotiq_control/build install --prefix /home/d-lab/workspace/ros_ur_driver/install/robotiq_control --record /home/d-lab/workspace/ros_ur_driver/build/robotiq_control/install.log --single-version-externally-managed

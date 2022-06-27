@@ -37,9 +37,6 @@ AMENT_TEST_RESULTS_DIR:PATH=/home/d-lab/workspace/ros_ur_driver/build/robotiq_de
 //Build the testing tree.
 BUILD_TESTING:BOOL=ON
 
-//No help, variable specified on the command line.
-CATKIN_INSTALL_INTO_PREFIX_ROOT:UNINITIALIZED=0
-
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=/usr/bin/addr2line
 
@@ -48,7 +45,7 @@ CMAKE_AR:FILEPATH=/usr/bin/ar
 
 //Choose the type of build, options are: None Debug Release RelWithDebInfo
 // MinSizeRel ...
-CMAKE_BUILD_TYPE:STRING=
+CMAKE_BUILD_TYPE:STRING=Release
 
 //Enable/Disable color output during build.
 CMAKE_COLOR_MAKEFILE:BOOL=ON
@@ -342,9 +339,6 @@ ament_index_cpp_DIR:PATH=/opt/ros/foxy/share/ament_index_cpp/cmake
 
 //The directory containing a CMake configuration file for builtin_interfaces.
 builtin_interfaces_DIR:PATH=/opt/ros/foxy/share/builtin_interfaces/cmake
-
-//The directory containing a CMake configuration file for catkin.
-catkin_DIR:PATH=catkin_DIR-NOTFOUND
 
 //The directory containing a CMake configuration file for class_loader.
 class_loader_DIR:PATH=/opt/ros/foxy/share/class_loader/cmake

@@ -1,3 +1,0 @@
-Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/controller_manager_msgs': /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/controller_manager_msgs -- -j16 -l16
-Invoked command in '/home/d-lab/workspace/ros_ur_driver/build/controller_manager_msgs' returned '0': /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/controller_manager_msgs -- -j16 -l16
-Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/controller_manager_msgs': /usr/bin/cmake --install /home/d-lab/workspace/ros_ur_driver/build/controller_manager_msgs

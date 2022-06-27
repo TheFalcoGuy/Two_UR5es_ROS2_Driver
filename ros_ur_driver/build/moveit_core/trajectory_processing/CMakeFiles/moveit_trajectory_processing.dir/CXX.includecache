@@ -6,6 +6,26 @@
 
 #IncludeRegexTransform: 
 
+/home/d-lab/workspace/ros_ur_driver/install/srdfdom/include/srdfdom/model.h
+map
+-
+string
+-
+vector
+-
+utility
+-
+urdf/model.h
+-
+memory
+-
+tinyxml2.h
+-
+visibility_control.h
+/home/d-lab/workspace/ros_ur_driver/install/srdfdom/include/srdfdom/visibility_control.h
+
+/home/d-lab/workspace/ros_ur_driver/install/srdfdom/include/srdfdom/visibility_control.h
+
 /home/d-lab/workspace/ros_ur_driver/src/moveit2/moveit_core/exceptions/include/moveit/exceptions/exceptions.h
 stdexcept
 -
@@ -214,10 +234,6 @@ list
 moveit/robot_trajectory/robot_trajectory.h
 -
 
-/home/d-lab/workspace/ros_ur_driver/src/moveit2/moveit_core/trajectory_processing/include/moveit/trajectory_processing/trajectory_tools.h
-moveit_msgs/msg/robot_trajectory.hpp
--
-
 /home/d-lab/workspace/ros_ur_driver/src/moveit2/moveit_core/trajectory_processing/src/iterative_spline_parameterization.cpp
 moveit/trajectory_processing/iterative_spline_parameterization.h
 -
@@ -249,10 +265,6 @@ vector
 -
 rclcpp/rclcpp.hpp
 /home/d-lab/workspace/ros_ur_driver/src/moveit2/moveit_core/trajectory_processing/src/rclcpp/rclcpp.hpp
-
-/home/d-lab/workspace/ros_ur_driver/src/moveit2/moveit_core/trajectory_processing/src/trajectory_tools.cpp
-moveit/trajectory_processing/trajectory_tools.h
--
 
 /home/d-lab/workspace/ros_ur_driver/src/moveit2/moveit_core/transforms/include/moveit/transforms/transforms.h
 geometry_msgs/msg/transform_stamped.hpp
@@ -4814,22 +4826,6 @@ memory
 string
 -
 vector
--
-
-/opt/ros/foxy/include/srdfdom/model.h
-map
--
-string
--
-vector
--
-utility
--
-urdf/model.h
--
-memory
--
-tinyxml2.h
 -
 
 /opt/ros/foxy/include/statistics_msgs/msg/detail/metrics_message__builder.hpp

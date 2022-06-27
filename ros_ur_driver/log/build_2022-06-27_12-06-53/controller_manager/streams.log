@@ -1,0 +1,104 @@
+[0.012s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/controller_manager': AMENT_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/controller_interface:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_assets:/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs:/home/d-lab/workspace/ros_ur_driver/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/controller_interface:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_assets:/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs:/home/d-lab/workspace/ros_ur_driver/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/d-lab/workspace/ros_ur_driver/install/controller_interface/lib:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface/lib:/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs/lib:/home/d-lab/workspace/ros_ur_driver/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs/lib/python3.8/site-packages:/home/d-lab/workspace/ros_ur_driver/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/d-lab/workspace/ros_ur_driver/src/ros2_control/controller_manager -DCMAKE_INSTALL_PREFIX=/home/d-lab/workspace/ros_ur_driver/install/controller_manager
+[0.022s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.038s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.158s] -- Found ament_index_cpp: 1.1.0 (/opt/ros/foxy/share/ament_index_cpp/cmake)
+[0.161s] -- Found controller_interface: 0.10.0 (/home/d-lab/workspace/ros_ur_driver/install/controller_interface/share/controller_interface/cmake)
+[0.183s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.187s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.305s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.885s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.886s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.111s] -- Found controller_manager_msgs: 0.10.0 (/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs/share/controller_manager_msgs/cmake)
+[1.192s] -- Found ament_cmake_gmock: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gmock/cmake)
+[1.192s] -- Found ament_cmake_gtest: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[1.192s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.193s] -- Found ros2_control_test_assets: 0.10.0 (/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[1.251s] -- Found gmock sources under '/opt/ros/foxy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[1.254s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.264s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.265s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.266s] -- Configured cppcheck include dirs: /home/d-lab/workspace/ros_ur_driver/src/ros2_control/controller_manager/include
+[1.266s] -- Configured cppcheck exclude dirs and/or files: 
+[1.266s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.267s] -- Added test 'lint_cmake' to check CMake code style
+[1.267s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.268s] -- Added test 'xmllint' to check XML markup files
+[1.272s] -- Configuring done
+[1.398s] -- Generating done
+[1.400s] -- Build files have been written to: /home/d-lab/workspace/ros_ur_driver/build/controller_manager
+[1.411s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/build/controller_manager' returned '0': AMENT_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/controller_interface:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_assets:/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs:/home/d-lab/workspace/ros_ur_driver/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/controller_interface:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_assets:/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs:/home/d-lab/workspace/ros_ur_driver/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/d-lab/workspace/ros_ur_driver/install/controller_interface/lib:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface/lib:/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs/lib:/home/d-lab/workspace/ros_ur_driver/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs/lib/python3.8/site-packages:/home/d-lab/workspace/ros_ur_driver/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/d-lab/workspace/ros_ur_driver/src/ros2_control/controller_manager -DCMAKE_INSTALL_PREFIX=/home/d-lab/workspace/ros_ur_driver/install/controller_manager
+[1.414s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/controller_manager': AMENT_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/controller_interface:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_assets:/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs:/home/d-lab/workspace/ros_ur_driver/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/controller_interface:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_assets:/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs:/home/d-lab/workspace/ros_ur_driver/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/d-lab/workspace/ros_ur_driver/install/controller_interface/lib:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface/lib:/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs/lib:/home/d-lab/workspace/ros_ur_driver/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs/lib/python3.8/site-packages:/home/d-lab/workspace/ros_ur_driver/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/controller_manager -- -j16 -l16
+[1.458s] [ 16%] Built target gmock_main
+[1.458s] [ 20%] Built target gmock
+[1.467s] [ 24%] [32m[1mLinking CXX shared library libcontroller_manager.so[0m
+[1.625s] [ 28%] Built target controller_manager
+[1.652s] [ 44%] [32m[1mLinking CXX executable ros2_control_node[0m
+[1.652s] [ 44%] [32m[1mLinking CXX shared library libtest_controller_failed_init.so[0m
+[1.652s] [ 44%] [32m[1mLinking CXX shared library libtest_controller_with_interfaces.so[0m
+[1.652s] [ 44%] [32m[1mLinking CXX shared library libtest_controller.so[0m
+[1.739s] [ 56%] Built target test_controller_with_interfaces
+[1.739s] [ 56%] Built target test_controller_failed_init
+[1.740s] [ 56%] Built target test_controller
+[1.768s] [ 64%] [32m[1mLinking CXX executable test_controller_manager_srvs[0m
+[1.768s] [ 64%] [32m[1mLinking CXX executable test_spawner_unspawner[0m
+[1.773s] [ 68%] [32m[1mLinking CXX executable test_load_controller[0m
+[1.774s] [ 72%] [32m[1mLinking CXX executable test_controller_manager[0m
+[1.803s] [ 76%] Built target ros2_control_node
+[1.834s] [ 80%] [32m[1mLinking CXX executable test_release_interfaces[0m
+[1.973s] [ 84%] Built target test_controller_manager
+[1.975s] [ 88%] Built target test_spawner_unspawner
+[1.988s] [ 92%] Built target test_controller_manager_srvs
+[2.022s] [ 96%] Built target test_release_interfaces
+[2.040s] [100%] Built target test_load_controller
+[2.049s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/build/controller_manager' returned '0': AMENT_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/controller_interface:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_assets:/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs:/home/d-lab/workspace/ros_ur_driver/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/controller_interface:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_assets:/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs:/home/d-lab/workspace/ros_ur_driver/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/d-lab/workspace/ros_ur_driver/install/controller_interface/lib:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface/lib:/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs/lib:/home/d-lab/workspace/ros_ur_driver/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs/lib/python3.8/site-packages:/home/d-lab/workspace/ros_ur_driver/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/controller_manager -- -j16 -l16
+[2.085s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/controller_manager': AMENT_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/controller_interface:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_assets:/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs:/home/d-lab/workspace/ros_ur_driver/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/controller_interface:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_assets:/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs:/home/d-lab/workspace/ros_ur_driver/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/d-lab/workspace/ros_ur_driver/install/controller_interface/lib:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface/lib:/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs/lib:/home/d-lab/workspace/ros_ur_driver/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs/lib/python3.8/site-packages:/home/d-lab/workspace/ros_ur_driver/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/d-lab/workspace/ros_ur_driver/build/controller_manager
+[2.093s] -- Install configuration: "Release"
+[2.093s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/controller_manager/lib/libcontroller_manager.so
+[2.094s] -- Set runtime path of "/home/d-lab/workspace/ros_ur_driver/install/controller_manager/lib/libcontroller_manager.so" to ""
+[2.094s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/controller_manager/lib/controller_manager/ros2_control_node
+[2.094s] -- Set runtime path of "/home/d-lab/workspace/ros_ur_driver/install/controller_manager/lib/controller_manager/ros2_control_node" to ""
+[2.094s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/controller_manager/include
+[2.095s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/controller_manager/include/controller_manager
+[2.095s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/controller_manager/include/controller_manager/controller_manager.hpp
+[2.095s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/controller_manager/include/controller_manager/visibility_control.h
+[2.095s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/controller_manager/include/controller_manager/controller_spec.hpp
+[2.095s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/controller_manager/lib/controller_manager/spawner.py
+[2.095s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/controller_manager/lib/controller_manager/unspawner.py
+[2.095s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/controller_manager/share/controller_manager/test/test_controller/test_controller.xml
+[2.095s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/controller_manager/lib/libtest_controller.so
+[2.095s] -- Set runtime path of "/home/d-lab/workspace/ros_ur_driver/install/controller_manager/lib/libtest_controller.so" to ""
+[2.095s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/controller_manager/share/controller_manager/test/test_controller_failed_init/test_controller_failed_init.xml
+[2.095s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/controller_manager/lib/libtest_controller_failed_init.so
+[2.095s] -- Set runtime path of "/home/d-lab/workspace/ros_ur_driver/install/controller_manager/lib/libtest_controller_failed_init.so" to ""
+[2.095s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/controller_manager/share/controller_manager/test/test_controller_with_interfaces/test_controller_with_interfaces.xml
+[2.096s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/controller_manager/lib/libtest_controller_with_interfaces.so
+[2.096s] -- Set runtime path of "/home/d-lab/workspace/ros_ur_driver/install/controller_manager/lib/libtest_controller_with_interfaces.so" to ""
+[2.096s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/controller_manager/share/controller_manager/environment/pythonpath.sh
+[2.096s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/controller_manager/share/controller_manager/environment/pythonpath.dsv
+[2.096s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/controller_manager/lib/python3.8/site-packages/controller_manager
+[2.096s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/controller_manager/lib/python3.8/site-packages/controller_manager/launch_utils.py
+[2.096s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/controller_manager/lib/python3.8/site-packages/controller_manager/controller_manager_services.py
+[2.096s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/controller_manager/lib/python3.8/site-packages/controller_manager/__init__.py
+[2.120s] Listing '/home/d-lab/workspace/ros_ur_driver/install/controller_manager/lib/python3.8/site-packages/controller_manager'...
+[2.123s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/controller_manager/share/controller_manager/environment/library_path.sh
+[2.124s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/controller_manager/share/controller_manager/environment/library_path.dsv
+[2.124s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/controller_manager/share/ament_index/resource_index/package_run_dependencies/controller_manager
+[2.124s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/controller_manager/share/ament_index/resource_index/parent_prefix_path/controller_manager
+[2.124s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/controller_manager/share/controller_manager/environment/ament_prefix_path.sh
+[2.124s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/controller_manager/share/controller_manager/environment/ament_prefix_path.dsv
+[2.124s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/controller_manager/share/controller_manager/environment/path.sh
+[2.124s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/controller_manager/share/controller_manager/environment/path.dsv
+[2.124s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/controller_manager/share/controller_manager/local_setup.bash
+[2.124s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/controller_manager/share/controller_manager/local_setup.sh
+[2.124s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/controller_manager/share/controller_manager/local_setup.zsh
+[2.124s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/controller_manager/share/controller_manager/local_setup.dsv
+[2.124s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/controller_manager/share/controller_manager/package.dsv
+[2.125s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/controller_manager/share/ament_index/resource_index/packages/controller_manager
+[2.125s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/controller_manager/share/ament_index/resource_index/controller_interface__pluginlib__plugin/controller_manager
+[2.125s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/controller_manager/share/controller_manager/cmake/ament_cmake_export_libraries-extras.cmake
+[2.125s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/controller_manager/share/controller_manager/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.125s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/controller_manager/share/controller_manager/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.125s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/controller_manager/share/controller_manager/cmake/controller_managerConfig.cmake
+[2.125s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/controller_manager/share/controller_manager/cmake/controller_managerConfig-version.cmake
+[2.125s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/controller_manager/share/controller_manager/package.xml
+[2.127s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/build/controller_manager' returned '0': AMENT_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/controller_interface:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_assets:/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs:/home/d-lab/workspace/ros_ur_driver/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/controller_interface:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_assets:/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs:/home/d-lab/workspace/ros_ur_driver/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/d-lab/workspace/ros_ur_driver/install/controller_interface/lib:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface/lib:/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs/lib:/home/d-lab/workspace/ros_ur_driver/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs/lib/python3.8/site-packages:/home/d-lab/workspace/ros_ur_driver/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/d-lab/workspace/ros_ur_driver/build/controller_manager

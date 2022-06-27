@@ -32,20 +32,20 @@
       </inertial>
     </link>
 
-    <joint name="${prefix}robotiq_85_left_knuckle_joint" type="revolute">
+    <joint name="${prefix}robotiq_85_left_knuckle_joint" type="fixed"> <!-- revolute -->
       <parent link="${prefix}robotiq_85_base_link"/>
       <child link="${prefix}robotiq_85_left_knuckle_link"/>
       <axis xyz="0 0 1"/>
       <origin rpy="${pi} 0.0 0.0" xyz="0.05490451627 0.03060114443 0.0"/>
-      <limit lower="0.0" upper="0.80285" velocity="0.5" effort="1000"/>
+      <!-- <limit lower="0.0" upper="0.80285" velocity="0.5" effort="1000"/> -->
     </joint>
 
-    <joint name="${prefix}robotiq_85_right_knuckle_joint" type="continuous">
+    <joint name="${prefix}robotiq_85_right_knuckle_joint" type="fixed"> <!-- continuous-->
       <parent link="${prefix}robotiq_85_base_link"/>
       <child link="${prefix}robotiq_85_right_knuckle_link"/>
       <axis xyz="0 0 1"/>
       <origin rpy="0.0 0.0 0.0" xyz="0.05490451627 -0.03060114443 0.0"/>
-      <limit lower="-3.14" upper="3.14" velocity="100.0" effort="1000"/>
+      <!-- <limit lower="-3.14" upper="3.14" velocity="100.0" effort="1000"/> -->
       <mimic joint="${prefix}robotiq_85_left_knuckle_joint"/>
     </joint>
 
@@ -141,7 +141,7 @@
       </inertial>
     </link> 
 
-    <joint name="${prefix}robotiq_85_left_inner_knuckle_joint" type="continuous">
+    <joint name="${prefix}robotiq_85_left_inner_knuckle_joint" type="fixed"> <!-- continuous -->
       <parent link="${prefix}robotiq_85_base_link"/>
       <child link="${prefix}robotiq_85_left_inner_knuckle_link"/>
       <axis xyz="0 0 1"/>
@@ -150,7 +150,7 @@
       <mimic joint="${prefix}robotiq_85_left_knuckle_joint" offset="0"/>
     </joint>
 
-    <joint name="${prefix}robotiq_85_right_inner_knuckle_joint" type="continuous">
+    <joint name="${prefix}robotiq_85_right_inner_knuckle_joint" type="fixed"> <!-- continuous-->
       <parent link="${prefix}robotiq_85_base_link"/>
       <child link="${prefix}robotiq_85_right_inner_knuckle_link"/>
       <axis xyz="0 0 1"/>
@@ -198,7 +198,7 @@
       </inertial>
     </link>
 
-    <joint name="${prefix}robotiq_85_left_finger_tip_joint" type="continuous">
+    <joint name="${prefix}robotiq_85_left_finger_tip_joint" type="continuous"> <!-- continuous-->
       <parent link="${prefix}robotiq_85_left_inner_knuckle_link"/>
       <child link="${prefix}robotiq_85_left_finger_tip_link"/>
       <axis xyz="0 0 1"/>
@@ -207,7 +207,7 @@
       <mimic joint="${prefix}robotiq_85_left_knuckle_joint" multiplier="-1"/>
     </joint>
 
-    <joint name="${prefix}robotiq_85_right_finger_tip_joint" type="continuous">
+    <joint name="${prefix}robotiq_85_right_finger_tip_joint" type="continuous"> <!-- continuous-->
       <parent link="${prefix}robotiq_85_right_inner_knuckle_link"/>
       <child link="${prefix}robotiq_85_right_finger_tip_link"/>
       <axis xyz="0 0 1"/>
