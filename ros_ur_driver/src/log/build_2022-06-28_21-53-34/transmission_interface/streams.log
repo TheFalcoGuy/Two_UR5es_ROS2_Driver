@@ -1,0 +1,93 @@
+[0.013s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/src/build/transmission_interface': AMENT_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/src/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/src/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/src/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/src/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/d-lab/workspace/ros_ur_driver/src/install/hardware_interface/lib:/home/d-lab/workspace/ros_ur_driver/src/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/d-lab/workspace/ros_ur_driver/src/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/d-lab/workspace/ros_ur_driver/src/ros2_control/transmission_interface -DCMAKE_INSTALL_PREFIX=/home/d-lab/workspace/ros_ur_driver/src/install/transmission_interface
+[0.045s] -- The C compiler identification is GNU 9.4.0
+[0.078s] -- The CXX compiler identification is GNU 9.4.0
+[0.081s] -- Check for working C compiler: /usr/bin/cc
+[0.123s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.123s] -- Detecting C compiler ABI info
+[0.168s] -- Detecting C compiler ABI info - done
+[0.181s] -- Detecting C compile features
+[0.181s] -- Detecting C compile features - done
+[0.184s] -- Check for working CXX compiler: /usr/bin/c++
+[0.236s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.236s] -- Detecting CXX compiler ABI info
+[0.286s] -- Detecting CXX compiler ABI info - done
+[0.294s] -- Detecting CXX compile features
+[0.294s] -- Detecting CXX compile features - done
+[0.295s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.312s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.312s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.441s] -- Found hardware_interface: 0.10.0 (/home/d-lab/workspace/ros_ur_driver/src/install/hardware_interface/share/hardware_interface/cmake)
+[0.463s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.468s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.517s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.536s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.589s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.910s] -- Found ament_cmake_gmock: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gmock/cmake)
+[0.911s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.960s] -- Found gmock sources under '/opt/ros/foxy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[0.963s] -- Found ament_cmake_gtest: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[0.964s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.989s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.990s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.990s] -- Configured cppcheck include dirs: /home/d-lab/workspace/ros_ur_driver/src/ros2_control/transmission_interface/include;/home/d-lab/workspace/ros_ur_driver/src/ros2_control/transmission_interface/hardware_interface
+[0.990s] -- Configured cppcheck exclude dirs and/or files: 
+[0.991s] -- Added test 'lint_cmake' to check CMake code style
+[0.991s] -- Added test 'xmllint' to check XML markup files
+[0.994s] -- Configuring done
+[1.019s] -- Generating done
+[1.021s] -- Build files have been written to: /home/d-lab/workspace/ros_ur_driver/src/build/transmission_interface
+[1.029s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/src/build/transmission_interface' returned '0': AMENT_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/src/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/src/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/src/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/src/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/d-lab/workspace/ros_ur_driver/src/install/hardware_interface/lib:/home/d-lab/workspace/ros_ur_driver/src/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/d-lab/workspace/ros_ur_driver/src/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/d-lab/workspace/ros_ur_driver/src/ros2_control/transmission_interface -DCMAKE_INSTALL_PREFIX=/home/d-lab/workspace/ros_ur_driver/src/install/transmission_interface
+[1.030s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/src/build/transmission_interface': AMENT_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/src/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/src/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/src/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/src/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/d-lab/workspace/ros_ur_driver/src/install/hardware_interface/lib:/home/d-lab/workspace/ros_ur_driver/src/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/d-lab/workspace/ros_ur_driver/src/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/src/build/transmission_interface -- -j16 -l16
+[1.055s] [35m[1mScanning dependencies of target gmock[0m
+[1.056s] [35m[1mScanning dependencies of target gmock_main[0m
+[1.067s] [  9%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[1.071s] [ 18%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/foxy/src/gtest_vendor/src/gtest-all.cc.o[0m
+[1.071s] [ 27%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[1.808s] [ 36%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[1.834s] [ 36%] Built target gmock_main
+[3.764s] [ 45%] [32m[1mLinking CXX static library libgmock.a[0m
+[3.803s] [ 45%] Built target gmock
+[3.810s] [35m[1mScanning dependencies of target test_four_bar_linkage_transmission[0m
+[3.810s] [35m[1mScanning dependencies of target test_simple_transmission[0m
+[3.810s] [35m[1mScanning dependencies of target test_differential_transmission[0m
+[3.822s] [ 54%] [32mBuilding CXX object CMakeFiles/test_simple_transmission.dir/test/simple_transmission_test.cpp.o[0m
+[3.823s] [ 63%] [32mBuilding CXX object CMakeFiles/test_four_bar_linkage_transmission.dir/test/four_bar_linkage_transmission_test.cpp.o[0m
+[3.825s] [ 72%] [32mBuilding CXX object CMakeFiles/test_differential_transmission.dir/test/differential_transmission_test.cpp.o[0m
+[5.009s] [ 81%] [32m[1mLinking CXX executable test_simple_transmission[0m
+[5.093s] [ 90%] [32m[1mLinking CXX executable test_differential_transmission[0m
+[5.096s] [100%] [32m[1mLinking CXX executable test_four_bar_linkage_transmission[0m
+[5.190s] [100%] Built target test_simple_transmission
+[5.265s] [100%] Built target test_differential_transmission
+[5.276s] [100%] Built target test_four_bar_linkage_transmission
+[5.283s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/src/build/transmission_interface' returned '0': AMENT_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/src/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/src/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/src/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/src/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/d-lab/workspace/ros_ur_driver/src/install/hardware_interface/lib:/home/d-lab/workspace/ros_ur_driver/src/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/d-lab/workspace/ros_ur_driver/src/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/src/build/transmission_interface -- -j16 -l16
+[5.302s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/src/build/transmission_interface': AMENT_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/src/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/src/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/src/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/src/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/d-lab/workspace/ros_ur_driver/src/install/hardware_interface/lib:/home/d-lab/workspace/ros_ur_driver/src/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/d-lab/workspace/ros_ur_driver/src/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/d-lab/workspace/ros_ur_driver/src/build/transmission_interface
+[5.309s] -- Install configuration: ""
+[5.309s] -- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/transmission_interface/include
+[5.309s] -- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/transmission_interface/include/transmission_interface
+[5.309s] -- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/transmission_interface/include/transmission_interface/transmission.hpp
+[5.309s] -- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/transmission_interface/include/transmission_interface/accessor.hpp
+[5.309s] -- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/transmission_interface/include/transmission_interface/transmission_parser.hpp
+[5.309s] -- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/transmission_interface/include/transmission_interface/differential_transmission.hpp
+[5.309s] -- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/transmission_interface/include/transmission_interface/visibility_control.h
+[5.309s] -- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/transmission_interface/include/transmission_interface/exception.hpp
+[5.309s] -- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/transmission_interface/include/transmission_interface/handle.hpp
+[5.309s] -- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/transmission_interface/include/transmission_interface/simple_transmission.hpp
+[5.309s] -- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/transmission_interface/include/transmission_interface/four_bar_linkage_transmission.hpp
+[5.309s] -- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/transmission_interface/share/ament_index/resource_index/package_run_dependencies/transmission_interface
+[5.309s] -- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/transmission_interface/share/ament_index/resource_index/parent_prefix_path/transmission_interface
+[5.309s] -- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/transmission_interface/share/transmission_interface/environment/ament_prefix_path.sh
+[5.309s] -- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/transmission_interface/share/transmission_interface/environment/ament_prefix_path.dsv
+[5.310s] -- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/transmission_interface/share/transmission_interface/environment/path.sh
+[5.310s] -- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/transmission_interface/share/transmission_interface/environment/path.dsv
+[5.310s] -- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/transmission_interface/share/transmission_interface/local_setup.bash
+[5.310s] -- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/transmission_interface/share/transmission_interface/local_setup.sh
+[5.310s] -- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/transmission_interface/share/transmission_interface/local_setup.zsh
+[5.310s] -- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/transmission_interface/share/transmission_interface/local_setup.dsv
+[5.310s] -- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/transmission_interface/share/transmission_interface/package.dsv
+[5.310s] -- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/transmission_interface/share/ament_index/resource_index/packages/transmission_interface
+[5.310s] -- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/transmission_interface/share/transmission_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.310s] -- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/transmission_interface/share/transmission_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.310s] -- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/transmission_interface/share/transmission_interface/cmake/transmission_interfaceConfig.cmake
+[5.311s] -- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/transmission_interface/share/transmission_interface/cmake/transmission_interfaceConfig-version.cmake
+[5.311s] -- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/transmission_interface/share/transmission_interface/package.xml
+[5.313s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/src/build/transmission_interface' returned '0': AMENT_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/src/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/src/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/src/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/src/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/d-lab/workspace/ros_ur_driver/src/install/hardware_interface/lib:/home/d-lab/workspace/ros_ur_driver/src/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/d-lab/workspace/ros_ur_driver/src/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/d-lab/workspace/ros_ur_driver/src/build/transmission_interface

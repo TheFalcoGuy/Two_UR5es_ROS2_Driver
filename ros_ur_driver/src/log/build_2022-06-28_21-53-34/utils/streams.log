@@ -1,0 +1,40 @@
+[1.710s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/src/utils': PYTHONPATH=/home/d-lab/workspace/ros_ur_driver/src/build/utils/prefix_override:/home/d-lab/workspace/ros_ur_driver/src/install/utils/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/utils build --build-base /home/d-lab/workspace/ros_ur_driver/src/build/utils/build install --record /home/d-lab/workspace/ros_ur_driver/src/build/utils/install.log --single-version-externally-managed
+[2.190s] running egg_info
+[2.190s] creating ../build/utils/utils.egg-info
+[2.190s] writing ../build/utils/utils.egg-info/PKG-INFO
+[2.191s] writing dependency_links to ../build/utils/utils.egg-info/dependency_links.txt
+[2.191s] writing entry points to ../build/utils/utils.egg-info/entry_points.txt
+[2.191s] writing requirements to ../build/utils/utils.egg-info/requires.txt
+[2.191s] writing top-level names to ../build/utils/utils.egg-info/top_level.txt
+[2.192s] writing manifest file '../build/utils/utils.egg-info/SOURCES.txt'
+[2.254s] reading manifest file '../build/utils/utils.egg-info/SOURCES.txt'
+[2.256s] writing manifest file '../build/utils/utils.egg-info/SOURCES.txt'
+[2.256s] running build
+[2.256s] running build_py
+[2.256s] creating /home/d-lab/workspace/ros_ur_driver/src/build/utils/build
+[2.257s] creating /home/d-lab/workspace/ros_ur_driver/src/build/utils/build/lib
+[2.257s] creating /home/d-lab/workspace/ros_ur_driver/src/build/utils/build/lib/utils
+[2.257s] copying utils/__init__.py -> /home/d-lab/workspace/ros_ur_driver/src/build/utils/build/lib/utils
+[2.257s] copying utils/joint_torque_broadcaster.py -> /home/d-lab/workspace/ros_ur_driver/src/build/utils/build/lib/utils
+[2.258s] copying utils/test_rtde.py -> /home/d-lab/workspace/ros_ur_driver/src/build/utils/build/lib/utils
+[2.258s] running install
+[2.259s] running install_lib
+[2.260s] creating /home/d-lab/workspace/ros_ur_driver/src/install/utils/lib/python3.8/site-packages/utils
+[2.261s] copying /home/d-lab/workspace/ros_ur_driver/src/build/utils/build/lib/utils/__init__.py -> /home/d-lab/workspace/ros_ur_driver/src/install/utils/lib/python3.8/site-packages/utils
+[2.261s] copying /home/d-lab/workspace/ros_ur_driver/src/build/utils/build/lib/utils/joint_torque_broadcaster.py -> /home/d-lab/workspace/ros_ur_driver/src/install/utils/lib/python3.8/site-packages/utils
+[2.261s] copying /home/d-lab/workspace/ros_ur_driver/src/build/utils/build/lib/utils/test_rtde.py -> /home/d-lab/workspace/ros_ur_driver/src/install/utils/lib/python3.8/site-packages/utils
+[2.261s] byte-compiling /home/d-lab/workspace/ros_ur_driver/src/install/utils/lib/python3.8/site-packages/utils/__init__.py to __init__.cpython-38.pyc
+[2.264s] byte-compiling /home/d-lab/workspace/ros_ur_driver/src/install/utils/lib/python3.8/site-packages/utils/joint_torque_broadcaster.py to joint_torque_broadcaster.cpython-38.pyc
+[2.265s] byte-compiling /home/d-lab/workspace/ros_ur_driver/src/install/utils/lib/python3.8/site-packages/utils/test_rtde.py to test_rtde.cpython-38.pyc
+[2.265s] running install_data
+[2.268s] creating /home/d-lab/workspace/ros_ur_driver/src/install/utils/share/ament_index
+[2.268s] creating /home/d-lab/workspace/ros_ur_driver/src/install/utils/share/ament_index/resource_index
+[2.268s] creating /home/d-lab/workspace/ros_ur_driver/src/install/utils/share/ament_index/resource_index/packages
+[2.269s] copying resource/utils -> /home/d-lab/workspace/ros_ur_driver/src/install/utils/share/ament_index/resource_index/packages
+[2.269s] copying package.xml -> /home/d-lab/workspace/ros_ur_driver/src/install/utils/share/utils
+[2.269s] running install_egg_info
+[2.270s] Copying ../build/utils/utils.egg-info to /home/d-lab/workspace/ros_ur_driver/src/install/utils/lib/python3.8/site-packages/utils-0.0.0-py3.8.egg-info
+[2.273s] running install_scripts
+[2.292s] Installing torque_broadcaster script to /home/d-lab/workspace/ros_ur_driver/src/install/utils/bin
+[2.293s] writing list of installed files to '/home/d-lab/workspace/ros_ur_driver/src/build/utils/install.log'
+[2.318s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/src/utils' returned '0': PYTHONPATH=/home/d-lab/workspace/ros_ur_driver/src/build/utils/prefix_override:/home/d-lab/workspace/ros_ur_driver/src/install/utils/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/utils build --build-base /home/d-lab/workspace/ros_ur_driver/src/build/utils/build install --record /home/d-lab/workspace/ros_ur_driver/src/build/utils/install.log --single-version-externally-managed

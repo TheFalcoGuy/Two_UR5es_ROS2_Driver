@@ -1,5 +1,0 @@
-[0.181s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/src/build/warehouse_ros_mongo': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/src/build/warehouse_ros_mongo -- -j16 -l16
-[0.211s] [ 20%] Built target gtest
-[0.211s] [ 40%] Built target gtest_main
-[0.220s] [ 80%] Built target warehouse_ros_mongo
-[0.243s] [100%] Built target test_warehouse_ros_mongo_cpp

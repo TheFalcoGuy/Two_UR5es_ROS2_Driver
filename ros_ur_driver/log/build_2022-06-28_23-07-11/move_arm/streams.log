@@ -1,0 +1,33 @@
+[0.229s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/move_arm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/d-lab/workspace/ros_ur_driver/install/utils:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes:/home/d-lab/workspace/ros_ur_driver/install/robotiq_control:/home/d-lab/workspace/ros_ur_driver/install/gripper_control:/opt/ros/foxy /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/move_arm -- -j16 -l16
+[0.438s] [35m[1mScanning dependencies of target move_to_point[0m
+[0.439s] [ 50%] [32mBuilding CXX object CMakeFiles/move_to_point.dir/src/move_to_point.cpp.o[0m
+[2.631s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_to_point.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.631s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_to_point.cpp:56:28:[m[K [01;31m[Kerror: [m[Kinvalid initialization of reference of type ‘[01m[Kconst rclcpp::InitOptions&[m[K’ from expression of type ‘[01m[Kconst char [6][m[K’
+[2.631s]    56 |   rclcpp::init(argc, argv, [01;31m[K"hello"[m[K);
+[2.632s]       |                            [01;31m[K^~~~~~~[m[K
+[2.632s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:36[m[K,
+[2.632s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[2.632s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[2.632s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[2.633s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[2.633s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[2.633s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[2.634s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[2.634s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[2.634s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[2.634s]                  from [01m[K/opt/ros/foxy/include/moveit/kinematics_base/kinematics_base.h:42[m[K,
+[2.634s]                  from [01m[K/opt/ros/foxy/include/moveit/robot_model/joint_model_group.h:42[m[K,
+[2.634s]                  from [01m[K/opt/ros/foxy/include/moveit/robot_model/robot_model.h:45[m[K,
+[2.635s]                  from [01m[K/opt/ros/foxy/include/moveit/robot_state/robot_state.h:40[m[K,
+[2.635s]                  from [01m[K/opt/ros/foxy/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+[2.636s]                  from [01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_to_point.cpp:38[m[K:
+[2.636s] [01m[K/opt/ros/foxy/include/rclcpp/utilities.hpp:56:63:[m[K [01;36m[Knote: [m[Kin passing argument 3 of ‘[01m[Kvoid rclcpp::init(int, const char* const*, const rclcpp::InitOptions&)[m[K’
+[2.636s]    56 | init(int argc, char const * const argv[], [01;36m[Kconst InitOptions & init_options = InitOptions()[m[K);
+[2.636s]       |                                           [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.641s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_to_point.cpp:88:40:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kjoint_model_group[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.641s]    88 |   const moveit::core::JointModelGroup* [01;35m[Kjoint_model_group[m[K =
+[2.641s]       |                                        [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[4.240s] make[2]: *** [CMakeFiles/move_to_point.dir/build.make:63: CMakeFiles/move_to_point.dir/src/move_to_point.cpp.o] Error 1
+[4.240s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/move_to_point.dir/all] Error 2
+[4.240s] make: *** [Makefile:141: all] Error 2
+[4.242s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/build/move_arm' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/d-lab/workspace/ros_ur_driver/install/utils:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes:/home/d-lab/workspace/ros_ur_driver/install/robotiq_control:/home/d-lab/workspace/ros_ur_driver/install/gripper_control:/opt/ros/foxy /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/move_arm -- -j16 -l16

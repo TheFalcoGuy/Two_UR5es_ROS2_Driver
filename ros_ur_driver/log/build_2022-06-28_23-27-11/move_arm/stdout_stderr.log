@@ -1,0 +1,26 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/move_to_point.dir/src/move_to_point.cpp.o[0m
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_to_point.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_to_point.cpp:83:75:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const string&)[m[K’
+   83 |   moveit::planning_interface::MoveGroupInterface move_group(PLANNING_GROUP[01;31m[K)[m[K;
+      |                                                                           [01;31m[K^[m[K
+In file included from [01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_to_point.cpp:38[m[K:
+[01m[K/opt/ros/foxy/include/moveit/move_group_interface/move_group_interface.h:180:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(moveit::planning_interface::MoveGroupInterface&&)[m[K’
+  180 |   [01;36m[KMoveGroupInterface[m[K(MoveGroupInterface&& other) noexcept;
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/moveit/move_group_interface/move_group_interface.h:180:43:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst string[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kmoveit::planning_interface::MoveGroupInterface&&[m[K’
+  180 |   MoveGroupInterface([01;36m[KMoveGroupInterface&& other[m[K) noexcept;
+      |                      [01;36m[K~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/opt/ros/foxy/include/moveit/move_group_interface/move_group_interface.h:166:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const SharedPtr&, const string&, const std::shared_ptr<tf2_ros::Buffer>&, const rclcpp::Duration&)[m[K’
+  166 |   [01;36m[KMoveGroupInterface[m[K(const rclcpp::Node::SharedPtr& node, const std::string& group,
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/moveit/move_group_interface/move_group_interface.h:166:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[01m[K/opt/ros/foxy/include/moveit/move_group_interface/move_group_interface.h:155:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const SharedPtr&, const moveit::planning_interface::MoveGroupInterface::Options&, const std::shared_ptr<tf2_ros::Buffer>&, const rclcpp::Duration&)[m[K’
+  155 |   [01;36m[KMoveGroupInterface[m[K(const rclcpp::Node::SharedPtr& node, const Options& opt,
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/moveit/move_group_interface/move_group_interface.h:155:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_to_point.cpp:91:40:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kjoint_model_group[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   91 |   const moveit::core::JointModelGroup* [01;35m[Kjoint_model_group[m[K =
+      |                                        [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/move_to_point.dir/build.make:63: CMakeFiles/move_to_point.dir/src/move_to_point.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/move_to_point.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -52,7 +52,8 @@
 static const rclcpp::Logger LOGGER = rclcpp::get_logger("move_group_demo");
 
 int main(int argc, char** argv)
-{
+{ 
+  RCLCPP_INFO(LOGGER, "Hello");
   rclcpp::init(argc, argv);
   rclcpp::NodeOptions node_options;
   node_options.automatically_declare_parameters_from_overrides(true);
@@ -72,13 +73,15 @@ int main(int argc, char** argv)
   // MoveIt operates on sets of joints called "planning groups" and stores them in an object called
   // the ``JointModelGroup``. Throughout MoveIt, the terms "planning group" and "joint model group"
   // are used interchangeably.
-  static const std::string PLANNING_GROUP = "ur5e_manipulator";
+  
+  static const std::string PLANNING_GROUP = "ur_manipulator";
 
   // The
   // :moveit_codedir:`MoveGroupInterface<moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h>`
   // class can be easily set up using just the name of the planning group you would like to control and plan for.
+  RCLCPP_INFO(LOGGER, "I am here");
   moveit::planning_interface::MoveGroupInterface move_group(move_group_node, PLANNING_GROUP);
-
+  RCLCPP_INFO(LOGGER, "Hi");
   // We will use the
   // :moveit_codedir:`PlanningSceneInterface<moveit_ros/planning_interface/planning_scene_interface/include/moveit/planning_scene_interface/planning_scene_interface.h>`
   // class to add and remove collision objects in our "virtual world" scene
@@ -101,8 +104,8 @@ int main(int argc, char** argv)
   // visual_tools.loadRemoteControl();
 
   // RViz provides many types of markers, in this demo we will use text, cylinders, and spheres
-  Eigen::Isometry3d text_pose = Eigen::Isometry3d::Identity();
-  text_pose.translation().z() = 1.0;
+  // Eigen::Isometry3d text_pose = Eigen::Isometry3d::Identity();
+  // text_pose.translation().z() = 1.0;
   // visual_tools.publishText(text_pose, "MoveGroupInterface_Demo", rvt::WHITE, rvt::XLARGE);
 
   // Batch publishing is used to reduce the number of messages being sent to RViz for large visualizations

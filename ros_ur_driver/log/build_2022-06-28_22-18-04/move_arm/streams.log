@@ -1,0 +1,62 @@
+[0.221s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/move_arm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/d-lab/workspace/ros_ur_driver/install/utils:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes:/home/d-lab/workspace/ros_ur_driver/install/robotiq_control:/home/d-lab/workspace/ros_ur_driver/install/gripper_control:/opt/ros/foxy /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/move_arm -- -j16 -l16
+[0.441s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.441s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.441s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.441s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.443s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.593s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.626s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.626s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.752s] -- Found moveit: 2.2.3 (/opt/ros/foxy/share/moveit/cmake)
+[0.752s] -- Found moveit_msgs: 2.1.0 (/opt/ros/foxy/share/moveit_msgs/cmake)
+[1.697s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[1.697s] -- Found moveit_ros_planning_interface: 2.2.3 (/opt/ros/foxy/share/moveit_ros_planning_interface/cmake)
+[1.699s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0")  
+[1.707s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: date_time filesystem program_options system thread 
+[1.748s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.760s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: filesystem 
+[1.793s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[2.323s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system filesystem date_time program_options thread chrono 
+[2.528s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: thread 
+[3.027s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: thread system filesystem regex date_time program_options 
+[3.271s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system filesystem date_time program_options thread 
+[3.655s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.700s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.701s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.701s] -- Configured cppcheck include dirs: 
+[3.701s] -- Configured cppcheck exclude dirs and/or files: 
+[3.701s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.702s] -- Configured cpplint exclude dirs and/or files: 
+[3.702s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.702s] -- Added test 'lint_cmake' to check CMake code style
+[3.703s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[3.704s] -- Added test 'uncrustify' to check C / C++ code style
+[3.704s] -- Configured uncrustify additional arguments: 
+[3.704s] -- Added test 'xmllint' to check XML markup files
+[3.706s] -- Configuring done
+[3.727s] -- Generating done
+[3.728s] -- Build files have been written to: /home/d-lab/workspace/ros_ur_driver/build/move_arm
+[3.776s] [100%] Built target move_to_point
+[3.785s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/build/move_arm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/d-lab/workspace/ros_ur_driver/install/utils:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes:/home/d-lab/workspace/ros_ur_driver/install/robotiq_control:/home/d-lab/workspace/ros_ur_driver/install/gripper_control:/opt/ros/foxy /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/move_arm -- -j16 -l16
+[3.811s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/move_arm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/d-lab/workspace/ros_ur_driver/install/utils:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes:/home/d-lab/workspace/ros_ur_driver/install/robotiq_control:/home/d-lab/workspace/ros_ur_driver/install/gripper_control:/opt/ros/foxy /usr/bin/cmake --install /home/d-lab/workspace/ros_ur_driver/build/move_arm
+[3.818s] -- Install configuration: ""
+[3.818s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/move_arm/lib/move_arm/move_to_point
+[3.819s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/move_arm/share/move_arm/launch
+[3.819s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/move_arm/share/move_arm/launch/move_arm.launch.py
+[3.819s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/move_arm/share/ament_index/resource_index/package_run_dependencies/move_arm
+[3.819s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/move_arm/share/ament_index/resource_index/parent_prefix_path/move_arm
+[3.819s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/move_arm/share/move_arm/environment/ament_prefix_path.sh
+[3.819s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/move_arm/share/move_arm/environment/ament_prefix_path.dsv
+[3.819s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/move_arm/share/move_arm/environment/path.sh
+[3.819s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/move_arm/share/move_arm/environment/path.dsv
+[3.819s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/move_arm/share/move_arm/local_setup.bash
+[3.819s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/move_arm/share/move_arm/local_setup.sh
+[3.819s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/move_arm/share/move_arm/local_setup.zsh
+[3.819s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/move_arm/share/move_arm/local_setup.dsv
+[3.819s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/move_arm/share/move_arm/package.dsv
+[3.819s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/move_arm/share/ament_index/resource_index/packages/move_arm
+[3.819s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/move_arm/share/move_arm/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.820s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/move_arm/share/move_arm/cmake/move_armConfig.cmake
+[3.820s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/move_arm/share/move_arm/cmake/move_armConfig-version.cmake
+[3.820s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/move_arm/share/move_arm/package.xml
+[3.822s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/build/move_arm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/d-lab/workspace/ros_ur_driver/install/utils:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes:/home/d-lab/workspace/ros_ur_driver/install/robotiq_control:/home/d-lab/workspace/ros_ur_driver/install/gripper_control:/opt/ros/foxy /usr/bin/cmake --install /home/d-lab/workspace/ros_ur_driver/build/move_arm

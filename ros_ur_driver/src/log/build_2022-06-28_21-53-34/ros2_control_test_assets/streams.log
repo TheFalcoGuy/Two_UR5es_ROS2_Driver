@@ -1,0 +1,48 @@
+[0.057s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/src/build/ros2_control_test_assets': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/d-lab/workspace/ros_ur_driver/src/ros2_control/ros2_control_test_assets -DCMAKE_INSTALL_PREFIX=/home/d-lab/workspace/ros_ur_driver/src/install/ros2_control_test_assets
+[0.492s] -- The C compiler identification is GNU 9.4.0
+[0.492s] -- The CXX compiler identification is GNU 9.4.0
+[0.492s] -- Check for working C compiler: /usr/bin/cc
+[0.492s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.492s] -- Detecting C compiler ABI info
+[0.492s] -- Detecting C compiler ABI info - done
+[0.493s] -- Detecting C compile features
+[0.493s] -- Detecting C compile features - done
+[0.493s] -- Check for working CXX compiler: /usr/bin/c++
+[0.493s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.493s] -- Detecting CXX compiler ABI info
+[0.493s] -- Detecting CXX compiler ABI info - done
+[0.493s] -- Detecting CXX compile features
+[0.493s] -- Detecting CXX compile features - done
+[0.493s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.493s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.493s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.597s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.657s] -- Configuring done
+[0.659s] -- Generating done
+[0.665s] -- Build files have been written to: /home/d-lab/workspace/ros_ur_driver/src/build/ros2_control_test_assets
+[0.674s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/src/build/ros2_control_test_assets' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/d-lab/workspace/ros_ur_driver/src/ros2_control/ros2_control_test_assets -DCMAKE_INSTALL_PREFIX=/home/d-lab/workspace/ros_ur_driver/src/install/ros2_control_test_assets
+[0.674s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/src/build/ros2_control_test_assets': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/src/build/ros2_control_test_assets -- -j16 -l16
+[1.092s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/src/build/ros2_control_test_assets' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/src/build/ros2_control_test_assets -- -j16 -l16
+[1.127s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/src/build/ros2_control_test_assets': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/d-lab/workspace/ros_ur_driver/src/build/ros2_control_test_assets
+[1.221s] -- Install configuration: ""
+[1.223s] -- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/ros2_control_test_assets/include
+[1.225s] -- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/ros2_control_test_assets/include/ros2_control_test_assets
+[1.225s] -- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/ros2_control_test_assets/include/ros2_control_test_assets/components_urdfs.hpp
+[1.225s] -- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/ros2_control_test_assets/include/ros2_control_test_assets/descriptions.hpp
+[1.225s] -- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/ros2_control_test_assets/share/ament_index/resource_index/package_run_dependencies/ros2_control_test_assets
+[1.225s] -- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/ros2_control_test_assets/share/ament_index/resource_index/parent_prefix_path/ros2_control_test_assets
+[1.225s] -- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/ament_prefix_path.sh
+[1.225s] -- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/ament_prefix_path.dsv
+[1.225s] -- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/path.sh
+[1.225s] -- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/path.dsv
+[1.225s] -- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.bash
+[1.225s] -- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.sh
+[1.226s] -- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.zsh
+[1.226s] -- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.dsv
+[1.226s] -- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/ros2_control_test_assets/share/ros2_control_test_assets/package.dsv
+[1.226s] -- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/ros2_control_test_assets/share/ament_index/resource_index/packages/ros2_control_test_assets
+[1.226s] -- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.226s] -- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/ros2_control_test_assetsConfig.cmake
+[1.226s] -- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/ros2_control_test_assetsConfig-version.cmake
+[1.226s] -- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/ros2_control_test_assets/share/ros2_control_test_assets/package.xml
+[1.263s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/src/build/ros2_control_test_assets' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/d-lab/workspace/ros_ur_driver/src/build/ros2_control_test_assets

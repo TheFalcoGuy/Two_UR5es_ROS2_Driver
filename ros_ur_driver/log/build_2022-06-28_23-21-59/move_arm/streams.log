@@ -1,0 +1,14 @@
+[0.236s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/move_arm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/d-lab/workspace/ros_ur_driver/install/utils:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes:/home/d-lab/workspace/ros_ur_driver/install/robotiq_control:/home/d-lab/workspace/ros_ur_driver/install/gripper_control:/opt/ros/foxy /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/move_arm -- -j16 -l16
+[0.436s] [35m[1mScanning dependencies of target move_to_point[0m
+[0.436s] [ 50%] [32mBuilding CXX object CMakeFiles/move_to_point.dir/src/move_to_point.cpp.o[0m
+[2.708s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_to_point.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.708s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_to_point.cpp:83:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kmoveit[m[K’
+[2.709s]    83 |   [01;31m[Kmoveit[m[K::planning_interface::MoveGroupInterface move_group(move_group_node, PLANNING_GROUP);
+[2.709s]       |   [01;31m[K^~~~~~[m[K
+[2.713s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_to_point.cpp:91:40:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kjoint_model_group[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.713s]    91 |   const moveit::core::JointModelGroup* [01;35m[Kjoint_model_group[m[K =
+[2.713s]       |                                        [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[4.339s] make[2]: *** [CMakeFiles/move_to_point.dir/build.make:63: CMakeFiles/move_to_point.dir/src/move_to_point.cpp.o] Error 1
+[4.339s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/move_to_point.dir/all] Error 2
+[4.339s] make: *** [Makefile:141: all] Error 2
+[4.341s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/build/move_arm' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/d-lab/workspace/ros_ur_driver/install/utils:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes:/home/d-lab/workspace/ros_ur_driver/install/robotiq_control:/home/d-lab/workspace/ros_ur_driver/install/gripper_control:/opt/ros/foxy /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/move_arm -- -j16 -l16

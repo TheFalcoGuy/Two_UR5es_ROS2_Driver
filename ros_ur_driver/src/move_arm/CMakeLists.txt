@@ -36,6 +36,11 @@ install(TARGETS
   move_to_point
   DESTINATION lib/${PROJECT_NAME})
 
+  install(DIRECTORY  launch
+  DESTINATION share/${PROJECT_NAME}
+)
+
+
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
   # the following line skips cpplint (only works in a git repo)

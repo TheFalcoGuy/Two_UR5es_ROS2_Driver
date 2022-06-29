@@ -1,21 +1,21 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
 Change Dir: /home/d-lab/workspace/ros_ur_driver/src/build/velocity_controllers/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_67775/fast && /usr/bin/make -f CMakeFiles/cmTC_67775.dir/build.make CMakeFiles/cmTC_67775.dir/build
+Run Build Command(s):/usr/bin/make cmTC_351e0/fast && /usr/bin/make -f CMakeFiles/cmTC_351e0.dir/build.make CMakeFiles/cmTC_351e0.dir/build
 make[1]: Entering directory '/home/d-lab/workspace/ros_ur_driver/src/build/velocity_controllers/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_67775.dir/src.c.o
-/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_67775.dir/src.c.o   -c /home/d-lab/workspace/ros_ur_driver/src/build/velocity_controllers/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_67775
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_67775.dir/link.txt --verbose=1
-/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_67775.dir/src.c.o  -o cmTC_67775 
-/usr/bin/ld: CMakeFiles/cmTC_67775.dir/src.c.o: in function `main':
+Building C object CMakeFiles/cmTC_351e0.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_351e0.dir/src.c.o   -c /home/d-lab/workspace/ros_ur_driver/src/build/velocity_controllers/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_351e0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_351e0.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_351e0.dir/src.c.o  -o cmTC_351e0 
+/usr/bin/ld: CMakeFiles/cmTC_351e0.dir/src.c.o: in function `main':
 src.c:(.text+0x46): undefined reference to `pthread_create'
 /usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
 /usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_67775.dir/build.make:87: cmTC_67775] Error 1
+make[1]: *** [CMakeFiles/cmTC_351e0.dir/build.make:87: cmTC_351e0] Error 1
 make[1]: Leaving directory '/home/d-lab/workspace/ros_ur_driver/src/build/velocity_controllers/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_67775/fast] Error 2
+make: *** [Makefile:121: cmTC_351e0/fast] Error 2
 
 
 Source file was:
@@ -41,18 +41,18 @@ int main(void)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/d-lab/workspace/ros_ur_driver/src/build/velocity_controllers/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_ae6a7/fast && /usr/bin/make -f CMakeFiles/cmTC_ae6a7.dir/build.make CMakeFiles/cmTC_ae6a7.dir/build
+Run Build Command(s):/usr/bin/make cmTC_198ec/fast && /usr/bin/make -f CMakeFiles/cmTC_198ec.dir/build.make CMakeFiles/cmTC_198ec.dir/build
 make[1]: Entering directory '/home/d-lab/workspace/ros_ur_driver/src/build/velocity_controllers/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ae6a7.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_ae6a7.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
-Linking C executable cmTC_ae6a7
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae6a7.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_ae6a7.dir/CheckFunctionExists.c.o  -o cmTC_ae6a7  -lpthreads 
+Building C object CMakeFiles/cmTC_198ec.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_198ec.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_198ec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_198ec.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_198ec.dir/CheckFunctionExists.c.o  -o cmTC_198ec  -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_ae6a7.dir/build.make:87: cmTC_ae6a7] Error 1
+make[1]: *** [CMakeFiles/cmTC_198ec.dir/build.make:87: cmTC_198ec] Error 1
 make[1]: Leaving directory '/home/d-lab/workspace/ros_ur_driver/src/build/velocity_controllers/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_ae6a7/fast] Error 2
+make: *** [Makefile:121: cmTC_198ec/fast] Error 2
 
 
 

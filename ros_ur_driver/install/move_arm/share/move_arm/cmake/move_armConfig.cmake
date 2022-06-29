@@ -36,7 +36,7 @@ endif()
 set(move_arm_FOUND_AMENT_PACKAGE TRUE)
 
 # include all config extra files
-set(_extras "")
+set(_extras "ament_cmake_export_dependencies-extras.cmake")
 foreach(_extra ${_extras})
   include("${move_arm_DIR}/${_extra}")
 endforeach()
