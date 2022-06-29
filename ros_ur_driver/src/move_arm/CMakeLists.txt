@@ -23,7 +23,7 @@ find_package(moveit REQUIRED)
 find_package(moveit_msgs REQUIRED)
 find_package(eigen3_cmake_module REQUIRED)
 find_package(moveit_ros_planning_interface REQUIRED)
-
+# find_package(moveit_visual_tools REQUIRED)
 find_package(Eigen3)
 
 add_executable(move_to_point src/move_to_point.cpp)

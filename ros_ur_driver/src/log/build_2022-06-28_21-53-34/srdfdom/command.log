@@ -1,6 +1,0 @@
-Invoking command in '/home/d-lab/workspace/ros_ur_driver/src/build/srdfdom': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/d-lab/workspace/ros_ur_driver/src/srdfdom -DCMAKE_INSTALL_PREFIX=/home/d-lab/workspace/ros_ur_driver/src/install/srdfdom
-Invoked command in '/home/d-lab/workspace/ros_ur_driver/src/build/srdfdom' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/d-lab/workspace/ros_ur_driver/src/srdfdom -DCMAKE_INSTALL_PREFIX=/home/d-lab/workspace/ros_ur_driver/src/install/srdfdom
-Invoking command in '/home/d-lab/workspace/ros_ur_driver/src/build/srdfdom': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/src/build/srdfdom -- -j16 -l16
-Invoked command in '/home/d-lab/workspace/ros_ur_driver/src/build/srdfdom' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/src/build/srdfdom -- -j16 -l16
-Invoking command in '/home/d-lab/workspace/ros_ur_driver/src/build/srdfdom': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/d-lab/workspace/ros_ur_driver/src/build/srdfdom
-Invoked command in '/home/d-lab/workspace/ros_ur_driver/src/build/srdfdom' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/d-lab/workspace/ros_ur_driver/src/build/srdfdom

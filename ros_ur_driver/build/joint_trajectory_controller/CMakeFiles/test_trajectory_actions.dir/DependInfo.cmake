@@ -20,8 +20,8 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/opt/ros/foxy/src/gtest_vendor/include"
   "/home/d-lab/workspace/ros_ur_driver/src/ros2_controllers/joint_trajectory_controller/include"
-  "/home/d-lab/workspace/ros_ur_driver/install/hardware_interface/include"
   "/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_assets/include"
+  "/home/d-lab/workspace/ros_ur_driver/install/hardware_interface/include"
   "/home/d-lab/workspace/ros_ur_driver/install/controller_interface/include"
   "/home/d-lab/workspace/ros_ur_driver/install/control_msgs/include"
   "/opt/ros/foxy/include"

@@ -1,0 +1,39 @@
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/moveit_visual_tools/src/moveit_visual_tools.cpp:[m[K In member function ‘[01m[Kbool moveit_visual_tools::MoveItVisualTools::loadPlanningSceneMonitor()[m[K’:
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/moveit_visual_tools/src/moveit_visual_tools.cpp:112:109:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kplanning_scene_monitor::PlanningSceneMonitor::PlanningSceneMonitor(rclcpp::Node::SharedPtr&, const string&, const char [19])[m[K’
+  112 | onitor(node_, ROBOT_DESCRIPTION, "visual_tools_scene"[01;31m[K)[m[K);
+      |                                                      [01;31m[K^[m[K
+
+In file included from [01m[K/home/d-lab/workspace/ros_ur_driver/src/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:41[m[K,
+                 from [01m[K/home/d-lab/workspace/ros_ur_driver/src/moveit_visual_tools/src/moveit_visual_tools.cpp:32[m[K:
+[01m[K/opt/ros/foxy/include/moveit/planning_scene_monitor/planning_scene_monitor.h:145:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kplanning_scene_monitor::PlanningSceneMonitor::PlanningSceneMonitor(const SharedPtr&, const PlanningScenePtr&, const RobotModelLoaderPtr&, const std::shared_ptr<tf2_ros::Buffer>&, const string&)[m[K’
+  145 |   [01;36m[KPlanningSceneMonitor[m[K(const rclcpp::Node::SharedPtr& node, const planning_scene::PlanningScenePtr& scene,
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/moveit/planning_scene_monitor/planning_scene_monitor.h:145:101:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kconst string[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kconst PlanningScenePtr&[m[K’ {aka ‘[01m[Kconst std::shared_ptr<planning_scene::PlanningScene>&[m[K’}
+  145 | edPtr& node, [01;36m[Kconst planning_scene::PlanningScenePtr& scene[m[K,
+      |              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+
+[01m[K/opt/ros/foxy/include/moveit/planning_scene_monitor/planning_scene_monitor.h:134:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kplanning_scene_monitor::PlanningSceneMonitor::PlanningSceneMonitor(const SharedPtr&, const PlanningScenePtr&, const string&, const std::shared_ptr<tf2_ros::Buffer>&, const string&)[m[K’
+  134 |   [01;36m[KPlanningSceneMonitor[m[K(const rclcpp::Node::SharedPtr& node, const planning_scene::PlanningScenePtr& scene,
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/moveit/planning_scene_monitor/planning_scene_monitor.h:134:101:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kconst string[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kconst PlanningScenePtr&[m[K’ {aka ‘[01m[Kconst std::shared_ptr<planning_scene::PlanningScene>&[m[K’}
+  134 | edPtr& node, [01;36m[Kconst planning_scene::PlanningScenePtr& scene[m[K,
+      |              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+
+[01m[K/opt/ros/foxy/include/moveit/planning_scene_monitor/planning_scene_monitor.h:124:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kplanning_scene_monitor::PlanningSceneMonitor::PlanningSceneMonitor(const SharedPtr&, const RobotModelLoaderPtr&, const std::shared_ptr<tf2_ros::Buffer>&, const string&)[m[K’
+  124 |   [01;36m[KPlanningSceneMonitor[m[K(const rclcpp::Node::SharedPtr& node, const robot_model_loader::RobotModelLoaderPtr& rml,
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/moveit/planning_scene_monitor/planning_scene_monitor.h:124:108:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kconst string[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kconst RobotModelLoaderPtr&[m[K’ {aka ‘[01m[Kconst std::shared_ptr<robot_model_loader::RobotModelLoader>&[m[K’}
+  124 | node, [01;36m[Kconst robot_model_loader::RobotModelLoaderPtr& rml[m[K,
+      |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+
+[01m[K/opt/ros/foxy/include/moveit/planning_scene_monitor/planning_scene_monitor.h:115:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kplanning_scene_monitor::PlanningSceneMonitor::PlanningSceneMonitor(const SharedPtr&, const string&, const std::shared_ptr<tf2_ros::Buffer>&, const string&)[m[K’
+  115 |   [01;36m[KPlanningSceneMonitor[m[K(const rclcpp::Node::SharedPtr& node, const std::string& robot_description,
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/moveit/planning_scene_monitor/planning_scene_monitor.h:116:64:[m[K [01;36m[Knote: [m[K  no known conversion for argument 3 from ‘[01m[Kconst char [19][m[K’ to ‘[01m[Kconst std::shared_ptr<tf2_ros::Buffer>&[m[K’
+  116 |              [01;36m[Kconst std::shared_ptr<tf2_ros::Buffer>& tf_buffer = std::shared_ptr<tf2_ros::Buffer>()[m[K,
+      |              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+
+make[2]: *** [CMakeFiles/moveit_visual_tools.dir/build.make:63: CMakeFiles/moveit_visual_tools.dir/src/moveit_visual_tools.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/moveit_visual_tools.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

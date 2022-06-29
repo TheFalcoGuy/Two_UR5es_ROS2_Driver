@@ -1,0 +1,161 @@
+[0.049s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/rviz_visual_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/d-lab/workspace/ros_ur_driver/install/utils:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes:/home/d-lab/workspace/ros_ur_driver/install/robotiq_control:/home/d-lab/workspace/ros_ur_driver/install/gripper_control:/opt/ros/foxy /usr/bin/cmake /home/d-lab/workspace/ros_ur_driver/src/rviz_visual_tools -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools
+[0.079s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.095s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.245s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.281s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.283s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.422s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.478s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.482s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.667s] -- Found rclcpp_components: 2.4.1 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[0.720s] -- Found rviz_ogre_vendor: 8.2.6 (/opt/ros/foxy/share/rviz_ogre_vendor/cmake)
+[0.720s] -- Setting OGRE_DIR to: '/opt/ros/foxy/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[0.724s] -- Found OGRE
+[0.724s] --   static     : OFF
+[0.724s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[0.724s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[0.724s] --   media      : /opt/ros/foxy/opt/rviz_ogre_vendor/share/OGRE/Media
+[0.724s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[0.724s] -- OGRE_LIBRARY_DIRS: /opt/ros/foxy/opt/rviz_ogre_vendor/lib
+[0.724s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[0.724s] -- OGRE_PLUGIN_DIR: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/OGRE
+[0.724s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[0.724s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[0.724s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[0.724s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[0.776s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+[0.777s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+[0.778s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[0.921s] -- Found shape_msgs: 2.0.5 (/opt/ros/foxy/share/shape_msgs/cmake)
+[0.989s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[1.042s] -- Found trajectory_msgs: 2.0.5 (/opt/ros/foxy/share/trajectory_msgs/cmake)
+[1.110s] -- Found eigen3_cmake_module: 0.2.0 (/home/d-lab/workspace/ros_ur_driver/install/eigen3_cmake_module/share/eigen3_cmake_module/cmake)
+[1.110s] -- Found eigen_stl_containers: 1.0.0 (/opt/ros/foxy/share/eigen_stl_containers/cmake)
+[1.110s] -- Found tf2: 0.13.13 (/opt/ros/foxy/share/tf2/cmake)
+[1.111s] -- Found tf2_eigen: 0.13.13 (/opt/ros/foxy/share/tf2_eigen/cmake)
+[1.313s] -- Found tf2_geometry_msgs: 0.13.13 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+[1.334s] -- Found pluginlib: 2.5.4 (/opt/ros/foxy/share/pluginlib/cmake)
+[1.346s] -- Found interactive_markers: 2.1.3 (/opt/ros/foxy/share/interactive_markers/cmake)
+[1.361s] -- Found rviz_common: 8.2.6 (/opt/ros/foxy/share/rviz_common/cmake)
+[1.390s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[1.446s] -- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+[1.449s] -- Found rviz_default_plugins: 8.2.6 (/opt/ros/foxy/share/rviz_default_plugins/cmake)
+[1.776s] -- Found ament_cmake_gtest: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[1.777s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.831s] -- Configuring done
+[1.968s] -- Generating done
+[1.971s] -- Build files have been written to: /home/d-lab/workspace/ros_ur_driver/build/rviz_visual_tools
+[1.980s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/build/rviz_visual_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/d-lab/workspace/ros_ur_driver/install/utils:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes:/home/d-lab/workspace/ros_ur_driver/install/robotiq_control:/home/d-lab/workspace/ros_ur_driver/install/gripper_control:/opt/ros/foxy /usr/bin/cmake /home/d-lab/workspace/ros_ur_driver/src/rviz_visual_tools -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools
+[1.984s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/rviz_visual_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/d-lab/workspace/ros_ur_driver/install/utils:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes:/home/d-lab/workspace/ros_ur_driver/install/robotiq_control:/home/d-lab/workspace/ros_ur_driver/install/gripper_control:/opt/ros/foxy /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/rviz_visual_tools -- -j16 -l16
+[2.038s] [  2%] [34m[1mAutomatic MOC for target gtest[0m
+[2.038s] [  5%] [34m[1mAutomatic MOC for target rviz_visual_tools_remote_control[0m
+[2.038s] [  7%] [34m[1mAutomatic MOC for target gtest_main[0m
+[2.040s] [ 10%] [34m[1mAutomatic MOC for target rviz_visual_tools_gui[0m
+[2.056s] [ 10%] Built target rviz_visual_tools_remote_control_autogen
+[2.061s] [ 10%] Built target gtest_main_autogen
+[2.061s] [ 10%] Built target rviz_visual_tools_gui_autogen
+[2.061s] [ 10%] Built target gtest_autogen
+[2.088s] [ 12%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/gtest_main_autogen/mocs_compilation.cpp.o[0m
+[2.088s] [ 15%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_remote_control.dir/rviz_visual_tools_remote_control_autogen/mocs_compilation.cpp.o[0m
+[2.088s] [ 17%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/gtest_autogen/mocs_compilation.cpp.o[0m
+[2.089s] [ 20%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[2.090s] [ 23%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_remote_control.dir/src/remote_control.cpp.o[0m
+[2.096s] [ 25%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[2.111s] [ 28%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_gui.dir/src/key_tool.cpp.o[0m
+[2.111s] [ 30%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_gui.dir/rviz_visual_tools_gui_autogen/mocs_compilation.cpp.o[0m
+[2.112s] [ 33%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_gui.dir/src/rviz_visual_tools_gui.cpp.o[0m
+[2.121s] [ 35%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_gui.dir/src/remote_control.cpp.o[0m
+[2.857s] [ 38%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[2.889s] [ 38%] Built target gtest_main
+[6.577s] [ 41%] [32m[1mLinking CXX shared library librviz_visual_tools_remote_control.so[0m
+[6.677s] [ 41%] Built target rviz_visual_tools_remote_control
+[6.695s] [ 43%] [34m[1mAutomatic MOC for target rviz_visual_tools[0m
+[6.711s] [ 43%] Built target rviz_visual_tools_autogen
+[6.735s] [ 46%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools.dir/rviz_visual_tools_autogen/mocs_compilation.cpp.o[0m
+[6.740s] [ 51%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools.dir/src/tf_visual_tools.cpp.o[0m
+[6.740s] [ 51%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools.dir/src/rviz_visual_tools.cpp.o[0m
+[6.964s] [ 53%] [32m[1mLinking CXX shared library librviz_visual_tools_gui.so[0m
+[8.149s] [ 56%] [32m[1mLinking CXX static library libgtest.a[0m
+[8.200s] [ 56%] Built target gtest
+[8.349s] [ 56%] Built target rviz_visual_tools_gui
+[19.901s] [ 58%] [32m[1mLinking CXX shared library librviz_visual_tools.so[0m
+[20.002s] [ 58%] Built target rviz_visual_tools
+[20.019s] [ 66%] [34m[1mAutomatic MOC for target rviz_visual_tools_imarker_simple[0m
+[20.019s] [ 66%] [34m[1mAutomatic MOC for target rviz_visual_tools_rvt_test[0m
+[20.019s] [ 66%] [34m[1mAutomatic MOC for target rviz_visual_tools_demo[0m
+[20.033s] [ 66%] Built target rviz_visual_tools_imarker_simple_autogen
+[20.033s] [ 66%] Built target rviz_visual_tools_rvt_test_autogen
+[20.033s] [ 66%] Built target rviz_visual_tools_demo_autogen
+[20.054s] [ 71%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_rvt_test.dir/rviz_visual_tools_rvt_test_autogen/mocs_compilation.cpp.o[0m
+[20.054s] [ 71%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_imarker_simple.dir/rviz_visual_tools_imarker_simple_autogen/mocs_compilation.cpp.o[0m
+[20.054s] [ 74%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_demo.dir/rviz_visual_tools_demo_autogen/mocs_compilation.cpp.o[0m
+[20.059s] [ 76%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_imarker_simple.dir/src/imarker_simple.cpp.o[0m
+[20.061s] [ 79%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_rvt_test.dir/tests/rvt_test.cpp.o[0m
+[20.061s] [ 82%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_demo.dir/src/rviz_visual_tools_demo.cpp.o[0m
+[22.048s] [ 84%] [32m[1mLinking CXX shared library librviz_visual_tools_imarker_simple.so[0m
+[22.139s] [ 84%] Built target rviz_visual_tools_imarker_simple
+[22.156s] [ 87%] [34m[1mAutomatic MOC for target rviz_visual_tools_imarker_simple_demo[0m
+[22.170s] [ 87%] Built target rviz_visual_tools_imarker_simple_demo_autogen
+[22.191s] [ 89%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_imarker_simple_demo.dir/rviz_visual_tools_imarker_simple_demo_autogen/mocs_compilation.cpp.o[0m
+[22.196s] [ 92%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_imarker_simple_demo.dir/src/imarker_simple_demo.cpp.o[0m
+[22.657s] [ 94%] [32m[1mLinking CXX executable rviz_visual_tools_demo[0m
+[22.752s] [ 94%] Built target rviz_visual_tools_demo
+[23.495s] [ 97%] [32m[1mLinking CXX executable rviz_visual_tools_rvt_test[0m
+[23.600s] [ 97%] Built target rviz_visual_tools_rvt_test
+[24.113s] [100%] [32m[1mLinking CXX executable rviz_visual_tools_imarker_simple_demo[0m
+[24.203s] [100%] Built target rviz_visual_tools_imarker_simple_demo
+[24.212s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/build/rviz_visual_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/d-lab/workspace/ros_ur_driver/install/utils:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes:/home/d-lab/workspace/ros_ur_driver/install/robotiq_control:/home/d-lab/workspace/ros_ur_driver/install/gripper_control:/opt/ros/foxy /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/rviz_visual_tools -- -j16 -l16
+[24.282s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/rviz_visual_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/d-lab/workspace/ros_ur_driver/install/utils:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes:/home/d-lab/workspace/ros_ur_driver/install/robotiq_control:/home/d-lab/workspace/ros_ur_driver/install/gripper_control:/opt/ros/foxy /usr/bin/cmake --install /home/d-lab/workspace/ros_ur_driver/build/rviz_visual_tools
+[24.288s] -- Install configuration: "Release"
+[24.288s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/share/rviz_visual_tools/plugin_description.xml
+[24.289s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/lib/librviz_visual_tools.so
+[24.290s] -- Set runtime path of "/home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/lib/librviz_visual_tools.so" to ""
+[24.290s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/lib/librviz_visual_tools_remote_control.so
+[24.291s] -- Set runtime path of "/home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/lib/librviz_visual_tools_remote_control.so" to ""
+[24.291s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/lib/librviz_visual_tools_gui.so
+[24.292s] -- Set runtime path of "/home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/lib/librviz_visual_tools_gui.so" to ""
+[24.292s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/lib/librviz_visual_tools_imarker_simple.so
+[24.292s] -- Set runtime path of "/home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/lib/librviz_visual_tools_imarker_simple.so" to ""
+[24.292s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/lib/rviz_visual_tools/rviz_visual_tools_demo
+[24.293s] -- Set runtime path of "/home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/lib/rviz_visual_tools/rviz_visual_tools_demo" to ""
+[24.293s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/lib/rviz_visual_tools/rviz_visual_tools_imarker_simple_demo
+[24.293s] -- Set runtime path of "/home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/lib/rviz_visual_tools/rviz_visual_tools_imarker_simple_demo" to ""
+[24.293s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/include
+[24.293s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/include/rviz_visual_tools
+[24.293s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/include/rviz_visual_tools/remote_control.hpp
+[24.293s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools_gui.hpp
+[24.293s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/include/rviz_visual_tools/remote_reciever.hpp
+[24.293s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/include/rviz_visual_tools/key_tool.hpp
+[24.293s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools.hpp
+[24.293s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/include/rviz_visual_tools/imarker_simple.hpp
+[24.294s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/include/rviz_visual_tools/tf_visual_tools.hpp
+[24.294s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/share/rviz_visual_tools/launch
+[24.294s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/share/rviz_visual_tools/launch/demo_combined.launch.py
+[24.294s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/share/rviz_visual_tools/launch/demo.rviz
+[24.294s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/share/rviz_visual_tools/launch/rvt_test.launch
+[24.294s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/share/rviz_visual_tools/launch/demo_rviz.launch.py
+[24.294s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/share/rviz_visual_tools/environment/library_path.sh
+[24.294s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/share/rviz_visual_tools/environment/library_path.dsv
+[24.294s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/share/ament_index/resource_index/package_run_dependencies/rviz_visual_tools
+[24.294s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/share/ament_index/resource_index/parent_prefix_path/rviz_visual_tools
+[24.294s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/share/rviz_visual_tools/environment/ament_prefix_path.sh
+[24.294s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/share/rviz_visual_tools/environment/ament_prefix_path.dsv
+[24.294s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/share/rviz_visual_tools/environment/path.sh
+[24.294s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/share/rviz_visual_tools/environment/path.dsv
+[24.294s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/share/rviz_visual_tools/local_setup.bash
+[24.294s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/share/rviz_visual_tools/local_setup.sh
+[24.294s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/share/rviz_visual_tools/local_setup.zsh
+[24.294s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/share/rviz_visual_tools/local_setup.dsv
+[24.294s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/share/rviz_visual_tools/package.dsv
+[24.294s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/share/ament_index/resource_index/packages/rviz_visual_tools
+[24.295s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/share/ament_index/resource_index/rviz_common__pluginlib__plugin/rviz_visual_tools
+[24.295s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/share/rviz_visual_tools/cmake/export_rviz_visual_toolsExport.cmake
+[24.295s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/share/rviz_visual_tools/cmake/export_rviz_visual_toolsExport-release.cmake
+[24.295s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/share/rviz_visual_tools/cmake/ament_cmake_export_targets-extras.cmake
+[24.295s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/share/rviz_visual_tools/cmake/ament_cmake_export_dependencies-extras.cmake
+[24.295s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/share/rviz_visual_tools/cmake/ament_cmake_export_include_directories-extras.cmake
+[24.295s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/share/rviz_visual_tools/cmake/ament_cmake_export_libraries-extras.cmake
+[24.295s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/share/rviz_visual_tools/cmake/rviz_visual_toolsConfig.cmake
+[24.295s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/share/rviz_visual_tools/cmake/rviz_visual_toolsConfig-version.cmake
+[24.295s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/share/rviz_visual_tools/package.xml
+[24.297s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/build/rviz_visual_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/d-lab/workspace/ros_ur_driver/install/utils:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes:/home/d-lab/workspace/ros_ur_driver/install/robotiq_control:/home/d-lab/workspace/ros_ur_driver/install/gripper_control:/opt/ros/foxy /usr/bin/cmake --install /home/d-lab/workspace/ros_ur_driver/build/rviz_visual_tools

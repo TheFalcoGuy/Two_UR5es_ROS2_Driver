@@ -90,6 +90,15 @@ int main(int argc, char** argv)
   // Raw pointers are frequently used to refer to the planning group for improved performance.
   const moveit::core::JointModelGroup* joint_model_group =
       move_group.getCurrentState()->getJointModelGroup(PLANNING_GROUP);
+    
+  // std::cout << move_group.getCurrentJointValues() << std::endl;
+  // RCLCPP_INFO(LOGGER, move_group.getCurrentPose().pose.orientation.w);
+  // RCLCPP_INFO(LOGGER, move_group.getCurrentPose().pose.orientation.x);
+  // RCLCPP_INFO(LOGGER, move_group.getCurrentPose().pose.orientation.y);
+  // RCLCPP_INFO(LOGGER, move_group.getCurrentPose().pose.orientation.z);
+  // RCLCPP_INFO(LOGGER, move_group.getCurrentPose().pose.position.x);
+  // RCLCPP_INFO(LOGGER, move_group.getCurrentPose().pose.position.y);
+  // RCLCPP_INFO(LOGGER, move_group.getCurrentPose().pose.position.z);
 
   // Visualization
   // ^^^^^^^^^^^^^
@@ -136,14 +145,14 @@ int main(int argc, char** argv)
   // We can plan a motion for this group to a desired pose for the
   // end-effector.
   geometry_msgs::msg::Pose target_pose1;
-  target_pose1.orientation.w = -0.5;
-  target_pose1.orientation.x = 0.5;
-  target_pose1.orientation.y = 0.5;
-  target_pose1.orientation.z = 0.5;
+  target_pose1.orientation.w = 0.707;
+  target_pose1.orientation.x = -0.707;
+  target_pose1.orientation.y = 0.0006;
+  target_pose1.orientation.z = 0.0006;
 
-  target_pose1.position.x = 0.0997;
-  target_pose1.position.y = 0.2329;
-  target_pose1.position.z = 0/97969;
+  target_pose1.position.x = 0.0;
+  target_pose1.position.y = 0.23;
+  target_pose1.position.z = 1.07;
   move_group.setPoseTarget(target_pose1);
 
   // Now, we call the planner to compute the plan and visualize it.

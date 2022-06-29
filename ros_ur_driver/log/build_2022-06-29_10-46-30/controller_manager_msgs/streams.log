@@ -1,0 +1,16 @@
+[0.081s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/controller_manager_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/d-lab/workspace/ros_ur_driver/install/utils:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes:/home/d-lab/workspace/ros_ur_driver/install/robotiq_control:/home/d-lab/workspace/ros_ur_driver/install/gripper_control:/opt/ros/foxy /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/controller_manager_msgs -- -j16 -l16
+[0.442s] [  0%] Built target controller_manager_msgs__cpp
+[0.443s] [ 12%] Built target controller_manager_msgs__rosidl_generator_c
+[0.444s] [ 29%] Built target controller_manager_msgs__rosidl_typesupport_cpp
+[0.444s] [ 36%] Built target controller_manager_msgs__rosidl_typesupport_fastrtps_cpp
+[0.444s] [ 48%] Built target controller_manager_msgs__rosidl_typesupport_c
+[0.446s] [ 60%] Built target controller_manager_msgs__rosidl_typesupport_introspection_cpp
+[0.446s] [ 72%] Built target controller_manager_msgs__rosidl_typesupport_introspection_c
+[0.446s] [ 84%] Built target controller_manager_msgs__rosidl_typesupport_fastrtps_c
+[0.448s] [ 84%] Built target controller_manager_msgs
+[0.448s] [ 85%] Built target controller_manager_msgs__py
+[0.449s] [ 96%] Built target controller_manager_msgs__python
+[0.449s] [ 98%] Built target controller_manager_msgs__rosidl_typesupport_introspection_c__pyext
+[0.450s] [ 99%] Built target controller_manager_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.450s] [100%] Built target controller_manager_msgs__rosidl_typesupport_c__pyext
+[0.460s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/build/controller_manager_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/d-lab/workspace/ros_ur_driver/install/utils:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes:/home/d-lab/workspace/ros_ur_driver/install/robotiq_control:/home/d-lab/workspace/ros_ur_driver/install/gripper_control:/opt/ros/foxy /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/controller_manager_msgs -- -j16 -l16

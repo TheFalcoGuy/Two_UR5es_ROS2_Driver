@@ -1,0 +1,79 @@
+[  2%] [34m[1mAutomatic MOC for target gtest[0m
+[  5%] [34m[1mAutomatic MOC for target rviz_visual_tools_remote_control[0m
+[  7%] [34m[1mAutomatic MOC for target rviz_visual_tools_gui[0m
+[ 10%] [34m[1mAutomatic MOC for target gtest_main[0m
+[ 10%] Built target gtest_main_autogen
+[ 10%] Built target rviz_visual_tools_remote_control_autogen
+[ 10%] Built target gtest_autogen
+[ 10%] Built target rviz_visual_tools_gui_autogen
+[ 17%] Built target gtest_main
+[ 25%] Built target gtest
+[ 33%] Built target rviz_visual_tools_remote_control
+[ 35%] [34m[1mAutomatic MOC for target rviz_visual_tools[0m
+[ 48%] Built target rviz_visual_tools_gui
+[ 48%] Built target rviz_visual_tools_autogen
+[ 58%] Built target rviz_visual_tools
+[ 64%] [34m[1mAutomatic MOC for target rviz_visual_tools_rvt_test[0m
+[ 64%] [34m[1mAutomatic MOC for target rviz_visual_tools_demo[0m
+[ 66%] [34m[1mAutomatic MOC for target rviz_visual_tools_imarker_simple[0m
+[ 66%] Built target rviz_visual_tools_demo_autogen
+[ 66%] Built target rviz_visual_tools_imarker_simple_autogen
+[ 66%] Built target rviz_visual_tools_rvt_test_autogen
+[ 74%] Built target rviz_visual_tools_rvt_test
+[ 82%] Built target rviz_visual_tools_demo
+[ 89%] Built target rviz_visual_tools_imarker_simple
+[ 92%] [34m[1mAutomatic MOC for target rviz_visual_tools_imarker_simple_demo[0m
+[ 92%] Built target rviz_visual_tools_imarker_simple_demo_autogen
+[100%] Built target rviz_visual_tools_imarker_simple_demo
+-- Install configuration: ""
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/share/rviz_visual_tools/plugin_description.xml
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/lib/librviz_visual_tools.so
+-- Set runtime path of "/home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/lib/librviz_visual_tools.so" to ""
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/lib/librviz_visual_tools_remote_control.so
+-- Set runtime path of "/home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/lib/librviz_visual_tools_remote_control.so" to ""
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/lib/librviz_visual_tools_gui.so
+-- Set runtime path of "/home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/lib/librviz_visual_tools_gui.so" to ""
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/lib/librviz_visual_tools_imarker_simple.so
+-- Set runtime path of "/home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/lib/librviz_visual_tools_imarker_simple.so" to ""
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/lib/rviz_visual_tools/rviz_visual_tools_demo
+-- Set runtime path of "/home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/lib/rviz_visual_tools/rviz_visual_tools_demo" to ""
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/lib/rviz_visual_tools/rviz_visual_tools_imarker_simple_demo
+-- Set runtime path of "/home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/lib/rviz_visual_tools/rviz_visual_tools_imarker_simple_demo" to ""
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/include
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/include/rviz_visual_tools
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/include/rviz_visual_tools/remote_control.hpp
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools_gui.hpp
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/include/rviz_visual_tools/remote_reciever.hpp
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/include/rviz_visual_tools/key_tool.hpp
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools.hpp
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/include/rviz_visual_tools/imarker_simple.hpp
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/include/rviz_visual_tools/tf_visual_tools.hpp
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/share/rviz_visual_tools/launch
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/share/rviz_visual_tools/launch/demo_combined.launch.py
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/share/rviz_visual_tools/launch/demo.rviz
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/share/rviz_visual_tools/launch/rvt_test.launch
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/share/rviz_visual_tools/launch/demo_rviz.launch.py
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/share/rviz_visual_tools/environment/library_path.sh
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/share/rviz_visual_tools/environment/library_path.dsv
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/share/ament_index/resource_index/package_run_dependencies/rviz_visual_tools
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/share/ament_index/resource_index/parent_prefix_path/rviz_visual_tools
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/share/rviz_visual_tools/environment/ament_prefix_path.sh
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/share/rviz_visual_tools/environment/ament_prefix_path.dsv
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/share/rviz_visual_tools/environment/path.sh
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/share/rviz_visual_tools/environment/path.dsv
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/share/rviz_visual_tools/local_setup.bash
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/share/rviz_visual_tools/local_setup.sh
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/share/rviz_visual_tools/local_setup.zsh
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/share/rviz_visual_tools/local_setup.dsv
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/share/rviz_visual_tools/package.dsv
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/share/ament_index/resource_index/packages/rviz_visual_tools
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/share/ament_index/resource_index/rviz_common__pluginlib__plugin/rviz_visual_tools
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/share/rviz_visual_tools/cmake/export_rviz_visual_toolsExport.cmake
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/share/rviz_visual_tools/cmake/export_rviz_visual_toolsExport-noconfig.cmake
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/share/rviz_visual_tools/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/share/rviz_visual_tools/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/share/rviz_visual_tools/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/share/rviz_visual_tools/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/share/rviz_visual_tools/cmake/rviz_visual_toolsConfig.cmake
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/share/rviz_visual_tools/cmake/rviz_visual_toolsConfig-version.cmake
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/share/rviz_visual_tools/package.xml

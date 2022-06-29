@@ -1,0 +1,7 @@
+{
+  "package_name": "graph_msgs",
+  "non_idl_tuples": [
+    "/home/d-lab/workspace/ros_ur_driver/src/graph_msgs:msg/Edges.msg",
+    "/home/d-lab/workspace/ros_ur_driver/src/graph_msgs:msg/GeometryGraph.msg"
+  ]
+}

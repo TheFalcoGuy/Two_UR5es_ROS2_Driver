@@ -1,0 +1,132 @@
+[0.219s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/graph_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/d-lab/workspace/ros_ur_driver/install/utils:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes:/home/d-lab/workspace/ros_ur_driver/install/robotiq_control:/home/d-lab/workspace/ros_ur_driver/install/gripper_control:/opt/ros/foxy /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/graph_msgs -- -j16 -l16
+[0.433s] [  2%] Built target graph_msgs__cpp
+[0.433s] [ 12%] Built target graph_msgs__rosidl_generator_c
+[0.433s] [ 23%] Built target graph_msgs__rosidl_typesupport_cpp
+[0.433s] [ 33%] Built target graph_msgs__rosidl_typesupport_fastrtps_cpp
+[0.434s] [ 43%] Built target graph_msgs__rosidl_typesupport_introspection_cpp
+[0.434s] [ 53%] Built target graph_msgs__rosidl_typesupport_introspection_c
+[0.434s] [ 64%] Built target graph_msgs__rosidl_typesupport_c
+[0.434s] [ 74%] Built target graph_msgs__rosidl_typesupport_fastrtps_c
+[0.434s] [ 74%] Built target graph_msgs
+[0.435s] [ 76%] Built target graph_msgs__py
+[0.436s] [ 84%] Built target graph_msgs__python
+[0.439s] [ 94%] Built target graph_msgs__rosidl_typesupport_introspection_c__pyext
+[0.440s] [ 94%] Built target graph_msgs__rosidl_typesupport_c__pyext
+[0.441s] [100%] Built target graph_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.481s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/build/graph_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/d-lab/workspace/ros_ur_driver/install/utils:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes:/home/d-lab/workspace/ros_ur_driver/install/robotiq_control:/home/d-lab/workspace/ros_ur_driver/install/gripper_control:/opt/ros/foxy /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/graph_msgs -- -j16 -l16
+[0.651s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/graph_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/d-lab/workspace/ros_ur_driver/install/utils:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes:/home/d-lab/workspace/ros_ur_driver/install/robotiq_control:/home/d-lab/workspace/ros_ur_driver/install/gripper_control:/opt/ros/foxy /usr/bin/cmake --install /home/d-lab/workspace/ros_ur_driver/build/graph_msgs
+[0.680s] -- Install configuration: "Release"
+[0.680s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/share/ament_index/resource_index/rosidl_interfaces/graph_msgs
+[0.680s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/include/graph_msgs
+[0.680s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/include/graph_msgs/msg
+[0.680s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/include/graph_msgs/msg/rosidl_generator_c__visibility_control.h
+[0.680s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/include/graph_msgs/msg/geometry_graph.h
+[0.680s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/include/graph_msgs/msg/edges.h
+[0.680s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/include/graph_msgs/msg/detail
+[0.681s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/include/graph_msgs/msg/detail/edges__functions.c
+[0.681s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/include/graph_msgs/msg/detail/geometry_graph__functions.c
+[0.681s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/include/graph_msgs/msg/detail/geometry_graph__type_support.h
+[0.681s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/include/graph_msgs/msg/detail/edges__struct.h
+[0.681s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/include/graph_msgs/msg/detail/geometry_graph__struct.h
+[0.681s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/include/graph_msgs/msg/detail/edges__type_support.h
+[0.681s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/include/graph_msgs/msg/detail/geometry_graph__functions.h
+[0.681s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/include/graph_msgs/msg/detail/edges__functions.h
+[0.681s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/share/graph_msgs/environment/library_path.sh
+[0.681s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/share/graph_msgs/environment/library_path.dsv
+[0.681s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/lib/libgraph_msgs__rosidl_generator_c.so
+[0.681s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/include/graph_msgs
+[0.682s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/include/graph_msgs/msg
+[0.682s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/include/graph_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.682s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/include/graph_msgs/msg/detail
+[0.682s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/include/graph_msgs/msg/detail/edges__rosidl_typesupport_fastrtps_c.h
+[0.682s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/include/graph_msgs/msg/detail/geometry_graph__rosidl_typesupport_fastrtps_c.h
+[0.682s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/lib/libgraph_msgs__rosidl_typesupport_fastrtps_c.so
+[0.682s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/include/graph_msgs
+[0.682s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/include/graph_msgs/msg
+[0.682s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/include/graph_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.682s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/include/graph_msgs/msg/detail
+[0.682s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/include/graph_msgs/msg/detail/edges__rosidl_typesupport_fastrtps_cpp.hpp
+[0.682s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/include/graph_msgs/msg/detail/dds_fastrtps
+[0.683s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/include/graph_msgs/msg/detail/geometry_graph__rosidl_typesupport_fastrtps_cpp.hpp
+[0.683s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/lib/libgraph_msgs__rosidl_typesupport_fastrtps_cpp.so
+[0.683s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/include/graph_msgs
+[0.683s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/include/graph_msgs/msg
+[0.683s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/include/graph_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.683s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/include/graph_msgs/msg/detail
+[0.683s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/include/graph_msgs/msg/detail/edges__type_support.c
+[0.683s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/include/graph_msgs/msg/detail/edges__rosidl_typesupport_introspection_c.h
+[0.683s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/include/graph_msgs/msg/detail/geometry_graph__rosidl_typesupport_introspection_c.h
+[0.683s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/include/graph_msgs/msg/detail/geometry_graph__type_support.c
+[0.683s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/lib/libgraph_msgs__rosidl_typesupport_introspection_c.so
+[0.683s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/lib/libgraph_msgs__rosidl_typesupport_c.so
+[0.683s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/include/graph_msgs
+[0.683s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/include/graph_msgs/msg
+[0.684s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/include/graph_msgs/msg/geometry_graph.hpp
+[0.684s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/include/graph_msgs/msg/edges.hpp
+[0.684s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/include/graph_msgs/msg/detail
+[0.684s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/include/graph_msgs/msg/detail/geometry_graph__struct.hpp
+[0.684s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/include/graph_msgs/msg/detail/geometry_graph__builder.hpp
+[0.684s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/include/graph_msgs/msg/detail/edges__builder.hpp
+[0.684s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/include/graph_msgs/msg/detail/edges__struct.hpp
+[0.684s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/include/graph_msgs/msg/detail/geometry_graph__traits.hpp
+[0.684s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/include/graph_msgs/msg/detail/edges__traits.hpp
+[0.684s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/include/graph_msgs
+[0.684s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/include/graph_msgs/msg
+[0.684s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/include/graph_msgs/msg/detail
+[0.685s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/include/graph_msgs/msg/detail/geometry_graph__rosidl_typesupport_introspection_cpp.hpp
+[0.685s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/include/graph_msgs/msg/detail/geometry_graph__type_support.cpp
+[0.685s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/include/graph_msgs/msg/detail/edges__rosidl_typesupport_introspection_cpp.hpp
+[0.685s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/include/graph_msgs/msg/detail/edges__type_support.cpp
+[0.685s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/lib/libgraph_msgs__rosidl_typesupport_introspection_cpp.so
+[0.685s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/lib/libgraph_msgs__rosidl_typesupport_cpp.so
+[0.685s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/share/graph_msgs/environment/pythonpath.sh
+[0.685s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/share/graph_msgs/environment/pythonpath.dsv
+[0.685s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/lib/python3.8/site-packages/graph_msgs/__init__.py
+[0.698s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/lib/python3.8/site-packages/graph_msgs/msg
+[0.698s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/lib/python3.8/site-packages/graph_msgs/msg/_edges_s.c
+[0.698s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/lib/python3.8/site-packages/graph_msgs/msg/_geometry_graph.py
+[0.698s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/lib/python3.8/site-packages/graph_msgs/msg/__init__.py
+[0.699s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/lib/python3.8/site-packages/graph_msgs/msg/_geometry_graph_s.c
+[0.699s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/lib/python3.8/site-packages/graph_msgs/msg/_edges.py
+[0.699s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/lib/python3.8/site-packages/graph_msgs/graph_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[0.699s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/lib/python3.8/site-packages/graph_msgs/graph_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[0.700s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/lib/python3.8/site-packages/graph_msgs/graph_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[0.700s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/lib/libgraph_msgs__python.so
+[0.700s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/share/graph_msgs/msg/Edges.idl
+[0.700s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/share/graph_msgs/msg/GeometryGraph.idl
+[0.700s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/share/graph_msgs/msg/Edges.msg
+[0.701s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/share/graph_msgs/msg/GeometryGraph.msg
+[0.701s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/share/ament_index/resource_index/package_run_dependencies/graph_msgs
+[0.702s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/share/ament_index/resource_index/parent_prefix_path/graph_msgs
+[0.702s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/share/graph_msgs/environment/ament_prefix_path.sh
+[0.702s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/share/graph_msgs/environment/ament_prefix_path.dsv
+[0.702s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/share/graph_msgs/environment/path.sh
+[0.703s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/share/graph_msgs/environment/path.dsv
+[0.703s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/share/graph_msgs/local_setup.bash
+[0.703s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/share/graph_msgs/local_setup.sh
+[0.703s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/share/graph_msgs/local_setup.zsh
+[0.704s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/share/graph_msgs/local_setup.dsv
+[0.705s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/share/graph_msgs/package.dsv
+[0.705s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/share/ament_index/resource_index/packages/graph_msgs
+[0.705s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/share/graph_msgs/cmake/graph_msgs__rosidl_generator_cExport.cmake
+[0.705s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/share/graph_msgs/cmake/graph_msgs__rosidl_generator_cExport-release.cmake
+[0.705s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/share/graph_msgs/cmake/graph_msgs__rosidl_typesupport_introspection_cExport.cmake
+[0.705s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/share/graph_msgs/cmake/graph_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[0.705s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/share/graph_msgs/cmake/graph_msgs__rosidl_typesupport_cExport.cmake
+[0.705s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/share/graph_msgs/cmake/graph_msgs__rosidl_typesupport_cExport-release.cmake
+[0.705s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/share/graph_msgs/cmake/graph_msgs__rosidl_generator_cppExport.cmake
+[0.705s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/share/graph_msgs/cmake/graph_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[0.706s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/share/graph_msgs/cmake/graph_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[0.706s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/share/graph_msgs/cmake/graph_msgs__rosidl_typesupport_cppExport.cmake
+[0.708s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/share/graph_msgs/cmake/graph_msgs__rosidl_typesupport_cppExport-release.cmake
+[0.709s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/share/graph_msgs/cmake/rosidl_cmake-extras.cmake
+[0.710s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/share/graph_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.710s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/share/graph_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[0.710s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/share/graph_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[0.710s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/share/graph_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.710s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/share/graph_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.710s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/share/graph_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.710s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/share/graph_msgs/cmake/graph_msgsConfig.cmake
+[0.710s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/share/graph_msgs/cmake/graph_msgsConfig-version.cmake
+[0.710s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/graph_msgs/share/graph_msgs/package.xml
+[0.765s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/build/graph_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/d-lab/workspace/ros_ur_driver/install/utils:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes:/home/d-lab/workspace/ros_ur_driver/install/robotiq_control:/home/d-lab/workspace/ros_ur_driver/install/gripper_control:/opt/ros/foxy /usr/bin/cmake --install /home/d-lab/workspace/ros_ur_driver/build/graph_msgs

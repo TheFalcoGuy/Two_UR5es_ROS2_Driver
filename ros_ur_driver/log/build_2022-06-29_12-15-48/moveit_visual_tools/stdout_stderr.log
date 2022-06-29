@@ -1,0 +1,41 @@
+-- Found moveit_common: 2.2.3 (/opt/ros/foxy/share/moveit_common/cmake)
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system 
+-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found graph_msgs: 0.2.0 (/home/d-lab/workspace/ros_ur_driver/install/graph_msgs/share/graph_msgs/cmake)
+-- Found moveit_core: 2.2.3 (/opt/ros/foxy/share/moveit_core/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: filesystem 
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+-- Found moveit_ros_planning: 2.2.3 (/opt/ros/foxy/share/moveit_ros_planning/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system filesystem date_time program_options thread chrono 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: thread 
+CMake Error at CMakeLists.txt:14 (find_package):
+  By not providing "Findmoveit_planning_scene_monitor.cmake" in
+  CMAKE_MODULE_PATH this project has asked CMake to find a package
+  configuration file provided by "moveit_planning_scene_monitor", but CMake
+  did not find one.
+
+  Could not find a package configuration file provided by
+  "moveit_planning_scene_monitor" with any of the following names:
+
+    moveit_planning_scene_monitorConfig.cmake
+    moveit_planning_scene_monitor-config.cmake
+
+  Add the installation prefix of "moveit_planning_scene_monitor" to
+  CMAKE_PREFIX_PATH or set "moveit_planning_scene_monitor_DIR" to a directory
+  containing one of the above files.  If "moveit_planning_scene_monitor"
+  provides a separate development package or SDK, be sure it has been
+  installed.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/d-lab/workspace/ros_ur_driver/build/moveit_visual_tools/CMakeFiles/CMakeOutput.log".
+See also "/home/d-lab/workspace/ros_ur_driver/build/moveit_visual_tools/CMakeFiles/CMakeError.log".
+make: *** [Makefile:370: cmake_check_build_system] Error 1

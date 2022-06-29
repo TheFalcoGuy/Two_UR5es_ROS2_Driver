@@ -1,0 +1,44 @@
+[0.213s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/move_arm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/d-lab/workspace/ros_ur_driver/install/utils:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes:/home/d-lab/workspace/ros_ur_driver/install/robotiq_control:/home/d-lab/workspace/ros_ur_driver/install/gripper_control:/opt/ros/foxy /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/move_arm -- -j16 -l16
+[0.414s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.414s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.414s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.427s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.428s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.569s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.625s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.628s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.792s] -- Found moveit: 2.2.3 (/opt/ros/foxy/share/moveit/cmake)
+[0.792s] -- Found moveit_msgs: 2.1.0 (/opt/ros/foxy/share/moveit_msgs/cmake)
+[1.649s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[1.649s] -- Found moveit_ros_planning_interface: 2.2.3 (/opt/ros/foxy/share/moveit_ros_planning_interface/cmake)
+[1.651s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0")  
+[1.659s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: date_time filesystem program_options system thread 
+[1.703s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.711s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: filesystem 
+[1.742s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[2.280s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system filesystem date_time program_options thread chrono 
+[2.460s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: thread 
+[2.948s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: thread system filesystem regex date_time program_options 
+[3.165s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system filesystem date_time program_options thread 
+[3.512s] CMake Error at CMakeLists.txt:26 (find_package):
+[3.512s]   By not providing "Findmoveit_visual_tools.cmake" in CMAKE_MODULE_PATH this
+[3.512s]   project has asked CMake to find a package configuration file provided by
+[3.512s]   "moveit_visual_tools", but CMake did not find one.
+[3.512s] 
+[3.512s]   Could not find a package configuration file provided by
+[3.512s]   "moveit_visual_tools" with any of the following names:
+[3.512s] 
+[3.512s]     moveit_visual_toolsConfig.cmake
+[3.512s]     moveit_visual_tools-config.cmake
+[3.513s] 
+[3.513s]   Add the installation prefix of "moveit_visual_tools" to CMAKE_PREFIX_PATH
+[3.513s]   or set "moveit_visual_tools_DIR" to a directory containing one of the above
+[3.513s]   files.  If "moveit_visual_tools" provides a separate development package or
+[3.513s]   SDK, be sure it has been installed.
+[3.513s] 
+[3.513s] 
+[3.514s] -- Configuring incomplete, errors occurred!
+[3.514s] See also "/home/d-lab/workspace/ros_ur_driver/build/move_arm/CMakeFiles/CMakeOutput.log".
+[3.514s] See also "/home/d-lab/workspace/ros_ur_driver/build/move_arm/CMakeFiles/CMakeError.log".
+[3.520s] make: *** [Makefile:266: cmake_check_build_system] Error 1
+[3.523s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/build/move_arm' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/d-lab/workspace/ros_ur_driver/install/utils:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes:/home/d-lab/workspace/ros_ur_driver/install/robotiq_control:/home/d-lab/workspace/ros_ur_driver/install/gripper_control:/opt/ros/foxy /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/move_arm -- -j16 -l16

@@ -1,0 +1,59 @@
+[0.458s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/robotiq_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/d-lab/workspace/ros_ur_driver/install/utils:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes:/home/d-lab/workspace/ros_ur_driver/install/robotiq_control:/home/d-lab/workspace/ros_ur_driver/install/gripper_control:/opt/ros/foxy /usr/bin/cmake /home/d-lab/workspace/ros_ur_driver/src/robotiq/robotiq_description -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/d-lab/workspace/ros_ur_driver/install/robotiq_description
+[0.476s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.487s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.670s] -- Found rclpy: 1.0.8 (/opt/ros/foxy/share/rclpy/cmake)
+[0.671s] -- Found robot_state_publisher: 2.4.5 (/opt/ros/foxy/share/robot_state_publisher/cmake)
+[0.701s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.704s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.857s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.888s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[0.934s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.939s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.576s] -- Found xacro: 2.0.7 (/opt/ros/foxy/share/xacro/cmake)
+[1.626s] -- Configuring done
+[1.628s] -- Generating done
+[1.629s] -- Build files have been written to: /home/d-lab/workspace/ros_ur_driver/build/robotiq_description
+[1.636s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/build/robotiq_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/d-lab/workspace/ros_ur_driver/install/utils:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes:/home/d-lab/workspace/ros_ur_driver/install/robotiq_control:/home/d-lab/workspace/ros_ur_driver/install/gripper_control:/opt/ros/foxy /usr/bin/cmake /home/d-lab/workspace/ros_ur_driver/src/robotiq/robotiq_description -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/d-lab/workspace/ros_ur_driver/install/robotiq_description
+[1.639s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/robotiq_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/d-lab/workspace/ros_ur_driver/install/utils:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes:/home/d-lab/workspace/ros_ur_driver/install/robotiq_control:/home/d-lab/workspace/ros_ur_driver/install/gripper_control:/opt/ros/foxy /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/robotiq_description -- -j16 -l16
+[1.673s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/build/robotiq_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/d-lab/workspace/ros_ur_driver/install/utils:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes:/home/d-lab/workspace/ros_ur_driver/install/robotiq_control:/home/d-lab/workspace/ros_ur_driver/install/gripper_control:/opt/ros/foxy /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/robotiq_description -- -j16 -l16
+[1.701s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/robotiq_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/d-lab/workspace/ros_ur_driver/install/utils:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes:/home/d-lab/workspace/ros_ur_driver/install/robotiq_control:/home/d-lab/workspace/ros_ur_driver/install/gripper_control:/opt/ros/foxy /usr/bin/cmake --install /home/d-lab/workspace/ros_ur_driver/build/robotiq_description
+[1.712s] -- Install configuration: "Release"
+[1.712s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/robotiq_description/share/robotiq_description/config
+[1.713s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/robotiq_description/share/robotiq_description/config/robotiq_85.rviz
+[1.713s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/robotiq_description/share/robotiq_description/launch
+[1.713s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/robotiq_description/share/robotiq_description/launch/display_robotiq85.launch
+[1.714s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/robotiq_description/share/robotiq_description/meshes
+[1.714s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/robotiq_description/share/robotiq_description/meshes/visual
+[1.714s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/robotiq_description/share/robotiq_description/meshes/visual/robotiq_85_knuckle_link.dae
+[1.714s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/robotiq_description/share/robotiq_description/meshes/visual/robotiq_85_finger_tip_link.dae
+[1.714s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/robotiq_description/share/robotiq_description/meshes/visual/robotiq_85_inner_knuckle_link.dae
+[1.715s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/robotiq_description/share/robotiq_description/meshes/visual/robotiq_85_finger_link.dae
+[1.715s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/robotiq_description/share/robotiq_description/meshes/visual/robotiq_85_base_link.dae
+[1.715s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/robotiq_description/share/robotiq_description/meshes/collision
+[1.716s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/robotiq_description/share/robotiq_description/meshes/collision/robotiq_85_base_link.stl
+[1.717s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/robotiq_description/share/robotiq_description/meshes/collision/robotiq_85_knuckle_link.stl
+[1.717s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/robotiq_description/share/robotiq_description/meshes/collision/robotiq_85_finger_tip_link.stl
+[1.717s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/robotiq_description/share/robotiq_description/meshes/collision/robotiq_85_finger_link.stl
+[1.717s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/robotiq_description/share/robotiq_description/meshes/collision/robotiq_85_inner_knuckle_link.stl
+[1.717s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/robotiq_description/share/robotiq_description/meshes/robotiq_85_coupler.stl
+[1.718s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/robotiq_description/share/robotiq_description/urdf
+[1.718s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/robotiq_description/share/robotiq_description/urdf/robotiq_85_gripper_sim_base.urdf.xacro
+[1.718s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/robotiq_description/share/robotiq_description/urdf/robotiq_85_gripper.xacro
+[1.718s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/robotiq_description/share/robotiq_description/urdf/robotiq_85_gripper.transmission.xacro
+[1.718s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/robotiq_description/share/robotiq_description/urdf/robotiq_85_gripper.urdf.xacro
+[1.718s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/robotiq_description/share/ament_index/resource_index/package_run_dependencies/robotiq_description
+[1.719s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/robotiq_description/share/ament_index/resource_index/parent_prefix_path/robotiq_description
+[1.719s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/robotiq_description/share/robotiq_description/environment/ament_prefix_path.sh
+[1.719s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/robotiq_description/share/robotiq_description/environment/ament_prefix_path.dsv
+[1.720s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/robotiq_description/share/robotiq_description/environment/path.sh
+[1.720s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/robotiq_description/share/robotiq_description/environment/path.dsv
+[1.720s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/robotiq_description/share/robotiq_description/local_setup.bash
+[1.721s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/robotiq_description/share/robotiq_description/local_setup.sh
+[1.721s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/robotiq_description/share/robotiq_description/local_setup.zsh
+[1.721s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/robotiq_description/share/robotiq_description/local_setup.dsv
+[1.721s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/robotiq_description/share/robotiq_description/package.dsv
+[1.722s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/robotiq_description/share/ament_index/resource_index/packages/robotiq_description
+[1.722s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/robotiq_description/share/robotiq_description/cmake/robotiq_descriptionConfig.cmake
+[1.722s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/robotiq_description/share/robotiq_description/cmake/robotiq_descriptionConfig-version.cmake
+[1.722s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/robotiq_description/share/robotiq_description/package.xml
+[1.725s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/build/robotiq_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/d-lab/workspace/ros_ur_driver/install/utils:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes:/home/d-lab/workspace/ros_ur_driver/install/robotiq_control:/home/d-lab/workspace/ros_ur_driver/install/gripper_control:/opt/ros/foxy /usr/bin/cmake --install /home/d-lab/workspace/ros_ur_driver/build/robotiq_description

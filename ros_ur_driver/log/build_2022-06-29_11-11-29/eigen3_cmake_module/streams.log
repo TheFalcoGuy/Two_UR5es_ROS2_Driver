@@ -1,0 +1,33 @@
+[0.091s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/eigen3_cmake_module': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/d-lab/workspace/ros_ur_driver/install/utils:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes:/home/d-lab/workspace/ros_ur_driver/install/robotiq_control:/home/d-lab/workspace/ros_ur_driver/install/gripper_control:/opt/ros/foxy /usr/bin/cmake /home/d-lab/workspace/ros_ur_driver/src/eigen3_cmake_module -DCMAKE_INSTALL_PREFIX=/home/d-lab/workspace/ros_ur_driver/install/eigen3_cmake_module
+[0.469s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.469s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.470s] -- Found ament_cmake_lint_cmake: 0.9.6 (/opt/ros/foxy/share/ament_cmake_lint_cmake/cmake)
+[0.470s] -- Found ament_cmake_copyright: 0.9.6 (/opt/ros/foxy/share/ament_cmake_copyright/cmake)
+[0.470s] -- Configuring done
+[0.472s] -- Generating done
+[0.472s] -- Build files have been written to: /home/d-lab/workspace/ros_ur_driver/build/eigen3_cmake_module
+[0.490s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/build/eigen3_cmake_module' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/d-lab/workspace/ros_ur_driver/install/utils:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes:/home/d-lab/workspace/ros_ur_driver/install/robotiq_control:/home/d-lab/workspace/ros_ur_driver/install/gripper_control:/opt/ros/foxy /usr/bin/cmake /home/d-lab/workspace/ros_ur_driver/src/eigen3_cmake_module -DCMAKE_INSTALL_PREFIX=/home/d-lab/workspace/ros_ur_driver/install/eigen3_cmake_module
+[0.490s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/eigen3_cmake_module': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/d-lab/workspace/ros_ur_driver/install/utils:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes:/home/d-lab/workspace/ros_ur_driver/install/robotiq_control:/home/d-lab/workspace/ros_ur_driver/install/gripper_control:/opt/ros/foxy /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/eigen3_cmake_module -- -j16 -l16
+[0.538s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/build/eigen3_cmake_module' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/d-lab/workspace/ros_ur_driver/install/utils:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes:/home/d-lab/workspace/ros_ur_driver/install/robotiq_control:/home/d-lab/workspace/ros_ur_driver/install/gripper_control:/opt/ros/foxy /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/eigen3_cmake_module -- -j16 -l16
+[0.605s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/eigen3_cmake_module': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/d-lab/workspace/ros_ur_driver/install/utils:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes:/home/d-lab/workspace/ros_ur_driver/install/robotiq_control:/home/d-lab/workspace/ros_ur_driver/install/gripper_control:/opt/ros/foxy /usr/bin/cmake --install /home/d-lab/workspace/ros_ur_driver/build/eigen3_cmake_module
+[0.620s] -- Install configuration: "Release"
+[0.620s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/eigen3_cmake_module/share/ament_index/resource_index/package_run_dependencies/eigen3_cmake_module
+[0.620s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/eigen3_cmake_module/share/ament_index/resource_index/parent_prefix_path/eigen3_cmake_module
+[0.620s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/eigen3_cmake_module/share/eigen3_cmake_module/environment/ament_prefix_path.sh
+[0.620s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/eigen3_cmake_module/share/eigen3_cmake_module/environment/ament_prefix_path.dsv
+[0.621s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/eigen3_cmake_module/share/eigen3_cmake_module/environment/path.sh
+[0.621s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/eigen3_cmake_module/share/eigen3_cmake_module/environment/path.dsv
+[0.621s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/eigen3_cmake_module/share/eigen3_cmake_module/local_setup.bash
+[0.621s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/eigen3_cmake_module/share/eigen3_cmake_module/local_setup.sh
+[0.621s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/eigen3_cmake_module/share/eigen3_cmake_module/local_setup.zsh
+[0.621s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/eigen3_cmake_module/share/eigen3_cmake_module/local_setup.dsv
+[0.621s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/eigen3_cmake_module/share/eigen3_cmake_module/package.dsv
+[0.625s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/eigen3_cmake_module/share/ament_index/resource_index/packages/eigen3_cmake_module
+[0.626s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/eigen3_cmake_module/share/eigen3_cmake_module/cmake/eigen3_cmake_module-extras.cmake
+[0.626s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/eigen3_cmake_module/share/eigen3_cmake_module/cmake/eigen3_cmake_moduleConfig.cmake
+[0.626s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/eigen3_cmake_module/share/eigen3_cmake_module/cmake/eigen3_cmake_moduleConfig-version.cmake
+[0.627s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/eigen3_cmake_module/share/eigen3_cmake_module/package.xml
+[0.627s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/eigen3_cmake_module/share/eigen3_cmake_module/cmake
+[0.627s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/eigen3_cmake_module/share/eigen3_cmake_module/cmake/Modules
+[0.627s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/eigen3_cmake_module/share/eigen3_cmake_module/cmake/Modules/FindEigen3.cmake
+[0.641s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/build/eigen3_cmake_module' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/d-lab/workspace/ros_ur_driver/install/utils:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes:/home/d-lab/workspace/ros_ur_driver/install/robotiq_control:/home/d-lab/workspace/ros_ur_driver/install/gripper_control:/opt/ros/foxy /usr/bin/cmake --install /home/d-lab/workspace/ros_ur_driver/build/eigen3_cmake_module
