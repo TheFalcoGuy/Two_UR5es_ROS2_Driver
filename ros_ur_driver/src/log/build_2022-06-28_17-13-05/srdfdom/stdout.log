@@ -1,0 +1,21 @@
+[35m[1mScanning dependencies of target gtest_main[0m
+[35m[1mScanning dependencies of target srdfdom[0m
+[35m[1mScanning dependencies of target gtest[0m
+[  9%] [32mBuilding CXX object CMakeFiles/srdfdom.dir/src/model.cpp.o[0m
+[ 18%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 27%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/srdfdom.dir/src/srdf_writer.cpp.o[0m
+[ 45%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 45%] Built target gtest_main
+[ 54%] [32m[1mLinking CXX shared library libsrdfdom.so[0m
+[ 54%] Built target srdfdom
+[ 63%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 63%] Built target gtest
+[35m[1mScanning dependencies of target test_cpp_nl_NL.UTF-8[0m
+[35m[1mScanning dependencies of target test_cpp_C[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/test_cpp_C.dir/test/test_parser.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/test_cpp_nl_NL.UTF-8.dir/test/test_parser.cpp.o[0m
+[ 90%] [32m[1mLinking CXX executable test_cpp_nl_NL.UTF-8[0m
+[ 90%] Built target test_cpp_nl_NL.UTF-8
+[100%] [32m[1mLinking CXX executable test_cpp_C[0m
+[100%] Built target test_cpp_C

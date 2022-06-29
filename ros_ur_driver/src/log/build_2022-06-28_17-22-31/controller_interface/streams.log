@@ -1,0 +1,82 @@
+[0.013s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/src/build/controller_interface': AMENT_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/src/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/src/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/src/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/src/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/d-lab/workspace/ros_ur_driver/src/install/hardware_interface/lib:/home/d-lab/workspace/ros_ur_driver/src/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/d-lab/workspace/ros_ur_driver/src/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/d-lab/workspace/ros_ur_driver/src/ros2_control/controller_interface -DCMAKE_INSTALL_PREFIX=/home/d-lab/workspace/ros_ur_driver/src/install/controller_interface
+[0.049s] -- The C compiler identification is GNU 9.4.0
+[0.082s] -- The CXX compiler identification is GNU 9.4.0
+[0.085s] -- Check for working C compiler: /usr/bin/cc
+[0.129s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.129s] -- Detecting C compiler ABI info
+[0.180s] -- Detecting C compiler ABI info - done
+[0.188s] -- Detecting C compile features
+[0.188s] -- Detecting C compile features - done
+[0.189s] -- Check for working CXX compiler: /usr/bin/c++
+[0.245s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.246s] -- Detecting CXX compiler ABI info
+[0.295s] -- Detecting CXX compiler ABI info - done
+[0.303s] -- Detecting CXX compile features
+[0.303s] -- Detecting CXX compile features - done
+[0.304s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.320s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.320s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.445s] -- Found hardware_interface: 0.10.0 (/home/d-lab/workspace/ros_ur_driver/src/install/hardware_interface/share/hardware_interface/cmake)
+[0.479s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.483s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.530s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.549s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.597s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.904s] -- Found rclcpp_lifecycle: 2.4.1 (/opt/ros/foxy/share/rclcpp_lifecycle/cmake)
+[0.938s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.939s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.940s] -- Looking for pthread.h
+[0.989s] -- Looking for pthread.h - found
+[0.989s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.036s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.036s] -- Looking for pthread_create in pthreads
+[1.071s] -- Looking for pthread_create in pthreads - not found
+[1.071s] -- Looking for pthread_create in pthread
+[1.114s] -- Looking for pthread_create in pthread - found
+[1.114s] -- Found Threads: TRUE  
+[1.245s] -- Found ament_cmake_gmock: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gmock/cmake)
+[1.246s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.247s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.342s] -- Found gmock sources under '/opt/ros/foxy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[1.345s] -- Found ament_cmake_gtest: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[1.346s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.372s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.373s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.374s] -- Configured cppcheck include dirs: /home/d-lab/workspace/ros_ur_driver/src/ros2_control/controller_interface/include
+[1.374s] -- Configured cppcheck exclude dirs and/or files: 
+[1.375s] -- Added test 'lint_cmake' to check CMake code style
+[1.375s] -- Added test 'xmllint' to check XML markup files
+[1.379s] -- Configuring done
+[1.427s] -- Generating done
+[1.429s] -- Build files have been written to: /home/d-lab/workspace/ros_ur_driver/src/build/controller_interface
+[1.437s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/src/build/controller_interface' returned '0': AMENT_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/src/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/src/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/src/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/src/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/d-lab/workspace/ros_ur_driver/src/install/hardware_interface/lib:/home/d-lab/workspace/ros_ur_driver/src/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/d-lab/workspace/ros_ur_driver/src/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/d-lab/workspace/ros_ur_driver/src/ros2_control/controller_interface -DCMAKE_INSTALL_PREFIX=/home/d-lab/workspace/ros_ur_driver/src/install/controller_interface
+[1.439s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/src/build/controller_interface': AMENT_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/src/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/src/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/src/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/src/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/d-lab/workspace/ros_ur_driver/src/install/hardware_interface/lib:/home/d-lab/workspace/ros_ur_driver/src/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/d-lab/workspace/ros_ur_driver/src/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/src/build/controller_interface -- -j16 -l16
+[1.469s] [35m[1mScanning dependencies of target gmock[0m
+[1.471s] [35m[1mScanning dependencies of target gmock_main[0m
+[1.472s] [35m[1mScanning dependencies of target controller_interface[0m
+[1.484s] [  6%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/foxy/src/gtest_vendor/src/gtest-all.cc.o[0m
+[1.486s] [ 13%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[1.488s] [ 20%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[1.512s] [ 26%] [32mBuilding CXX object CMakeFiles/controller_interface.dir/src/controller_interface.cpp.o[0m
+[2.445s] [ 33%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[2.476s] [ 33%] Built target gmock_main
+[3.434s] [ 40%] [32m[1mLinking CXX shared library libcontroller_interface.so[0m
+[3.519s] [ 40%] Built target controller_interface
+[4.119s] [ 46%] [32m[1mLinking CXX static library libgmock.a[0m
+[4.158s] [ 46%] Built target gmock
+[4.164s] [35m[1mScanning dependencies of target test_force_torque_sensor[0m
+[4.164s] [35m[1mScanning dependencies of target test_controller_with_options[0m
+[4.164s] [35m[1mScanning dependencies of target test_imu_sensor[0m
+[4.164s] [35m[1mScanning dependencies of target test_semantic_component_interface[0m
+[4.179s] [ 53%] [32mBuilding CXX object CMakeFiles/test_semantic_component_interface.dir/test/test_semantic_component_interface.cpp.o[0m
+[4.180s] [ 60%] [32mBuilding CXX object CMakeFiles/test_force_torque_sensor.dir/test/test_force_torque_sensor.cpp.o[0m
+[4.181s] [ 66%] [32mBuilding CXX object CMakeFiles/test_imu_sensor.dir/test/test_imu_sensor.cpp.o[0m
+[4.199s] [ 73%] [32mBuilding CXX object CMakeFiles/test_controller_with_options.dir/test/test_controller_with_options.cpp.o[0m
+[5.041s] [ 80%] [32m[1mLinking CXX executable test_semantic_component_interface[0m
+[5.063s] [ 86%] [32m[1mLinking CXX executable test_imu_sensor[0m
+[5.090s] [ 93%] [32m[1mLinking CXX executable test_force_torque_sensor[0m
+[5.183s] [ 93%] Built target test_semantic_component_interface
+[5.204s] [ 93%] Built target test_imu_sensor
+[5.227s] [ 93%] Built target test_force_torque_sensor
+[5.768s] [100%] [32m[1mLinking CXX executable test_controller_with_options[0m
+[5.932s] [100%] Built target test_controller_with_options

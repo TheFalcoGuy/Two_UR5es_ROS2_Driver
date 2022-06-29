@@ -1,0 +1,1 @@
+Invoking command in '/home/d-lab/workspace/ros_ur_driver/src/build/warehouse_ros_mongo': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/d-lab/workspace/ros_ur_driver/src/warehouse_ros_mongo -DCMAKE_INSTALL_PREFIX=/home/d-lab/workspace/ros_ur_driver/src/install/warehouse_ros_mongo

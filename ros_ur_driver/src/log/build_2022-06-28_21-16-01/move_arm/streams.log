@@ -1,0 +1,66 @@
+[0.188s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/src/build/move_arm': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/src/build/move_arm -- -j16 -l16
+[0.374s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.374s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.375s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.381s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.381s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.519s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.538s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.539s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.632s] -- Found moveit: 2.2.3 (/opt/ros/foxy/share/moveit/cmake)
+[0.633s] -- Found moveit_msgs: 2.1.0 (/opt/ros/foxy/share/moveit_msgs/cmake)
+[1.435s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[1.436s] -- Found moveit_ros_planning_interface: 2.2.3 (/opt/ros/foxy/share/moveit_ros_planning_interface/cmake)
+[1.440s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0")  
+[1.453s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: date_time filesystem program_options system thread 
+[1.498s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.512s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: filesystem 
+[1.582s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[2.247s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system filesystem date_time program_options thread chrono 
+[2.506s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: thread 
+[3.303s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: thread system filesystem regex date_time program_options 
+[3.746s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system filesystem date_time program_options thread 
+[4.818s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[4.891s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.893s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.893s] -- Configured cppcheck include dirs: 
+[4.893s] -- Configured cppcheck exclude dirs and/or files: 
+[4.894s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.895s] -- Configured cpplint exclude dirs and/or files: 
+[4.896s] -- Added test 'lint_cmake' to check CMake code style
+[4.897s] -- Added test 'uncrustify' to check C / C++ code style
+[4.897s] -- Configured uncrustify additional arguments: 
+[4.898s] -- Added test 'xmllint' to check XML markup files
+[4.902s] -- Configuring done
+[4.950s] -- Generating done
+[4.954s] -- Build files have been written to: /home/d-lab/workspace/ros_ur_driver/src/build/move_arm
+[5.086s] [35m[1mScanning dependencies of target move_to_point[0m
+[5.211s] [ 50%] [32mBuilding CXX object CMakeFiles/move_to_point.dir/src/move_to_point.cpp.o[0m
+[9.376s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_to_point.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[9.376s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_to_point.cpp:88:40:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kjoint_model_group[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[9.376s]    88 |   const moveit::core::JointModelGroup* [01;35m[Kjoint_model_group[m[K =
+[9.376s]       |                                        [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[11.492s] [100%] [32m[1mLinking CXX executable move_to_point[0m
+[11.873s] [100%] Built target move_to_point
+[11.888s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/src/build/move_arm' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/src/build/move_arm -- -j16 -l16
+[11.920s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/src/build/move_arm': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/d-lab/workspace/ros_ur_driver/src/build/move_arm
+[11.932s] -- Install configuration: ""
+[11.932s] -- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/move_arm/lib/move_arm/move_to_point
+[11.932s] -- Set runtime path of "/home/d-lab/workspace/ros_ur_driver/src/install/move_arm/lib/move_arm/move_to_point" to ""
+[11.932s] -- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/move_arm/share/ament_index/resource_index/package_run_dependencies/move_arm
+[11.933s] -- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/move_arm/share/ament_index/resource_index/parent_prefix_path/move_arm
+[11.933s] -- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/move_arm/share/move_arm/environment/ament_prefix_path.sh
+[11.933s] -- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/move_arm/share/move_arm/environment/ament_prefix_path.dsv
+[11.933s] -- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/move_arm/share/move_arm/environment/path.sh
+[11.933s] -- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/move_arm/share/move_arm/environment/path.dsv
+[11.934s] -- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/move_arm/share/move_arm/local_setup.bash
+[11.934s] -- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/move_arm/share/move_arm/local_setup.sh
+[11.934s] -- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/move_arm/share/move_arm/local_setup.zsh
+[11.934s] -- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/move_arm/share/move_arm/local_setup.dsv
+[11.934s] -- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/move_arm/share/move_arm/package.dsv
+[11.935s] -- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/move_arm/share/ament_index/resource_index/packages/move_arm
+[11.935s] -- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/move_arm/share/move_arm/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.935s] -- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/move_arm/share/move_arm/cmake/move_armConfig.cmake
+[11.935s] -- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/move_arm/share/move_arm/cmake/move_armConfig-version.cmake
+[11.935s] -- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/move_arm/share/move_arm/package.xml
+[11.939s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/src/build/move_arm' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/d-lab/workspace/ros_ur_driver/src/build/move_arm

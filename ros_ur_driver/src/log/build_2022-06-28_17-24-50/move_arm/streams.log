@@ -1,0 +1,29 @@
+[0.189s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/src/build/move_arm': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/src/build/move_arm -- -j16 -l16
+[0.370s] [35m[1mScanning dependencies of target move_to_point[0m
+[0.371s] [ 50%] [32mBuilding CXX object CMakeFiles/move_to_point.dir/src/move_to_point.cpp.o[0m
+[2.332s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_to_point.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.332s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_to_point.cpp:88:40:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kjoint_model_group[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.332s]    88 |   const moveit::core::JointModelGroup* [01;35m[Kjoint_model_group[m[K =
+[2.332s]       |                                        [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[4.008s] [100%] [32m[1mLinking CXX executable move_to_point[0m
+[4.076s] /usr/bin/ld: CMakeFiles/move_to_point.dir/src/move_to_point.cpp.o: in function `main':
+[4.076s] move_to_point.cpp:(.text+0x405): undefined reference to `moveit::planning_interface::MoveGroupInterface::MoveGroupInterface(std::shared_ptr<rclcpp::Node> const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::shared_ptr<tf2_ros::Buffer> const&, rclcpp::Duration const&)'
+[4.076s] /usr/bin/ld: move_to_point.cpp:(.text+0x46d): undefined reference to `moveit::planning_interface::PlanningSceneInterface::PlanningSceneInterface(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, bool)'
+[4.076s] /usr/bin/ld: move_to_point.cpp:(.text+0x4b0): undefined reference to `moveit::planning_interface::MoveGroupInterface::getCurrentState(double) const'
+[4.077s] /usr/bin/ld: move_to_point.cpp:(.text+0x617): undefined reference to `moveit::planning_interface::MoveGroupInterface::getPlanningFrame[abi:cxx11]() const'
+[4.077s] /usr/bin/ld: move_to_point.cpp:(.text+0x753): undefined reference to `moveit::planning_interface::MoveGroupInterface::getEndEffectorLink[abi:cxx11]() const'
+[4.077s] /usr/bin/ld: move_to_point.cpp:(.text+0x8ea): undefined reference to `moveit::planning_interface::MoveGroupInterface::getJointModelGroupNames[abi:cxx11]() const'
+[4.077s] /usr/bin/ld: move_to_point.cpp:(.text+0x904): undefined reference to `moveit::planning_interface::MoveGroupInterface::getJointModelGroupNames[abi:cxx11]() const'
+[4.077s] /usr/bin/ld: move_to_point.cpp:(.text+0x9cb): undefined reference to `moveit::planning_interface::MoveGroupInterface::setPoseTarget(geometry_msgs::msg::Pose_<std::allocator<void> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+[4.077s] /usr/bin/ld: move_to_point.cpp:(.text+0xa07): undefined reference to `moveit::planning_interface::MoveGroupInterface::move()'
+[4.077s] /usr/bin/ld: move_to_point.cpp:(.text+0xab0): undefined reference to `moveit::planning_interface::PlanningSceneInterface::~PlanningSceneInterface()'
+[4.077s] /usr/bin/ld: move_to_point.cpp:(.text+0xabf): undefined reference to `moveit::planning_interface::MoveGroupInterface::~MoveGroupInterface()'
+[4.077s] /usr/bin/ld: move_to_point.cpp:(.text+0xcbd): undefined reference to `moveit::planning_interface::PlanningSceneInterface::~PlanningSceneInterface()'
+[4.077s] /usr/bin/ld: move_to_point.cpp:(.text+0xccc): undefined reference to `moveit::planning_interface::MoveGroupInterface::~MoveGroupInterface()'
+[4.077s] /usr/bin/ld: CMakeFiles/move_to_point.dir/src/move_to_point.cpp.o: in function `moveit::core::RobotState::getJointModelGroup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) const':
+[4.077s] move_to_point.cpp:(.text._ZNK6moveit4core10RobotState18getJointModelGroupERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE[_ZNK6moveit4core10RobotState18getJointModelGroupERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE]+0x2e): undefined reference to `moveit::core::RobotModel::getJointModelGroup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) const'
+[4.077s] collect2: error: ld returned 1 exit status
+[4.078s] make[2]: *** [CMakeFiles/move_to_point.dir/build.make:131: move_to_point] Error 1
+[4.078s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/move_to_point.dir/all] Error 2
+[4.078s] make: *** [Makefile:141: all] Error 2
+[4.080s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/src/build/move_arm' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/src/build/move_arm -- -j16 -l16

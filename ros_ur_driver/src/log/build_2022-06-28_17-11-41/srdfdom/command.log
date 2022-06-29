@@ -1,0 +1,1 @@
+Invoking command in '/home/d-lab/workspace/ros_ur_driver/src/build/srdfdom': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/d-lab/workspace/ros_ur_driver/src/srdfdom -DCMAKE_INSTALL_PREFIX=/home/d-lab/workspace/ros_ur_driver/src/install/srdfdom

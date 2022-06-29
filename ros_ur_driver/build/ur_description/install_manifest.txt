@@ -2,6 +2,10 @@
 /home/d-lab/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur16e/default_kinematics.yaml
 /home/d-lab/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur16e/visual_parameters.yaml
 /home/d-lab/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur16e/physical_parameters.yaml
+/home/d-lab/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur5e_2f/joint_limits.yaml
+/home/d-lab/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur5e_2f/default_kinematics.yaml
+/home/d-lab/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur5e_2f/visual_parameters.yaml
+/home/d-lab/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur5e_2f/physical_parameters.yaml
 /home/d-lab/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur3/joint_limits.yaml
 /home/d-lab/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur3/default_kinematics.yaml
 /home/d-lab/workspace/ros_ur_driver/install/ur_description/share/ur_description/config/ur3/visual_parameters.yaml

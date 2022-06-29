@@ -1,0 +1,14 @@
+/home/d-lab/workspace/ros_ur_driver/src/build/ur_dashboard_msgs/rosidl_adapter/ur_dashboard_msgs:msg/ProgramState.idl
+/home/d-lab/workspace/ros_ur_driver/src/build/ur_dashboard_msgs/rosidl_adapter/ur_dashboard_msgs:msg/RobotMode.idl
+/home/d-lab/workspace/ros_ur_driver/src/build/ur_dashboard_msgs/rosidl_adapter/ur_dashboard_msgs:msg/SafetyMode.idl
+/home/d-lab/workspace/ros_ur_driver/src/build/ur_dashboard_msgs/rosidl_adapter/ur_dashboard_msgs:srv/AddToLog.idl
+/home/d-lab/workspace/ros_ur_driver/src/build/ur_dashboard_msgs/rosidl_adapter/ur_dashboard_msgs:srv/GetLoadedProgram.idl
+/home/d-lab/workspace/ros_ur_driver/src/build/ur_dashboard_msgs/rosidl_adapter/ur_dashboard_msgs:srv/GetProgramState.idl
+/home/d-lab/workspace/ros_ur_driver/src/build/ur_dashboard_msgs/rosidl_adapter/ur_dashboard_msgs:srv/GetRobotMode.idl
+/home/d-lab/workspace/ros_ur_driver/src/build/ur_dashboard_msgs/rosidl_adapter/ur_dashboard_msgs:srv/GetSafetyMode.idl
+/home/d-lab/workspace/ros_ur_driver/src/build/ur_dashboard_msgs/rosidl_adapter/ur_dashboard_msgs:srv/IsProgramRunning.idl
+/home/d-lab/workspace/ros_ur_driver/src/build/ur_dashboard_msgs/rosidl_adapter/ur_dashboard_msgs:srv/IsProgramSaved.idl
+/home/d-lab/workspace/ros_ur_driver/src/build/ur_dashboard_msgs/rosidl_adapter/ur_dashboard_msgs:srv/Load.idl
+/home/d-lab/workspace/ros_ur_driver/src/build/ur_dashboard_msgs/rosidl_adapter/ur_dashboard_msgs:srv/Popup.idl
+/home/d-lab/workspace/ros_ur_driver/src/build/ur_dashboard_msgs/rosidl_adapter/ur_dashboard_msgs:srv/RawRequest.idl
+/home/d-lab/workspace/ros_ur_driver/src/build/ur_dashboard_msgs/rosidl_adapter/ur_dashboard_msgs:action/SetMode.idl

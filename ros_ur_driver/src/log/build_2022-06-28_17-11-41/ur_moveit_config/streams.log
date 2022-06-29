@@ -1,0 +1,21 @@
+[0.127s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/src/build/ur_moveit_config': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/d-lab/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_moveit_config -DCMAKE_INSTALL_PREFIX=/home/d-lab/workspace/ros_ur_driver/src/install/ur_moveit_config
+[0.316s] -- The C compiler identification is GNU 9.4.0
+[0.488s] -- The CXX compiler identification is GNU 9.4.0
+[0.491s] -- Check for working C compiler: /usr/bin/cc
+[0.713s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.714s] -- Detecting C compiler ABI info
+[1.013s] -- Detecting C compiler ABI info - done
+[1.027s] -- Detecting C compile features
+[1.027s] -- Detecting C compile features - done
+[1.030s] -- Check for working CXX compiler: /usr/bin/c++
+[1.321s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.322s] -- Detecting CXX compiler ABI info
+[1.646s] -- Detecting CXX compiler ABI info - done
+[1.660s] -- Detecting CXX compile features
+[1.673s] -- Detecting CXX compile features - done
+[1.675s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.727s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.727s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.997s] -- Configuring done
+[1.999s] -- Generating done
+[2.000s] -- Build files have been written to: /home/d-lab/workspace/ros_ur_driver/src/build/ur_moveit_config

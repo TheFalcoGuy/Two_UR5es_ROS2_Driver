@@ -1,0 +1,32 @@
+[0.187s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/src/build/move_arm': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/src/build/move_arm -- -j16 -l16
+[0.370s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.370s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.371s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.378s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.379s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.494s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.551s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.552s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.642s] -- Found moveit: 2.2.3 (/opt/ros/foxy/share/moveit/cmake)
+[0.666s] CMake Error at CMakeLists.txt:23 (find_package):
+[0.667s]   By not providing "Findmoveit_visual_tools.cmake" in CMAKE_MODULE_PATH this
+[0.667s]   project has asked CMake to find a package configuration file provided by
+[0.667s]   "moveit_visual_tools", but CMake did not find one.
+[0.668s] 
+[0.668s]   Could not find a package configuration file provided by
+[0.668s]   "moveit_visual_tools" with any of the following names:
+[0.668s] 
+[0.668s]     moveit_visual_toolsConfig.cmake
+[0.669s]     moveit_visual_tools-config.cmake
+[0.670s] 
+[0.670s]   Add the installation prefix of "moveit_visual_tools" to CMAKE_PREFIX_PATH
+[0.670s]   or set "moveit_visual_tools_DIR" to a directory containing one of the above
+[0.670s]   files.  If "moveit_visual_tools" provides a separate development package or
+[0.670s]   SDK, be sure it has been installed.
+[0.670s] 
+[0.670s] 
+[0.675s] -- Configuring incomplete, errors occurred!
+[0.675s] See also "/home/d-lab/workspace/ros_ur_driver/src/build/move_arm/CMakeFiles/CMakeOutput.log".
+[0.675s] See also "/home/d-lab/workspace/ros_ur_driver/src/build/move_arm/CMakeFiles/CMakeError.log".
+[0.683s] make: *** [Makefile:266: cmake_check_build_system] Error 1
+[0.739s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/src/build/move_arm' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/src/build/move_arm -- -j16 -l16

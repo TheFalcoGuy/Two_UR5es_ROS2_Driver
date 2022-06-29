@@ -1,0 +1,34 @@
+[ 36%] Built target gmock
+[ 45%] Built target gmock_main
+[ 63%] Built target test_differential_transmission
+[ 81%] Built target test_four_bar_linkage_transmission
+[100%] Built target test_simple_transmission
+-- Install configuration: ""
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/transmission_interface/include
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/transmission_interface/include/transmission_interface
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/transmission_interface/include/transmission_interface/transmission.hpp
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/transmission_interface/include/transmission_interface/accessor.hpp
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/transmission_interface/include/transmission_interface/transmission_parser.hpp
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/transmission_interface/include/transmission_interface/differential_transmission.hpp
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/transmission_interface/include/transmission_interface/visibility_control.h
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/transmission_interface/include/transmission_interface/exception.hpp
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/transmission_interface/include/transmission_interface/handle.hpp
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/transmission_interface/include/transmission_interface/simple_transmission.hpp
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/transmission_interface/include/transmission_interface/four_bar_linkage_transmission.hpp
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/transmission_interface/share/ament_index/resource_index/package_run_dependencies/transmission_interface
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/transmission_interface/share/ament_index/resource_index/parent_prefix_path/transmission_interface
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/transmission_interface/share/transmission_interface/environment/ament_prefix_path.sh
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/transmission_interface/share/transmission_interface/environment/ament_prefix_path.dsv
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/transmission_interface/share/transmission_interface/environment/path.sh
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/transmission_interface/share/transmission_interface/environment/path.dsv
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/transmission_interface/share/transmission_interface/local_setup.bash
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/transmission_interface/share/transmission_interface/local_setup.sh
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/transmission_interface/share/transmission_interface/local_setup.zsh
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/transmission_interface/share/transmission_interface/local_setup.dsv
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/transmission_interface/share/transmission_interface/package.dsv
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/transmission_interface/share/ament_index/resource_index/packages/transmission_interface
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/transmission_interface/share/transmission_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/transmission_interface/share/transmission_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/transmission_interface/share/transmission_interface/cmake/transmission_interfaceConfig.cmake
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/transmission_interface/share/transmission_interface/cmake/transmission_interfaceConfig-version.cmake
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/transmission_interface/share/transmission_interface/package.xml

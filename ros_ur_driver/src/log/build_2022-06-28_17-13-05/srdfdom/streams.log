@@ -1,0 +1,22 @@
+[0.323s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/src/build/srdfdom': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/src/build/srdfdom -- -j16 -l16
+[0.352s] [35m[1mScanning dependencies of target gtest_main[0m
+[0.354s] [35m[1mScanning dependencies of target srdfdom[0m
+[0.358s] [35m[1mScanning dependencies of target gtest[0m
+[0.367s] [  9%] [32mBuilding CXX object CMakeFiles/srdfdom.dir/src/model.cpp.o[0m
+[0.371s] [ 18%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[0.377s] [ 27%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[0.380s] [ 36%] [32mBuilding CXX object CMakeFiles/srdfdom.dir/src/srdf_writer.cpp.o[0m
+[1.035s] [ 45%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[1.059s] [ 45%] Built target gtest_main
+[2.697s] [ 54%] [32m[1mLinking CXX shared library libsrdfdom.so[0m
+[2.927s] [ 54%] Built target srdfdom
+[5.108s] [ 63%] [32m[1mLinking CXX static library libgtest.a[0m
+[5.317s] [ 63%] Built target gtest
+[5.351s] [35m[1mScanning dependencies of target test_cpp_nl_NL.UTF-8[0m
+[5.368s] [35m[1mScanning dependencies of target test_cpp_C[0m
+[5.428s] [ 72%] [32mBuilding CXX object CMakeFiles/test_cpp_C.dir/test/test_parser.cpp.o[0m
+[5.429s] [ 81%] [32mBuilding CXX object CMakeFiles/test_cpp_nl_NL.UTF-8.dir/test/test_parser.cpp.o[0m
+[7.656s] [ 90%] [32m[1mLinking CXX executable test_cpp_nl_NL.UTF-8[0m
+[7.928s] [ 90%] Built target test_cpp_nl_NL.UTF-8
+[8.168s] [100%] [32m[1mLinking CXX executable test_cpp_C[0m
+[8.429s] [100%] Built target test_cpp_C

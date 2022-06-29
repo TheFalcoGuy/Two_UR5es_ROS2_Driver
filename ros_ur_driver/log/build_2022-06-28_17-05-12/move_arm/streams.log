@@ -1,0 +1,32 @@
+[0.195s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/move_arm': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/move_arm -- -j16 -l16
+[0.363s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.365s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.366s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.371s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.372s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.504s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.564s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.565s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.645s] -- Found moveit: 2.2.3 (/opt/ros/foxy/share/moveit/cmake)
+[0.667s] CMake Error at CMakeLists.txt:23 (find_package):
+[0.667s]   By not providing "FindEigen.cmake" in CMAKE_MODULE_PATH this project has
+[0.667s]   asked CMake to find a package configuration file provided by "Eigen", but
+[0.667s]   CMake did not find one.
+[0.667s] 
+[0.667s]   Could not find a package configuration file provided by "Eigen" with any of
+[0.667s]   the following names:
+[0.667s] 
+[0.667s]     EigenConfig.cmake
+[0.667s]     eigen-config.cmake
+[0.667s] 
+[0.667s]   Add the installation prefix of "Eigen" to CMAKE_PREFIX_PATH or set
+[0.667s]   "Eigen_DIR" to a directory containing one of the above files.  If "Eigen"
+[0.667s]   provides a separate development package or SDK, be sure it has been
+[0.667s]   installed.
+[0.667s] 
+[0.667s] 
+[0.668s] -- Configuring incomplete, errors occurred!
+[0.668s] See also "/home/d-lab/workspace/ros_ur_driver/build/move_arm/CMakeFiles/CMakeOutput.log".
+[0.668s] See also "/home/d-lab/workspace/ros_ur_driver/build/move_arm/CMakeFiles/CMakeError.log".
+[0.668s] make: *** [Makefile:266: cmake_check_build_system] Error 1
+[0.708s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/build/move_arm' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/move_arm -- -j16 -l16

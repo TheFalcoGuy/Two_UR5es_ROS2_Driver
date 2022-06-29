@@ -1,0 +1,105 @@
+[0.015s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/src/build/controller_manager': AMENT_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/src/install/controller_interface:/home/d-lab/workspace/ros_ur_driver/src/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/src/install/ros2_control_test_assets:/home/d-lab/workspace/ros_ur_driver/src/install/controller_manager_msgs:/home/d-lab/workspace/ros_ur_driver/src/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/src/install/controller_interface:/home/d-lab/workspace/ros_ur_driver/src/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/src/install/ros2_control_test_assets:/home/d-lab/workspace/ros_ur_driver/src/install/controller_manager_msgs:/home/d-lab/workspace/ros_ur_driver/src/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/d-lab/workspace/ros_ur_driver/src/install/controller_interface/lib:/home/d-lab/workspace/ros_ur_driver/src/install/hardware_interface/lib:/home/d-lab/workspace/ros_ur_driver/src/install/controller_manager_msgs/lib:/home/d-lab/workspace/ros_ur_driver/src/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/d-lab/workspace/ros_ur_driver/src/install/controller_manager_msgs/lib/python3.8/site-packages:/home/d-lab/workspace/ros_ur_driver/src/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/d-lab/workspace/ros_ur_driver/src/ros2_control/controller_manager -DCMAKE_INSTALL_PREFIX=/home/d-lab/workspace/ros_ur_driver/src/install/controller_manager
+[0.049s] -- The C compiler identification is GNU 9.4.0
+[0.080s] -- The CXX compiler identification is GNU 9.4.0
+[0.083s] -- Check for working C compiler: /usr/bin/cc
+[0.125s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.125s] -- Detecting C compiler ABI info
+[0.167s] -- Detecting C compiler ABI info - done
+[0.174s] -- Detecting C compile features
+[0.174s] -- Detecting C compile features - done
+[0.176s] -- Check for working CXX compiler: /usr/bin/c++
+[0.223s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.224s] -- Detecting CXX compiler ABI info
+[0.272s] -- Detecting CXX compiler ABI info - done
+[0.279s] -- Detecting CXX compile features
+[0.280s] -- Detecting CXX compile features - done
+[0.281s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.296s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.296s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.413s] -- Found ament_index_cpp: 1.1.0 (/opt/ros/foxy/share/ament_index_cpp/cmake)
+[0.415s] -- Found controller_interface: 0.10.0 (/home/d-lab/workspace/ros_ur_driver/src/install/controller_interface/share/controller_interface/cmake)
+[0.436s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.440s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.486s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.505s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.553s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.886s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.887s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.887s] -- Looking for pthread.h
+[0.938s] -- Looking for pthread.h - found
+[0.939s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.993s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.993s] -- Looking for pthread_create in pthreads
+[1.030s] -- Looking for pthread_create in pthreads - not found
+[1.030s] -- Looking for pthread_create in pthread
+[1.072s] -- Looking for pthread_create in pthread - found
+[1.073s] -- Found Threads: TRUE  
+[1.231s] -- Found controller_manager_msgs: 0.10.0 (/home/d-lab/workspace/ros_ur_driver/src/install/controller_manager_msgs/share/controller_manager_msgs/cmake)
+[1.289s] -- Found ament_cmake_gmock: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gmock/cmake)
+[1.290s] -- Found ament_cmake_gtest: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[1.291s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.292s] -- Found ros2_control_test_assets: 0.10.0 (/home/d-lab/workspace/ros_ur_driver/src/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[1.340s] -- Found gmock sources under '/opt/ros/foxy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[1.343s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.366s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.368s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.368s] -- Configured cppcheck include dirs: /home/d-lab/workspace/ros_ur_driver/src/ros2_control/controller_manager/include
+[1.368s] -- Configured cppcheck exclude dirs and/or files: 
+[1.368s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.369s] -- Added test 'lint_cmake' to check CMake code style
+[1.369s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.370s] -- Added test 'xmllint' to check XML markup files
+[1.373s] -- Configuring done
+[1.466s] -- Generating done
+[1.468s] -- Build files have been written to: /home/d-lab/workspace/ros_ur_driver/src/build/controller_manager
+[1.476s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/src/build/controller_manager' returned '0': AMENT_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/src/install/controller_interface:/home/d-lab/workspace/ros_ur_driver/src/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/src/install/ros2_control_test_assets:/home/d-lab/workspace/ros_ur_driver/src/install/controller_manager_msgs:/home/d-lab/workspace/ros_ur_driver/src/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/src/install/controller_interface:/home/d-lab/workspace/ros_ur_driver/src/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/src/install/ros2_control_test_assets:/home/d-lab/workspace/ros_ur_driver/src/install/controller_manager_msgs:/home/d-lab/workspace/ros_ur_driver/src/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/d-lab/workspace/ros_ur_driver/src/install/controller_interface/lib:/home/d-lab/workspace/ros_ur_driver/src/install/hardware_interface/lib:/home/d-lab/workspace/ros_ur_driver/src/install/controller_manager_msgs/lib:/home/d-lab/workspace/ros_ur_driver/src/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/d-lab/workspace/ros_ur_driver/src/install/controller_manager_msgs/lib/python3.8/site-packages:/home/d-lab/workspace/ros_ur_driver/src/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/d-lab/workspace/ros_ur_driver/src/ros2_control/controller_manager -DCMAKE_INSTALL_PREFIX=/home/d-lab/workspace/ros_ur_driver/src/install/controller_manager
+[1.477s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/src/build/controller_manager': AMENT_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/src/install/controller_interface:/home/d-lab/workspace/ros_ur_driver/src/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/src/install/ros2_control_test_assets:/home/d-lab/workspace/ros_ur_driver/src/install/controller_manager_msgs:/home/d-lab/workspace/ros_ur_driver/src/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/src/install/controller_interface:/home/d-lab/workspace/ros_ur_driver/src/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/src/install/ros2_control_test_assets:/home/d-lab/workspace/ros_ur_driver/src/install/controller_manager_msgs:/home/d-lab/workspace/ros_ur_driver/src/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/d-lab/workspace/ros_ur_driver/src/install/controller_interface/lib:/home/d-lab/workspace/ros_ur_driver/src/install/hardware_interface/lib:/home/d-lab/workspace/ros_ur_driver/src/install/controller_manager_msgs/lib:/home/d-lab/workspace/ros_ur_driver/src/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/d-lab/workspace/ros_ur_driver/src/install/controller_manager_msgs/lib/python3.8/site-packages:/home/d-lab/workspace/ros_ur_driver/src/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/src/build/controller_manager -- -j16 -l16
+[1.512s] [35m[1mScanning dependencies of target gmock[0m
+[1.512s] [35m[1mScanning dependencies of target controller_manager[0m
+[1.512s] [35m[1mScanning dependencies of target gmock_main[0m
+[1.526s] [  8%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[1.527s] [  8%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/foxy/src/gtest_vendor/src/gtest-all.cc.o[0m
+[1.527s] [ 12%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[1.547s] [ 16%] [32mBuilding CXX object CMakeFiles/controller_manager.dir/src/controller_manager.cpp.o[0m
+[2.077s] [ 20%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[2.098s] [ 20%] Built target gmock_main
+[3.419s] [ 24%] [32m[1mLinking CXX static library libgmock.a[0m
+[3.456s] [ 24%] Built target gmock
+[6.738s] [ 28%] [32m[1mLinking CXX shared library libcontroller_manager.so[0m
+[7.017s] [ 28%] Built target controller_manager
+[7.023s] [35m[1mScanning dependencies of target ros2_control_node[0m
+[7.023s] [35m[1mScanning dependencies of target test_controller[0m
+[7.023s] [35m[1mScanning dependencies of target test_controller_with_interfaces[0m
+[7.023s] [35m[1mScanning dependencies of target test_controller_failed_init[0m
+[7.057s] [ 32%] [32mBuilding CXX object CMakeFiles/ros2_control_node.dir/src/ros2_control_node.cpp.o[0m
+[7.058s] [ 36%] [32mBuilding CXX object CMakeFiles/test_controller.dir/test/test_controller/test_controller.cpp.o[0m
+[7.059s] [ 40%] [32mBuilding CXX object CMakeFiles/test_controller_failed_init.dir/test/test_controller_failed_init/test_controller_failed_init.cpp.o[0m
+[7.060s] [ 44%] [32mBuilding CXX object CMakeFiles/test_controller_with_interfaces.dir/test/test_controller_with_interfaces/test_controller_with_interfaces.cpp.o[0m
+[8.747s] [ 48%] [32m[1mLinking CXX shared library libtest_controller_failed_init.so[0m
+[8.759s] [ 52%] [32m[1mLinking CXX shared library libtest_controller_with_interfaces.so[0m
+[8.779s] [ 56%] [32m[1mLinking CXX shared library libtest_controller.so[0m
+[8.818s] [ 60%] [32m[1mLinking CXX executable ros2_control_node[0m
+[8.821s] [ 60%] Built target test_controller_failed_init
+[8.831s] [ 60%] Built target test_controller_with_interfaces
+[8.838s] [35m[1mScanning dependencies of target test_release_interfaces[0m
+[8.852s] [ 60%] Built target test_controller
+[8.859s] [35m[1mScanning dependencies of target test_controller_manager[0m
+[8.859s] [35m[1mScanning dependencies of target test_load_controller[0m
+[8.859s] [35m[1mScanning dependencies of target test_controller_manager_srvs[0m
+[8.859s] [35m[1mScanning dependencies of target test_spawner_unspawner[0m
+[8.874s] [ 64%] [32mBuilding CXX object CMakeFiles/test_release_interfaces.dir/test/test_release_interfaces.cpp.o[0m
+[8.897s] [ 68%] [32mBuilding CXX object CMakeFiles/test_load_controller.dir/test/test_load_controller.cpp.o[0m
+[8.898s] [ 72%] [32mBuilding CXX object CMakeFiles/test_controller_manager_srvs.dir/test/test_controller_manager_srvs.cpp.o[0m
+[8.899s] [ 76%] [32mBuilding CXX object CMakeFiles/test_controller_manager.dir/test/test_controller_manager.cpp.o[0m
+[8.900s] [ 80%] [32mBuilding CXX object CMakeFiles/test_spawner_unspawner.dir/test/test_spawner_unspawner.cpp.o[0m
+[9.018s] [ 80%] Built target ros2_control_node
+[11.366s] [ 84%] [32m[1mLinking CXX executable test_release_interfaces[0m
+[11.414s] [ 88%] [32m[1mLinking CXX executable test_spawner_unspawner[0m
+[11.617s] [ 92%] [32m[1mLinking CXX executable test_controller_manager[0m
+[11.689s] [ 92%] Built target test_release_interfaces
+[11.734s] [ 92%] Built target test_spawner_unspawner
+[11.928s] [ 92%] Built target test_controller_manager
+[12.247s] [ 96%] [32m[1mLinking CXX executable test_load_controller[0m
+[12.554s] [ 96%] Built target test_load_controller
+[14.174s] [100%] [32m[1mLinking CXX executable test_controller_manager_srvs[0m
+[14.573s] [100%] Built target test_controller_manager_srvs

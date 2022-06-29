@@ -1,0 +1,15 @@
+/home/d-lab/workspace/ros_ur_driver/install/move_arm/share/ament_index/resource_index/package_run_dependencies/move_arm
+/home/d-lab/workspace/ros_ur_driver/install/move_arm/share/ament_index/resource_index/parent_prefix_path/move_arm
+/home/d-lab/workspace/ros_ur_driver/install/move_arm/share/move_arm/environment/ament_prefix_path.sh
+/home/d-lab/workspace/ros_ur_driver/install/move_arm/share/move_arm/environment/ament_prefix_path.dsv
+/home/d-lab/workspace/ros_ur_driver/install/move_arm/share/move_arm/environment/path.sh
+/home/d-lab/workspace/ros_ur_driver/install/move_arm/share/move_arm/environment/path.dsv
+/home/d-lab/workspace/ros_ur_driver/install/move_arm/share/move_arm/local_setup.bash
+/home/d-lab/workspace/ros_ur_driver/install/move_arm/share/move_arm/local_setup.sh
+/home/d-lab/workspace/ros_ur_driver/install/move_arm/share/move_arm/local_setup.zsh
+/home/d-lab/workspace/ros_ur_driver/install/move_arm/share/move_arm/local_setup.dsv
+/home/d-lab/workspace/ros_ur_driver/install/move_arm/share/move_arm/package.dsv
+/home/d-lab/workspace/ros_ur_driver/install/move_arm/share/ament_index/resource_index/packages/move_arm
+/home/d-lab/workspace/ros_ur_driver/install/move_arm/share/move_arm/cmake/move_armConfig.cmake
+/home/d-lab/workspace/ros_ur_driver/install/move_arm/share/move_arm/cmake/move_armConfig-version.cmake
+/home/d-lab/workspace/ros_ur_driver/install/move_arm/share/move_arm/package.xml

@@ -1,0 +1,40 @@
+[ 20%] Built target gmock
+[ 33%] Built target gmock_main
+[ 46%] Built target controller_interface
+[ 60%] Built target test_semantic_component_interface
+[ 73%] Built target test_force_torque_sensor
+[ 86%] Built target test_imu_sensor
+[100%] Built target test_controller_with_options
+-- Install configuration: ""
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/controller_interface/include
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/controller_interface/include/semantic_components
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/controller_interface/include/semantic_components/imu_sensor.hpp
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/controller_interface/include/semantic_components/semantic_component_interface.hpp
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/controller_interface/include/semantic_components/force_torque_sensor.hpp
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/controller_interface/include/controller_interface
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/controller_interface/include/controller_interface/helpers.hpp
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/controller_interface/include/controller_interface/controller_state_names.hpp
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/controller_interface/include/controller_interface/visibility_control.h
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/controller_interface/include/controller_interface/controller_interface.hpp
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/controller_interface/lib/libcontroller_interface.so
+-- Set runtime path of "/home/d-lab/workspace/ros_ur_driver/src/install/controller_interface/lib/libcontroller_interface.so" to ""
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/controller_interface/share/controller_interface/environment/library_path.sh
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/controller_interface/share/controller_interface/environment/library_path.dsv
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/controller_interface/share/ament_index/resource_index/package_run_dependencies/controller_interface
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/controller_interface/share/ament_index/resource_index/parent_prefix_path/controller_interface
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/controller_interface/share/controller_interface/environment/ament_prefix_path.sh
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/controller_interface/share/controller_interface/environment/ament_prefix_path.dsv
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/controller_interface/share/controller_interface/environment/path.sh
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/controller_interface/share/controller_interface/environment/path.dsv
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/controller_interface/share/controller_interface/local_setup.bash
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/controller_interface/share/controller_interface/local_setup.sh
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/controller_interface/share/controller_interface/local_setup.zsh
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/controller_interface/share/controller_interface/local_setup.dsv
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/controller_interface/share/controller_interface/package.dsv
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/controller_interface/share/ament_index/resource_index/packages/controller_interface
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/controller_interface/share/controller_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/controller_interface/share/controller_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/controller_interface/share/controller_interface/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/controller_interface/share/controller_interface/cmake/controller_interfaceConfig.cmake
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/controller_interface/share/controller_interface/cmake/controller_interfaceConfig-version.cmake
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/controller_interface/share/controller_interface/package.xml

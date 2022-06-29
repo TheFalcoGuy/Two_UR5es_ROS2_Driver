@@ -1,0 +1,85 @@
+running egg_info
+creating ../../build/ros2controlcli/ros2controlcli.egg-info
+writing ../../build/ros2controlcli/ros2controlcli.egg-info/PKG-INFO
+writing dependency_links to ../../build/ros2controlcli/ros2controlcli.egg-info/dependency_links.txt
+writing entry points to ../../build/ros2controlcli/ros2controlcli.egg-info/entry_points.txt
+writing requirements to ../../build/ros2controlcli/ros2controlcli.egg-info/requires.txt
+writing top-level names to ../../build/ros2controlcli/ros2controlcli.egg-info/top_level.txt
+writing manifest file '../../build/ros2controlcli/ros2controlcli.egg-info/SOURCES.txt'
+reading manifest file '../../build/ros2controlcli/ros2controlcli.egg-info/SOURCES.txt'
+writing manifest file '../../build/ros2controlcli/ros2controlcli.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/d-lab/workspace/ros_ur_driver/src/build/ros2controlcli/build
+creating /home/d-lab/workspace/ros_ur_driver/src/build/ros2controlcli/build/lib
+creating /home/d-lab/workspace/ros_ur_driver/src/build/ros2controlcli/build/lib/ros2controlcli
+copying ros2controlcli/__init__.py -> /home/d-lab/workspace/ros_ur_driver/src/build/ros2controlcli/build/lib/ros2controlcli
+creating /home/d-lab/workspace/ros_ur_driver/src/build/ros2controlcli/build/lib/ros2controlcli/command
+copying ros2controlcli/command/control.py -> /home/d-lab/workspace/ros_ur_driver/src/build/ros2controlcli/build/lib/ros2controlcli/command
+copying ros2controlcli/command/__init__.py -> /home/d-lab/workspace/ros_ur_driver/src/build/ros2controlcli/build/lib/ros2controlcli/command
+creating /home/d-lab/workspace/ros_ur_driver/src/build/ros2controlcli/build/lib/ros2controlcli/verb
+copying ros2controlcli/verb/load_start_controller.py -> /home/d-lab/workspace/ros_ur_driver/src/build/ros2controlcli/build/lib/ros2controlcli/verb
+copying ros2controlcli/verb/configure_start_controller.py -> /home/d-lab/workspace/ros_ur_driver/src/build/ros2controlcli/build/lib/ros2controlcli/verb
+copying ros2controlcli/verb/list_controllers.py -> /home/d-lab/workspace/ros_ur_driver/src/build/ros2controlcli/build/lib/ros2controlcli/verb
+copying ros2controlcli/verb/switch_controllers.py -> /home/d-lab/workspace/ros_ur_driver/src/build/ros2controlcli/build/lib/ros2controlcli/verb
+copying ros2controlcli/verb/set_controller_state.py -> /home/d-lab/workspace/ros_ur_driver/src/build/ros2controlcli/build/lib/ros2controlcli/verb
+copying ros2controlcli/verb/reload_controller_libraries.py -> /home/d-lab/workspace/ros_ur_driver/src/build/ros2controlcli/build/lib/ros2controlcli/verb
+copying ros2controlcli/verb/list_hardware_interfaces.py -> /home/d-lab/workspace/ros_ur_driver/src/build/ros2controlcli/build/lib/ros2controlcli/verb
+copying ros2controlcli/verb/__init__.py -> /home/d-lab/workspace/ros_ur_driver/src/build/ros2controlcli/build/lib/ros2controlcli/verb
+copying ros2controlcli/verb/list_controller_types.py -> /home/d-lab/workspace/ros_ur_driver/src/build/ros2controlcli/build/lib/ros2controlcli/verb
+copying ros2controlcli/verb/load_controller.py -> /home/d-lab/workspace/ros_ur_driver/src/build/ros2controlcli/build/lib/ros2controlcli/verb
+copying ros2controlcli/verb/load_configure_controller.py -> /home/d-lab/workspace/ros_ur_driver/src/build/ros2controlcli/build/lib/ros2controlcli/verb
+copying ros2controlcli/verb/unload_controller.py -> /home/d-lab/workspace/ros_ur_driver/src/build/ros2controlcli/build/lib/ros2controlcli/verb
+copying ros2controlcli/verb/configure_controller.py -> /home/d-lab/workspace/ros_ur_driver/src/build/ros2controlcli/build/lib/ros2controlcli/verb
+creating /home/d-lab/workspace/ros_ur_driver/src/build/ros2controlcli/build/lib/ros2controlcli/api
+copying ros2controlcli/api/__init__.py -> /home/d-lab/workspace/ros_ur_driver/src/build/ros2controlcli/build/lib/ros2controlcli/api
+running install
+running install_lib
+creating /home/d-lab/workspace/ros_ur_driver/src/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli
+creating /home/d-lab/workspace/ros_ur_driver/src/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli/command
+copying /home/d-lab/workspace/ros_ur_driver/src/build/ros2controlcli/build/lib/ros2controlcli/command/control.py -> /home/d-lab/workspace/ros_ur_driver/src/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli/command
+copying /home/d-lab/workspace/ros_ur_driver/src/build/ros2controlcli/build/lib/ros2controlcli/command/__init__.py -> /home/d-lab/workspace/ros_ur_driver/src/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli/command
+creating /home/d-lab/workspace/ros_ur_driver/src/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli/verb
+copying /home/d-lab/workspace/ros_ur_driver/src/build/ros2controlcli/build/lib/ros2controlcli/verb/load_start_controller.py -> /home/d-lab/workspace/ros_ur_driver/src/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli/verb
+copying /home/d-lab/workspace/ros_ur_driver/src/build/ros2controlcli/build/lib/ros2controlcli/verb/configure_start_controller.py -> /home/d-lab/workspace/ros_ur_driver/src/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli/verb
+copying /home/d-lab/workspace/ros_ur_driver/src/build/ros2controlcli/build/lib/ros2controlcli/verb/list_controllers.py -> /home/d-lab/workspace/ros_ur_driver/src/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli/verb
+copying /home/d-lab/workspace/ros_ur_driver/src/build/ros2controlcli/build/lib/ros2controlcli/verb/switch_controllers.py -> /home/d-lab/workspace/ros_ur_driver/src/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli/verb
+copying /home/d-lab/workspace/ros_ur_driver/src/build/ros2controlcli/build/lib/ros2controlcli/verb/set_controller_state.py -> /home/d-lab/workspace/ros_ur_driver/src/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli/verb
+copying /home/d-lab/workspace/ros_ur_driver/src/build/ros2controlcli/build/lib/ros2controlcli/verb/reload_controller_libraries.py -> /home/d-lab/workspace/ros_ur_driver/src/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli/verb
+copying /home/d-lab/workspace/ros_ur_driver/src/build/ros2controlcli/build/lib/ros2controlcli/verb/list_hardware_interfaces.py -> /home/d-lab/workspace/ros_ur_driver/src/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli/verb
+copying /home/d-lab/workspace/ros_ur_driver/src/build/ros2controlcli/build/lib/ros2controlcli/verb/__init__.py -> /home/d-lab/workspace/ros_ur_driver/src/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli/verb
+copying /home/d-lab/workspace/ros_ur_driver/src/build/ros2controlcli/build/lib/ros2controlcli/verb/list_controller_types.py -> /home/d-lab/workspace/ros_ur_driver/src/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli/verb
+copying /home/d-lab/workspace/ros_ur_driver/src/build/ros2controlcli/build/lib/ros2controlcli/verb/load_controller.py -> /home/d-lab/workspace/ros_ur_driver/src/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli/verb
+copying /home/d-lab/workspace/ros_ur_driver/src/build/ros2controlcli/build/lib/ros2controlcli/verb/load_configure_controller.py -> /home/d-lab/workspace/ros_ur_driver/src/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli/verb
+copying /home/d-lab/workspace/ros_ur_driver/src/build/ros2controlcli/build/lib/ros2controlcli/verb/unload_controller.py -> /home/d-lab/workspace/ros_ur_driver/src/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli/verb
+copying /home/d-lab/workspace/ros_ur_driver/src/build/ros2controlcli/build/lib/ros2controlcli/verb/configure_controller.py -> /home/d-lab/workspace/ros_ur_driver/src/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli/verb
+copying /home/d-lab/workspace/ros_ur_driver/src/build/ros2controlcli/build/lib/ros2controlcli/__init__.py -> /home/d-lab/workspace/ros_ur_driver/src/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli
+creating /home/d-lab/workspace/ros_ur_driver/src/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli/api
+copying /home/d-lab/workspace/ros_ur_driver/src/build/ros2controlcli/build/lib/ros2controlcli/api/__init__.py -> /home/d-lab/workspace/ros_ur_driver/src/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli/api
+byte-compiling /home/d-lab/workspace/ros_ur_driver/src/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli/command/control.py to control.cpython-38.pyc
+byte-compiling /home/d-lab/workspace/ros_ur_driver/src/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli/command/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/d-lab/workspace/ros_ur_driver/src/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli/verb/load_start_controller.py to load_start_controller.cpython-38.pyc
+byte-compiling /home/d-lab/workspace/ros_ur_driver/src/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli/verb/configure_start_controller.py to configure_start_controller.cpython-38.pyc
+byte-compiling /home/d-lab/workspace/ros_ur_driver/src/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli/verb/list_controllers.py to list_controllers.cpython-38.pyc
+byte-compiling /home/d-lab/workspace/ros_ur_driver/src/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli/verb/switch_controllers.py to switch_controllers.cpython-38.pyc
+byte-compiling /home/d-lab/workspace/ros_ur_driver/src/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli/verb/set_controller_state.py to set_controller_state.cpython-38.pyc
+byte-compiling /home/d-lab/workspace/ros_ur_driver/src/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli/verb/reload_controller_libraries.py to reload_controller_libraries.cpython-38.pyc
+byte-compiling /home/d-lab/workspace/ros_ur_driver/src/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli/verb/list_hardware_interfaces.py to list_hardware_interfaces.cpython-38.pyc
+byte-compiling /home/d-lab/workspace/ros_ur_driver/src/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli/verb/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/d-lab/workspace/ros_ur_driver/src/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli/verb/list_controller_types.py to list_controller_types.cpython-38.pyc
+byte-compiling /home/d-lab/workspace/ros_ur_driver/src/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli/verb/load_controller.py to load_controller.cpython-38.pyc
+byte-compiling /home/d-lab/workspace/ros_ur_driver/src/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli/verb/load_configure_controller.py to load_configure_controller.cpython-38.pyc
+byte-compiling /home/d-lab/workspace/ros_ur_driver/src/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli/verb/unload_controller.py to unload_controller.cpython-38.pyc
+byte-compiling /home/d-lab/workspace/ros_ur_driver/src/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli/verb/configure_controller.py to configure_controller.cpython-38.pyc
+byte-compiling /home/d-lab/workspace/ros_ur_driver/src/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/d-lab/workspace/ros_ur_driver/src/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli/api/__init__.py to __init__.cpython-38.pyc
+running install_data
+copying package.xml -> /home/d-lab/workspace/ros_ur_driver/src/install/ros2controlcli/share/ros2controlcli
+creating /home/d-lab/workspace/ros_ur_driver/src/install/ros2controlcli/share/ament_index
+creating /home/d-lab/workspace/ros_ur_driver/src/install/ros2controlcli/share/ament_index/resource_index
+creating /home/d-lab/workspace/ros_ur_driver/src/install/ros2controlcli/share/ament_index/resource_index/packages
+copying resource/ros2controlcli -> /home/d-lab/workspace/ros_ur_driver/src/install/ros2controlcli/share/ament_index/resource_index/packages
+running install_egg_info
+Copying ../../build/ros2controlcli/ros2controlcli.egg-info to /home/d-lab/workspace/ros_ur_driver/src/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/d-lab/workspace/ros_ur_driver/src/build/ros2controlcli/install.log'

@@ -22,7 +22,7 @@ class GripperController(Node):
         self.declare_parameter('robot_ip', '127.0.0.1')
         ip_addr = self.get_parameter('robot_ip').value
         self.get_logger().info("Ip address: %s" % ip_addr)
-        if ip_addr == "127.0.0.2":
+        if ip_addr == "192.168.0.88":
 
             self.grip = UrRobotiqGripper()
             PORT=63352 #PORT used by robotiq gripper
@@ -67,3 +67,5 @@ def main(args=None):
 
 if __name__ == '__main__':
     main()
+
+

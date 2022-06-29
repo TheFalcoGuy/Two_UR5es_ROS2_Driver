@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: ur_description
+    relative_path: urdf/ur5_robotiq85_gripper.urdf.xacro
+    xacro_args: name:=ur5e
+  SRDF:
+    relative_path: config/ur5_2f.srdf
+  CONFIG:
+    author_name: Brandon
+    author_email: bm557@cornell.edu
+    generated_timestamp: 1656379548

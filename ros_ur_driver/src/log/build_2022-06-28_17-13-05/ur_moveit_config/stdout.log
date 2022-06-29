@@ -1,0 +1,27 @@
+-- Install configuration: ""
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/ur_moveit_config/share/ur_moveit_config/config
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/ur_moveit_config/share/ur_moveit_config/config/ompl_planning.yaml
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/ur_moveit_config/share/ur_moveit_config/config/controllers.yaml
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/ur_moveit_config/share/ur_moveit_config/config/kinematics.yaml
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/ur_moveit_config/share/ur_moveit_config/launch
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/ur_moveit_config/share/ur_moveit_config/launch/ur_moveit.launch.py
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/ur_moveit_config/share/ur_moveit_config/rviz
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/ur_moveit_config/share/ur_moveit_config/rviz/view_robot.rviz
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/ur_moveit_config/share/ur_moveit_config/srdf
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/ur_moveit_config/share/ur_moveit_config/srdf/ur_macro.srdf.xacro
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/ur_moveit_config/share/ur_moveit_config/srdf/ur.srdf.xacro
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/ur_moveit_config/share/ament_index/resource_index/package_run_dependencies/ur_moveit_config
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/ur_moveit_config/share/ament_index/resource_index/parent_prefix_path/ur_moveit_config
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/ur_moveit_config/share/ur_moveit_config/environment/ament_prefix_path.sh
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/ur_moveit_config/share/ur_moveit_config/environment/ament_prefix_path.dsv
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/ur_moveit_config/share/ur_moveit_config/environment/path.sh
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/ur_moveit_config/share/ur_moveit_config/environment/path.dsv
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/ur_moveit_config/share/ur_moveit_config/local_setup.bash
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/ur_moveit_config/share/ur_moveit_config/local_setup.sh
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/ur_moveit_config/share/ur_moveit_config/local_setup.zsh
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/ur_moveit_config/share/ur_moveit_config/local_setup.dsv
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/ur_moveit_config/share/ur_moveit_config/package.dsv
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/ur_moveit_config/share/ament_index/resource_index/packages/ur_moveit_config
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/ur_moveit_config/share/ur_moveit_config/cmake/ur_moveit_configConfig.cmake
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/ur_moveit_config/share/ur_moveit_config/cmake/ur_moveit_configConfig-version.cmake
+-- Installing: /home/d-lab/workspace/ros_ur_driver/src/install/ur_moveit_config/share/ur_moveit_config/package.xml

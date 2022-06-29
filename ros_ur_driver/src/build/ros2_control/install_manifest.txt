@@ -1,0 +1,15 @@
+/home/d-lab/workspace/ros_ur_driver/src/install/ros2_control/share/ament_index/resource_index/package_run_dependencies/ros2_control
+/home/d-lab/workspace/ros_ur_driver/src/install/ros2_control/share/ament_index/resource_index/parent_prefix_path/ros2_control
+/home/d-lab/workspace/ros_ur_driver/src/install/ros2_control/share/ros2_control/environment/ament_prefix_path.sh
+/home/d-lab/workspace/ros_ur_driver/src/install/ros2_control/share/ros2_control/environment/ament_prefix_path.dsv
+/home/d-lab/workspace/ros_ur_driver/src/install/ros2_control/share/ros2_control/environment/path.sh
+/home/d-lab/workspace/ros_ur_driver/src/install/ros2_control/share/ros2_control/environment/path.dsv
+/home/d-lab/workspace/ros_ur_driver/src/install/ros2_control/share/ros2_control/local_setup.bash
+/home/d-lab/workspace/ros_ur_driver/src/install/ros2_control/share/ros2_control/local_setup.sh
+/home/d-lab/workspace/ros_ur_driver/src/install/ros2_control/share/ros2_control/local_setup.zsh
+/home/d-lab/workspace/ros_ur_driver/src/install/ros2_control/share/ros2_control/local_setup.dsv
+/home/d-lab/workspace/ros_ur_driver/src/install/ros2_control/share/ros2_control/package.dsv
+/home/d-lab/workspace/ros_ur_driver/src/install/ros2_control/share/ament_index/resource_index/packages/ros2_control
+/home/d-lab/workspace/ros_ur_driver/src/install/ros2_control/share/ros2_control/cmake/ros2_controlConfig.cmake
+/home/d-lab/workspace/ros_ur_driver/src/install/ros2_control/share/ros2_control/cmake/ros2_controlConfig-version.cmake
+/home/d-lab/workspace/ros_ur_driver/src/install/ros2_control/share/ros2_control/package.xml

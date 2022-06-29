@@ -1,0 +1,5 @@
+CMake Error at CMakeLists.txt:23 (find_package):
+  find_package called with invalid argument "REQUIRED_FILES"
+
+
+make: *** [Makefile:266: cmake_check_build_system] Error 1
