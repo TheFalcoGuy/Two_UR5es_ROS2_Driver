@@ -136,10 +136,14 @@ int main(int argc, char** argv)
   // We can plan a motion for this group to a desired pose for the
   // end-effector.
   geometry_msgs::msg::Pose target_pose1;
-  target_pose1.orientation.w = 1.0;
-  target_pose1.position.x = 0.28;
-  target_pose1.position.y = -0.2;
-  target_pose1.position.z = 0.5;
+  target_pose1.orientation.w = -0.5;
+  target_pose1.orientation.x = 0.5;
+  target_pose1.orientation.y = 0.5;
+  target_pose1.orientation.z = 0.5;
+
+  target_pose1.position.x = 0.0997;
+  target_pose1.position.y = 0.2329;
+  target_pose1.position.z = 0/97969;
   move_group.setPoseTarget(target_pose1);
 
   // Now, we call the planner to compute the plan and visualize it.

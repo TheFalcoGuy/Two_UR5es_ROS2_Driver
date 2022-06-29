@@ -1,0 +1,33 @@
+[0.237s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/move_arm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/d-lab/workspace/ros_ur_driver/install/utils:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes:/home/d-lab/workspace/ros_ur_driver/install/robotiq_control:/home/d-lab/workspace/ros_ur_driver/install/gripper_control:/opt/ros/foxy /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/move_arm -- -j16 -l16
+[0.437s] [35m[1mScanning dependencies of target move_to_point[0m
+[0.437s] [ 50%] [32mBuilding CXX object CMakeFiles/move_to_point.dir/src/move_to_point.cpp.o[0m
+[2.683s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_to_point.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.683s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_to_point.cpp:91:40:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kjoint_model_group[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.683s]    91 |   const moveit::core::JointModelGroup* [01;35m[Kjoint_model_group[m[K =
+[2.683s]       |                                        [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[4.431s] [100%] [32m[1mLinking CXX executable move_to_point[0m
+[4.717s] [100%] Built target move_to_point
+[4.726s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/build/move_arm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/d-lab/workspace/ros_ur_driver/install/utils:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes:/home/d-lab/workspace/ros_ur_driver/install/robotiq_control:/home/d-lab/workspace/ros_ur_driver/install/gripper_control:/opt/ros/foxy /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/move_arm -- -j16 -l16
+[4.753s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/move_arm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/d-lab/workspace/ros_ur_driver/install/utils:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes:/home/d-lab/workspace/ros_ur_driver/install/robotiq_control:/home/d-lab/workspace/ros_ur_driver/install/gripper_control:/opt/ros/foxy /usr/bin/cmake --install /home/d-lab/workspace/ros_ur_driver/build/move_arm
+[4.760s] -- Install configuration: ""
+[4.760s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/move_arm/lib/move_arm/move_to_point
+[4.760s] -- Set runtime path of "/home/d-lab/workspace/ros_ur_driver/install/move_arm/lib/move_arm/move_to_point" to ""
+[4.760s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/move_arm/share/move_arm/launch
+[4.760s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/move_arm/share/move_arm/launch/move_arm.launch.py
+[4.760s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/move_arm/share/ament_index/resource_index/package_run_dependencies/move_arm
+[4.760s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/move_arm/share/ament_index/resource_index/parent_prefix_path/move_arm
+[4.760s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/move_arm/share/move_arm/environment/ament_prefix_path.sh
+[4.761s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/move_arm/share/move_arm/environment/ament_prefix_path.dsv
+[4.761s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/move_arm/share/move_arm/environment/path.sh
+[4.761s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/move_arm/share/move_arm/environment/path.dsv
+[4.761s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/move_arm/share/move_arm/local_setup.bash
+[4.761s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/move_arm/share/move_arm/local_setup.sh
+[4.761s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/move_arm/share/move_arm/local_setup.zsh
+[4.761s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/move_arm/share/move_arm/local_setup.dsv
+[4.761s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/move_arm/share/move_arm/package.dsv
+[4.761s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/move_arm/share/ament_index/resource_index/packages/move_arm
+[4.761s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/move_arm/share/move_arm/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.761s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/move_arm/share/move_arm/cmake/move_armConfig.cmake
+[4.761s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/move_arm/share/move_arm/cmake/move_armConfig-version.cmake
+[4.761s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/move_arm/share/move_arm/package.xml
+[4.763s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/build/move_arm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/d-lab/workspace/ros_ur_driver/install/utils:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes:/home/d-lab/workspace/ros_ur_driver/install/robotiq_control:/home/d-lab/workspace/ros_ur_driver/install/gripper_control:/opt/ros/foxy /usr/bin/cmake --install /home/d-lab/workspace/ros_ur_driver/build/move_arm
