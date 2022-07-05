@@ -1,0 +1,8 @@
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_controller_base/src/IKSolver.cpp:[m[K In member function ‘[01m[Kbool cartesian_controller_base::IKSolver::setStartState(const std::vector<std::reference_wrapper<hardware_interface::LoanedStateInterface> >&)[m[K’:
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_controller_base/src/IKSolver.cpp:87:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::reference_wrapper<hardware_interface::LoanedStateInterface> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+   87 |     for (int i = 0; [01;35m[Ki < joint_pos_handles.size()[m[K; ++i)
+      |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_controller_base/src/IKSolver.cpp:[m[K In member function ‘[01m[Kbool cartesian_controller_base::IKSolver::setStartState(const std::vector<std::reference_wrapper<hardware_interface::LoanedStateInterface> >&)[m[K’:
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_controller_base/src/IKSolver.cpp:87:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::reference_wrapper<hardware_interface::LoanedStateInterface> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+   87 |     for (int i = 0; [01;35m[Ki < joint_pos_handles.size()[m[K; ++i)
+      |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K

@@ -1,0 +1,30 @@
+[0.063s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/forward_command_controller': AMENT_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/controller_manager:/home/d-lab/workspace/ros_ur_driver/install/controller_interface:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_assets:/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs:/home/d-lab/workspace/ros_ur_driver/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/controller_manager:/home/d-lab/workspace/ros_ur_driver/install/controller_interface:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_assets:/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs:/home/d-lab/workspace/ros_ur_driver/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/d-lab/workspace/ros_ur_driver/install/controller_manager/lib:/home/d-lab/workspace/ros_ur_driver/install/controller_interface/lib:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface/lib:/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs/lib:/home/d-lab/workspace/ros_ur_driver/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/d-lab/workspace/ros_ur_driver/install/controller_manager/lib/python3.8/site-packages:/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs/lib/python3.8/site-packages:/home/d-lab/workspace/ros_ur_driver/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/forward_command_controller -- -j16 -l16
+[0.355s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.355s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.356s] -- Found controller_interface: 0.10.0 (/home/d-lab/workspace/ros_ur_driver/install/controller_interface/share/controller_interface/cmake)
+[0.356s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.356s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.496s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.088s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.090s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.363s] -- Found realtime_tools: 2.2.0 (/opt/ros/foxy/share/realtime_tools/cmake)
+[1.472s] -- Found ament_cmake_gmock: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gmock/cmake)
+[1.472s] -- Found controller_manager: 0.10.0 (/home/d-lab/workspace/ros_ur_driver/install/controller_manager/share/controller_manager/cmake)
+[1.552s] -- Found ros2_control_test_assets: 0.10.0 (/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[1.554s] -- Found gmock sources under '/opt/ros/foxy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[1.555s] -- Found ament_cmake_gtest: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[1.556s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.756s] -- Configuring done
+[1.825s] -- Generating done
+[1.828s] -- Build files have been written to: /home/d-lab/workspace/ros_ur_driver/build/forward_command_controller
+[1.865s] [35m[1mScanning dependencies of target forward_command_controller[0m
+[1.869s] [ 27%] Built target gmock
+[1.870s] [ 45%] Built target gmock_main
+[1.884s] [35m[1mScanning dependencies of target test_load_forward_command_controller[0m
+[1.931s] [ 54%] [32mBuilding CXX object CMakeFiles/forward_command_controller.dir/src/forward_command_controller.cpp.o[0m
+[1.933s] [ 63%] [32mBuilding CXX object CMakeFiles/test_load_forward_command_controller.dir/test/test_load_forward_command_controller.cpp.o[0m
+[6.612s] make[2]: *** [CMakeFiles/forward_command_controller.dir/build.make:63: CMakeFiles/forward_command_controller.dir/src/forward_command_controller.cpp.o] Interrupt
+[6.616s] make[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/forward_command_controller.dir/all] Interrupt
+[6.617s] make[2]: *** [CMakeFiles/test_load_forward_command_controller.dir/build.make:63: CMakeFiles/test_load_forward_command_controller.dir/test/test_load_forward_command_controller.cpp.o] Interrupt
+[6.617s] make[1]: *** [CMakeFiles/Makefile2:126: CMakeFiles/test_load_forward_command_controller.dir/all] Interrupt
+[6.617s] make: *** [Makefile:141: all] Interrupt

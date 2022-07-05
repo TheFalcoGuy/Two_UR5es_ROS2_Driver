@@ -1,0 +1,33 @@
+[0.200s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/admittance_controller': AMENT_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/controller_manager:/home/d-lab/workspace/ros_ur_driver/install/controller_interface:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_assets:/home/d-lab/workspace/ros_ur_driver/install/filters:/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs:/home/d-lab/workspace/ros_ur_driver/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/controller_manager:/home/d-lab/workspace/ros_ur_driver/install/controller_interface:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_assets:/home/d-lab/workspace/ros_ur_driver/install/filters:/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs:/home/d-lab/workspace/ros_ur_driver/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/d-lab/workspace/ros_ur_driver/install/controller_manager/lib:/home/d-lab/workspace/ros_ur_driver/install/controller_interface/lib:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface/lib:/home/d-lab/workspace/ros_ur_driver/install/filters/lib:/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs/lib:/home/d-lab/workspace/ros_ur_driver/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/d-lab/workspace/ros_ur_driver/install/controller_manager/lib/python3.8/site-packages:/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs/lib/python3.8/site-packages:/home/d-lab/workspace/ros_ur_driver/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/admittance_controller -- -j16 -l16
+[0.208s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.237s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.344s] -- Found control_msgs: 2.5.1 (/home/d-lab/workspace/ros_ur_driver/install/control_msgs/share/control_msgs/cmake)
+[0.364s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.367s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.484s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.781s] -- Found controller_interface: 0.10.0 (/home/d-lab/workspace/ros_ur_driver/install/controller_interface/share/controller_interface/cmake)
+[0.851s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.852s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.010s] -- Found filters: 2.0.2 (/home/d-lab/workspace/ros_ur_driver/install/filters/share/filters/cmake)
+[1.017s] CMake Error at CMakeLists.txt:20 (find_package):
+[1.017s]   By not providing "Findjoint_limits.cmake" in CMAKE_MODULE_PATH this project
+[1.017s]   has asked CMake to find a package configuration file provided by
+[1.017s]   "joint_limits", but CMake did not find one.
+[1.017s] 
+[1.017s]   Could not find a package configuration file provided by "joint_limits" with
+[1.017s]   any of the following names:
+[1.018s] 
+[1.018s]     joint_limitsConfig.cmake
+[1.018s]     joint_limits-config.cmake
+[1.018s] 
+[1.018s]   Add the installation prefix of "joint_limits" to CMAKE_PREFIX_PATH or set
+[1.018s]   "joint_limits_DIR" to a directory containing one of the above files.  If
+[1.018s]   "joint_limits" provides a separate development package or SDK, be sure it
+[1.018s]   has been installed.
+[1.018s] 
+[1.018s] 
+[1.018s] -- Configuring incomplete, errors occurred!
+[1.018s] See also "/home/d-lab/workspace/ros_ur_driver/build/admittance_controller/CMakeFiles/CMakeOutput.log".
+[1.018s] See also "/home/d-lab/workspace/ros_ur_driver/build/admittance_controller/CMakeFiles/CMakeError.log".
+[1.023s] make: *** [Makefile:132: cmake_check_build_system] Error 1
+[1.026s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/build/admittance_controller' returned '2': AMENT_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/controller_manager:/home/d-lab/workspace/ros_ur_driver/install/controller_interface:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_assets:/home/d-lab/workspace/ros_ur_driver/install/filters:/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs:/home/d-lab/workspace/ros_ur_driver/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/controller_manager:/home/d-lab/workspace/ros_ur_driver/install/controller_interface:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_assets:/home/d-lab/workspace/ros_ur_driver/install/filters:/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs:/home/d-lab/workspace/ros_ur_driver/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/d-lab/workspace/ros_ur_driver/install/controller_manager/lib:/home/d-lab/workspace/ros_ur_driver/install/controller_interface/lib:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface/lib:/home/d-lab/workspace/ros_ur_driver/install/filters/lib:/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs/lib:/home/d-lab/workspace/ros_ur_driver/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/d-lab/workspace/ros_ur_driver/install/controller_manager/lib/python3.8/site-packages:/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs/lib/python3.8/site-packages:/home/d-lab/workspace/ros_ur_driver/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/admittance_controller -- -j16 -l16

@@ -1,0 +1,86 @@
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found moveit: 2.2.3 (/opt/ros/foxy/share/moveit/cmake)
+-- Found moveit_msgs: 2.1.0 (/opt/ros/foxy/share/moveit_msgs/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+-- Found moveit_ros_planning_interface: 2.2.3 (/opt/ros/foxy/share/moveit_ros_planning_interface/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0")  
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: date_time filesystem program_options system thread 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: filesystem 
+-- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system filesystem date_time program_options thread chrono 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: thread 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: thread system filesystem regex date_time program_options 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system filesystem date_time program_options thread 
+-- Found moveit_visual_tools: 4.0.0 (/home/d-lab/workspace/ros_ur_driver/install/moveit_visual_tools/share/moveit_visual_tools/cmake)
+-- Setting OGRE_DIR to: '/opt/ros/foxy/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+-- Found OGRE
+--   static     : OFF
+--   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+--   media      : /opt/ros/foxy/opt/rviz_ogre_vendor/share/OGRE/Media
+-- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+-- OGRE_LIBRARY_DIRS: /opt/ros/foxy/opt/rviz_ogre_vendor/lib
+-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+-- OGRE_PLUGIN_DIR: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/OGRE
+-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+-- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+-- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+-- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+CMake Error at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):
+  execute_process(/usr/bin/python3 -m rosidl_adapter --package-name move_arm
+  --arguments-file
+  /home/d-lab/workspace/ros_ur_driver/build/move_arm/rosidl_adapter__arguments__move_arm.json
+  --output-dir
+  /home/d-lab/workspace/ros_ur_driver/build/move_arm/rosidl_adapter/move_arm
+  --output-file
+  /home/d-lab/workspace/ros_ur_driver/build/move_arm/rosidl_adapter/move_arm.idls)
+  returned error code 1:
+
+  Traceback (most recent call last):
+
+    File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+      return _run_code(code, main_globals, None,
+    File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+      exec(code, run_globals)
+    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+      sys.exit(main())
+    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main
+      abs_idl_file = convert_to_idl(
+    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 29, in convert_to_idl
+      return convert_action_to_idl(
+    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/action/__init__.py", line 28, in convert_action_to_idl
+      action = parse_action_string(package_name, input_file.stem, content)
+    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 892, in parse_action_string
+      goal_message = parse_message_string(
+    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 540, in parse_message_string
+      msg = MessageSpecification(pkg_name, msg_name, fields, constants)
+    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 387, in __init__
+      self.base_type = BaseType(
+    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 204, in __init__
+      raise InvalidResourceName(
+
+  rosidl_adapter.parser.InvalidResourceName: 'move_arm_Goal' is an invalid
+  message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+
+Call Stack (most recent call first):
+  /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+  CMakeLists.txt:32 (rosidl_generate_interfaces)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/d-lab/workspace/ros_ur_driver/build/move_arm/CMakeFiles/CMakeOutput.log".
+See also "/home/d-lab/workspace/ros_ur_driver/build/move_arm/CMakeFiles/CMakeError.log".
+make: *** [Makefile:266: cmake_check_build_system] Error 1

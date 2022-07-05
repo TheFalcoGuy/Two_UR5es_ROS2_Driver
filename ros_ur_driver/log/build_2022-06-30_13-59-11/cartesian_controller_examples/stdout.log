@@ -1,0 +1,32 @@
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0")  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/d-lab/workspace/ros_ur_driver/build/cartesian_controller_examples
+-- Install configuration: ""
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_examples/lib/cartesian_controller_examples/config
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_examples/lib/cartesian_controller_examples/config/example_controllers.yaml
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_examples/lib/cartesian_controller_examples/config/example_hw_config.yaml
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_examples/lib/cartesian_controller_examples/etc
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_examples/lib/cartesian_controller_examples/etc/examples.rviz
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_examples/lib/cartesian_controller_examples/launch
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_examples/lib/cartesian_controller_examples/launch/examples.launch
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_examples/lib/cartesian_controller_examples/urdf
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_examples/lib/cartesian_controller_examples/urdf/robot.urdf.xacro
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_examples/share/ament_index/resource_index/package_run_dependencies/cartesian_controller_examples
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_examples/share/ament_index/resource_index/parent_prefix_path/cartesian_controller_examples
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_examples/share/cartesian_controller_examples/environment/ament_prefix_path.sh
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_examples/share/cartesian_controller_examples/environment/ament_prefix_path.dsv
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_examples/share/cartesian_controller_examples/environment/path.sh
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_examples/share/cartesian_controller_examples/environment/path.dsv
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_examples/share/cartesian_controller_examples/local_setup.bash
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_examples/share/cartesian_controller_examples/local_setup.sh
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_examples/share/cartesian_controller_examples/local_setup.zsh
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_examples/share/cartesian_controller_examples/local_setup.dsv
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_examples/share/cartesian_controller_examples/package.dsv
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_examples/share/ament_index/resource_index/packages/cartesian_controller_examples
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_examples/share/cartesian_controller_examples/cmake/cartesian_controller_examplesConfig.cmake
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_examples/share/cartesian_controller_examples/cmake/cartesian_controller_examplesConfig-version.cmake
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_examples/share/cartesian_controller_examples/package.xml

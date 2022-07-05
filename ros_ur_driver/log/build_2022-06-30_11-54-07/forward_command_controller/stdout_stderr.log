@@ -1,0 +1,6 @@
+make[2]: *** No rule to make target '/home/d-lab/workspace/ros_ur_driver/src/ros2_controllers/forward_command_controller/src/multi_interface_forward_controller.cpp', needed by 'CMakeFiles/forward_command_controller.dir/src/multi_interface_forward_controller.cpp.o'.  Stop.
+make[1]: *** [CMakeFiles/Makefile2:183: CMakeFiles/forward_command_controller.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:141: all] Error 2
+[ 21%] Built target gmock
+[ 35%] Built target gmock_main

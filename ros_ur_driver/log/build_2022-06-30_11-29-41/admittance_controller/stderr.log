@@ -1,0 +1,15 @@
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/ros2_controllers/admittance_controller/src/moveit_kinematics.cpp:19:10:[m[K [01;31m[Kfatal error: [m[Ktf2_eigen/tf2_eigen.hpp: No such file or directory
+   19 | #include [01;31m[K"tf2_eigen/tf2_eigen.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/admittance_controller.dir/build.make:76: CMakeFiles/admittance_controller.dir/src/moveit_kinematics.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/d-lab/workspace/ros_ur_driver/src/ros2_controllers/admittance_controller/include/admittance_controller/admittance_controller.hpp:24[m[K,
+                 from [01m[K/home/d-lab/workspace/ros_ur_driver/src/ros2_controllers/admittance_controller/src/admittance_controller.cpp:17[m[K:
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/ros2_controllers/admittance_controller/include/admittance_controller/admittance_rule.hpp:23:10:[m[K [01;31m[Kfatal error: [m[Kcontrol_msgs/msg/admittance_controller_state.hpp: No such file or directory
+   23 | #include [01;31m[K"control_msgs/msg/admittance_controller_state.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/admittance_controller.dir/build.make:63: CMakeFiles/admittance_controller.dir/src/admittance_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:182: CMakeFiles/admittance_controller.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

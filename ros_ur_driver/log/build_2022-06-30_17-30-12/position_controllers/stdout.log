@@ -1,0 +1,5 @@
+[ 18%] Built target gmock_main
+[ 45%] Built target gmock
+[ 63%] Built target position_controllers
+[ 81%] Built target test_load_joint_group_position_controller
+[100%] Built target test_joint_group_position_controller

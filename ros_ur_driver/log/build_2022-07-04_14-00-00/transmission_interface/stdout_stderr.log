@@ -1,0 +1,5 @@
+[ 36%] Built target gmock_main
+[ 45%] Built target gmock
+[ 63%] Built target test_simple_transmission
+[ 81%] Built target test_differential_transmission
+[100%] Built target test_four_bar_linkage_transmission

@@ -1,0 +1,31 @@
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found control_msgs: 2.5.1 (/home/d-lab/workspace/ros_ur_driver/install/control_msgs/share/control_msgs/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found controller_interface: 0.10.0 (/home/d-lab/workspace/ros_ur_driver/install/controller_interface/share/controller_interface/cmake)
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found filters: 2.0.2 (/home/d-lab/workspace/ros_ur_driver/install/filters/share/filters/cmake)
+CMake Error at CMakeLists.txt:20 (find_package):
+  By not providing "Findjoint_limits.cmake" in CMAKE_MODULE_PATH this project
+  has asked CMake to find a package configuration file provided by
+  "joint_limits", but CMake did not find one.
+
+  Could not find a package configuration file provided by "joint_limits" with
+  any of the following names:
+
+    joint_limitsConfig.cmake
+    joint_limits-config.cmake
+
+  Add the installation prefix of "joint_limits" to CMAKE_PREFIX_PATH or set
+  "joint_limits_DIR" to a directory containing one of the above files.  If
+  "joint_limits" provides a separate development package or SDK, be sure it
+  has been installed.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/d-lab/workspace/ros_ur_driver/build/admittance_controller/CMakeFiles/CMakeOutput.log".
+See also "/home/d-lab/workspace/ros_ur_driver/build/admittance_controller/CMakeFiles/CMakeError.log".
+make: *** [Makefile:132: cmake_check_build_system] Error 1

@@ -1,0 +1,78 @@
+[0.009s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/cartesian_force_controller': AMENT_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base:/home/d-lab/workspace/ros_ur_driver/install/controller_interface:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base:/home/d-lab/workspace/ros_ur_driver/install/controller_interface:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/lib:/home/d-lab/workspace/ros_ur_driver/install/controller_interface/lib:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface/lib:/home/d-lab/workspace/ros_ur_driver/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/d-lab/workspace/ros_ur_driver/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_force_controller -DCMAKE_INSTALL_PREFIX=/home/d-lab/workspace/ros_ur_driver/install/cartesian_force_controller
+[0.042s] -- The C compiler identification is GNU 9.4.0
+[0.073s] -- The CXX compiler identification is GNU 9.4.0
+[0.076s] -- Check for working C compiler: /usr/bin/cc
+[0.147s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.148s] -- Detecting C compiler ABI info
+[0.228s] -- Detecting C compiler ABI info - done
+[0.235s] -- Detecting C compile features
+[0.236s] -- Detecting C compile features - done
+[0.238s] -- Check for working CXX compiler: /usr/bin/c++
+[0.322s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.323s] -- Detecting CXX compiler ABI info
+[0.408s] -- Detecting CXX compiler ABI info - done
+[0.415s] -- Detecting CXX compile features
+[0.416s] -- Detecting CXX compile features - done
+[0.420s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.436s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.436s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.552s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.579s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.584s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.628s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.645s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.691s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.725s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.726s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.726s] -- Looking for pthread.h
+[0.783s] -- Looking for pthread.h - found
+[0.783s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.850s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.850s] -- Looking for pthread_create in pthreads
+[0.922s] -- Looking for pthread_create in pthreads - not found
+[0.922s] -- Looking for pthread_create in pthread
+[0.996s] -- Looking for pthread_create in pthread - found
+[0.997s] -- Found Threads: TRUE  
+[1.095s] -- Found cartesian_controller_base: 0.0.0 (/home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/share/cartesian_controller_base/cmake)
+[1.446s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[1.447s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[1.711s] -- Configuring done
+[1.724s] -- Generating done
+[1.725s] -- Build files have been written to: /home/d-lab/workspace/ros_ur_driver/build/cartesian_force_controller
+[1.732s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/build/cartesian_force_controller' returned '0': AMENT_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base:/home/d-lab/workspace/ros_ur_driver/install/controller_interface:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base:/home/d-lab/workspace/ros_ur_driver/install/controller_interface:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/lib:/home/d-lab/workspace/ros_ur_driver/install/controller_interface/lib:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface/lib:/home/d-lab/workspace/ros_ur_driver/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/d-lab/workspace/ros_ur_driver/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_force_controller -DCMAKE_INSTALL_PREFIX=/home/d-lab/workspace/ros_ur_driver/install/cartesian_force_controller
+[1.733s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/cartesian_force_controller': AMENT_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base:/home/d-lab/workspace/ros_ur_driver/install/controller_interface:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base:/home/d-lab/workspace/ros_ur_driver/install/controller_interface:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/lib:/home/d-lab/workspace/ros_ur_driver/install/controller_interface/lib:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface/lib:/home/d-lab/workspace/ros_ur_driver/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/d-lab/workspace/ros_ur_driver/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/cartesian_force_controller -- -j16 -l16
+[1.759s] [35m[1mScanning dependencies of target cartesian_force_controller[0m
+[1.797s] [ 50%] [32mBuilding CXX object CMakeFiles/cartesian_force_controller.dir/src/cartesian_force_controller.cpp.o[0m
+[5.697s] [100%] [32m[1mLinking CXX shared library libcartesian_force_controller.so[0m
+[5.903s] [100%] Built target cartesian_force_controller
+[5.910s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/build/cartesian_force_controller' returned '0': AMENT_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base:/home/d-lab/workspace/ros_ur_driver/install/controller_interface:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base:/home/d-lab/workspace/ros_ur_driver/install/controller_interface:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/lib:/home/d-lab/workspace/ros_ur_driver/install/controller_interface/lib:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface/lib:/home/d-lab/workspace/ros_ur_driver/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/d-lab/workspace/ros_ur_driver/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/cartesian_force_controller -- -j16 -l16
+[5.924s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/cartesian_force_controller': AMENT_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base:/home/d-lab/workspace/ros_ur_driver/install/controller_interface:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base:/home/d-lab/workspace/ros_ur_driver/install/controller_interface:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/lib:/home/d-lab/workspace/ros_ur_driver/install/controller_interface/lib:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface/lib:/home/d-lab/workspace/ros_ur_driver/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/d-lab/workspace/ros_ur_driver/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/d-lab/workspace/ros_ur_driver/build/cartesian_force_controller
+[5.929s] -- Install configuration: ""
+[5.929s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_force_controller/share/cartesian_force_controller/cartesian_force_controller_plugin.xml
+[5.930s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_force_controller/include
+[5.930s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_force_controller/include/cartesian_force_controller
+[5.930s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_force_controller/include/cartesian_force_controller/cartesian_force_controller.h
+[5.930s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_force_controller/lib/libcartesian_force_controller.so
+[5.932s] -- Set runtime path of "/home/d-lab/workspace/ros_ur_driver/install/cartesian_force_controller/lib/libcartesian_force_controller.so" to ""
+[5.932s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_force_controller/share/cartesian_force_controller/environment/library_path.sh
+[5.933s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_force_controller/share/cartesian_force_controller/environment/library_path.dsv
+[5.933s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_force_controller/share/ament_index/resource_index/package_run_dependencies/cartesian_force_controller
+[5.933s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_force_controller/share/ament_index/resource_index/parent_prefix_path/cartesian_force_controller
+[5.933s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_force_controller/share/cartesian_force_controller/environment/ament_prefix_path.sh
+[5.933s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_force_controller/share/cartesian_force_controller/environment/ament_prefix_path.dsv
+[5.934s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_force_controller/share/cartesian_force_controller/environment/path.sh
+[5.934s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_force_controller/share/cartesian_force_controller/environment/path.dsv
+[5.934s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_force_controller/share/cartesian_force_controller/local_setup.bash
+[5.934s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_force_controller/share/cartesian_force_controller/local_setup.sh
+[5.934s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_force_controller/share/cartesian_force_controller/local_setup.zsh
+[5.934s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_force_controller/share/cartesian_force_controller/local_setup.dsv
+[5.934s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_force_controller/share/cartesian_force_controller/package.dsv
+[5.934s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_force_controller/share/ament_index/resource_index/packages/cartesian_force_controller
+[5.934s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_force_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/cartesian_force_controller
+[5.934s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_force_controller/share/cartesian_force_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.934s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_force_controller/share/cartesian_force_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.934s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_force_controller/share/cartesian_force_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[5.934s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_force_controller/share/cartesian_force_controller/cmake/cartesian_force_controllerConfig.cmake
+[5.935s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_force_controller/share/cartesian_force_controller/cmake/cartesian_force_controllerConfig-version.cmake
+[5.935s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_force_controller/share/cartesian_force_controller/package.xml
+[5.936s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/build/cartesian_force_controller' returned '0': AMENT_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base:/home/d-lab/workspace/ros_ur_driver/install/controller_interface:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base:/home/d-lab/workspace/ros_ur_driver/install/controller_interface:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/lib:/home/d-lab/workspace/ros_ur_driver/install/controller_interface/lib:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface/lib:/home/d-lab/workspace/ros_ur_driver/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/d-lab/workspace/ros_ur_driver/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/d-lab/workspace/ros_ur_driver/build/cartesian_force_controller

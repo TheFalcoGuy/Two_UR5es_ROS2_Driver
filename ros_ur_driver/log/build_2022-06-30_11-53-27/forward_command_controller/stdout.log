@@ -1,0 +1,3 @@
+[ 14%] Built target gmock_main
+[ 35%] Built target gmock
+[ 50%] Built target test_load_forward_command_controller

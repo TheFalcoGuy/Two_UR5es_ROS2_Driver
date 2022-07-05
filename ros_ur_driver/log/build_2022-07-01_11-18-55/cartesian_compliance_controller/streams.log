@@ -1,0 +1,56 @@
+[0.061s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/cartesian_compliance_controller': AMENT_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/cartesian_motion_controller:/home/d-lab/workspace/ros_ur_driver/install/cartesian_force_controller:/home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base:/home/d-lab/workspace/ros_ur_driver/install/controller_interface:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/cartesian_motion_controller:/home/d-lab/workspace/ros_ur_driver/install/cartesian_force_controller:/home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base:/home/d-lab/workspace/ros_ur_driver/install/controller_interface:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/install/control_msgs LD_LIBRARY_PATH=/home/d-lab/workspace/ros_ur_driver/install/cartesian_motion_controller/lib:/home/d-lab/workspace/ros_ur_driver/install/cartesian_force_controller/lib:/home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/lib:/home/d-lab/workspace/ros_ur_driver/install/controller_interface/lib:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface/lib:/home/d-lab/workspace/ros_ur_driver/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/d-lab/workspace/ros_ur_driver/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/cartesian_compliance_controller -- -j16 -l16
+[0.082s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.101s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.248s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.292s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.299s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.403s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.445s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.446s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.561s] -- Found cartesian_controller_base: 0.0.0 (/home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/share/cartesian_controller_base/cmake)
+[0.955s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[1.026s] -- Found cartesian_motion_controller: 0.0.0 (/home/d-lab/workspace/ros_ur_driver/install/cartesian_motion_controller/share/cartesian_motion_controller/cmake)
+[1.435s] -- Found cartesian_force_controller: 0.0.0 (/home/d-lab/workspace/ros_ur_driver/install/cartesian_force_controller/share/cartesian_force_controller/cmake)
+[2.777s] Error parsing '/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/package.xml':
+[2.845s] Traceback (most recent call last):
+[2.845s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string
+[2.845s]     root = dom.parseString(data)
+[2.845s]   File "/usr/lib/python3.8/xml/dom/minidom.py", line 1969, in parseString
+[2.845s]     return expatbuilder.parseString(string)
+[2.845s]   File "/usr/lib/python3.8/xml/dom/expatbuilder.py", line 925, in parseString
+[2.845s]     return builder.parseString(string)
+[2.845s]   File "/usr/lib/python3.8/xml/dom/expatbuilder.py", line 223, in parseString
+[2.845s]     parser.Parse(string, True)
+[2.846s] xml.parsers.expat.ExpatError: not well-formed (invalid token): line 51, column 1
+[2.846s] 
+[2.846s] During handling of the above exception, another exception occurred:
+[2.846s] 
+[2.846s] Traceback (most recent call last):
+[2.846s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 143, in <module>
+[2.846s]     main()
+[2.846s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 52, in main
+[2.846s]     raise e
+[2.846s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 48, in main
+[2.846s]     package = parse_package_string(
+[2.846s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string
+[2.846s]     raise InvalidPackage('The manifest contains invalid XML:\n%s' % ex, filename)
+[2.846s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/package.xml':
+[2.846s] The manifest contains invalid XML:
+[2.846s] not well-formed (invalid token): line 51, column 1
+[2.857s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):
+[2.858s]   execute_process(/usr/bin/python3
+[2.858s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[2.858s]   /home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/package.xml
+[2.858s]   /home/d-lab/workspace/ros_ur_driver/build/cartesian_compliance_controller/ament_cmake_core/package.cmake)
+[2.858s]   returned error code 1
+[2.858s] Call Stack (most recent call first):
+[2.858s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[2.858s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)
+[2.858s]   CMakeLists.txt:94 (ament_package)
+[2.858s] 
+[2.858s] 
+[2.860s] -- Configuring incomplete, errors occurred!
+[2.860s] See also "/home/d-lab/workspace/ros_ur_driver/build/cartesian_compliance_controller/CMakeFiles/CMakeOutput.log".
+[2.860s] See also "/home/d-lab/workspace/ros_ur_driver/build/cartesian_compliance_controller/CMakeFiles/CMakeError.log".
+[2.864s] make: *** [Makefile:266: cmake_check_build_system] Error 1
+[2.866s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/build/cartesian_compliance_controller' returned '2': AMENT_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/cartesian_motion_controller:/home/d-lab/workspace/ros_ur_driver/install/cartesian_force_controller:/home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base:/home/d-lab/workspace/ros_ur_driver/install/controller_interface:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/cartesian_motion_controller:/home/d-lab/workspace/ros_ur_driver/install/cartesian_force_controller:/home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base:/home/d-lab/workspace/ros_ur_driver/install/controller_interface:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/install/control_msgs LD_LIBRARY_PATH=/home/d-lab/workspace/ros_ur_driver/install/cartesian_motion_controller/lib:/home/d-lab/workspace/ros_ur_driver/install/cartesian_force_controller/lib:/home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/lib:/home/d-lab/workspace/ros_ur_driver/install/controller_interface/lib:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface/lib:/home/d-lab/workspace/ros_ur_driver/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/d-lab/workspace/ros_ur_driver/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/cartesian_compliance_controller -- -j16 -l16

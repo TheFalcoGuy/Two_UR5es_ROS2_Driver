@@ -1,0 +1,6 @@
+[ 33%] Built target gmock
+[ 55%] Built target gmock_main
+[ 66%] [32mBuilding CXX object CMakeFiles/gripper_action_controller.dir/src/gripper_action_controller.cpp.o[0m
+[ 88%] Built target test_load_gripper_action_controllers
+[100%] [32m[1mLinking CXX shared library libgripper_action_controller.so[0m
+[100%] Built target gripper_action_controller

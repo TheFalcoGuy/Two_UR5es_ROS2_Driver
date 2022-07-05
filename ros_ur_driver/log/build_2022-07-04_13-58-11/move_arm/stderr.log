@@ -1,0 +1,81 @@
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/moveArmServer.cpp:15:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kaction_tutorials_interfaces[m[K’ does not name a type
+   15 |   using Arm = [01;31m[Kaction_tutorials_interfaces[m[K::action::MoveArm;
+      |               [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/moveArmServer.cpp:16:57:[m[K [01;31m[Kerror: [m[K‘[01m[KMoveArm[m[K’ was not declared in this scope
+   16 |   using GoalHandleArm = rclcpp_action::ServerGoalHandle<[01;31m[KMoveArm[m[K>;
+      |                                                         [01;31m[K^~~~~~~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/moveArmServer.cpp:16:64:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   16 |   using GoalHandleArm = rclcpp_action::ServerGoalHandle<MoveArm[01;31m[K>[m[K;
+      |                                                                [01;31m[K^[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/moveArmServer.cpp:18:3:[m[K [01;31m[Kerror: [m[K‘[01m[KACTION_TUTORIALS_CPP_PUBLIC[m[K’ does not name a type
+   18 |   [01;31m[KACTION_TUTORIALS_CPP_PUBLIC[m[K
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/moveArmServer.cpp:45:25:[m[K [01;31m[Kerror: [m[K‘[01m[KMoveArm[m[K’ was not declared in this scope
+   45 |   rclcpp_action::Server<[01;31m[KMoveArm[m[K>::SharedPtr action_server_;
+      |                         [01;31m[K^~~~~~~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/moveArmServer.cpp:45:32:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   45 |   rclcpp_action::Server<MoveArm[01;31m[K>[m[K::SharedPtr action_server_;
+      |                                [01;31m[K^[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/moveArmServer.cpp:45:35:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   45 |   rclcpp_action::Server<MoveArm>::[01;31m[KSharedPtr[m[K action_server_;
+      |                                   [01;31m[K^~~~~~~~~[m[K
+      |                                            [32m[K;[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/moveArmServer.cpp:45:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kaction_server_[m[K’ does not name a type; did you mean ‘[01m[Krcl_action_server_t[m[K’?
+   45 |   rclcpp_action::Server<MoveArm>::SharedPtr [01;31m[Kaction_server_[m[K;
+      |                                             [01;31m[K^~~~~~~~~~~~~~[m[K
+      |                                             [32m[Krcl_action_server_t[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/moveArmServer.cpp:49:30:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Ktype name[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+   49 |     std::shared_ptr<const Arm[01;31m[K::[m[KGoal> goal)
+      |                              [01;31m[K^~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/moveArmServer.cpp:49:36:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   49 |     std::shared_ptr<const Arm::Goal[01;31m[K>[m[K goal)
+      |                                    [01;31m[K^[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/moveArmServer.cpp:49:30:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Ktype name[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+   49 |     std::shared_ptr<const Arm[01;31m[K::[m[KGoal> goal)
+      |                              [01;31m[K^~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/moveArmServer.cpp:49:36:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   49 |     std::shared_ptr<const Arm::Goal[01;31m[K>[m[K goal)
+      |                                    [01;31m[K^[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/moveArmServer.cpp:49:30:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Ktype name[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+   49 |     std::shared_ptr<const Arm[01;31m[K::[m[KGoal> goal)
+      |                              [01;31m[K^~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/moveArmServer.cpp:49:36:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   49 |     std::shared_ptr<const Arm::Goal[01;31m[K>[m[K goal)
+      |                                    [01;31m[K^[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/moveArmServer.cpp:49:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::shared_ptr[m[K’ is not a type
+   49 |     std::[01;31m[Kshared_ptr[m[K<const Arm::Goal> goal)
+      |          [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/moveArmServer.cpp:49:20:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K<[m[K’ token
+   49 |     std::shared_ptr[01;31m[K<[m[Kconst Arm::Goal> goal)
+      |                    [01;31m[K^[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/moveArmServer.cpp:57:27:[m[K [01;31m[Kerror: [m[K‘[01m[KGoalHandleArm[m[K’ was not declared in this scope
+   57 |     const std::shared_ptr<[01;31m[KGoalHandleArm[m[K> goal_handle)
+      |                           [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/moveArmServer.cpp:57:40:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   57 |     const std::shared_ptr<GoalHandleArm[01;31m[K>[m[K goal_handle)
+      |                                        [01;31m[K^[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/moveArmServer.cpp:64:46:[m[K [01;31m[Kerror: [m[K‘[01m[KGoalHandleArm[m[K’ was not declared in this scope
+   64 |   void handle_accepted(const std::shared_ptr<[01;31m[KGoalHandleArm[m[K> goal_handle)
+      |                                              [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/moveArmServer.cpp:64:59:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   64 |   void handle_accepted(const std::shared_ptr<GoalHandleArm[01;31m[K>[m[K goal_handle)
+      |                                                           [01;31m[K^[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/moveArmServer.cpp:71:38:[m[K [01;31m[Kerror: [m[K‘[01m[KGoalHandleArm[m[K’ was not declared in this scope
+   71 |   void execute(const std::shared_ptr<[01;31m[KGoalHandleArm[m[K> goal_handle)
+      |                                      [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/moveArmServer.cpp:71:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   71 |   void execute(const std::shared_ptr<GoalHandleArm[01;31m[K>[m[K goal_handle)
+      |                                                   [01;31m[K^[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/moveArmServer.cpp:[m[K In member function ‘[01m[Kvoid MoveArmActionServer::execute(int)[m[K’:
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/moveArmServer.cpp:75:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group[m[K’ was not declared in this scope
+   75 |     [01;31m[Kmove_group[m[K.setPoseTarget(target_pose1);
+      |     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/moveArmServer.cpp:75:30:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_pose1[m[K’ was not declared in this scope
+   75 |     move_group.setPoseTarget([01;31m[Ktarget_pose1[m[K);
+      |                              [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/moveArmServer.cpp:71:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_handle[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   71 |   void execute([01;35m[Kconst std::shared_ptr<GoalHandleArm> goal_handle[m[K)
+      |                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/moveArmServer.dir/build.make:63: CMakeFiles/moveArmServer.dir/src/moveArmServer.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:215: CMakeFiles/moveArmServer.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -394,6 +394,9 @@ gtest_vendor_DIR:PATH=/opt/ros/foxy/share/gtest_vendor/cmake
 //The directory containing a CMake configuration file for hardware_interface.
 hardware_interface_DIR:PATH=/home/d-lab/workspace/ros_ur_driver/install/hardware_interface/share/hardware_interface/cmake
 
+//The directory containing a CMake configuration file for joint_limits.
+joint_limits_DIR:PATH=joint_limits_DIR-NOTFOUND
+
 //Value Computed by CMake
 joint_trajectory_controller_BINARY_DIR:STATIC=/home/d-lab/workspace/ros_ur_driver/build/joint_trajectory_controller
 

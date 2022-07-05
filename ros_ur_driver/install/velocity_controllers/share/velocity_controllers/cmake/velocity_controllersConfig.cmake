@@ -16,7 +16,7 @@ set(_velocity_controllers_CONFIG_INCLUDED TRUE)
 
 # output package information
 if(NOT velocity_controllers_FIND_QUIETLY)
-  message(STATUS "Found velocity_controllers: 0.7.0 (${velocity_controllers_DIR})")
+  message(STATUS "Found velocity_controllers: 0.8.0 (${velocity_controllers_DIR})")
 endif()
 
 # warn when using a deprecated package

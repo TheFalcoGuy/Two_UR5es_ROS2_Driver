@@ -1,0 +1,5 @@
+[ 18%] Built target gmock_main
+[ 45%] Built target gmock
+[ 63%] Built target imu_sensor_broadcaster
+[ 81%] Built target test_load_imu_sensor_broadcaster
+[100%] Built target test_imu_sensor_broadcaster

@@ -1,0 +1,39 @@
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/src/cartesian_compliance_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::return_type cartesian_compliance_controller::CartesianComplianceController::init(const string&)[m[K’:
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/src/cartesian_compliance_controller.cpp:83:50:[m[K [01;35m[Kwarning: [m[K‘[01m[Kcontroller_interface::return_type::SUCCESS[m[K’ is deprecated: Use controller_interface::return_type::OK instead. [[01;35m[K-Wdeprecated-declarations[m[K]
+   83 |   if (MotionBase::init(controller_name) != TYPE::[01;35m[KSUCCESS[m[K || ForceBase::init(controller_name) != TYPE::SUCCESS)
+      |                                                  [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/include/cartesian_controller_base/cartesian_controller_base.h:52[m[K,
+                 from [01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.h:44[m[K,
+                 from [01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/src/cartesian_compliance_controller.cpp:42[m[K:
+[01m[K/home/d-lab/workspace/ros_ur_driver/install/controller_interface/include/controller_interface/controller_interface.hpp:42:3:[m[K [01;36m[Knote: [m[Kdeclared here
+   42 |   [01;36m[KSUCCESS[m[K [[deprecated("Use controller_interface::return_type::OK instead.")]] = OK
+      |   [01;36m[K^~~~~~~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/src/cartesian_compliance_controller.cpp:83:50:[m[K [01;35m[Kwarning: [m[K‘[01m[Kcontroller_interface::return_type::SUCCESS[m[K’ is deprecated: Use controller_interface::return_type::OK instead. [[01;35m[K-Wdeprecated-declarations[m[K]
+   83 |   if (MotionBase::init(controller_name) != TYPE::[01;35m[KSUCCESS[m[K || ForceBase::init(controller_name) != TYPE::SUCCESS)
+      |                                                  [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/include/cartesian_controller_base/cartesian_controller_base.h:52[m[K,
+                 from [01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.h:44[m[K,
+                 from [01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/src/cartesian_compliance_controller.cpp:42[m[K:
+[01m[K/home/d-lab/workspace/ros_ur_driver/install/controller_interface/include/controller_interface/controller_interface.hpp:42:3:[m[K [01;36m[Knote: [m[Kdeclared here
+   42 |   [01;36m[KSUCCESS[m[K [[deprecated("Use controller_interface::return_type::OK instead.")]] = OK
+      |   [01;36m[K^~~~~~~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/src/cartesian_compliance_controller.cpp:83:103:[m[K [01;35m[Kwarning: [m[K‘[01m[Kcontroller_interface::return_type::SUCCESS[m[K’ is deprecated: Use controller_interface::return_type::OK instead. [[01;35m[K-Wdeprecated-declarations[m[K]
+   83 | e::init(controller_name) != TYPE::SUCCESS || ForceBase::init(controller_name) != TYPE::[01;35m[KSUCCESS[m[K)
+      |                                                                                        [01;35m[K^~~~~~~[m[K
+
+In file included from [01m[K/home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/include/cartesian_controller_base/cartesian_controller_base.h:52[m[K,
+                 from [01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.h:44[m[K,
+                 from [01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/src/cartesian_compliance_controller.cpp:42[m[K:
+[01m[K/home/d-lab/workspace/ros_ur_driver/install/controller_interface/include/controller_interface/controller_interface.hpp:42:3:[m[K [01;36m[Knote: [m[Kdeclared here
+   42 |   [01;36m[KSUCCESS[m[K [[deprecated("Use controller_interface::return_type::OK instead.")]] = OK
+      |   [01;36m[K^~~~~~~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/src/cartesian_compliance_controller.cpp:83:103:[m[K [01;35m[Kwarning: [m[K‘[01m[Kcontroller_interface::return_type::SUCCESS[m[K’ is deprecated: Use controller_interface::return_type::OK instead. [[01;35m[K-Wdeprecated-declarations[m[K]
+   83 | e::init(controller_name) != TYPE::SUCCESS || ForceBase::init(controller_name) != TYPE::[01;35m[KSUCCESS[m[K)
+      |                                                                                        [01;35m[K^~~~~~~[m[K
+
+In file included from [01m[K/home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/include/cartesian_controller_base/cartesian_controller_base.h:52[m[K,
+                 from [01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.h:44[m[K,
+                 from [01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/src/cartesian_compliance_controller.cpp:42[m[K:
+[01m[K/home/d-lab/workspace/ros_ur_driver/install/controller_interface/include/controller_interface/controller_interface.hpp:42:3:[m[K [01;36m[Knote: [m[Kdeclared here
+   42 |   [01;36m[KSUCCESS[m[K [[deprecated("Use controller_interface::return_type::OK instead.")]] = OK
+      |   [01;36m[K^~~~~~~[m[K

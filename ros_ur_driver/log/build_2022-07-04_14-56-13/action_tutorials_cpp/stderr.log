@@ -1,0 +1,18 @@
+CMake Error at CMakeLists.txt:20 (find_package):
+  By not providing "Findmove_arm_interfaces.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "move_arm_interfaces", but CMake did not find one.
+
+  Could not find a package configuration file provided by
+  "move_arm_interfaces" with any of the following names:
+
+    move_arm_interfacesConfig.cmake
+    move_arm_interfaces-config.cmake
+
+  Add the installation prefix of "move_arm_interfaces" to CMAKE_PREFIX_PATH
+  or set "move_arm_interfaces_DIR" to a directory containing one of the above
+  files.  If "move_arm_interfaces" provides a separate development package or
+  SDK, be sure it has been installed.
+
+
+make: *** [Makefile:310: cmake_check_build_system] Error 1

@@ -1,0 +1,28 @@
+[0.089s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/rviz_visual_tools': CMAKE_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/eigen3_cmake_module:/home/d-lab/workspace/ros_ur_driver/install/run_ompl_constrained_planning:/home/d-lab/workspace/ros_ur_driver/install/run_moveit_cpp:/home/d-lab/workspace/ros_ur_driver/install/run_move_group:/home/d-lab/workspace/ros_ur_driver/install/warehouse_ros_mongo:/home/d-lab/workspace/ros_ur_driver/install/ros2_controllers:/home/d-lab/workspace/ros_ur_driver/install/velocity_controllers:/home/d-lab/workspace/ros_ur_driver/install/ur_robot_driver:/home/d-lab/workspace/ros_ur_driver/install/ur_controllers:/home/d-lab/workspace/ros_ur_driver/install/ur_msgs:/home/d-lab/workspace/ros_ur_driver/install/ur_moveit_config:/home/d-lab/workspace/ros_ur_driver/install/ur_description:/home/d-lab/workspace/ros_ur_driver/install/ur_dashboard_msgs:/home/d-lab/workspace/ros_ur_driver/install/ur_client_library:/home/d-lab/workspace/ros_ur_driver/install/ur_bringup:/home/d-lab/workspace/ros_ur_driver/install/ur5_robotiq_moveit_config:/home/d-lab/workspace/ros_ur_driver/install/transmission_interface:/home/d-lab/workspace/ros_ur_driver/install/srdfdom:/home/d-lab/workspace/ros_ur_driver/install/move_arm:/home/d-lab/workspace/ros_ur_driver/install/moveit_visual_tools:/home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_demos:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_demo_bringup:/home/d-lab/workspace/ros_ur_driver/install/rrbot_description:/home/d-lab/workspace/ros_ur_driver/install/ros2_control:/home/d-lab/workspace/ros_ur_driver/install/controller_manager:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_assets:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_demo_hardware:/home/d-lab/workspace/ros_ur_driver/install/robotiq_description:/home/d-lab/workspace/ros_ur_driver/install/position_controllers:/home/d-lab/workspace/ros_ur_driver/install/joint_trajectory_controller:/home/d-lab/workspace/ros_ur_driver/install/joint_state_controller:/home/d-lab/workspace/ros_ur_driver/install/joint_state_broadcaster:/home/d-lab/workspace/ros_ur_driver/install/imu_sensor_broadcaster:/home/d-lab/workspace/ros_ur_driver/install/gripper_controllers:/home/d-lab/workspace/ros_ur_driver/install/effort_controllers:/home/d-lab/workspace/ros_ur_driver/install/forward_command_controller:/home/d-lab/workspace/ros_ur_driver/install/force_torque_sensor_broadcaster:/home/d-lab/workspace/ros_ur_driver/install/diff_drive_controller:/home/d-lab/workspace/ros_ur_driver/install/controller_interface:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/install/graph_msgs:/home/d-lab/workspace/ros_ur_driver/install/diffbot_description:/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs:/home/d-lab/workspace/ros_ur_driver/install/control_msgs:/home/d-lab/workspace/ros_ur_driver/install/chomp_motion_planner:/home/d-lab/workspace/ros_ur_driver/install/utils:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes:/home/d-lab/workspace/ros_ur_driver/install/robotiq_control:/home/d-lab/workspace/ros_ur_driver/install/gripper_control:/opt/ros/foxy /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/rviz_visual_tools -- -j16 -l16
+[0.148s] [  2%] [34m[1mAutomatic MOC for target rviz_visual_tools_remote_control[0m
+[0.150s] [  5%] [34m[1mAutomatic MOC for target gtest_main[0m
+[0.156s] [  7%] [34m[1mAutomatic MOC for target gtest[0m
+[0.162s] [ 10%] [34m[1mAutomatic MOC for target rviz_visual_tools_gui[0m
+[0.173s] [ 10%] Built target rviz_visual_tools_remote_control_autogen
+[0.179s] [ 10%] Built target gtest_main_autogen
+[0.182s] [ 10%] Built target rviz_visual_tools_gui_autogen
+[0.182s] [ 10%] Built target gtest_autogen
+[0.199s] [ 17%] Built target gtest_main
+[0.202s] [ 25%] Built target rviz_visual_tools_remote_control
+[0.206s] [ 33%] Built target gtest
+[0.221s] [ 43%] [34m[1mAutomatic MOC for target rviz_visual_tools[0m
+[0.221s] [ 48%] Built target rviz_visual_tools_gui
+[0.237s] [ 48%] Built target rviz_visual_tools_autogen
+[0.269s] [ 58%] Built target rviz_visual_tools
+[0.287s] [ 66%] [34m[1mAutomatic MOC for target rviz_visual_tools_demo[0m
+[0.287s] [ 66%] [34m[1mAutomatic MOC for target rviz_visual_tools_imarker_simple[0m
+[0.287s] [ 66%] [34m[1mAutomatic MOC for target rviz_visual_tools_rvt_test[0m
+[0.303s] [ 66%] Built target rviz_visual_tools_rvt_test_autogen
+[0.304s] [ 66%] Built target rviz_visual_tools_demo_autogen
+[0.305s] [ 66%] Built target rviz_visual_tools_imarker_simple_autogen
+[0.331s] [ 79%] Built target rviz_visual_tools_rvt_test
+[0.332s] [ 82%] Built target rviz_visual_tools_demo
+[0.332s] [ 89%] Built target rviz_visual_tools_imarker_simple
+[0.390s] [ 92%] [34m[1mAutomatic MOC for target rviz_visual_tools_imarker_simple_demo[0m
+[0.501s] [ 92%] Built target rviz_visual_tools_imarker_simple_demo_autogen
+[0.524s] [100%] Built target rviz_visual_tools_imarker_simple_demo

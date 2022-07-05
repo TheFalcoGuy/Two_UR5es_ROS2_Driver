@@ -1,0 +1,57 @@
+[0.278s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/admittance_controller': AMENT_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/controller_manager:/home/d-lab/workspace/ros_ur_driver/install/controller_interface:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_assets:/home/d-lab/workspace/ros_ur_driver/install/filters:/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs:/home/d-lab/workspace/ros_ur_driver/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/controller_manager:/home/d-lab/workspace/ros_ur_driver/install/controller_interface:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_assets:/home/d-lab/workspace/ros_ur_driver/install/filters:/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs:/home/d-lab/workspace/ros_ur_driver/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/d-lab/workspace/ros_ur_driver/install/controller_manager/lib:/home/d-lab/workspace/ros_ur_driver/install/controller_interface/lib:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface/lib:/home/d-lab/workspace/ros_ur_driver/install/filters/lib:/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs/lib:/home/d-lab/workspace/ros_ur_driver/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/d-lab/workspace/ros_ur_driver/install/controller_manager/lib/python3.8/site-packages:/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs/lib/python3.8/site-packages:/home/d-lab/workspace/ros_ur_driver/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/admittance_controller -- -j16 -l16
+[0.291s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.311s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.445s] -- Found control_msgs: 2.5.1 (/home/d-lab/workspace/ros_ur_driver/install/control_msgs/share/control_msgs/cmake)
+[0.464s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.467s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.558s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.832s] -- Found controller_interface: 0.10.0 (/home/d-lab/workspace/ros_ur_driver/install/controller_interface/share/controller_interface/cmake)
+[0.894s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.895s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.048s] -- Found filters: 2.0.2 (/home/d-lab/workspace/ros_ur_driver/install/filters/share/filters/cmake)
+[1.050s] -- Found moveit_ros_move_group: 2.2.3 (/opt/ros/foxy/share/moveit_ros_move_group/cmake)
+[1.060s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system filesystem date_time program_options thread 
+[1.102s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[1.305s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.317s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: filesystem 
+[1.346s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[2.510s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: thread 
+[2.788s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system filesystem date_time program_options thread chrono 
+[3.136s] -- Found moveit_ros_planning_interface: 2.2.3 (/opt/ros/foxy/share/moveit_ros_planning_interface/cmake)
+[3.138s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0")  
+[3.142s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: date_time filesystem program_options system thread 
+[3.361s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: thread system filesystem regex date_time program_options 
+[3.657s] -- Found realtime_tools: 2.2.0 (/opt/ros/foxy/share/realtime_tools/cmake)
+[3.693s] -- Found ament_cmake_gmock: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gmock/cmake)
+[3.694s] -- Found controller_manager: 0.10.0 (/home/d-lab/workspace/ros_ur_driver/install/controller_manager/share/controller_manager/cmake)
+[3.727s] -- Found ros2_control_test_assets: 0.10.0 (/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[3.728s] -- Found gmock sources under '/opt/ros/foxy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[3.730s] -- Found ament_cmake_gtest: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[3.731s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.840s] -- Configuring done
+[3.915s] -- Generating done
+[3.918s] -- Build files have been written to: /home/d-lab/workspace/ros_ur_driver/build/admittance_controller
+[3.950s] [ 16%] Built target gmock_main
+[3.950s] [ 41%] Built target gmock
+[3.960s] [35m[1mScanning dependencies of target test_load_admittance_controller[0m
+[3.967s] [ 50%] [32mBuilding CXX object CMakeFiles/admittance_controller.dir/src/admittance_controller.cpp.o[0m
+[3.967s] [ 58%] [32mBuilding CXX object CMakeFiles/admittance_controller.dir/src/moveit_kinematics.cpp.o[0m
+[3.971s] [ 66%] [32mBuilding CXX object CMakeFiles/test_load_admittance_controller.dir/test/test_load_admittance_controller.cpp.o[0m
+[4.231s] In file included from [01m[K/home/d-lab/workspace/ros_ur_driver/src/ros2_controllers/admittance_controller/include/admittance_controller/admittance_controller.hpp:24[m[K,
+[4.232s]                  from [01m[K/home/d-lab/workspace/ros_ur_driver/src/ros2_controllers/admittance_controller/src/admittance_controller.cpp:17[m[K:
+[4.232s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/ros2_controllers/admittance_controller/include/admittance_controller/admittance_rule.hpp:23:10:[m[K [01;31m[Kfatal error: [m[Kcontrol_msgs/msg/admittance_controller_state.hpp: No such file or directory
+[4.232s]    23 | #include [01;31m[K"control_msgs/msg/admittance_controller_state.hpp"[m[K
+[4.232s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.232s] compilation terminated.
+[4.235s] make[2]: *** [CMakeFiles/admittance_controller.dir/build.make:63: CMakeFiles/admittance_controller.dir/src/admittance_controller.cpp.o] Error 1
+[4.235s] make[2]: *** Waiting for unfinished jobs....
+[4.237s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/ros2_controllers/admittance_controller/src/moveit_kinematics.cpp:19:10:[m[K [01;31m[Kfatal error: [m[Ktf2_eigen/tf2_eigen.hpp: No such file or directory
+[4.237s]    19 | #include [01;31m[K"tf2_eigen/tf2_eigen.hpp"[m[K
+[4.238s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.238s] compilation terminated.
+[4.240s] make[2]: *** [CMakeFiles/admittance_controller.dir/build.make:76: CMakeFiles/admittance_controller.dir/src/moveit_kinematics.cpp.o] Error 1
+[4.240s] make[1]: *** [CMakeFiles/Makefile2:182: CMakeFiles/admittance_controller.dir/all] Error 2
+[4.240s] make[1]: *** Waiting for unfinished jobs....
+[5.985s] [ 75%] [32m[1mLinking CXX executable test_load_admittance_controller[0m
+[6.169s] [ 75%] Built target test_load_admittance_controller
+[6.170s] make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,5 @@
+[35m[1mScanning dependencies of target cartesian_controller_base[0m
+[ 54%] Built target ik_solvers
+[ 63%] [32mBuilding CXX object CMakeFiles/cartesian_controller_base.dir/src/cartesian_controller_base.cpp.o[0m
+[ 72%] [32m[1mLinking CXX shared library libcartesian_controller_base.so[0m
+[100%] Built target cartesian_controller_base

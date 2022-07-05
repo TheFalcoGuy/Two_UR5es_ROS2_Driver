@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from move_arm_interfaces/srv/MoveArm.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+
+module move_arm_interfaces {
+  module srv {
+    struct MoveArm_Request {
+      geometry_msgs::msg::Pose pose;
+    };
+    struct MoveArm_Response {
+      boolean success;
+    };
+  };
+};

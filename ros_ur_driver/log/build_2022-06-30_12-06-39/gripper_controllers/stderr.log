@@ -1,0 +1,5 @@
+make[2]: *** [CMakeFiles/test_load_gripper_action_controllers.dir/build.make:63: CMakeFiles/test_load_gripper_action_controllers.dir/test/test_load_gripper_action_controllers.cpp.o] Interrupt
+make[2]: *** [CMakeFiles/gripper_action_controller.dir/build.make:63: CMakeFiles/gripper_action_controller.dir/src/gripper_action_controller.cpp.o] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:123: CMakeFiles/gripper_action_controller.dir/all] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:178: CMakeFiles/test_load_gripper_action_controllers.dir/all] Interrupt
+make: *** [Makefile:141: all] Interrupt

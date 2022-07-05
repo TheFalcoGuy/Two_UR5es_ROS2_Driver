@@ -23,20 +23,33 @@ find_package(moveit REQUIRED)
 find_package(moveit_msgs REQUIRED)
 find_package(eigen3_cmake_module REQUIRED)
 find_package(moveit_ros_planning_interface REQUIRED)
-# find_package(moveit_visual_tools REQUIRED)
+find_package(moveit_visual_tools REQUIRED)
+find_package(rviz_visual_tools REQUIRED)
+find_package(rclcpp_action REQUIRED)
 find_package(Eigen3)
+find_package(rosidl_default_generators REQUIRED)
+find_package(move_arm_interfaces REQUIRED)
+
+rosidl_generate_interfaces(${PROJECT_NAME}
+  "action/MoveArm.action"
+)
 
 add_executable(move_to_point src/move_to_point.cpp)
-ament_target_dependencies(move_to_point rclcpp std_msgs moveit Eigen3 moveit_ros_planning_interface moveit_msgs)
+add_executable(server src/move_arm_server.cpp)
+ament_target_dependencies(server rclcpp std_msgs moveit Eigen3 moveit_ros_planning_interface moveit_msgs moveit_visual_tools rviz_visual_tools move_arm_interfaces)
+#add_executable(moveArmServer src/moveArmServer.cpp)
+ament_target_dependencies(move_to_point rclcpp std_msgs moveit Eigen3 moveit_ros_planning_interface moveit_msgs moveit_visual_tools rviz_visual_tools)
+#ament_target_dependencies(moveArmServer rclcpp std_msgs moveit Eigen3 moveit_ros_planning_interface moveit_msgs moveit_visual_tools rviz_visual_tools rclcpp_action)
 
 ament_export_dependencies(eigen3_cmake_module)
 ament_export_dependencies(Eigen3)
 
+
 install(TARGETS
-  move_to_point
+  move_to_point server
   DESTINATION lib/${PROJECT_NAME})
 
-  install(DIRECTORY  launch
+  install(DIRECTORY  launch action
   DESTINATION share/${PROJECT_NAME}
 )
 

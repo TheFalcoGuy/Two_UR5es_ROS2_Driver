@@ -1,0 +1,7 @@
+make[2]: *** No rule to make target '/home/d-lab/workspace/ros_ur_driver/src/ros2_controllers/forward_command_controller/src/multi_interface_forward_controller.cpp', needed by 'CMakeFiles/forward_command_controller.dir/src/multi_interface_forward_controller.cpp.o'.  Stop.
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** No rule to make target '/home/d-lab/workspace/ros_ur_driver/src/ros2_controllers/forward_command_controller/test/test_load_multi_interface_forward_controller.cpp', needed by 'CMakeFiles/test_multi_interface_forward_controller.dir/test/test_load_multi_interface_forward_controller.cpp.o'.  Stop.
+make[1]: *** [CMakeFiles/Makefile2:128: CMakeFiles/test_multi_interface_forward_controller.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/Makefile2:183: CMakeFiles/forward_command_controller.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

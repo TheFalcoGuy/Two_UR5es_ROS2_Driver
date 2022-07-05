@@ -1,0 +1,4 @@
+[ 33%] Built target gmock
+[ 55%] Built target gmock_main
+[ 77%] Built target joint_state_controller
+[100%] Built target test_load_joint_state_controller

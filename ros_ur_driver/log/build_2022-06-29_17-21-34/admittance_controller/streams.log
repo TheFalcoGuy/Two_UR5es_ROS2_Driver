@@ -1,0 +1,34 @@
+[0.253s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/admittance_controller': /usr/bin/cmake /home/d-lab/workspace/ros_ur_driver/src/ros2_controllers/admittance_controller -DCMAKE_INSTALL_PREFIX=/home/d-lab/workspace/ros_ur_driver/install/admittance_controller
+[0.450s] -- The C compiler identification is GNU 9.4.0
+[0.450s] -- The CXX compiler identification is GNU 9.4.0
+[0.450s] -- Check for working C compiler: /usr/bin/cc
+[0.451s] CMake Warning (dev) in CMakeLists.txt:
+[0.451s]   No project() command is present.  The top-level CMakeLists.txt file must
+[0.451s]   contain a literal, direct call to the project() command.  Add a line of
+[0.451s]   code such as
+[0.451s] 
+[0.451s]     project(ProjectName)
+[0.451s] 
+[0.451s]   near the top of the file, but after cmake_minimum_required().
+[0.452s] 
+[0.452s]   CMake is pretending there is a "project(Project)" command on the first
+[0.452s]   line.
+[0.452s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.452s] 
+[0.483s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.484s] -- Detecting C compiler ABI info
+[0.593s] -- Detecting C compiler ABI info - done
+[0.593s] -- Detecting C compile features
+[0.593s] -- Detecting C compile features - done
+[0.594s] -- Check for working CXX compiler: /usr/bin/c++
+[0.640s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.643s] -- Detecting CXX compiler ABI info
+[0.710s] -- Detecting CXX compiler ABI info - done
+[0.720s] -- Detecting CXX compile features
+[0.720s] -- Detecting CXX compile features - done
+[0.722s] -- Configuring done
+[0.722s] -- Generating done
+[0.722s] -- Build files have been written to: /home/d-lab/workspace/ros_ur_driver/build/admittance_controller
+[0.881s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/build/admittance_controller' returned '0': /usr/bin/cmake /home/d-lab/workspace/ros_ur_driver/src/ros2_controllers/admittance_controller -DCMAKE_INSTALL_PREFIX=/home/d-lab/workspace/ros_ur_driver/install/admittance_controller
+[0.883s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/admittance_controller': /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/admittance_controller -- -j16 -l16
+[1.196s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/build/admittance_controller' returned '0': /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/admittance_controller -- -j16 -l16

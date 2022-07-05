@@ -1,0 +1,46 @@
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found controller_interface: 0.10.0 (/home/d-lab/workspace/ros_ur_driver/install/controller_interface/share/controller_interface/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+-- Found realtime_tools: 2.2.0 (/opt/ros/foxy/share/realtime_tools/cmake)
+-- Found tf2: 0.13.13 (/opt/ros/foxy/share/tf2/cmake)
+-- Found tf2_msgs: 0.13.13 (/opt/ros/foxy/share/tf2_msgs/cmake)
+-- Found ament_cmake_gmock: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gmock/cmake)
+-- Found controller_manager: 0.10.0 (/home/d-lab/workspace/ros_ur_driver/install/controller_manager/share/controller_manager/cmake)
+-- Found gmock sources under '/opt/ros/foxy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+-- Found ament_cmake_gtest: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/d-lab/workspace/ros_ur_driver/build/diff_drive_controller
+[35m[1mScanning dependencies of target diff_drive_controller[0m
+[ 20%] Built target gmock
+[ 33%] Built target gmock_main
+[35m[1mScanning dependencies of target test_accumulator[0m
+[35m[1mScanning dependencies of target test_load_diff_drive_controller[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/test_accumulator.dir/test/test_accumulator.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/diff_drive_controller.dir/src/diff_drive_controller.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/diff_drive_controller.dir/src/speed_limiter.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/diff_drive_controller.dir/src/odometry.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/test_load_diff_drive_controller.dir/test/test_load_diff_drive_controller.cpp.o[0m
+[ 73%] [32m[1mLinking CXX executable test_accumulator[0m
+[ 73%] Built target test_accumulator
+In file included from [01m[K/home/d-lab/workspace/ros_ur_driver/src/ros2_controllers/diff_drive_controller/src/diff_drive_controller.cpp:25[m[K:
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/ros2_controllers/diff_drive_controller/include/diff_drive_controller/diff_drive_controller.hpp:67:18:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn diff_drive_controller::DiffDriveController::on_init()[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+   67 |   CallbackReturn [01;31m[Kon_init[m[K() override;
+      |                  [01;31m[K^~~~~~~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/ros2_controllers/diff_drive_controller/src/diff_drive_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::return_type diff_drive_controller::DiffDriveController::update()[m[K’:
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/ros2_controllers/diff_drive_controller/src/diff_drive_controller.cpp:138:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_state[m[K’ was not declared in this scope; did you mean ‘[01m[Ksetstate[m[K’?
+  138 |   if ([01;31m[Kget_state[m[K().id() == State::PRIMARY_STATE_INACTIVE)
+      |       [01;31m[K^~~~~~~~~[m[K
+      |       [32m[Ksetstate[m[K
+[ 80%] [32m[1mLinking CXX executable test_load_diff_drive_controller[0m
+[ 80%] Built target test_load_diff_drive_controller
+make[2]: *** [CMakeFiles/diff_drive_controller.dir/build.make:63: CMakeFiles/diff_drive_controller.dir/src/diff_drive_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:212: CMakeFiles/diff_drive_controller.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

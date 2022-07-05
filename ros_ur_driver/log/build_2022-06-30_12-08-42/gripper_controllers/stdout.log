@@ -1,0 +1,33 @@
+[ 22%] Built target gmock_main
+[ 33%] [32mBuilding CXX object CMakeFiles/gripper_action_controller.dir/src/gripper_action_controller.cpp.o[0m
+[ 66%] Built target gmock
+[ 77%] [32mBuilding CXX object CMakeFiles/test_load_gripper_action_controllers.dir/test/test_load_gripper_action_controllers.cpp.o[0m
+[ 88%] [32m[1mLinking CXX executable test_load_gripper_action_controllers[0m
+[ 88%] Built target test_load_gripper_action_controllers
+[100%] [32m[1mLinking CXX shared library libgripper_action_controller.so[0m
+[100%] Built target gripper_action_controller
+-- Install configuration: "Release"
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/gripper_controllers/share/gripper_controllers/ros_control_plugins.xml
+-- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/gripper_controllers/include
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/gripper_controllers/include/gripper_action_controller.hpp
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/gripper_controllers/include/visibility_control.hpp
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/gripper_controllers/include/gripper_action_controller_impl.hpp
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/gripper_controllers/include/hardware_interface_adapter.hpp
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/gripper_controllers/lib/libgripper_action_controller.so
+-- Set runtime path of "/home/d-lab/workspace/ros_ur_driver/install/gripper_controllers/lib/libgripper_action_controller.so" to ""
+-- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/gripper_controllers/share/ament_index/resource_index/package_run_dependencies/gripper_controllers
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/gripper_controllers/share/ament_index/resource_index/parent_prefix_path/gripper_controllers
+-- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/gripper_controllers/share/gripper_controllers/environment/ament_prefix_path.sh
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/gripper_controllers/share/gripper_controllers/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/gripper_controllers/share/gripper_controllers/environment/path.sh
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/gripper_controllers/share/gripper_controllers/environment/path.dsv
+-- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/gripper_controllers/share/gripper_controllers/local_setup.bash
+-- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/gripper_controllers/share/gripper_controllers/local_setup.sh
+-- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/gripper_controllers/share/gripper_controllers/local_setup.zsh
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/gripper_controllers/share/gripper_controllers/local_setup.dsv
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/gripper_controllers/share/gripper_controllers/package.dsv
+-- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/gripper_controllers/share/ament_index/resource_index/packages/gripper_controllers
+-- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/gripper_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/gripper_controllers
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/gripper_controllers/share/gripper_controllers/cmake/gripper_controllersConfig.cmake
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/gripper_controllers/share/gripper_controllers/cmake/gripper_controllersConfig-version.cmake
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/gripper_controllers/share/gripper_controllers/package.xml

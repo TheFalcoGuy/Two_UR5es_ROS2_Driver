@@ -1,0 +1,4 @@
+[ 22%] Built target gmock_main
+[ 55%] Built target gmock
+[ 77%] Built target gripper_action_controller
+[100%] Built target test_load_gripper_action_controllers

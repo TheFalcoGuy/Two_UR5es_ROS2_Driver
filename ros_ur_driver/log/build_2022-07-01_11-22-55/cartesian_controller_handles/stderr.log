@@ -1,0 +1,7 @@
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_controller_handles/src/motion_control_handle.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::return_type cartesian_controller_handles::MotionControlHandle::init(const string&)[m[K’:
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_controller_handles/src/motion_control_handle.cpp:140:85:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Krclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn[m[K’ to ‘[01m[Kcontroller_interface::return_type[m[K’ in return
+  140 |   return rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn::[01;31m[KSUCCESS[m[K;
+      |                                                                                     [01;31m[K^~~~~~~[m[K
+make[2]: *** [CMakeFiles/cartesian_controller_handles.dir/build.make:63: CMakeFiles/cartesian_controller_handles.dir/src/motion_control_handle.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/cartesian_controller_handles.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

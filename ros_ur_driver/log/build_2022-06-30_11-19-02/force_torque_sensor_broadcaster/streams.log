@@ -1,0 +1,41 @@
+[0.042s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/force_torque_sensor_broadcaster': AMENT_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/controller_manager:/home/d-lab/workspace/ros_ur_driver/install/controller_interface:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_assets:/home/d-lab/workspace/ros_ur_driver/install/filters:/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs:/home/d-lab/workspace/ros_ur_driver/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/controller_manager:/home/d-lab/workspace/ros_ur_driver/install/controller_interface:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_assets:/home/d-lab/workspace/ros_ur_driver/install/filters:/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs:/home/d-lab/workspace/ros_ur_driver/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/d-lab/workspace/ros_ur_driver/install/controller_manager/lib:/home/d-lab/workspace/ros_ur_driver/install/controller_interface/lib:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface/lib:/home/d-lab/workspace/ros_ur_driver/install/filters/lib:/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs/lib:/home/d-lab/workspace/ros_ur_driver/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/d-lab/workspace/ros_ur_driver/install/controller_manager/lib/python3.8/site-packages:/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs/lib/python3.8/site-packages:/home/d-lab/workspace/ros_ur_driver/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/force_torque_sensor_broadcaster -- -j16 -l16
+[0.062s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.079s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.218s] -- Found controller_interface: 0.10.0 (/home/d-lab/workspace/ros_ur_driver/install/controller_interface/share/controller_interface/cmake)
+[0.242s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.247s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.344s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.776s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.778s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.985s] -- Found filters: 2.0.2 (/home/d-lab/workspace/ros_ur_driver/install/filters/share/filters/cmake)
+[0.986s] -- Found realtime_tools: 2.2.0 (/opt/ros/foxy/share/realtime_tools/cmake)
+[1.020s] -- Found tf2: 0.13.13 (/opt/ros/foxy/share/tf2/cmake)
+[1.030s] -- Found tf2_geometry_msgs: 0.13.13 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+[1.041s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[1.043s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[1.330s] -- Found ament_cmake_gmock: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gmock/cmake)
+[1.330s] -- Found controller_manager: 0.10.0 (/home/d-lab/workspace/ros_ur_driver/install/controller_manager/share/controller_manager/cmake)
+[1.387s] -- Found ros2_control_test_assets: 0.10.0 (/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[1.388s] -- Found gmock sources under '/opt/ros/foxy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[1.389s] -- Found ament_cmake_gtest: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[1.390s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.635s] -- Configuring done
+[1.732s] -- Generating done
+[1.735s] -- Build files have been written to: /home/d-lab/workspace/ros_ur_driver/build/force_torque_sensor_broadcaster
+[1.766s] [35m[1mScanning dependencies of target force_torque_sensor_broadcaster[0m
+[1.773s] [ 18%] Built target gmock_main
+[1.777s] [ 45%] Built target gmock
+[1.792s] [35m[1mScanning dependencies of target test_load_force_torque_sensor_broadcaster[0m
+[1.814s] [ 54%] [32mBuilding CXX object CMakeFiles/force_torque_sensor_broadcaster.dir/src/force_torque_sensor_broadcaster.cpp.o[0m
+[1.866s] [ 63%] [32mBuilding CXX object CMakeFiles/test_load_force_torque_sensor_broadcaster.dir/test/test_load_force_torque_sensor_broadcaster.cpp.o[0m
+[1.966s] In file included from [01m[K/home/d-lab/workspace/ros_ur_driver/src/ros2_controllers/force_torque_sensor_broadcaster/src/force_torque_sensor_broadcaster.cpp:19[m[K:
+[1.966s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/ros2_controllers/force_torque_sensor_broadcaster/include/force_torque_sensor_broadcaster/force_torque_sensor_broadcaster.hpp:36:10:[m[K [01;31m[Kfatal error: [m[Ktf2_geometry_msgs/tf2_geometry_msgs.hpp: No such file or directory
+[1.966s]    36 | #include [01;31m[K"tf2_geometry_msgs/tf2_geometry_msgs.hpp"[m[K
+[1.966s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.966s] compilation terminated.
+[1.968s] make[2]: *** [CMakeFiles/force_torque_sensor_broadcaster.dir/build.make:63: CMakeFiles/force_torque_sensor_broadcaster.dir/src/force_torque_sensor_broadcaster.cpp.o] Error 1
+[1.969s] make[1]: *** [CMakeFiles/Makefile2:154: CMakeFiles/force_torque_sensor_broadcaster.dir/all] Error 2
+[1.969s] make[1]: *** Waiting for unfinished jobs....
+[5.923s] [ 72%] [32m[1mLinking CXX executable test_load_force_torque_sensor_broadcaster[0m
+[6.102s] [ 72%] Built target test_load_force_torque_sensor_broadcaster
+[6.103s] make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,27 @@
+[  2%] [34m[1mAutomatic MOC for target rviz_visual_tools_remote_control[0m
+[  5%] [34m[1mAutomatic MOC for target gtest_main[0m
+[  7%] [34m[1mAutomatic MOC for target gtest[0m
+[ 10%] [34m[1mAutomatic MOC for target rviz_visual_tools_gui[0m
+[ 10%] Built target rviz_visual_tools_remote_control_autogen
+[ 10%] Built target gtest_main_autogen
+[ 10%] Built target rviz_visual_tools_gui_autogen
+[ 10%] Built target gtest_autogen
+[ 17%] Built target gtest_main
+[ 25%] Built target rviz_visual_tools_remote_control
+[ 33%] Built target gtest
+[ 43%] [34m[1mAutomatic MOC for target rviz_visual_tools[0m
+[ 48%] Built target rviz_visual_tools_gui
+[ 48%] Built target rviz_visual_tools_autogen
+[ 58%] Built target rviz_visual_tools
+[ 66%] [34m[1mAutomatic MOC for target rviz_visual_tools_demo[0m
+[ 66%] [34m[1mAutomatic MOC for target rviz_visual_tools_imarker_simple[0m
+[ 66%] [34m[1mAutomatic MOC for target rviz_visual_tools_rvt_test[0m
+[ 66%] Built target rviz_visual_tools_rvt_test_autogen
+[ 66%] Built target rviz_visual_tools_demo_autogen
+[ 66%] Built target rviz_visual_tools_imarker_simple_autogen
+[ 79%] Built target rviz_visual_tools_rvt_test
+[ 82%] Built target rviz_visual_tools_demo
+[ 89%] Built target rviz_visual_tools_imarker_simple
+[ 92%] [34m[1mAutomatic MOC for target rviz_visual_tools_imarker_simple_demo[0m
+[ 92%] Built target rviz_visual_tools_imarker_simple_demo_autogen
+[100%] Built target rviz_visual_tools_imarker_simple_demo

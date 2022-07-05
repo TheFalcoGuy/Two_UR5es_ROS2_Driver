@@ -1,0 +1,11 @@
+[ 20%] Built target gmock
+[ 33%] Built target gmock_main
+[ 40%] [32mBuilding CXX object CMakeFiles/diff_drive_controller.dir/src/diff_drive_controller.cpp.o[0m
+[ 53%] Built target test_accumulator
+[ 66%] Built target test_load_diff_drive_controller
+[ 73%] [32m[1mLinking CXX shared library libdiff_drive_controller.so[0m
+[ 86%] Built target diff_drive_controller
+[35m[1mScanning dependencies of target test_diff_drive_controller[0m
+[ 93%] [32mBuilding CXX object CMakeFiles/test_diff_drive_controller.dir/test/test_diff_drive_controller.cpp.o[0m
+[100%] [32m[1mLinking CXX executable test_diff_drive_controller[0m
+[100%] Built target test_diff_drive_controller

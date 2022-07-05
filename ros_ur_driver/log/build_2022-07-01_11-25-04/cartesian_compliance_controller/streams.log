@@ -1,0 +1,65 @@
+[0.070s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/cartesian_compliance_controller': AMENT_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/cartesian_motion_controller:/home/d-lab/workspace/ros_ur_driver/install/cartesian_force_controller:/home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base:/home/d-lab/workspace/ros_ur_driver/install/controller_interface:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/cartesian_motion_controller:/home/d-lab/workspace/ros_ur_driver/install/cartesian_force_controller:/home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base:/home/d-lab/workspace/ros_ur_driver/install/controller_interface:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/d-lab/workspace/ros_ur_driver/install/cartesian_motion_controller/lib:/home/d-lab/workspace/ros_ur_driver/install/cartesian_force_controller/lib:/home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/lib:/home/d-lab/workspace/ros_ur_driver/install/controller_interface/lib:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface/lib:/home/d-lab/workspace/ros_ur_driver/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/d-lab/workspace/ros_ur_driver/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/cartesian_compliance_controller -- -j16 -l16
+[0.094s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.111s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.262s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.309s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.312s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.427s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.466s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.467s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.587s] -- Found cartesian_controller_base: 0.0.0 (/home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/share/cartesian_controller_base/cmake)
+[0.963s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[1.034s] -- Found cartesian_motion_controller: 0.0.0 (/home/d-lab/workspace/ros_ur_driver/install/cartesian_motion_controller/share/cartesian_motion_controller/cmake)
+[1.441s] -- Found cartesian_force_controller: 0.0.0 (/home/d-lab/workspace/ros_ur_driver/install/cartesian_force_controller/share/cartesian_force_controller/cmake)
+[2.751s] -- Configuring done
+[2.766s] -- Generating done
+[2.767s] -- Build files have been written to: /home/d-lab/workspace/ros_ur_driver/build/cartesian_compliance_controller
+[2.788s] [35m[1mScanning dependencies of target cartesian_compliance_controller[0m
+[2.818s] [ 50%] [32mBuilding CXX object CMakeFiles/cartesian_compliance_controller.dir/src/cartesian_compliance_controller.cpp.o[0m
+[4.340s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/src/cartesian_compliance_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::return_type cartesian_compliance_controller::CartesianComplianceController::init(const string&)[m[K’:
+[4.340s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/src/cartesian_compliance_controller.cpp:83:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kon_init[m[K’ is not a member of ‘[01m[Kcartesian_compliance_controller::CartesianComplianceController::MotionBase[m[K’ {aka ‘[01m[Kcartesian_motion_controller::CartesianMotionController[m[K’}
+[4.340s]    83 |   if (MotionBase::[01;31m[Kon_init[m[K() != TYPE::SUCCESS || ForceBase::on_init() != TYPE::SUCCESS)
+[4.340s]       |                   [01;31m[K^~~~~~~[m[K
+[4.341s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/src/cartesian_compliance_controller.cpp:83:38:[m[K [01;35m[Kwarning: [m[K‘[01m[Kcontroller_interface::return_type::SUCCESS[m[K’ is deprecated: Use controller_interface::return_type::OK instead. [[01;35m[K-Wdeprecated-declarations[m[K]
+[4.341s]    83 |   if (MotionBase::on_init() != TYPE::[01;35m[KSUCCESS[m[K || ForceBase::on_init() != TYPE::SUCCESS)
+[4.341s]       |                                      [01;35m[K^~~~~~~[m[K
+[4.341s] In file included from [01m[K/home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/include/cartesian_controller_base/cartesian_controller_base.h:52[m[K,
+[4.341s]                  from [01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.h:44[m[K,
+[4.341s]                  from [01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/src/cartesian_compliance_controller.cpp:42[m[K:
+[4.341s] [01m[K/home/d-lab/workspace/ros_ur_driver/install/controller_interface/include/controller_interface/controller_interface.hpp:42:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.341s]    42 |   [01;36m[KSUCCESS[m[K [[deprecated("Use controller_interface::return_type::OK instead.")]] = OK
+[4.341s]       |   [01;36m[K^~~~~~~[m[K
+[4.341s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/src/cartesian_compliance_controller.cpp:83:38:[m[K [01;35m[Kwarning: [m[K‘[01m[Kcontroller_interface::return_type::SUCCESS[m[K’ is deprecated: Use controller_interface::return_type::OK instead. [[01;35m[K-Wdeprecated-declarations[m[K]
+[4.341s]    83 |   if (MotionBase::on_init() != TYPE::[01;35m[KSUCCESS[m[K || ForceBase::on_init() != TYPE::SUCCESS)
+[4.341s]       |                                      [01;35m[K^~~~~~~[m[K
+[4.341s] In file included from [01m[K/home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/include/cartesian_controller_base/cartesian_controller_base.h:52[m[K,
+[4.341s]                  from [01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.h:44[m[K,
+[4.341s]                  from [01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/src/cartesian_compliance_controller.cpp:42[m[K:
+[4.341s] [01m[K/home/d-lab/workspace/ros_ur_driver/install/controller_interface/include/controller_interface/controller_interface.hpp:42:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.341s]    42 |   [01;36m[KSUCCESS[m[K [[deprecated("Use controller_interface::return_type::OK instead.")]] = OK
+[4.342s]       |   [01;36m[K^~~~~~~[m[K
+[4.342s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/src/cartesian_compliance_controller.cpp:83:60:[m[K [01;31m[Kerror: [m[K‘[01m[Kon_init[m[K’ is not a member of ‘[01m[Kcartesian_compliance_controller::CartesianComplianceController::ForceBase[m[K’ {aka ‘[01m[Kcartesian_force_controller::CartesianForceController[m[K’}
+[4.342s]    83 |   if (MotionBase::on_init() != TYPE::SUCCESS || ForceBase::[01;31m[Kon_init[m[K() != TYPE::SUCCESS)
+[4.342s]       |                                                            [01;31m[K^~~~~~~[m[K
+[4.342s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/src/cartesian_compliance_controller.cpp:83:79:[m[K [01;35m[Kwarning: [m[K‘[01m[Kcontroller_interface::return_type::SUCCESS[m[K’ is deprecated: Use controller_interface::return_type::OK instead. [[01;35m[K-Wdeprecated-declarations[m[K]
+[4.342s]    83 |   if (MotionBase::on_init() != TYPE::SUCCESS || ForceBase::on_init() != TYPE::[01;35m[KSUCCESS[m[K)
+[4.342s]       |                                                                               [01;35m[K^~~~~~~[m[K
+[4.342s] In file included from [01m[K/home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/include/cartesian_controller_base/cartesian_controller_base.h:52[m[K,
+[4.342s]                  from [01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.h:44[m[K,
+[4.342s]                  from [01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/src/cartesian_compliance_controller.cpp:42[m[K:
+[4.342s] [01m[K/home/d-lab/workspace/ros_ur_driver/install/controller_interface/include/controller_interface/controller_interface.hpp:42:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.342s]    42 |   [01;36m[KSUCCESS[m[K [[deprecated("Use controller_interface::return_type::OK instead.")]] = OK
+[4.342s]       |   [01;36m[K^~~~~~~[m[K
+[4.342s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/src/cartesian_compliance_controller.cpp:83:79:[m[K [01;35m[Kwarning: [m[K‘[01m[Kcontroller_interface::return_type::SUCCESS[m[K’ is deprecated: Use controller_interface::return_type::OK instead. [[01;35m[K-Wdeprecated-declarations[m[K]
+[4.342s]    83 |   if (MotionBase::on_init() != TYPE::SUCCESS || ForceBase::on_init() != TYPE::[01;35m[KSUCCESS[m[K)
+[4.342s]       |                                                                               [01;35m[K^~~~~~~[m[K
+[4.342s] In file included from [01m[K/home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/include/cartesian_controller_base/cartesian_controller_base.h:52[m[K,
+[4.342s]                  from [01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.h:44[m[K,
+[4.342s]                  from [01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/src/cartesian_compliance_controller.cpp:42[m[K:
+[4.343s] [01m[K/home/d-lab/workspace/ros_ur_driver/install/controller_interface/include/controller_interface/controller_interface.hpp:42:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.343s]    42 |   [01;36m[KSUCCESS[m[K [[deprecated("Use controller_interface::return_type::OK instead.")]] = OK
+[4.343s]       |   [01;36m[K^~~~~~~[m[K
+[4.888s] make[2]: *** [CMakeFiles/cartesian_compliance_controller.dir/build.make:63: CMakeFiles/cartesian_compliance_controller.dir/src/cartesian_compliance_controller.cpp.o] Error 1
+[4.889s] make[1]: *** [CMakeFiles/Makefile2:105: CMakeFiles/cartesian_compliance_controller.dir/all] Error 2
+[4.889s] make: *** [Makefile:141: all] Error 2
+[4.892s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/build/cartesian_compliance_controller' returned '2': AMENT_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/cartesian_motion_controller:/home/d-lab/workspace/ros_ur_driver/install/cartesian_force_controller:/home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base:/home/d-lab/workspace/ros_ur_driver/install/controller_interface:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/cartesian_motion_controller:/home/d-lab/workspace/ros_ur_driver/install/cartesian_force_controller:/home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base:/home/d-lab/workspace/ros_ur_driver/install/controller_interface:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/d-lab/workspace/ros_ur_driver/install/cartesian_motion_controller/lib:/home/d-lab/workspace/ros_ur_driver/install/cartesian_force_controller/lib:/home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/lib:/home/d-lab/workspace/ros_ur_driver/install/controller_interface/lib:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface/lib:/home/d-lab/workspace/ros_ur_driver/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/d-lab/workspace/ros_ur_driver/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/cartesian_compliance_controller -- -j16 -l16

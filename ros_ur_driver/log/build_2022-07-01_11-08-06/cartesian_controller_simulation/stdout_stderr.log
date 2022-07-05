@@ -1,0 +1,28 @@
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found hardware_interface: 0.10.0 (/home/d-lab/workspace/ros_ur_driver/install/hardware_interface/share/hardware_interface/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+CMake Warning at CMakeLists.txt:26 (message):
+  MUJOCO_DIR not specified.  Using default /home/d-lab/mujoco-2.1.1
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/d-lab/workspace/ros_ur_driver/build/cartesian_controller_simulation
+[35m[1mScanning dependencies of target mujoco_simulator[0m
+make[2]: *** No rule to make target '/home/d-lab/mujoco-2.1.1/lib/libmujoco_nogl.so', needed by 'libmujoco_simulator.so'.  Stop.
+make[2]: *** Waiting for unfinished jobs....
+[ 25%] [32mBuilding CXX object CMakeFiles/mujoco_simulator.dir/src/mujoco_simulator.cpp.o[0m
+In file included from [01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_controller_simulation/src/mujoco_simulator.cpp:40[m[K:
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_controller_simulation/include/cartesian_controller_simulation/mujoco_simulator.h:48:10:[m[K [01;31m[Kfatal error: [m[Kmujoco.h: No such file or directory
+   48 | #include [01;31m[K"mujoco.h"[m[K
+      |          [01;31m[K^~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/mujoco_simulator.dir/build.make:63: CMakeFiles/mujoco_simulator.dir/src/mujoco_simulator.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/mujoco_simulator.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,13 @@
+In file included from [01m[K/opt/ros/foxy/include/moveit/robot_model/joint_model_group.h:40[m[K,
+                 from [01m[K/opt/ros/foxy/include/moveit/robot_model/robot_model.h:45[m[K,
+                 from [01m[K/opt/ros/foxy/include/moveit/robot_state/robot_state.h:40[m[K,
+                 from [01m[K/opt/ros/foxy/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+                 from [01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_arm_server.cpp:3[m[K:
+[01m[K/opt/ros/foxy/include/moveit/robot_model/joint_model.h:46:10:[m[K [01;31m[Kfatal error: [m[KEigen/Geometry: No such file or directory
+   46 | #include [01;31m[K<Eigen/Geometry>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/server.dir/build.make:63: CMakeFiles/server.dir/src/move_arm_server.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:443: CMakeFiles/server.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,296 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/cartesian_compliance_controller.dir/src/cartesian_compliance_controller.cpp.o[0m
+In file included from [01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/src/cartesian_compliance_controller.cpp:45[m[K:
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.h:102:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kcartesian_motion_controller[m[K’ does not name a type; did you mean ‘[01m[Kcartesian_compliance_controller[m[K’?
+  102 |     using MotionBase = [01;31m[Kcartesian_motion_controller[m[K::CartesianMotionController;
+      |                        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                        [32m[Kcartesian_compliance_controller[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.h:103:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kcartesian_force_controller[m[K’ does not name a type; did you mean ‘[01m[Kcartesian_compliance_controller[m[K’?
+  103 |     using ForceBase = [01;31m[Kcartesian_force_controller[m[K::CartesianForceController;
+      |                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                       [32m[Kcartesian_compliance_controller[m[K
+In file included from [01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.h:120[m[K,
+                 from [01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/src/cartesian_compliance_controller.cpp:45[m[K:
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.hpp:54:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kcartesian_compliance_controller::CartesianComplianceController[m[K’ is not a template
+   54 | [01;31m[KCartesianComplianceController[m[K<HardwareInterface>::
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.hpp:55:31:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[Kcartesian_compliance_controller::CartesianComplianceController CartesianComplianceController()[m[K’ not in a namespace surrounding ‘[01m[K::[m[K’
+   55 | CartesianComplianceController([01;31m[K)[m[K
+      |                               [01;31m[K^[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.hpp:55:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kcartesian_compliance_controller::CartesianComplianceController CartesianComplianceController()[m[K’ should have been declared inside ‘[01m[K::[m[K’
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.hpp:[m[K In function ‘[01m[Kcartesian_compliance_controller::CartesianComplianceController CartesianComplianceController()[m[K’:
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.hpp:58:3:[m[K [01;31m[Kerror: [m[Konly constructors take member initializers
+   58 | : [01;31m[KBase[m[K::CartesianControllerBase(),
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.hpp:58:3:[m[K [01;31m[Kerror: [m[K‘[01m[KBase[m[K’ has not been declared
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.hpp:58:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[KCartesianControllerBase[m[K’
+   58 | : Base::[01;31m[KCartesianControllerBase[m[K(),
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.hpp:58:9:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.hpp:[m[K At global scope:
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.hpp:58:34:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K,[m[K’ token
+   58 | : Base::CartesianControllerBase()[01;31m[K,[m[K
+      |                                  [01;31m[K^[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.hpp:59:3:[m[K [01;31m[Kerror: [m[K‘[01m[KMotionBase[m[K’ has not been declared
+   59 |   [01;31m[KMotionBase[m[K::CartesianMotionController(),
+      |   [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.hpp:59:42:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K,[m[K’ token
+   59 |   MotionBase::CartesianMotionController()[01;31m[K,[m[K
+      |                                          [01;31m[K^[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.hpp:60:3:[m[K [01;31m[Kerror: [m[K‘[01m[KForceBase[m[K’ has not been declared
+   60 |   [01;31m[KForceBase[m[K::CartesianForceController()
+      |   [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.hpp:61:1:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+   61 | [01;31m[K{[m[K
+      | [01;31m[K^[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.hpp:65:6:[m[K [01;31m[Kerror: [m[Kfunction template-id ‘[01m[KCartesianComplianceController<HardwareInterface>[m[K’ in nested-name-specifier
+   65 | bool [01;31m[KCartesianComplianceController<HardwareInterface>[m[K::
+      |      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.hpp:54:49:[m[K [01;36m[Knote: [m[K‘[01m[Ktemplate<class HardwareInterface> cartesian_compliance_controller::CartesianComplianceController CartesianComplianceController()[m[K’ declared here
+   54 | CartesianComplianceController<HardwareInterface>[01;36m[K::[m[K
+      |                                                 [01;36m[K^~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.hpp:66:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+   66 | init(HardwareInterface* hw, [01;31m[Kros[m[K::NodeHandle& nh)
+      |                             [01;31m[K^~~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.hpp:[m[K In function ‘[01m[Kbool cartesian_compliance_controller::init(HardwareInterface*, int&)[m[K’:
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.hpp:69:3:[m[K [01;31m[Kerror: [m[K‘[01m[KMotionBase[m[K’ has not been declared
+   69 |   [01;31m[KMotionBase[m[K::init(hw,nh);
+      |   [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.hpp:70:3:[m[K [01;31m[Kerror: [m[K‘[01m[KForceBase[m[K’ has not been declared
+   70 |   [01;31m[KForceBase[m[K::init(hw,nh);
+      |   [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.hpp:72:11:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KgetParam[m[K’ in ‘[01m[Knh[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+   72 |   if (!nh.[01;31m[KgetParam[m[K("compliance_ref_link",m_compliance_ref_link))
+      |           [01;31m[K^~~~~~~~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.hpp:72:42:[m[K [01;31m[Kerror: [m[K‘[01m[Km_compliance_ref_link[m[K’ was not declared in this scope
+   72 |   if (!nh.getParam("compliance_ref_link",[01;31m[Km_compliance_ref_link[m[K))
+      |                                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.hpp:74:46:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KgetNamespace[m[K’ in ‘[01m[Knh[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+   74 |     ROS_ERROR_STREAM("Failed to load " << nh.[01;31m[KgetNamespace[m[K() + "/compliance_ref_link" << " from parameter server");
+      |                                              [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.hpp:74:5:[m[K [01;31m[Kerror: [m[Kthere are no arguments to ‘[01m[KROS_ERROR_STREAM[m[K’ that depend on a template parameter, so a declaration of ‘[01m[KROS_ERROR_STREAM[m[K’ must be available [[01;31m[K-fpermissive[m[K]
+   74 |     [01;31m[KROS_ERROR_STREAM[m[K("Failed to load " << nh.getNamespace() + "/compliance_ref_link" << " from parameter server");
+      |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.hpp:74:5:[m[K [01;36m[Knote: [m[K(if you use ‘[01m[K-fpermissive[m[K’, G++ will accept your code, but allowing the use of an undeclared name is deprecated)
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.hpp:79:3:[m[K [01;31m[Kerror: [m[K‘[01m[KForceBase[m[K’ has not been declared
+   79 |   [01;31m[KForceBase[m[K::setFtSensorReferenceFrame(m_compliance_ref_link);
+      |   [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.hpp:79:40:[m[K [01;31m[Kerror: [m[K‘[01m[Km_compliance_ref_link[m[K’ was not declared in this scope
+   79 |   ForceBase::setFtSensorReferenceFrame([01;31m[Km_compliance_ref_link[m[K);
+      |                                        [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.hpp:84:3:[m[K [01;31m[Kerror: [m[K‘[01m[Km_callback_type[m[K’ was not declared in this scope
+   84 |   [01;31m[Km_callback_type[m[K = std::bind(
+      |   [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.hpp:85:8:[m[K [01;31m[Kerror: [m[Kfunction template-id ‘[01m[KCartesianComplianceController<HardwareInterface>[m[K’ in nested-name-specifier
+   85 |       &[01;31m[KCartesianComplianceController<HardwareInterface>[m[K::dynamicReconfigureCallback, this, std::placeholders::_1, std::placeholders::_2);
+      |        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.hpp:54:49:[m[K [01;36m[Knote: [m[K‘[01m[Ktemplate<class HardwareInterface> cartesian_compliance_controller::CartesianComplianceController CartesianComplianceController()[m[K’ declared here
+   54 | CartesianComplianceController<HardwareInterface>[01;36m[K::[m[K
+      |                                                 [01;36m[K^~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.hpp:85:86:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   85 |       &CartesianComplianceController<HardwareInterface>::dynamicReconfigureCallback, [01;31m[Kthis[m[K, std::placeholders::_1, std::placeholders::_2);
+      |                                                                                      [01;31m[K^~~~[m[K
+In file included from [01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.h:120[m[K,
+                 from [01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/src/cartesian_compliance_controller.cpp:45[m[K:
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.hpp:87:3:[m[K [01;31m[Kerror: [m[K‘[01m[Km_dyn_conf_server[m[K’ was not declared in this scope
+   87 |   [01;31m[Km_dyn_conf_server[m[K.reset(
+      |   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.hpp:88:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kdynamic_reconfigure[m[K’ does not name a type
+   88 |       new [01;31m[Kdynamic_reconfigure[m[K::Server<ComplianceConfig>(
+      |           [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.hpp:[m[K At global scope:
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.hpp:96:6:[m[K [01;31m[Kerror: [m[Kfunction template-id ‘[01m[KCartesianComplianceController<HardwareInterface>[m[K’ in nested-name-specifier
+   96 | void [01;31m[KCartesianComplianceController<HardwareInterface>[m[K::
+      |      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.h:120[m[K,
+                 from [01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/src/cartesian_compliance_controller.cpp:45[m[K:
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.hpp:54:49:[m[K [01;36m[Knote: [m[K‘[01m[Ktemplate<class HardwareInterface> cartesian_compliance_controller::CartesianComplianceController CartesianComplianceController()[m[K’ declared here
+   54 | CartesianComplianceController<HardwareInterface>[01;36m[K::[m[K
+      |                                                 [01;36m[K^~[m[K
+In file included from [01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.h:120[m[K,
+                 from [01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/src/cartesian_compliance_controller.cpp:45[m[K:
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.hpp:97:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ does not name a type; did you mean ‘[01m[Kcos[m[K’?
+   97 | starting(const [01;31m[Kros[m[K::Time& time)
+      |                [01;31m[K^~~[m[K
+      |                [32m[Kcos[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.hpp:97:25:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+   97 | starting(const ros::Time[01;31m[K&[m[K time)
+      |                         [01;31m[K^[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.hpp:97:25:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+   97 | starting[34m[K([m[Kconst ros::Time[01;31m[K&[m[K time)
+      |         [34m[K~[m[K               [01;31m[K^[m[K
+      |                         [32m[K)[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.hpp:97:27:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Ktime[m[K’
+   97 | starting(const ros::Time& [01;31m[Ktime[m[K)
+      |                           [01;31m[K^~~~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.hpp:106:6:[m[K [01;31m[Kerror: [m[Kfunction template-id ‘[01m[KCartesianComplianceController<HardwareInterface>[m[K’ in nested-name-specifier
+  106 | void [01;31m[KCartesianComplianceController<HardwareInterface>[m[K::
+      |      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.h:120[m[K,
+                 from [01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/src/cartesian_compliance_controller.cpp:45[m[K:
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.hpp:54:49:[m[K [01;36m[Knote: [m[K‘[01m[Ktemplate<class HardwareInterface> cartesian_compliance_controller::CartesianComplianceController CartesianComplianceController()[m[K’ declared here
+   54 | CartesianComplianceController<HardwareInterface>[01;36m[K::[m[K
+      |                                                 [01;36m[K^~[m[K
+In file included from [01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.h:120[m[K,
+                 from [01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/src/cartesian_compliance_controller.cpp:45[m[K:
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.hpp:107:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ does not name a type; did you mean ‘[01m[Kcos[m[K’?
+  107 | stopping(const [01;31m[Kros[m[K::Time& time)
+      |                [01;31m[K^~~[m[K
+      |                [32m[Kcos[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.hpp:107:25:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+  107 | stopping(const ros::Time[01;31m[K&[m[K time)
+      |                         [01;31m[K^[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.hpp:107:25:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+  107 | stopping[34m[K([m[Kconst ros::Time[01;31m[K&[m[K time)
+      |         [34m[K~[m[K               [01;31m[K^[m[K
+      |                         [32m[K)[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.hpp:107:27:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Ktime[m[K’
+  107 | stopping(const ros::Time& [01;31m[Ktime[m[K)
+      |                           [01;31m[K^~~~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.hpp:114:6:[m[K [01;31m[Kerror: [m[Kfunction template-id ‘[01m[KCartesianComplianceController<HardwareInterface>[m[K’ in nested-name-specifier
+  114 | void [01;31m[KCartesianComplianceController<HardwareInterface>[m[K::
+      |      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.h:120[m[K,
+                 from [01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/src/cartesian_compliance_controller.cpp:45[m[K:
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.hpp:54:49:[m[K [01;36m[Knote: [m[K‘[01m[Ktemplate<class HardwareInterface> cartesian_compliance_controller::CartesianComplianceController CartesianComplianceController()[m[K’ declared here
+   54 | CartesianComplianceController<HardwareInterface>[01;36m[K::[m[K
+      |                                                 [01;36m[K^~[m[K
+In file included from [01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.h:120[m[K,
+                 from [01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/src/cartesian_compliance_controller.cpp:45[m[K:
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.hpp:115:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ does not name a type; did you mean ‘[01m[Kcos[m[K’?
+  115 | update(const [01;31m[Kros[m[K::Time& time, const ros::Duration& period)
+      |              [01;31m[K^~~[m[K
+      |              [32m[Kcos[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.hpp:115:23:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+  115 | update(const ros::Time[01;31m[K&[m[K time, const ros::Duration& period)
+      |                       [01;31m[K^[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.hpp:115:23:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+  115 | update[34m[K([m[Kconst ros::Time[01;31m[K&[m[K time, const ros::Duration& period)
+      |       [34m[K~[m[K               [01;31m[K^[m[K
+      |                       [32m[K)[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.hpp:115:25:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Ktime[m[K’
+  115 | update(const ros::Time& [01;31m[Ktime[m[K, const ros::Duration& period)
+      |                         [01;31m[K^~~~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.hpp:140:16:[m[K [01;31m[Kerror: [m[Kfunction template-id ‘[01m[KCartesianComplianceController<HardwareInterface>[m[K’ in nested-name-specifier
+  140 | ctrl::Vector6D [01;31m[KCartesianComplianceController<HardwareInterface>[m[K::
+      |                [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.h:120[m[K,
+                 from [01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/src/cartesian_compliance_controller.cpp:45[m[K:
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.hpp:54:49:[m[K [01;36m[Knote: [m[K‘[01m[Ktemplate<class HardwareInterface> cartesian_compliance_controller::CartesianComplianceController CartesianComplianceController()[m[K’ declared here
+   54 | CartesianComplianceController<HardwareInterface>[01;36m[K::[m[K
+      |                                                 [01;36m[K^~[m[K
+In file included from [01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.h:120[m[K,
+                 from [01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/src/cartesian_compliance_controller.cpp:45[m[K:
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.hpp:[m[K In function ‘[01m[Kctrl::Vector6D cartesian_compliance_controller::computeComplianceError()[m[K’:
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.hpp:146:5:[m[K [01;31m[Kerror: [m[K‘[01m[KBase[m[K’ has not been declared
+  146 |     [01;31m[KBase[m[K::displayInBaseLink(m_stiffness,m_compliance_ref_link) * MotionBase::computeMotionError()
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.hpp:146:29:[m[K [01;31m[Kerror: [m[K‘[01m[Km_stiffness[m[K’ was not declared in this scope
+  146 |     Base::displayInBaseLink([01;31m[Km_stiffness[m[K,m_compliance_ref_link) * MotionBase::computeMotionError()
+      |                             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.hpp:146:41:[m[K [01;31m[Kerror: [m[K‘[01m[Km_compliance_ref_link[m[K’ was not declared in this scope
+  146 |     Base::displayInBaseLink(m_stiffness,[01;31m[Km_compliance_ref_link[m[K) * MotionBase::computeMotionError()
+      |                                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.hpp:146:66:[m[K [01;31m[Kerror: [m[K‘[01m[KMotionBase[m[K’ has not been declared
+  146 |     Base::displayInBaseLink(m_stiffness,m_compliance_ref_link) * [01;31m[KMotionBase[m[K::computeMotionError()
+      |                                                                  [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.hpp:149:7:[m[K [01;31m[Kerror: [m[K‘[01m[KForceBase[m[K’ has not been declared
+  149 |     + [01;31m[KForceBase[m[K::computeForceError();
+      |       [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.hpp:[m[K At global scope:
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.hpp:155:6:[m[K [01;31m[Kerror: [m[Kfunction template-id ‘[01m[KCartesianComplianceController<HardwareInterface>[m[K’ in nested-name-specifier
+  155 | void [01;31m[KCartesianComplianceController<HardwareInterface>[m[K::
+      |      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.h:120[m[K,
+                 from [01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/src/cartesian_compliance_controller.cpp:45[m[K:
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.hpp:54:49:[m[K [01;36m[Knote: [m[K‘[01m[Ktemplate<class HardwareInterface> cartesian_compliance_controller::CartesianComplianceController CartesianComplianceController()[m[K’ declared here
+   54 | CartesianComplianceController<HardwareInterface>[01;36m[K::[m[K
+      |                                                 [01;36m[K^~[m[K
+In file included from [01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.h:120[m[K,
+                 from [01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/src/cartesian_compliance_controller.cpp:45[m[K:
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.hpp:156:28:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[KdynamicReconfigureCallback[m[K’ declared void
+  156 | dynamicReconfigureCallback([01;31m[KComplianceConfig[m[K& config, uint32_t level)
+      |                            [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.hpp:156:28:[m[K [01;31m[Kerror: [m[K‘[01m[KComplianceConfig[m[K’ was not declared in this scope
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.hpp:156:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kconfig[m[K’ was not declared in this scope
+  156 | dynamicReconfigureCallback(ComplianceConfig& [01;31m[Kconfig[m[K, uint32_t level)
+      |                                              [01;31m[K^~~~~~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.hpp:156:63:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Klevel[m[K’
+  156 | dynamicReconfigureCallback(ComplianceConfig& config, uint32_t [01;31m[Klevel[m[K)
+      |                                                               [01;31m[K^~~~~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/src/cartesian_compliance_controller.cpp:[m[K In member function ‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn cartesian_compliance_controller::CartesianComplianceController::on_configure(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/src/cartesian_compliance_controller.cpp:92:3:[m[K [01;31m[Kerror: [m[K‘[01m[KsetFtSensorReferenceFrame[m[K’ was not declared in this scope
+   92 |   [01;31m[KsetFtSensorReferenceFrame[m[K(Base::m_end_effector_link);
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/src/cartesian_compliance_controller.cpp:[m[K In member function ‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn cartesian_compliance_controller::CartesianComplianceController::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/src/cartesian_compliance_controller.cpp:100:3:[m[K [01;31m[Kerror: [m[K‘[01m[KMotionBase[m[K’ has not been declared
+  100 |   [01;31m[KMotionBase[m[K::on_activate(previous_state);
+      |   [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/src/cartesian_compliance_controller.cpp:101:3:[m[K [01;31m[Kerror: [m[K‘[01m[KForceBase[m[K’ has not been declared
+  101 |   [01;31m[KForceBase[m[K::on_activate(previous_state);
+      |   [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/src/cartesian_compliance_controller.cpp:[m[K In member function ‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn cartesian_compliance_controller::CartesianComplianceController::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/src/cartesian_compliance_controller.cpp:109:3:[m[K [01;31m[Kerror: [m[K‘[01m[KMotionBase[m[K’ has not been declared
+  109 |   [01;31m[KMotionBase[m[K::computeJointControlCmds(ctrl::Vector6D::Zero(), rclcpp::Duration::from_seconds(0));
+      |   [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/src/cartesian_compliance_controller.cpp:110:3:[m[K [01;31m[Kerror: [m[K‘[01m[KMotionBase[m[K’ has not been declared
+  110 |   [01;31m[KMotionBase[m[K::writeJointControlCmds();
+      |   [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/src/cartesian_compliance_controller.cpp:111:3:[m[K [01;31m[Kerror: [m[K‘[01m[KMotionBase[m[K’ has not been declared
+  111 |   [01;31m[KMotionBase[m[K::on_deactivate(previous_state);
+      |   [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/src/cartesian_compliance_controller.cpp:112:3:[m[K [01;31m[Kerror: [m[K‘[01m[KForceBase[m[K’ has not been declared
+  112 |   [01;31m[KForceBase[m[K::computeJointControlCmds(ctrl::Vector6D::Zero(), rclcpp::Duration::from_seconds(0));
+      |   [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/src/cartesian_compliance_controller.cpp:113:3:[m[K [01;31m[Kerror: [m[K‘[01m[KForceBase[m[K’ has not been declared
+  113 |   [01;31m[KForceBase[m[K::writeJointControlCmds();
+      |   [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/src/cartesian_compliance_controller.cpp:114:3:[m[K [01;31m[Kerror: [m[K‘[01m[KForceBase[m[K’ has not been declared
+  114 |   [01;31m[KForceBase[m[K::on_deactivate(previous_state);
+      |   [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/src/cartesian_compliance_controller.cpp:[m[K At global scope:
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/src/cartesian_compliance_controller.cpp:151:16:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kctrl::Vector6D cartesian_compliance_controller::CartesianComplianceController::computeMotionError()[m[K’
+  151 | ctrl::Vector6D [01;31m[KCartesianComplianceController[m[K::
+      |                [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/src/cartesian_compliance_controller.cpp:151:16:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kctrl::Vector6D cartesian_compliance_controller::CartesianComplianceController::computeMotionError()[m[K’
+In file included from [01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/src/cartesian_compliance_controller.cpp:45[m[K:
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.h:75:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass cartesian_compliance_controller::CartesianComplianceController[m[K’ defined here
+   75 | class [01;36m[KCartesianComplianceController[m[K : public virtual cartesian_controller_base::CartesianControllerBase
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/class_loader/class_loader.hpp:56[m[K,
+                 from [01m[K/opt/ros/foxy/include/class_loader/multi_library_class_loader.hpp:52[m[K,
+                 from [01m[K/opt/ros/foxy/include/pluginlib/class_loader.hpp:58[m[K,
+                 from [01m[K/home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/include/cartesian_controller_base/cartesian_controller_base.h:66[m[K,
+                 from [01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.h:45[m[K,
+                 from [01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/src/cartesian_compliance_controller.cpp:45[m[K:
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/src/cartesian_compliance_controller.cpp:170:57:[m[K [01;31m[Kerror: [m[K‘[01m[KCartesianComplianceController[m[K’ in namespace ‘[01m[Kcartesian_compliance_controller[m[K’ does not name a type
+  170 | PLUGINLIB_EXPORT_CLASS(cartesian_compliance_controller::[01;31m[KCartesianComplianceController[m[K, controller_interface::ControllerInterface)
+      |                                                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/src/cartesian_compliance_controller.cpp:[m[K In constructor ‘[01m[K{anonymous}::ProxyExec0::ProxyExec0()[m[K’:
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/src/cartesian_compliance_controller.cpp:170:1:[m[K [01;31m[Kerror: [m[K‘[01m[K_derived[m[K’ was not declared in this scope
+  170 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(cartesian_compliance_controller::CartesianComplianceController, controller_interface::ControllerInterface)
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/src/cartesian_compliance_controller.cpp:170:1:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KregisterPlugin<<expression error>, {anonymous}::ProxyExec0::_base>(const char [63], const char [42])[m[K’
+  170 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(cartesian_compliance_controller::CartesianComplianceController, controller_interface::ControllerInterface)
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/class_loader/class_loader.hpp:55[m[K,
+                 from [01m[K/opt/ros/foxy/include/class_loader/multi_library_class_loader.hpp:52[m[K,
+                 from [01m[K/opt/ros/foxy/include/pluginlib/class_loader.hpp:58[m[K,
+                 from [01m[K/home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/include/cartesian_controller_base/cartesian_controller_base.h:66[m[K,
+                 from [01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.h:45[m[K,
+                 from [01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/src/cartesian_compliance_controller.cpp:45[m[K:
+[01m[K/opt/ros/foxy/include/class_loader/class_loader_core.hpp:210:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Derived, class Base> void class_loader::impl::registerPlugin(const string&, const string&)[m[K’
+  210 | void [01;36m[KregisterPlugin[m[K(const std::string & class_name, const std::string & base_class_name)
+      |      [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/class_loader/class_loader_core.hpp:210:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/opt/ros/foxy/include/class_loader/class_loader.hpp:56[m[K,
+                 from [01m[K/opt/ros/foxy/include/class_loader/multi_library_class_loader.hpp:52[m[K,
+                 from [01m[K/opt/ros/foxy/include/pluginlib/class_loader.hpp:58[m[K,
+                 from [01m[K/home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/include/cartesian_controller_base/cartesian_controller_base.h:66[m[K,
+                 from [01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.h:45[m[K,
+                 from [01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/src/cartesian_compliance_controller.cpp:45[m[K:
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/src/cartesian_compliance_controller.cpp:170:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  170 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(cartesian_compliance_controller::CartesianComplianceController, controller_interface::ControllerInterface)
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/cartesian_compliance_controller.dir/build.make:63: CMakeFiles/cartesian_compliance_controller.dir/src/cartesian_compliance_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:105: CMakeFiles/cartesian_compliance_controller.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,39 @@
+[35m[1mScanning dependencies of target action_server[0m
+[ 50%] Built target fibonacci_action_server
+[ 75%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/fibonacci_action_server.cpp.o[0m
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:19:3:[m[K [01;31m[Kerror: [m[K‘[01m[KACTION_TUTORIALS_CPP_PUBLIC[m[K’ does not name a type; did you mean ‘[01m[KACTION_TUTORIALS_CPP_BUILDING_DLL[m[K’?
+   19 |   [01;31m[KACTION_TUTORIALS_CPP_PUBLIC[m[K
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |   [32m[KACTION_TUTORIALS_CPP_BUILDING_DLL[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:33[m[K,
+                 from [01m[K/usr/include/c++/9/bits/allocator.h:46[m[K,
+                 from [01m[K/usr/include/c++/9/string:41[m[K,
+                 from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/9/array:39[m[K,
+                 from [01m[K/usr/include/c++/9/tuple:39[m[K,
+                 from [01m[K/usr/include/c++/9/functional:54[m[K,
+                 from [01m[K/home/d-lab/workspace/ros_ur_driver/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:1[m[K:
+/usr/include/c++/9/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = action_tutorials_cpp::FibonacciActionServer; _Args = {const rclcpp::NodeOptions&}; _Tp = action_tutorials_cpp::FibonacciActionServer][m[K’:
+[01m[K/usr/include/c++/9/bits/alloc_traits.h:483:4:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_CharT> >::construct(std::allocator_traits<std::allocator<_CharT> >::allocator_type&, _Up*, _Args&& ...) [with _Up = action_tutorials_cpp::FibonacciActionServer; _Args = {const rclcpp::NodeOptions&}; _Tp = action_tutorials_cpp::FibonacciActionServer; std::allocator_traits<std::allocator<_CharT> >::allocator_type = std::allocator<action_tutorials_cpp::FibonacciActionServer>][m[K’
+[01m[K/usr/include/c++/9/bits/shared_ptr_base.h:548:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {const rclcpp::NodeOptions&}; _Tp = action_tutorials_cpp::FibonacciActionServer; _Alloc = std::allocator<action_tutorials_cpp::FibonacciActionServer>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/9/bits/shared_ptr_base.h:679:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = action_tutorials_cpp::FibonacciActionServer; _Alloc = std::allocator<action_tutorials_cpp::FibonacciActionServer>; _Args = {const rclcpp::NodeOptions&}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/9/bits/shared_ptr_base.h:1344:71:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<action_tutorials_cpp::FibonacciActionServer>; _Args = {const rclcpp::NodeOptions&}; _Tp = action_tutorials_cpp::FibonacciActionServer; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:359:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<action_tutorials_cpp::FibonacciActionServer>; _Args = {const rclcpp::NodeOptions&}; _Tp = action_tutorials_cpp::FibonacciActionServer][m[K’
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:701:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = action_tutorials_cpp::FibonacciActionServer; _Alloc = std::allocator<action_tutorials_cpp::FibonacciActionServer>; _Args = {const rclcpp::NodeOptions&}][m[K’
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:717:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = action_tutorials_cpp::FibonacciActionServer; _Args = {const rclcpp::NodeOptions&}][m[K’
+[01m[K/opt/ros/foxy/include/rclcpp_components/node_factory_template.hpp:45:40:[m[K   required from ‘[01m[Krclcpp_components::NodeInstanceWrapper rclcpp_components::NodeFactoryTemplate<NodeT>::create_node_instance(const rclcpp::NodeOptions&) [with NodeT = action_tutorials_cpp::FibonacciActionServer][m[K’
+[01m[K/opt/ros/foxy/include/rclcpp_components/node_factory_template.hpp:43:3:[m[K   required from here
+[01m[K/usr/include/c++/9/ext/new_allocator.h:146:4:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kaction_tutorials_cpp::FibonacciActionServer::FibonacciActionServer(const rclcpp::NodeOptions&)[m[K’
+  146 |  { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+      |    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:13:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kaction_tutorials_cpp::FibonacciActionServer::FibonacciActionServer()[m[K’ <deleted>
+   13 | class [01;36m[KFibonacciActionServer[m[K : public rclcpp::Node
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:13:7:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:13:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kaction_tutorials_cpp::FibonacciActionServer::FibonacciActionServer(const action_tutorials_cpp::FibonacciActionServer&)[m[K’ <deleted>
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:13:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst rclcpp::NodeOptions[m[K’ to ‘[01m[Kconst action_tutorials_cpp::FibonacciActionServer&[m[K’
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:13:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kaction_tutorials_cpp::FibonacciActionServer::FibonacciActionServer(action_tutorials_cpp::FibonacciActionServer&&)[m[K’ <deleted>
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:13:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst rclcpp::NodeOptions[m[K’ to ‘[01m[Kaction_tutorials_cpp::FibonacciActionServer&&[m[K’
+make[2]: *** [CMakeFiles/action_server.dir/build.make:63: CMakeFiles/action_server.dir/src/fibonacci_action_server.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/action_server.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

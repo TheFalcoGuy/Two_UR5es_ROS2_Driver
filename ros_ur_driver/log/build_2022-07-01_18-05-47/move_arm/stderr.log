@@ -1,0 +1,32 @@
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_to_point.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_to_point.cpp:218:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ksuccess[m[K’ was not declared in this scope; did you mean ‘[01m[Kboost::system::errc::success[m[K’?
+  218 |   [01;31m[Ksuccess[m[K = (move_group.plan(my_plan) == moveit::core::MoveItErrorCode::SUCCESS);
+      |   [01;31m[K^~~~~~~[m[K
+      |   [32m[Kboost::system::errc::success[m[K
+In file included from [01m[K/usr/include/boost/system/system_error.hpp:11[m[K,
+                 from [01m[K/usr/include/boost/thread/exceptions.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/thread/lock_types.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/thread/lock_algorithms.hpp:11[m[K,
+                 from [01m[K/usr/include/boost/thread/locks.hpp:10[m[K,
+                 from [01m[K/opt/ros/foxy/include/moveit/occupancy_map_monitor/occupancy_map.h:40[m[K,
+                 from [01m[K/opt/ros/foxy/include/moveit/occupancy_map_monitor/occupancy_map_monitor.h:47[m[K,
+                 from [01m[K/opt/ros/foxy/include/moveit/planning_scene_monitor/planning_scene_monitor.h:45[m[K,
+                 from [01m[K/home/d-lab/workspace/ros_ur_driver/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:41[m[K,
+                 from [01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_to_point.cpp:47[m[K:
+[01m[K/usr/include/boost/system/error_code.hpp:62:5:[m[K [01;36m[Knote: [m[K‘[01m[Kboost::system::errc::success[m[K’ declared here
+   62 |     [01;36m[Ksuccess[m[K = 0,
+      |     [01;36m[K^~~~~~~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_to_point.cpp:218:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit::core::MoveItErrorCode[m[K’ has not been declared
+  218 | ove_group.plan(my_plan) == moveit::core::[01;31m[KMoveItErrorCode[m[K::SUCCESS);
+      |                                          [01;31m[K^~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_to_point.cpp:227:20:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Krclcpp[m[K’
+  227 |   move_group.move()
+      |                    [01;31m[K^[m[K
+      |                    [32m[K;[m[K
+......
+  519 |   [32m[Krclcpp[m[K::shutdown();
+      |   [32m[K~~~~~~[m[K            
+make[2]: *** [CMakeFiles/move_to_point.dir/build.make:63: CMakeFiles/move_to_point.dir/src/move_to_point.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/move_to_point.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

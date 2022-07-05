@@ -1,0 +1,18 @@
+CMake Error at CMakeLists.txt:20 (find_package):
+  By not providing "Findjoint_limits.cmake" in CMAKE_MODULE_PATH this project
+  has asked CMake to find a package configuration file provided by
+  "joint_limits", but CMake did not find one.
+
+  Could not find a package configuration file provided by "joint_limits" with
+  any of the following names:
+
+    joint_limitsConfig.cmake
+    joint_limits-config.cmake
+
+  Add the installation prefix of "joint_limits" to CMAKE_PREFIX_PATH or set
+  "joint_limits_DIR" to a directory containing one of the above files.  If
+  "joint_limits" provides a separate development package or SDK, be sure it
+  has been installed.
+
+
+make: *** [Makefile:440: cmake_check_build_system] Error 1

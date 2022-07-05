@@ -1,0 +1,1 @@
+xacro;rviz;joint_trajectory_controller;joint_state_controller;ros_control_boilerplate;controller_manager;robot_state_publisher

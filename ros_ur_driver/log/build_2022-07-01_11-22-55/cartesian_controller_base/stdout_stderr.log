@@ -1,0 +1,78 @@
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found controller_interface: 0.10.0 (/home/d-lab/workspace/ros_ur_driver/install/controller_interface/share/controller_interface/cmake)
+-- Found kdl_parser: 2.4.1 (/opt/ros/foxy/share/kdl_parser/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+-- Found urdf: 2.4.0 (/opt/ros/foxy/share/urdf/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/d-lab/workspace/ros_ur_driver/build/cartesian_controller_base
+[35m[1mScanning dependencies of target cartesian_controller_base[0m
+[35m[1mScanning dependencies of target ik_solvers[0m
+[  9%] [32mBuilding CXX object CMakeFiles/cartesian_controller_base.dir/src/SpatialPDController.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/cartesian_controller_base.dir/src/PDController.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/cartesian_controller_base.dir/src/cartesian_controller_base.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/cartesian_controller_base.dir/src/IKSolver.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/ik_solvers.dir/src/IKSolver.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/ik_solvers.dir/src/ForwardDynamicsSolver.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/ik_solvers.dir/src/JacobianTransposeSolver.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/ik_solvers.dir/src/DampedLeastSquaresSolver.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/ik_solvers.dir/src/SelectivelyDampedLeastSquaresSolver.cpp.o[0m
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_controller_base/src/IKSolver.cpp:[m[K In member function ‘[01m[Kbool cartesian_controller_base::IKSolver::setStartState(const std::vector<std::reference_wrapper<hardware_interface::LoanedStateInterface> >&)[m[K’:
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_controller_base/src/IKSolver.cpp:87:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::reference_wrapper<hardware_interface::LoanedStateInterface> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+   87 |     for (int i = 0; [01;35m[Ki < joint_pos_handles.size()[m[K; ++i)
+      |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_controller_base/src/IKSolver.cpp:[m[K In member function ‘[01m[Kbool cartesian_controller_base::IKSolver::setStartState(const std::vector<std::reference_wrapper<hardware_interface::LoanedStateInterface> >&)[m[K’:
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_controller_base/src/IKSolver.cpp:87:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::reference_wrapper<hardware_interface::LoanedStateInterface> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+   87 |     for (int i = 0; [01;35m[Ki < joint_pos_handles.size()[m[K; ++i)
+      |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[ 90%] [32m[1mLinking CXX shared library libcartesian_controller_base.so[0m
+[ 90%] Built target cartesian_controller_base
+[100%] [32m[1mLinking CXX shared library libik_solvers.so[0m
+[100%] Built target ik_solvers
+-- Install configuration: ""
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/share/cartesian_controller_base/ik_solver_plugin.xml
+-- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/include
+-- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/include/cartesian_controller_base
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/include/cartesian_controller_base/DampedLeastSquaresSolver.h
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/include/cartesian_controller_base/Utility.h
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/include/cartesian_controller_base/SpatialPDController.h
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/include/cartesian_controller_base/ForwardDynamicsSolver.h
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/include/cartesian_controller_base/IKSolver.h
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/include/cartesian_controller_base/SelectivelyDampedLeastSquaresSolver.h
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/include/cartesian_controller_base/cartesian_controller_base.h
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/include/cartesian_controller_base/JacobianTransposeSolver.h
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/include/cartesian_controller_base/ROS2VersionConfig.h.in
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/include/cartesian_controller_base/PDController.h
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/lib/libcartesian_controller_base.so
+-- Set runtime path of "/home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/lib/libcartesian_controller_base.so" to ""
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/lib/libik_solvers.so
+-- Set runtime path of "/home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/lib/libik_solvers.so" to ""
+-- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/include/cartesian_controller_base/ROS2VersionConfig.h
+-- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/share/cartesian_controller_base/environment/library_path.sh
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/share/cartesian_controller_base/environment/library_path.dsv
+-- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/share/ament_index/resource_index/package_run_dependencies/cartesian_controller_base
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/share/ament_index/resource_index/parent_prefix_path/cartesian_controller_base
+-- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/share/cartesian_controller_base/environment/ament_prefix_path.sh
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/share/cartesian_controller_base/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/share/cartesian_controller_base/environment/path.sh
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/share/cartesian_controller_base/environment/path.dsv
+-- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/share/cartesian_controller_base/local_setup.bash
+-- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/share/cartesian_controller_base/local_setup.sh
+-- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/share/cartesian_controller_base/local_setup.zsh
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/share/cartesian_controller_base/local_setup.dsv
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/share/cartesian_controller_base/package.dsv
+-- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/share/ament_index/resource_index/packages/cartesian_controller_base
+-- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/share/ament_index/resource_index/cartesian_controller_base__pluginlib__plugin/cartesian_controller_base
+-- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/share/cartesian_controller_base/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/share/cartesian_controller_base/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/share/cartesian_controller_base/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/share/cartesian_controller_base/cmake/cartesian_controller_baseConfig.cmake
+-- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/share/cartesian_controller_base/cmake/cartesian_controller_baseConfig-version.cmake
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/share/cartesian_controller_base/package.xml

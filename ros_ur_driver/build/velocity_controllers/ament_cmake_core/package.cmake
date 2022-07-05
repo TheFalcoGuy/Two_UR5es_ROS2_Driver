@@ -1,5 +1,5 @@
 set(_AMENT_PACKAGE_NAME "velocity_controllers")
-set(velocity_controllers_VERSION "0.7.0")
+set(velocity_controllers_VERSION "0.8.0")
 set(velocity_controllers_MAINTAINER "Bence Magyar <bence.magyar.robotics@gmail.com>, Jordan Palacios <jordan.palacios@pal-robotics.com>")
 set(velocity_controllers_BUILD_DEPENDS "pluginlib" "forward_command_controller" "rclcpp")
 set(velocity_controllers_BUILDTOOL_DEPENDS "ament_cmake")

@@ -16,7 +16,7 @@ set(_ros2_controllers_CONFIG_INCLUDED TRUE)
 
 # output package information
 if(NOT ros2_controllers_FIND_QUIETLY)
-  message(STATUS "Found ros2_controllers: 0.7.0 (${ros2_controllers_DIR})")
+  message(STATUS "Found ros2_controllers: 0.8.0 (${ros2_controllers_DIR})")
 endif()
 
 # warn when using a deprecated package

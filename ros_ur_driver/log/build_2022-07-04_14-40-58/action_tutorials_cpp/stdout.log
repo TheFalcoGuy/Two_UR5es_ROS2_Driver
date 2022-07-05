@@ -1,0 +1,3 @@
+[35m[1mScanning dependencies of target action_server[0m
+[ 50%] Built target fibonacci_action_server
+[ 75%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/fibonacci_action_server.cpp.o[0m

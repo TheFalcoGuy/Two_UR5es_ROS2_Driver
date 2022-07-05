@@ -1,0 +1,4 @@
+[ 27%] Built target gmock
+[ 45%] Built target gmock_main
+[ 54%] [32mBuilding CXX object CMakeFiles/imu_sensor_broadcaster.dir/src/imu_sensor_broadcaster.cpp.o[0m
+[ 72%] Built target test_load_imu_sensor_broadcaster

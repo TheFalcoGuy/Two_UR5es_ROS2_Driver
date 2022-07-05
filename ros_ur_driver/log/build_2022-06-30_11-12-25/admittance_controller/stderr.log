@@ -1,0 +1,18 @@
+CMake Error at CMakeLists.txt:20 (find_package):
+  By not providing "Findjoint_limits_interface.cmake" in CMAKE_MODULE_PATH
+  this project has asked CMake to find a package configuration file provided
+  by "joint_limits_interface", but CMake did not find one.
+
+  Could not find a package configuration file provided by
+  "joint_limits_interface" with any of the following names:
+
+    joint_limits_interfaceConfig.cmake
+    joint_limits_interface-config.cmake
+
+  Add the installation prefix of "joint_limits_interface" to
+  CMAKE_PREFIX_PATH or set "joint_limits_interface_DIR" to a directory
+  containing one of the above files.  If "joint_limits_interface" provides a
+  separate development package or SDK, be sure it has been installed.
+
+
+make: *** [Makefile:132: cmake_check_build_system] Error 1

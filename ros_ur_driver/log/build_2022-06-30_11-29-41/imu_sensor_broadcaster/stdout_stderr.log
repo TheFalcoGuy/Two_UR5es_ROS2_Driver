@@ -1,0 +1,10 @@
+[ 18%] Built target gmock_main
+[ 45%] Built target gmock
+[ 54%] [32mBuilding CXX object CMakeFiles/imu_sensor_broadcaster.dir/src/imu_sensor_broadcaster.cpp.o[0m
+[ 72%] Built target test_load_imu_sensor_broadcaster
+[ 81%] [32m[1mLinking CXX shared library libimu_sensor_broadcaster.so[0m
+[ 81%] Built target imu_sensor_broadcaster
+[35m[1mScanning dependencies of target test_imu_sensor_broadcaster[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/test_imu_sensor_broadcaster.dir/test/test_imu_sensor_broadcaster.cpp.o[0m
+[100%] [32m[1mLinking CXX executable test_imu_sensor_broadcaster[0m
+[100%] Built target test_imu_sensor_broadcaster

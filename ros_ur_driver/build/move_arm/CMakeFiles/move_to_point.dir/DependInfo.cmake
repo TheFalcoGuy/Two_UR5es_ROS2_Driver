@@ -21,16 +21,32 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
   "BOOST_SYSTEM_DYN_LINK"
   "BOOST_THREAD_DYN_LINK"
   "DEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp"
+  "PLUGINLIB__DISABLE_BOOST_FUNCTIONS"
+  "QT_CORE_LIB"
+  "QT_GUI_LIB"
+  "QT_NO_DEBUG"
+  "QT_WIDGETS_LIB"
   "RCUTILS_ENABLE_FAULT_INJECTION"
+  "ROS_PACKAGE_NAME=\"move_arm\""
   "SPDLOG_COMPILED_LIB"
   )
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "/home/d-lab/workspace/ros_ur_driver/install/moveit_visual_tools/include"
+  "/home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/include"
   "/opt/ros/foxy/include"
   "/usr/include/eigen3"
   "/usr/include/libqhull_r"
   "/usr/include/bullet"
+  "/home/d-lab/workspace/ros_ur_driver/install/graph_msgs/include"
+  "/opt/ros/foxy/opt/rviz_ogre_vendor/include/OGRE"
+  "/usr/include/x86_64-linux-gnu/qt5"
+  "/usr/include/x86_64-linux-gnu/qt5/QtWidgets"
+  "/usr/include/x86_64-linux-gnu/qt5/QtGui"
+  "/usr/include/x86_64-linux-gnu/qt5/QtCore"
+  "/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"
+  "/opt/ros/foxy/opt/yaml_cpp_vendor/include"
   )
 
 # Targets to which this target links.

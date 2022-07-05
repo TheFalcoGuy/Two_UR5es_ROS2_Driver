@@ -1,0 +1,7 @@
+make[2]: *** [CMakeFiles/test_load_joint_state_broadcaster.dir/build.make:63: CMakeFiles/test_load_joint_state_broadcaster.dir/test/test_load_joint_state_broadcaster.cpp.o] Interrupt
+make[2]: *** wait: No child processes.  Stop.
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** wait: No child processes.  Stop.
+make[1]: *** [CMakeFiles/Makefile2:126: CMakeFiles/test_load_joint_state_broadcaster.dir/all] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/joint_state_broadcaster.dir/all] Error 2
+make: *** [Makefile:141: all] Interrupt

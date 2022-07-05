@@ -1,5 +1,5 @@
 set(_AMENT_PACKAGE_NAME "effort_controllers")
-set(effort_controllers_VERSION "0.7.0")
+set(effort_controllers_VERSION "0.8.0")
 set(effort_controllers_MAINTAINER "Bence Magyar <bence.magyar.robotics@gmail.com>, Jordan Palacios <jordan.palacios@pal-robotics.com>")
 set(effort_controllers_BUILD_DEPENDS "pluginlib" "forward_command_controller" "rclcpp")
 set(effort_controllers_BUILDTOOL_DEPENDS "ament_cmake")

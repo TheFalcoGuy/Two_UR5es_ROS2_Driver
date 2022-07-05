@@ -1,0 +1,19 @@
+[0.993s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/src/ros2_control/ros2controlcli': AMENT_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/controller_manager:/home/d-lab/workspace/ros_ur_driver/install/controller_interface:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_assets:/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs:/home/d-lab/workspace/ros_ur_driver/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/controller_manager:/home/d-lab/workspace/ros_ur_driver/install/controller_interface:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_assets:/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs:/home/d-lab/workspace/ros_ur_driver/install/control_msgs LD_LIBRARY_PATH=/home/d-lab/workspace/ros_ur_driver/install/controller_manager/lib:/home/d-lab/workspace/ros_ur_driver/install/controller_interface/lib:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface/lib:/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs/lib:/home/d-lab/workspace/ros_ur_driver/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/d-lab/workspace/ros_ur_driver/build/ros2controlcli/prefix_override:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli/lib/python3.8/site-packages:/home/d-lab/workspace/ros_ur_driver/install/controller_manager/lib/python3.8/site-packages:/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs/lib/python3.8/site-packages:/home/d-lab/workspace/ros_ur_driver/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ros2controlcli build --build-base /home/d-lab/workspace/ros_ur_driver/build/ros2controlcli/build install --record /home/d-lab/workspace/ros_ur_driver/build/ros2controlcli/install.log --single-version-externally-managed
+[1.231s] running egg_info
+[1.232s] writing ../../../build/ros2controlcli/ros2controlcli.egg-info/PKG-INFO
+[1.232s] writing dependency_links to ../../../build/ros2controlcli/ros2controlcli.egg-info/dependency_links.txt
+[1.232s] writing entry points to ../../../build/ros2controlcli/ros2controlcli.egg-info/entry_points.txt
+[1.232s] writing requirements to ../../../build/ros2controlcli/ros2controlcli.egg-info/requires.txt
+[1.232s] writing top-level names to ../../../build/ros2controlcli/ros2controlcli.egg-info/top_level.txt
+[1.272s] reading manifest file '../../../build/ros2controlcli/ros2controlcli.egg-info/SOURCES.txt'
+[1.274s] writing manifest file '../../../build/ros2controlcli/ros2controlcli.egg-info/SOURCES.txt'
+[1.274s] running build
+[1.274s] running build_py
+[1.275s] running install
+[1.276s] running install_lib
+[1.278s] running install_data
+[1.279s] running install_egg_info
+[1.281s] removing '/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli-0.0.0-py3.8.egg-info' (and everything under it)
+[1.281s] Copying ../../../build/ros2controlcli/ros2controlcli.egg-info to /home/d-lab/workspace/ros_ur_driver/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli-0.0.0-py3.8.egg-info
+[1.282s] running install_scripts
+[1.302s] writing list of installed files to '/home/d-lab/workspace/ros_ur_driver/build/ros2controlcli/install.log'

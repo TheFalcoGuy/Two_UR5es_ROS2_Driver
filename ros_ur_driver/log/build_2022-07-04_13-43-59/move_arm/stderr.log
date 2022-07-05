@@ -1,0 +1,8 @@
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/moveArmServer.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kmove_arm/move_arm.hpp: No such file or directory
+    5 | #include [01;31m[K"move_arm/move_arm.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/moveArmServer.dir/build.make:63: CMakeFiles/moveArmServer.dir/src/moveArmServer.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:215: CMakeFiles/moveArmServer.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:141: all] Error 2

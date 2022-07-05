@@ -1,0 +1,15 @@
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found cartesian_controller_base: 0.0.0 (/home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/share/cartesian_controller_base/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+-- Found cartesian_motion_controller: 0.0.0 (/home/d-lab/workspace/ros_ur_driver/install/cartesian_motion_controller/share/cartesian_motion_controller/cmake)
+-- Found cartesian_force_controller: 0.0.0 (/home/d-lab/workspace/ros_ur_driver/install/cartesian_force_controller/share/cartesian_force_controller/cmake)
+-- Configuring incomplete, errors occurred!
+See also "/home/d-lab/workspace/ros_ur_driver/build/cartesian_compliance_controller/CMakeFiles/CMakeOutput.log".
+See also "/home/d-lab/workspace/ros_ur_driver/build/cartesian_compliance_controller/CMakeFiles/CMakeError.log".

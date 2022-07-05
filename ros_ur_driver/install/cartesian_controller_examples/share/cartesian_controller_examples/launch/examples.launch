@@ -1,0 +1,29 @@
+<launch>
+        <!-- Configuration -->
+        <arg name="rviz" default="true"/>
+        <arg name="debug" default="false"/>
+        <let name="launch-prefix" value=""/>
+
+        <!-- Load robot_description to parameter server -->
+        <!-- <param name="/robot_description"
+        command="$(find xacro)/xacro '$(find cartesian_controller_examples)/urdf/robot.urdf.xacro'" /> -->
+
+        <!-- Load hardware configuration -->
+        <!-- <param from="$(find cartesian_controller_examples)/config/example_hw_config.yaml" /> -->
+
+        <!-- Load hardware interface -->
+        <node name="sim_hardware_interface" pkg="ros_control_boilerplate" exec="sim_hw_main" output="screen" launch-prefix="$(arg launch-prefix)">
+                
+                <!-- <param from="$(find cartesian_controller_examples)/config/example_hw_config.yaml" /> -->
+
+                <!-- Control motion and compliance controller with one handle -->
+                <remap from="my_motion_control_handle/target_frame" to="target_frame" />
+                <remap from="my_cartesian_motion_controller/target_frame" to="target_frame" />
+                <remap from="my_cartesian_compliance_controller/target_frame" to="target_frame" />
+
+                <!-- Control wrenches via one topic -->
+                <remap from="my_cartesian_force_controller/target_wrench" to="target_wrench" />
+                <remap from="my_cartesian_compliance_controller/target_wrench" to="target_wrench" />
+        </node>
+
+</launch>

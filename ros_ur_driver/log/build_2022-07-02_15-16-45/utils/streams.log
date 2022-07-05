@@ -1,0 +1,21 @@
+[0.857s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/src/utils': PYTHONPATH=/home/d-lab/workspace/ros_ur_driver/build/utils/prefix_override:/home/d-lab/workspace/ros_ur_driver/install/utils/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/utils build --build-base /home/d-lab/workspace/ros_ur_driver/build/utils/build install --record /home/d-lab/workspace/ros_ur_driver/build/utils/install.log --single-version-externally-managed
+[1.047s] running egg_info
+[1.048s] writing ../../build/utils/utils.egg-info/PKG-INFO
+[1.048s] writing dependency_links to ../../build/utils/utils.egg-info/dependency_links.txt
+[1.048s] writing entry points to ../../build/utils/utils.egg-info/entry_points.txt
+[1.049s] writing requirements to ../../build/utils/utils.egg-info/requires.txt
+[1.049s] writing top-level names to ../../build/utils/utils.egg-info/top_level.txt
+[1.077s] reading manifest file '../../build/utils/utils.egg-info/SOURCES.txt'
+[1.078s] writing manifest file '../../build/utils/utils.egg-info/SOURCES.txt'
+[1.078s] running build
+[1.078s] running build_py
+[1.078s] running install
+[1.079s] running install_lib
+[1.080s] running install_data
+[1.081s] running install_egg_info
+[1.082s] removing '/home/d-lab/workspace/ros_ur_driver/install/utils/lib/python3.8/site-packages/utils-0.0.0-py3.8.egg-info' (and everything under it)
+[1.083s] Copying ../../build/utils/utils.egg-info to /home/d-lab/workspace/ros_ur_driver/install/utils/lib/python3.8/site-packages/utils-0.0.0-py3.8.egg-info
+[1.083s] running install_scripts
+[1.100s] Installing torque_broadcaster script to /home/d-lab/workspace/ros_ur_driver/install/utils/bin
+[1.100s] writing list of installed files to '/home/d-lab/workspace/ros_ur_driver/build/utils/install.log'
+[1.118s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/src/utils' returned '0': PYTHONPATH=/home/d-lab/workspace/ros_ur_driver/build/utils/prefix_override:/home/d-lab/workspace/ros_ur_driver/install/utils/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/utils build --build-base /home/d-lab/workspace/ros_ur_driver/build/utils/build install --record /home/d-lab/workspace/ros_ur_driver/build/utils/install.log --single-version-externally-managed

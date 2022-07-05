@@ -16,7 +16,7 @@ set(_gripper_controllers_CONFIG_INCLUDED TRUE)
 
 # output package information
 if(NOT gripper_controllers_FIND_QUIETLY)
-  message(STATUS "Found gripper_controllers: 0.7.0 (${gripper_controllers_DIR})")
+  message(STATUS "Found gripper_controllers: 0.8.0 (${gripper_controllers_DIR})")
 endif()
 
 # warn when using a deprecated package

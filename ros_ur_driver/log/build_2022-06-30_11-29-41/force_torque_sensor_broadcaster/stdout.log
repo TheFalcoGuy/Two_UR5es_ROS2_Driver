@@ -1,0 +1,10 @@
+[ 36%] Built target gmock
+[ 36%] [32mBuilding CXX object CMakeFiles/force_torque_sensor_broadcaster.dir/src/force_torque_sensor_broadcaster.cpp.o[0m
+[ 54%] Built target gmock_main
+[ 72%] Built target test_load_force_torque_sensor_broadcaster
+[ 81%] [32m[1mLinking CXX shared library libforce_torque_sensor_broadcaster.so[0m
+[ 81%] Built target force_torque_sensor_broadcaster
+[35m[1mScanning dependencies of target test_force_torque_sensor_broadcaster[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/test_force_torque_sensor_broadcaster.dir/test/test_force_torque_sensor_broadcaster.cpp.o[0m
+[100%] [32m[1mLinking CXX executable test_force_torque_sensor_broadcaster[0m
+[100%] Built target test_force_torque_sensor_broadcaster

@@ -1,0 +1,22 @@
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found cartesian_controller_base: 0.0.0 (/home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/share/cartesian_controller_base/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+-- Found interactive_markers: 2.1.3 (/opt/ros/foxy/share/interactive_markers/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/d-lab/workspace/ros_ur_driver/build/cartesian_controller_handles
+[35m[1mScanning dependencies of target cartesian_controller_handles[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/cartesian_controller_handles.dir/src/motion_control_handle.cpp.o[0m
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_controller_handles/src/motion_control_handle.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::return_type cartesian_controller_handles::MotionControlHandle::init(const string&)[m[K’:
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_controller_handles/src/motion_control_handle.cpp:140:85:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Krclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn[m[K’ to ‘[01m[Kcontroller_interface::return_type[m[K’ in return
+  140 |   return rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn::[01;31m[KSUCCESS[m[K;
+      |                                                                                     [01;31m[K^~~~~~~[m[K
+make[2]: *** [CMakeFiles/cartesian_controller_handles.dir/build.make:63: CMakeFiles/cartesian_controller_handles.dir/src/motion_control_handle.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/cartesian_controller_handles.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

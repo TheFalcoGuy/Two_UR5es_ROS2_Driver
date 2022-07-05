@@ -1,5 +1,5 @@
 set(_AMENT_PACKAGE_NAME "imu_sensor_broadcaster")
-set(imu_sensor_broadcaster_VERSION "0.7.0")
+set(imu_sensor_broadcaster_VERSION "0.8.0")
 set(imu_sensor_broadcaster_MAINTAINER "Bence Magyar <bence.magyar.robotics@gmail.com>, Denis Štogl <denis@stogl.de>, Victor Lopez <victor.lopez@pal-robotics.com>")
 set(imu_sensor_broadcaster_BUILD_DEPENDS "controller_interface" "hardware_interface" "pluginlib" "rclcpp" "rclcpp_lifecycle" "realtime_tools" "sensor_msgs")
 set(imu_sensor_broadcaster_BUILDTOOL_DEPENDS "ament_cmake")

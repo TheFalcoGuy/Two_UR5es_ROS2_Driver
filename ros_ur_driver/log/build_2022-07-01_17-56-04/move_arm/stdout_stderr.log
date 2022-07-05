@@ -1,0 +1,25 @@
+[35m[1mScanning dependencies of target move_to_point[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/move_to_point.dir/src/move_to_point.cpp.o[0m
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_to_point.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_to_point.cpp:149:44:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kgeometry_msgs::msg::Pose[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} and ‘[01m[Kgeometry_msgs::msg::PoseStamped[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’})
+  149 |   target_pose1 = move_group.getCurrentPose([01;31m[K)[m[K;
+      |                                            [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/geometry_msgs/msg/pose.hpp:7[m[K,
+                 from [01m[K/opt/ros/foxy/include/moveit/kinematics_base/kinematics_base.h:39[m[K,
+                 from [01m[K/opt/ros/foxy/include/moveit/robot_model/joint_model_group.h:42[m[K,
+                 from [01m[K/opt/ros/foxy/include/moveit/robot_model/robot_model.h:45[m[K,
+                 from [01m[K/opt/ros/foxy/include/moveit/robot_state/robot_state.h:40[m[K,
+                 from [01m[K/opt/ros/foxy/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+                 from [01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_to_point.cpp:38[m[K:
+[01m[K/opt/ros/foxy/include/geometry_msgs/msg/detail/pose__struct.hpp:37:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr geometry_msgs::msg::Pose_<std::allocator<void> >& geometry_msgs::msg::Pose_<std::allocator<void> >::operator=(const geometry_msgs::msg::Pose_<std::allocator<void> >&)[m[K’
+   37 | struct [01;36m[KPose_[m[K
+      |        [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/foxy/include/geometry_msgs/msg/detail/pose__struct.hpp:37:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kgeometry_msgs::msg::PoseStamped[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’} to ‘[01m[Kconst geometry_msgs::msg::Pose_<std::allocator<void> >&[m[K’
+[01m[K/opt/ros/foxy/include/geometry_msgs/msg/detail/pose__struct.hpp:37:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr geometry_msgs::msg::Pose_<std::allocator<void> >& geometry_msgs::msg::Pose_<std::allocator<void> >::operator=(geometry_msgs::msg::Pose_<std::allocator<void> >&&)[m[K’
+[01m[K/opt/ros/foxy/include/geometry_msgs/msg/detail/pose__struct.hpp:37:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kgeometry_msgs::msg::PoseStamped[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’} to ‘[01m[Kgeometry_msgs::msg::Pose_<std::allocator<void> >&&[m[K’
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_to_point.cpp:150:15:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kgeometry_msgs::msg::Pose[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Pose_<std::allocator<void> >[m[K’}
+  150 |   target_pose1[01;31m[K->[m[Kpose->orientation.x += 0.1;
+      |               [01;31m[K^~[m[K
+make[2]: *** [CMakeFiles/move_to_point.dir/build.make:63: CMakeFiles/move_to_point.dir/src/move_to_point.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/move_to_point.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,9 @@
+make[2]: *** [CMakeFiles/test_load_joint_trajectory_controller.dir/build.make:63: CMakeFiles/test_load_joint_trajectory_controller.dir/test/test_load_joint_trajectory_controller.cpp.o] Interrupt
+make[2]: *** wait: No child processes.  Stop.
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** wait: No child processes.  Stop.
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/joint_trajectory_controller.dir/all] Error 2
+make[1]: *** wait: No child processes.  Stop.
+make[1]: *** Waiting for unfinished jobs....
+make[1]: *** wait: No child processes.  Stop.
+make: *** [Makefile:141: all] Error 2

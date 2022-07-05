@@ -1,0 +1,44 @@
+[35m[1mScanning dependencies of target cartesian_compliance_controller[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/cartesian_compliance_controller.dir/src/cartesian_compliance_controller.cpp.o[0m
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/src/cartesian_compliance_controller.cpp:[m[K In member function ‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn cartesian_compliance_controller::CartesianComplianceController::on_configure(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/src/cartesian_compliance_controller.cpp:92:65:[m[K [01;31m[Kerror: [m[Kcannot call member function ‘[01m[Kvoid cartesian_force_controller::CartesianForceController::setFtSensorReferenceFrame(const string&)[m[K’ without object
+   92 |   ForceBase::setFtSensorReferenceFrame(Base::m_end_effector_link[01;31m[K)[m[K;
+      |                                                                 [01;31m[K^[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/src/cartesian_compliance_controller.cpp:[m[K In member function ‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn cartesian_compliance_controller::CartesianComplianceController::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/src/cartesian_compliance_controller.cpp:100:41:[m[K [01;31m[Kerror: [m[Kcannot call member function ‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn cartesian_motion_controller::CartesianMotionController::on_activate(const rclcpp_lifecycle::State&)[m[K’ without object
+  100 |   MotionBase::on_activate(previous_state[01;31m[K)[m[K;
+      |                                         [01;31m[K^[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/src/cartesian_compliance_controller.cpp:101:40:[m[K [01;31m[Kerror: [m[Kcannot call member function ‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn cartesian_force_controller::CartesianForceController::on_activate(const rclcpp_lifecycle::State&)[m[K’ without object
+  101 |   ForceBase::on_activate(previous_state[01;31m[K)[m[K;
+      |                                        [01;31m[K^[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/src/cartesian_compliance_controller.cpp:[m[K In member function ‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn cartesian_compliance_controller::CartesianComplianceController::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/src/cartesian_compliance_controller.cpp:109:96:[m[K [01;31m[Kerror: [m[Kcannot call member function ‘[01m[Kvoid cartesian_controller_base::CartesianControllerBase::computeJointControlCmds(const Vector6D&, const rclcpp::Duration&)[m[K’ without object
+  109 |   MotionBase::computeJointControlCmds(ctrl::Vector6D::Zero(), rclcpp::Duration::from_seconds(0)[01;31m[K)[m[K;
+      |                                                                                                [01;31m[K^[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/src/cartesian_compliance_controller.cpp:110:37:[m[K [01;31m[Kerror: [m[Kcannot call member function ‘[01m[Kvoid cartesian_controller_base::CartesianControllerBase::writeJointControlCmds()[m[K’ without object
+  110 |   MotionBase::writeJointControlCmds([01;31m[K)[m[K;
+      |                                     [01;31m[K^[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/src/cartesian_compliance_controller.cpp:111:43:[m[K [01;31m[Kerror: [m[Kcannot call member function ‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn cartesian_motion_controller::CartesianMotionController::on_deactivate(const rclcpp_lifecycle::State&)[m[K’ without object
+  111 |   MotionBase::on_deactivate(previous_state[01;31m[K)[m[K;
+      |                                           [01;31m[K^[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/src/cartesian_compliance_controller.cpp:112:95:[m[K [01;31m[Kerror: [m[Kcannot call member function ‘[01m[Kvoid cartesian_controller_base::CartesianControllerBase::computeJointControlCmds(const Vector6D&, const rclcpp::Duration&)[m[K’ without object
+  112 |   ForceBase::computeJointControlCmds(ctrl::Vector6D::Zero(), rclcpp::Duration::from_seconds(0)[01;31m[K)[m[K;
+      |                                                                                               [01;31m[K^[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/src/cartesian_compliance_controller.cpp:113:36:[m[K [01;31m[Kerror: [m[Kcannot call member function ‘[01m[Kvoid cartesian_controller_base::CartesianControllerBase::writeJointControlCmds()[m[K’ without object
+  113 |   ForceBase::writeJointControlCmds([01;31m[K)[m[K;
+      |                                    [01;31m[K^[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/src/cartesian_compliance_controller.cpp:114:42:[m[K [01;31m[Kerror: [m[Kcannot call member function ‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn cartesian_force_controller::CartesianForceController::on_deactivate(const rclcpp_lifecycle::State&)[m[K’ without object
+  114 |   ForceBase::on_deactivate(previous_state[01;31m[K)[m[K;
+      |                                          [01;31m[K^[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/src/cartesian_compliance_controller.cpp:[m[K At global scope:
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/src/cartesian_compliance_controller.cpp:151:16:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kctrl::Vector6D cartesian_compliance_controller::CartesianComplianceController::computeMotionError()[m[K’
+  151 | ctrl::Vector6D [01;31m[KCartesianComplianceController[m[K::
+      |                [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/src/cartesian_compliance_controller.cpp:151:16:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kctrl::Vector6D cartesian_compliance_controller::CartesianComplianceController::computeMotionError()[m[K’
+In file included from [01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/src/cartesian_compliance_controller.cpp:45[m[K:
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.h:77:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass cartesian_compliance_controller::CartesianComplianceController[m[K’ defined here
+   77 | class [01;36m[KCartesianComplianceController[m[K : public virtual cartesian_controller_base::CartesianControllerBase
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/cartesian_compliance_controller.dir/build.make:63: CMakeFiles/cartesian_compliance_controller.dir/src/cartesian_compliance_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:105: CMakeFiles/cartesian_compliance_controller.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

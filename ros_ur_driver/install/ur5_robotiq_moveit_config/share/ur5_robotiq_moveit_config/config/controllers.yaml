@@ -1,5 +1,7 @@
 controller_names:
   - joint_trajectory_controller
+  - cartesian_compliance_controller
+  - cartesian_force_controller
 
 joint_trajectory_controller:
     action_ns: follow_joint_trajectory

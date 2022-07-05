@@ -1,5 +1,5 @@
 set(_AMENT_PACKAGE_NAME "gripper_controllers")
-set(gripper_controllers_VERSION "0.7.0")
+set(gripper_controllers_VERSION "0.8.0")
 set(gripper_controllers_MAINTAINER "Bence Magyar <bence.magyar.robotics@gmail.com>")
 set(gripper_controllers_BUILD_DEPENDS "pluginlib" "control_msgs" "control_toolbox" "controller_interface" "hardware_interface" "rclcpp" "rclcpp_action" "realtime_tools")
 set(gripper_controllers_BUILDTOOL_DEPENDS "ament_cmake")

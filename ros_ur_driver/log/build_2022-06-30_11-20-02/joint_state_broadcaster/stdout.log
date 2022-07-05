@@ -1,0 +1,4 @@
+[ 18%] Built target gmock_main
+[ 45%] Built target gmock
+[ 54%] [32mBuilding CXX object CMakeFiles/joint_state_broadcaster.dir/src/joint_state_broadcaster.cpp.o[0m
+[ 72%] Built target test_load_joint_state_broadcaster

@@ -1,0 +1,156 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found pluginlib: 2.5.4 (/opt/ros/foxy/share/pluginlib/cmake)
+-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0")  
+-- Found ament_cmake_cppcheck: 0.9.6 (/opt/ros/foxy/share/ament_cmake_cppcheck/cmake)
+-- Found ament_cmake_cpplint: 0.9.6 (/opt/ros/foxy/share/ament_cmake_cpplint/cmake)
+-- Found ament_cmake_uncrustify: 0.9.6 (/opt/ros/foxy/share/ament_cmake_uncrustify/cmake)
+-- Found ament_cmake_xmllint: 0.9.6 (/opt/ros/foxy/share/ament_cmake_xmllint/cmake)
+-- Found ament_cmake_gtest: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Check if compiler accepts -pthread
+-- Check if compiler accepts -pthread - yes
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/d-lab/workspace/ros_ur_driver/build/filters
+[35m[1mScanning dependencies of target gtest[0m
+[35m[1mScanning dependencies of target params[0m
+[35m[1mScanning dependencies of target gtest_main[0m
+[35m[1mScanning dependencies of target increment[0m
+[35m[1mScanning dependencies of target transfer_function[0m
+[35m[1mScanning dependencies of target median[0m
+[35m[1mScanning dependencies of target mean[0m
+[  3%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[  7%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/median.dir/src/median.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/increment.dir/src/increment.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/params.dir/src/test_params.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/mean.dir/src/mean.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/transfer_function.dir/src/transfer_function.cpp.o[0m
+[ 30%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 30%] Built target gtest_main
+[ 34%] [32m[1mLinking CXX shared library libincrement.so[0m
+[ 38%] [32m[1mLinking CXX shared library libparams.so[0m
+[34m[1mCopying target increment for testing[0m
+[ 38%] Built target increment
+[ 38%] Built target params
+[35m[1mScanning dependencies of target copy_increment_for_testing[0m
+[ 38%] Built target copy_increment_for_testing
+[ 42%] [32m[1mLinking CXX shared library libtransfer_function.so[0m
+[34m[1mCopying target transfer_function for testing[0m
+[ 42%] Built target transfer_function
+[35m[1mScanning dependencies of target copy_transfer_function_for_testing[0m
+[ 42%] Built target copy_transfer_function_for_testing
+[ 46%] [32m[1mLinking CXX shared library libmedian.so[0m
+[ 50%] [32m[1mLinking CXX shared library libmean.so[0m
+[34m[1mCopying target median for testing[0m
+[34m[1mCopying target mean for testing[0m
+[ 50%] Built target median
+[ 50%] Built target mean
+[35m[1mScanning dependencies of target copy_median_for_testing[0m
+[35m[1mScanning dependencies of target copy_mean_for_testing[0m
+[ 50%] Built target copy_median_for_testing
+[ 50%] Built target copy_mean_for_testing
+[ 53%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 53%] Built target gtest
+[35m[1mScanning dependencies of target params_test[0m
+[35m[1mScanning dependencies of target realtime_buffer_test[0m
+[35m[1mScanning dependencies of target chain_test[0m
+[35m[1mScanning dependencies of target median_test[0m
+[35m[1mScanning dependencies of target transfer_function_test[0m
+[35m[1mScanning dependencies of target mean_test[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/realtime_buffer_test.dir/test/test_realtime_circular_buffer.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/median_test.dir/test/test_median.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/mean_test.dir/test/test_mean.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/params_test.dir/test/test_params.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/chain_test.dir/test/test_chain.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/transfer_function_test.dir/test/test_transfer_function.cpp.o[0m
+[ 80%] [32m[1mLinking CXX executable realtime_buffer_test[0m
+[ 80%] Built target realtime_buffer_test
+[ 84%] [32m[1mLinking CXX executable mean_test[0m
+[ 88%] [32m[1mLinking CXX executable params_test[0m
+[ 92%] [32m[1mLinking CXX executable transfer_function_test[0m
+[ 96%] [32m[1mLinking CXX executable median_test[0m
+[ 96%] Built target mean_test
+[ 96%] Built target params_test
+[ 96%] Built target transfer_function_test
+[ 96%] Built target median_test
+[100%] [32m[1mLinking CXX executable chain_test[0m
+[100%] Built target chain_test
+-- Install configuration: ""
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/filters/lib/libmean.so
+-- Set runtime path of "/home/d-lab/workspace/ros_ur_driver/install/filters/lib/libmean.so" to ""
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/filters/lib/libincrement.so
+-- Set runtime path of "/home/d-lab/workspace/ros_ur_driver/install/filters/lib/libincrement.so" to ""
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/filters/lib/libmedian.so
+-- Set runtime path of "/home/d-lab/workspace/ros_ur_driver/install/filters/lib/libmedian.so" to ""
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/filters/lib/libtransfer_function.so
+-- Set runtime path of "/home/d-lab/workspace/ros_ur_driver/install/filters/lib/libtransfer_function.so" to ""
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/filters/include
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/filters/include/filters
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/filters/include/filters/median.hpp
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/filters/include/filters/filter_chain.hpp
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/filters/include/filters/filter_chain.h
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/filters/include/filters/mean.h
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/filters/include/filters/param_test.h
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/filters/include/filters/mean.hpp
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/filters/include/filters/median.h
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/filters/include/filters/param_test.hpp
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/filters/include/filters/realtime_circular_buffer.h
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/filters/include/filters/increment.h
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/filters/include/filters/transfer_function.h
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/filters/include/filters/filter_base.hpp
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/filters/include/filters/filter_base.h
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/filters/include/filters/increment.hpp
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/filters/include/filters/realtime_circular_buffer.hpp
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/filters/include/filters/transfer_function.hpp
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/filters/share/filters/default_plugins.xml
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/filters/share/ament_index/resource_index/package_run_dependencies/filters
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/filters/share/ament_index/resource_index/parent_prefix_path/filters
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/filters/share/filters/environment/ament_prefix_path.sh
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/filters/share/filters/environment/ament_prefix_path.dsv
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/filters/share/filters/environment/path.sh
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/filters/share/filters/environment/path.dsv
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/filters/share/filters/local_setup.bash
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/filters/share/filters/local_setup.sh
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/filters/share/filters/local_setup.zsh
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/filters/share/filters/local_setup.dsv
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/filters/share/filters/package.dsv
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/filters/share/ament_index/resource_index/packages/filters
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/filters/share/ament_index/resource_index/filters__pluginlib__plugin/filters
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/filters/share/filters/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/filters/share/filters/cmake/filtersConfig.cmake
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/filters/share/filters/cmake/filtersConfig-version.cmake
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/filters/share/filters/package.xml

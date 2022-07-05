@@ -1,0 +1,131 @@
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found moveit: 2.2.3 (/opt/ros/foxy/share/moveit/cmake)
+-- Found moveit_msgs: 2.1.0 (/opt/ros/foxy/share/moveit_msgs/cmake)
+-- Found eigen3_cmake_module: 0.2.0 (/home/d-lab/workspace/ros_ur_driver/install/eigen3_cmake_module/share/eigen3_cmake_module/cmake)
+-- Found moveit_ros_planning_interface: 2.2.3 (/opt/ros/foxy/share/moveit_ros_planning_interface/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0")  
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: date_time filesystem program_options system thread 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: filesystem 
+-- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system filesystem date_time program_options thread chrono 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: thread 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: thread system filesystem regex date_time program_options 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system filesystem date_time program_options thread 
+-- Found moveit_visual_tools: 4.0.0 (/home/d-lab/workspace/ros_ur_driver/install/moveit_visual_tools/share/moveit_visual_tools/cmake)
+-- Setting OGRE_DIR to: '/opt/ros/foxy/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+-- Found OGRE
+--   static     : OFF
+--   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+--   media      : /opt/ros/foxy/opt/rviz_ogre_vendor/share/OGRE/Media
+-- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+-- OGRE_LIBRARY_DIRS: /opt/ros/foxy/opt/rviz_ogre_vendor/lib
+-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+-- OGRE_PLUGIN_DIR: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/OGRE
+-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+-- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+-- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+-- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+-- Found move_arm_interfaces: 0.0.0 (/home/d-lab/workspace/ros_ur_driver/install/move_arm_interfaces/share/move_arm_interfaces/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/d-lab/workspace/ros_ur_driver/build/move_arm
+[35m[1mScanning dependencies of target server[0m
+[  2%] Built target move_arm__cpp
+[ 11%] Built target move_arm__rosidl_generator_c
+[ 14%] [32mBuilding CXX object CMakeFiles/server.dir/src/move_arm_server.cpp.o[0m
+[ 20%] Built target move_to_point
+[ 34%] Built target move_arm__rosidl_typesupport_introspection_cpp
+[ 37%] Built target move_arm__rosidl_typesupport_cpp
+[ 45%] Built target move_arm__rosidl_typesupport_introspection_c
+[ 54%] Built target move_arm__rosidl_typesupport_fastrtps_cpp
+[ 62%] Built target move_arm__rosidl_typesupport_c
+[ 71%] Built target move_arm__rosidl_typesupport_fastrtps_c
+[ 71%] Built target move_arm
+[ 74%] Built target move_arm__py
+[ 80%] Built target move_arm__python
+[ 97%] Built target move_arm__rosidl_typesupport_introspection_c__pyext
+[ 97%] Built target move_arm__rosidl_typesupport_fastrtps_c__pyext
+[ 97%] Built target move_arm__rosidl_typesupport_c__pyext
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_arm_server.cpp:[m[K In function ‘[01m[Kvoid add(std::shared_ptr<move_arm_interfaces::srv::MoveArm_Request_<std::allocator<void> > >, std::shared_ptr<move_arm_interfaces::srv::MoveArm_Request_<std::allocator<void> > >)[m[K’:
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_arm_server.cpp:10:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct move_arm_interfaces::srv::MoveArm_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct move_arm_interfaces::srv::MoveArm_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ksuccess[m[K’
+   10 |   response->[01;31m[Ksuccess[m[K = true;
+      |             [01;31m[K^~~~~~~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_arm_server.cpp:7:76:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+    7 | void add([01;35m[Kconst std::shared_ptr<move_arm_interfaces::srv::MoveArm::Request> request[m[K,
+      |          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:40[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:1224[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_arm_server.cpp:1[m[K:
+/opt/ros/foxy/include/rclcpp/create_service.hpp: In instantiation of ‘[01m[Ktypename rclcpp::Service<ServiceT>::SharedPtr rclcpp::create_service(std::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>, std::shared_ptr<rclcpp::node_interfaces::NodeServicesInterface>, const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = move_arm_interfaces::srv::MoveArm; CallbackT = void (*)(std::shared_ptr<move_arm_interfaces::srv::MoveArm_Request_<std::allocator<void> > >, std::shared_ptr<move_arm_interfaces::srv::MoveArm_Request_<std::allocator<void> > >); typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<move_arm_interfaces::srv::MoveArm> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_t; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>][m[K’:
+[01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:146:53:[m[K   required from ‘[01m[Ktypename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = move_arm_interfaces::srv::MoveArm; CallbackT = void (*)(std::shared_ptr<move_arm_interfaces::srv::MoveArm_Request_<std::allocator<void> > >, std::shared_ptr<move_arm_interfaces::srv::MoveArm_Request_<std::allocator<void> > >); typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<move_arm_interfaces::srv::MoveArm> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_t; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>][m[K’
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_arm_server.cpp:20:81:[m[K   required from here
+[01m[K/opt/ros/foxy/include/rclcpp/create_service.hpp:43:3:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::AnyServiceCallback<move_arm_interfaces::srv::MoveArm>::set(void (*)(std::shared_ptr<move_arm_interfaces::srv::MoveArm_Request_<std::allocator<void> > >, std::shared_ptr<move_arm_interfaces::srv::MoveArm_Request_<std::allocator<void> > >))[m[K’
+   43 |   [01;31m[Kany_service_callback[m[K.set(std::forward<CallbackT>(callback));
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:28[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_arm_server.cpp:1[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/any_service_callback.hpp:67:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_ptr<move_arm_interfaces::srv::MoveArm_Request_<std::allocator<void> > >, std::shared_ptr<move_arm_interfaces::srv::MoveArm_Response_<std::allocator<void> > >)> >::value, void>::type* <anonymous> > void rclcpp::AnyServiceCallback<ServiceT>::set(CallbackT) [with CallbackT = CallbackT; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_ptr<typename ServiceT::Request>, std::shared_ptr<typename ServiceT::Response>)> >::value>::type* <anonymous> = <enumerator>; ServiceT = move_arm_interfaces::srv::MoveArm][m[K’
+   67 |   void [01;36m[Kset[m[K(CallbackT callback)
+      |        [01;36m[K^~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/any_service_callback.hpp:67:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/opt/ros/foxy/include/rclcpp/any_service_callback.hpp:65:17:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, void>[m[K’
+   65 |     >::type * = [01;31m[Knullptr[m[K
+      |                 [01;31m[K^~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/any_service_callback.hpp:81:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_ptr<rmw_request_id_t>, std::shared_ptr<move_arm_interfaces::srv::MoveArm_Request_<std::allocator<void> > >, std::shared_ptr<move_arm_interfaces::srv::MoveArm_Response_<std::allocator<void> > >)> >::value, void>::type* <anonymous> > void rclcpp::AnyServiceCallback<ServiceT>::set(CallbackT) [with CallbackT = CallbackT; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_ptr<rmw_request_id_t>, std::shared_ptr<typename ServiceT::Request>, std::shared_ptr<typename ServiceT::Response>)> >::value>::type* <anonymous> = <enumerator>; ServiceT = move_arm_interfaces::srv::MoveArm][m[K’
+   81 |   void [01;36m[Kset[m[K(CallbackT callback)
+      |        [01;36m[K^~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/any_service_callback.hpp:81:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/opt/ros/foxy/include/rclcpp/any_service_callback.hpp:79:17:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, void>[m[K’
+   79 |     >::type * = [01;31m[Knullptr[m[K
+      |                 [01;31m[K^~~~~~~[m[K
+make[2]: *** [CMakeFiles/server.dir/build.make:63: CMakeFiles/server.dir/src/move_arm_server.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:443: CMakeFiles/server.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

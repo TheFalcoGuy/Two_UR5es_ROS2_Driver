@@ -1,0 +1,4 @@
+[ 82%] Built target urcl
+[ 88%] Built target primary_pipeline_example
+[ 94%] Built target driver_example
+[100%] Built target rtde_client_example

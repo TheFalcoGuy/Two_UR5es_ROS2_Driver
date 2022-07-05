@@ -1,0 +1,82 @@
+[0.018s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/cartesian_controller_base': AMENT_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/controller_interface:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/controller_interface:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/d-lab/workspace/ros_ur_driver/install/controller_interface/lib:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface/lib:/home/d-lab/workspace/ros_ur_driver/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/d-lab/workspace/ros_ur_driver/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/cartesian_controller_base -- -j16 -l16
+[0.041s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.057s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.186s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.210s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.212s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.312s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.369s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.371s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.487s] -- Found controller_interface: 0.10.0 (/home/d-lab/workspace/ros_ur_driver/install/controller_interface/share/controller_interface/cmake)
+[0.994s] -- Found kdl_parser: 2.4.1 (/opt/ros/foxy/share/kdl_parser/cmake)
+[0.995s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[0.999s] -- Found urdf: 2.4.0 (/opt/ros/foxy/share/urdf/cmake)
+[1.099s] -- Configuring done
+[1.137s] -- Generating done
+[1.138s] -- Build files have been written to: /home/d-lab/workspace/ros_ur_driver/build/cartesian_controller_base
+[1.164s] [35m[1mScanning dependencies of target cartesian_controller_base[0m
+[1.167s] [35m[1mScanning dependencies of target ik_solvers[0m
+[1.213s] [  9%] [32mBuilding CXX object CMakeFiles/cartesian_controller_base.dir/src/SpatialPDController.cpp.o[0m
+[1.213s] [ 18%] [32mBuilding CXX object CMakeFiles/cartesian_controller_base.dir/src/PDController.cpp.o[0m
+[1.213s] [ 27%] [32mBuilding CXX object CMakeFiles/cartesian_controller_base.dir/src/cartesian_controller_base.cpp.o[0m
+[1.213s] [ 36%] [32mBuilding CXX object CMakeFiles/cartesian_controller_base.dir/src/IKSolver.cpp.o[0m
+[1.219s] [ 45%] [32mBuilding CXX object CMakeFiles/ik_solvers.dir/src/IKSolver.cpp.o[0m
+[1.220s] [ 54%] [32mBuilding CXX object CMakeFiles/ik_solvers.dir/src/ForwardDynamicsSolver.cpp.o[0m
+[1.222s] [ 63%] [32mBuilding CXX object CMakeFiles/ik_solvers.dir/src/JacobianTransposeSolver.cpp.o[0m
+[1.223s] [ 72%] [32mBuilding CXX object CMakeFiles/ik_solvers.dir/src/DampedLeastSquaresSolver.cpp.o[0m
+[1.224s] [ 81%] [32mBuilding CXX object CMakeFiles/ik_solvers.dir/src/SelectivelyDampedLeastSquaresSolver.cpp.o[0m
+[3.034s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_controller_base/src/IKSolver.cpp:[m[K In member function ‘[01m[Kbool cartesian_controller_base::IKSolver::setStartState(const std::vector<std::reference_wrapper<hardware_interface::LoanedStateInterface> >&)[m[K’:
+[3.034s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_controller_base/src/IKSolver.cpp:87:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::reference_wrapper<hardware_interface::LoanedStateInterface> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[3.035s]    87 |     for (int i = 0; [01;35m[Ki < joint_pos_handles.size()[m[K; ++i)
+[3.035s]       |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.120s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_controller_base/src/IKSolver.cpp:[m[K In member function ‘[01m[Kbool cartesian_controller_base::IKSolver::setStartState(const std::vector<std::reference_wrapper<hardware_interface::LoanedStateInterface> >&)[m[K’:
+[3.130s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_controller_base/src/IKSolver.cpp:87:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::reference_wrapper<hardware_interface::LoanedStateInterface> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[3.130s]    87 |     for (int i = 0; [01;35m[Ki < joint_pos_handles.size()[m[K; ++i)
+[3.130s]       |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.616s] [ 90%] [32m[1mLinking CXX shared library libcartesian_controller_base.so[0m
+[6.811s] [ 90%] Built target cartesian_controller_base
+[10.556s] [100%] [32m[1mLinking CXX shared library libik_solvers.so[0m
+[10.959s] [100%] Built target ik_solvers
+[10.968s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/build/cartesian_controller_base' returned '0': AMENT_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/controller_interface:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/controller_interface:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/d-lab/workspace/ros_ur_driver/install/controller_interface/lib:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface/lib:/home/d-lab/workspace/ros_ur_driver/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/d-lab/workspace/ros_ur_driver/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/cartesian_controller_base -- -j16 -l16
+[10.992s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/cartesian_controller_base': AMENT_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/controller_interface:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/controller_interface:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/d-lab/workspace/ros_ur_driver/install/controller_interface/lib:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface/lib:/home/d-lab/workspace/ros_ur_driver/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/d-lab/workspace/ros_ur_driver/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/d-lab/workspace/ros_ur_driver/build/cartesian_controller_base
+[10.998s] -- Install configuration: ""
+[10.998s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/share/cartesian_controller_base/ik_solver_plugin.xml
+[10.998s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/include
+[10.998s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/include/cartesian_controller_base
+[10.998s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/include/cartesian_controller_base/DampedLeastSquaresSolver.h
+[10.998s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/include/cartesian_controller_base/Utility.h
+[10.998s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/include/cartesian_controller_base/SpatialPDController.h
+[10.999s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/include/cartesian_controller_base/ForwardDynamicsSolver.h
+[10.999s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/include/cartesian_controller_base/IKSolver.h
+[10.999s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/include/cartesian_controller_base/SelectivelyDampedLeastSquaresSolver.h
+[10.999s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/include/cartesian_controller_base/cartesian_controller_base.h
+[10.999s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/include/cartesian_controller_base/JacobianTransposeSolver.h
+[10.999s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/include/cartesian_controller_base/ROS2VersionConfig.h.in
+[10.999s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/include/cartesian_controller_base/PDController.h
+[10.999s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/lib/libcartesian_controller_base.so
+[11.001s] -- Set runtime path of "/home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/lib/libcartesian_controller_base.so" to ""
+[11.001s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/lib/libik_solvers.so
+[11.007s] -- Set runtime path of "/home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/lib/libik_solvers.so" to ""
+[11.007s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/include/cartesian_controller_base/ROS2VersionConfig.h
+[11.008s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/share/cartesian_controller_base/environment/library_path.sh
+[11.008s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/share/cartesian_controller_base/environment/library_path.dsv
+[11.008s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/share/ament_index/resource_index/package_run_dependencies/cartesian_controller_base
+[11.008s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/share/ament_index/resource_index/parent_prefix_path/cartesian_controller_base
+[11.008s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/share/cartesian_controller_base/environment/ament_prefix_path.sh
+[11.008s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/share/cartesian_controller_base/environment/ament_prefix_path.dsv
+[11.008s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/share/cartesian_controller_base/environment/path.sh
+[11.008s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/share/cartesian_controller_base/environment/path.dsv
+[11.008s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/share/cartesian_controller_base/local_setup.bash
+[11.008s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/share/cartesian_controller_base/local_setup.sh
+[11.009s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/share/cartesian_controller_base/local_setup.zsh
+[11.009s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/share/cartesian_controller_base/local_setup.dsv
+[11.009s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/share/cartesian_controller_base/package.dsv
+[11.009s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/share/ament_index/resource_index/packages/cartesian_controller_base
+[11.009s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/share/ament_index/resource_index/cartesian_controller_base__pluginlib__plugin/cartesian_controller_base
+[11.010s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/share/cartesian_controller_base/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.010s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/share/cartesian_controller_base/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.010s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/share/cartesian_controller_base/cmake/ament_cmake_export_libraries-extras.cmake
+[11.011s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/share/cartesian_controller_base/cmake/cartesian_controller_baseConfig.cmake
+[11.011s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/share/cartesian_controller_base/cmake/cartesian_controller_baseConfig-version.cmake
+[11.011s] -- Installing: /home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/share/cartesian_controller_base/package.xml
+[11.011s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/build/cartesian_controller_base' returned '0': AMENT_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/controller_interface:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/controller_interface:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/d-lab/workspace/ros_ur_driver/install/controller_interface/lib:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface/lib:/home/d-lab/workspace/ros_ur_driver/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/d-lab/workspace/ros_ur_driver/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/d-lab/workspace/ros_ur_driver/build/cartesian_controller_base

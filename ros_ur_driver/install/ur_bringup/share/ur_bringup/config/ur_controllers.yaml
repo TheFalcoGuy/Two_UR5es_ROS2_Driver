@@ -20,6 +20,11 @@ controller_manager:
     scaled_joint_trajectory_controller:
       type: ur_controllers/ScaledJointTrajectoryController
 
+    cartesian_compliance_controller:
+      type: cartesian_compliance_controller/CartesianComplianceController
+    
+    cartesian_force_controller:
+      type: cartesian_force_controller/CartesianForceController
 
 speed_scaling_state_broadcaster:
   ros__parameters:
@@ -81,4 +86,79 @@ scaled_joint_trajectory_controller:
     allow_partial_joints_goal: false
     constraints:
       stopped_velocity_tolerance: 0.2
+      goal_time: 0.0
+
+
+cartesian_compliance_controller:
+  ros__parameters:
+    end_effector_link: "tool0"
+    robot_base_link: "base_link"
+    ft_sensor_ref_link: "tool0"
+    joints:
+      - shoulder_pan_joint
+      - shoulder_lift_joint
+      - elbow_joint
+      - wrist_1_joint
+      - wrist_2_joint
+      - wrist_3_joint
+      
+    pd_gains:
+        trans_x: {p: -0.02}
+        trans_y: {p: -0.02}
+        trans_z: {p: 0.02}
+        rot_x: {p: 0.01}
+        rot_y: {p: 0.01}
+        rot_z: {p: 0.01}
+    
+    stiffness:  # w.r.t. compliance_ref_link
+        trans_x: 40.0
+        trans_y: 50.0
+        trans_z: 40.0
+        rot_x: 10.0
+        rot_y: 10.0
+        rot_z: 10.0
+    
+    command_interfaces:
+      - position
+    state_interfaces:
+      - position
+      - velocity
+    state_publish_rate: 100.0
+    action_monitor_rate: 20.0
+    allow_partial_joints_goal: false
+    constraints:
+      stopped_velocity_tolerance: 0.0
+      goal_time: 0.0
+
+cartesian_force_controller:
+  ros__parameters:
+    end_effector_link: "tool0"
+    robot_base_link: "base_link"
+    ft_sensor_ref_link: "tool0"
+    joints:
+      - shoulder_pan_joint
+      - shoulder_lift_joint
+      - elbow_joint
+      - wrist_1_joint
+      - wrist_2_joint
+      - wrist_3_joint
+      
+    pd_gains:
+        trans_x: {p: 0.05}
+        trans_y: {p: 0.05}
+        trans_z: {p: 0.05}
+        rot_x: {p: 0.01}
+        rot_y: {p: 0.01}
+        rot_z: {p: 0.01}
+
+    command_interfaces:
+      - position
+    state_interfaces:
+      - position
+      - velocity
+    state_publish_rate: 100.0
+    action_monitor_rate: 20.0
+    allow_partial_joints_goal: false
+    constraints:
+      stopped_velocity_tolerance: 0.0
       goal_time: 0.0

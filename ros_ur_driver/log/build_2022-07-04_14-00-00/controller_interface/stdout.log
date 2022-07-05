@@ -1,0 +1,7 @@
+[ 13%] Built target gmock_main
+[ 33%] Built target gmock
+[ 46%] Built target controller_interface
+[ 60%] Built target test_imu_sensor
+[ 73%] Built target test_semantic_component_interface
+[ 86%] Built target test_force_torque_sensor
+[100%] Built target test_controller_with_options

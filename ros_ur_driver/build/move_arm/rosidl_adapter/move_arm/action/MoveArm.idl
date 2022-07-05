@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from move_arm/action/MoveArm.action
+// generated code does not contain a copyright notice
+
+
+module move_arm {
+  module action {
+    struct MoveArm_Goal {
+      sequence<float> pose;
+    };
+    struct MoveArm_Result {
+      boolean success;
+    };
+    struct MoveArm_Feedback {
+      sequence<float> joint_angles;
+    };
+  };
+};

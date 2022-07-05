@@ -1,0 +1,5 @@
+[ 25%] Built target gmock
+[ 41%] Built target gmock_main
+[ 50%] [32mBuilding CXX object CMakeFiles/admittance_controller.dir/src/moveit_kinematics.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/admittance_controller.dir/src/admittance_controller.cpp.o[0m
+[ 75%] Built target test_load_admittance_controller

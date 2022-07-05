@@ -1,0 +1,2 @@
+source;share/cartesian_controller_examples/environment/ament_prefix_path.sh
+source;share/cartesian_controller_examples/environment/path.sh

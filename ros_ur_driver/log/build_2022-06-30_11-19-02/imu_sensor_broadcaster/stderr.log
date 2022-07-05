@@ -1,0 +1,8 @@
+In file included from [01m[K/home/d-lab/workspace/ros_ur_driver/src/ros2_controllers/imu_sensor_broadcaster/src/imu_sensor_broadcaster.cpp:19[m[K:
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/ros2_controllers/imu_sensor_broadcaster/include/imu_sensor_broadcaster/imu_sensor_broadcaster.hpp:47:48:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn imu_sensor_broadcaster::IMUSensorBroadcaster::on_init()[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+   47 |   IMU_SENSOR_BROADCASTER_PUBLIC CallbackReturn [01;31m[Kon_init[m[K() override;
+      |                                                [01;31m[K^~~~~~~[m[K
+make[2]: *** [CMakeFiles/imu_sensor_broadcaster.dir/build.make:63: CMakeFiles/imu_sensor_broadcaster.dir/src/imu_sensor_broadcaster.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:182: CMakeFiles/imu_sensor_broadcaster.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:141: all] Error 2

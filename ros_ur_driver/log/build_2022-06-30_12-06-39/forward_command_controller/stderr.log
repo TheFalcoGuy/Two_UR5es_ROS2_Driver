@@ -1,0 +1,5 @@
+make[2]: *** [CMakeFiles/forward_command_controller.dir/build.make:63: CMakeFiles/forward_command_controller.dir/src/forward_command_controller.cpp.o] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/forward_command_controller.dir/all] Interrupt
+make[2]: *** [CMakeFiles/test_load_forward_command_controller.dir/build.make:63: CMakeFiles/test_load_forward_command_controller.dir/test/test_load_forward_command_controller.cpp.o] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:126: CMakeFiles/test_load_forward_command_controller.dir/all] Interrupt
+make: *** [Makefile:141: all] Interrupt

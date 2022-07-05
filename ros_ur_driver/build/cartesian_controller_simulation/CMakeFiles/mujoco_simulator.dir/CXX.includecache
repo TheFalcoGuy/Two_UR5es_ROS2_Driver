@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_controller_simulation/include/cartesian_controller_simulation/mujoco_simulator.h
+cstdio
+-
+cstring
+-
+string
+-
+vector
+-
+mutex
+-
+mujoco.h
+/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_controller_simulation/include/cartesian_controller_simulation/mujoco.h
+
+/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_controller_simulation/src/mujoco_simulator.cpp
+cartesian_controller_simulation/mujoco_simulator.h
+/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_controller_simulation/src/cartesian_controller_simulation/mujoco_simulator.h
+memory
+-
+

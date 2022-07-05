@@ -1,0 +1,23 @@
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+CMake Error at CMakeLists.txt:20 (find_package):
+  By not providing "Findmove_arm_interfaces.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "move_arm_interfaces", but CMake did not find one.
+
+  Could not find a package configuration file provided by
+  "move_arm_interfaces" with any of the following names:
+
+    move_arm_interfacesConfig.cmake
+    move_arm_interfaces-config.cmake
+
+  Add the installation prefix of "move_arm_interfaces" to CMAKE_PREFIX_PATH
+  or set "move_arm_interfaces_DIR" to a directory containing one of the above
+  files.  If "move_arm_interfaces" provides a separate development package or
+  SDK, be sure it has been installed.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/d-lab/workspace/ros_ur_driver/build/action_tutorials_cpp/CMakeFiles/CMakeOutput.log".
+See also "/home/d-lab/workspace/ros_ur_driver/build/action_tutorials_cpp/CMakeFiles/CMakeError.log".
+make: *** [Makefile:310: cmake_check_build_system] Error 1

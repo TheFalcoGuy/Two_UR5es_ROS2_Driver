@@ -1,0 +1,80 @@
+[35m[1mScanning dependencies of target move_to_point[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/move_to_point.dir/src/move_to_point.cpp.o[0m
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_to_point.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_to_point.cpp:152:37:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Ktarget_pose1[m[K’
+  152 |   target_pose1.orientation.y = -0.01
+      |                                     [01;31m[K^[m[K
+      |                                     [32m[K;[m[K
+  153 |   [32m[Ktarget_pose1[m[K.orientation.z = 0.97;
+      |   [32m[K~~~~~~~~~~~~[m[K                       
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/opt/ros/foxy/include/moveit/kinematics_base/kinematics_base.h:42[m[K,
+                 from [01m[K/opt/ros/foxy/include/moveit/robot_model/joint_model_group.h:42[m[K,
+                 from [01m[K/opt/ros/foxy/include/moveit/robot_model/robot_model.h:45[m[K,
+                 from [01m[K/opt/ros/foxy/include/moveit/robot_state/robot_state.h:40[m[K,
+                 from [01m[K/opt/ros/foxy/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+                 from [01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_to_point.cpp:38[m[K:
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_to_point.cpp:190:3:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: First argument to logging macros must be an rclcpp::Logger
+  190 |   [01;31m[KRCLCPP_INFO[m[K("Moving to target pose");
+      |   [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/opt/ros/foxy/include/moveit/kinematics_base/kinematics_base.h:42[m[K,
+                 from [01m[K/opt/ros/foxy/include/moveit/robot_model/joint_model_group.h:42[m[K,
+                 from [01m[K/opt/ros/foxy/include/moveit/robot_model/robot_model.h:45[m[K,
+                 from [01m[K/opt/ros/foxy/include/moveit/robot_state/robot_state.h:40[m[K,
+                 from [01m[K/opt/ros/foxy/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+                 from [01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_to_point.cpp:38[m[K:
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_to_point.cpp:190:3:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kget_name[m[K’ in ‘[01m[K"Moving to target pose"[m[K’, which is of non-class type ‘[01m[Kconst char [22][m[K’
+  190 |   [01;31m[KRCLCPP_INFO[m[K("Moving to target pose");
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_to_point.cpp:190:3:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kget_name[m[K’ in ‘[01m[K"Moving to target pose"[m[K’, which is of non-class type ‘[01m[Kconst char [22][m[K’
+  190 |   [01;31m[KRCLCPP_INFO[m[K("Moving to target pose");
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_to_point.cpp:190:3:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kget_c_string()[m[K’
+  190 |   [01;31m[KRCLCPP_INFO[m[K("Moving to target pose");
+      |   [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:36[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/opt/ros/foxy/include/moveit/kinematics_base/kinematics_base.h:42[m[K,
+                 from [01m[K/opt/ros/foxy/include/moveit/robot_model/joint_model_group.h:42[m[K,
+                 from [01m[K/opt/ros/foxy/include/moveit/robot_model/robot_model.h:45[m[K,
+                 from [01m[K/opt/ros/foxy/include/moveit/robot_state/robot_state.h:40[m[K,
+                 from [01m[K/opt/ros/foxy/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+                 from [01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_to_point.cpp:38[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/utilities.hpp:296:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst char* rclcpp::get_c_string(const char*)[m[K’
+  296 | [01;36m[Kget_c_string[m[K(const char * string_in);
+      | [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/utilities.hpp:296:1:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[01m[K/opt/ros/foxy/include/rclcpp/utilities.hpp:305:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst char* rclcpp::get_c_string(const string&)[m[K’
+  305 | [01;36m[Kget_c_string[m[K(const std::string & string_in);
+      | [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/utilities.hpp:305:1:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+make[2]: *** [CMakeFiles/move_to_point.dir/build.make:63: CMakeFiles/move_to_point.dir/src/move_to_point.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/move_to_point.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

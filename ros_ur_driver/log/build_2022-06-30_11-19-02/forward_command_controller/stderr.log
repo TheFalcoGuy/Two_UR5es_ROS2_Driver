@@ -1,0 +1,19 @@
+In file included from [01m[K/home/d-lab/workspace/ros_ur_driver/src/ros2_controllers/forward_command_controller/include/forward_command_controller/multi_interface_forward_controller.hpp:22[m[K,
+                 from [01m[K/home/d-lab/workspace/ros_ur_driver/src/ros2_controllers/forward_command_controller/src/multi_interface_forward_controller.cpp:15[m[K:
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/ros2_controllers/forward_command_controller/include/forward_command_controller/forward_command_controller.hpp:60:18:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn forward_command_controller::ForwardCommandController::on_init()[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+   60 |   CallbackReturn [01;31m[Kon_init[m[K() override;
+      |                  [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/home/d-lab/workspace/ros_ur_driver/src/ros2_controllers/forward_command_controller/src/multi_interface_forward_controller.cpp:15[m[K:
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/ros2_controllers/forward_command_controller/include/forward_command_controller/multi_interface_forward_controller.hpp:35:18:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn forward_command_controller::MultiInterfaceForwardController::on_init()[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+   35 |   CallbackReturn [01;31m[Kon_init[m[K() override;
+      |                  [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/home/d-lab/workspace/ros_ur_driver/src/ros2_controllers/forward_command_controller/src/forward_command_controller.cpp:15[m[K:
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/ros2_controllers/forward_command_controller/include/forward_command_controller/forward_command_controller.hpp:60:18:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn forward_command_controller::ForwardCommandController::on_init()[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+   60 |   CallbackReturn [01;31m[Kon_init[m[K() override;
+      |                  [01;31m[K^~~~~~~[m[K
+make[2]: *** [CMakeFiles/forward_command_controller.dir/build.make:76: CMakeFiles/forward_command_controller.dir/src/multi_interface_forward_controller.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/forward_command_controller.dir/build.make:63: CMakeFiles/forward_command_controller.dir/src/forward_command_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:183: CMakeFiles/forward_command_controller.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:141: all] Error 2

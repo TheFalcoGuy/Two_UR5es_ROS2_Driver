@@ -1,0 +1,12 @@
+[35m[1mScanning dependencies of target moveArmServer[0m
+[  2%] Built target move_arm__cpp
+[ 11%] Built target move_arm__rosidl_generator_c
+[ 31%] Built target move_arm__rosidl_typesupport_c
+[ 31%] Built target move_arm__rosidl_typesupport_introspection_cpp
+[ 37%] Built target move_arm__rosidl_typesupport_cpp
+[ 42%] Built target move_to_point
+[ 51%] Built target move_arm__rosidl_typesupport_fastrtps_cpp
+[ 60%] Built target move_arm__rosidl_typesupport_introspection_c
+[ 62%] [32mBuilding CXX object CMakeFiles/moveArmServer.dir/src/moveArmServer.cpp.o[0m
+[ 71%] Built target move_arm__rosidl_typesupport_fastrtps_c
+[ 71%] Built target move_arm

@@ -1,0 +1,4 @@
+[ 45%] Built target gmock_main
+[ 45%] Built target gmock
+[ 54%] [32mBuilding CXX object CMakeFiles/force_torque_sensor_broadcaster.dir/src/force_torque_sensor_broadcaster.cpp.o[0m
+[ 72%] Built target test_load_force_torque_sensor_broadcaster

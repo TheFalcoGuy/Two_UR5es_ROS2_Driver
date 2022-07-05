@@ -1,0 +1,17 @@
+[ 11%] Built target gtest_main
+[ 15%] Built target gtest
+[ 23%] Built target transfer_function
+[ 30%] Built target params
+[ 38%] Built target increment
+[ 46%] Built target mean
+[ 53%] Built target median
+[ 61%] Built target realtime_buffer_test
+[ 61%] Built target copy_transfer_function_for_testing
+[ 69%] Built target params_test
+[ 69%] Built target copy_median_for_testing
+[ 69%] Built target copy_increment_for_testing
+[ 76%] Built target transfer_function_test
+[ 76%] Built target copy_mean_for_testing
+[ 84%] Built target median_test
+[ 92%] Built target mean_test
+[100%] Built target chain_test

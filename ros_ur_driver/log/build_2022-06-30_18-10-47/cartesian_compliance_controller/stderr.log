@@ -1,0 +1,11 @@
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/src/cartesian_compliance_controller.cpp:153:16:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kctrl::Vector6D cartesian_compliance_controller::CartesianComplianceController::computeMotionError()[m[K’
+  153 | ctrl::Vector6D [01;31m[KCartesianComplianceController[m[K::
+      |                [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/src/cartesian_compliance_controller.cpp:153:16:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kctrl::Vector6D cartesian_compliance_controller::CartesianComplianceController::computeMotionError()[m[K’
+In file included from [01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/src/cartesian_compliance_controller.cpp:45[m[K:
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/cartesian_controllers/cartesian_compliance_controller/include/cartesian_compliance_controller/cartesian_compliance_controller.h:77:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass cartesian_compliance_controller::CartesianComplianceController[m[K’ defined here
+   77 | class [01;36m[KCartesianComplianceController[m[K : public virtual cartesian_motion_controller::CartesianMotionController,
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/cartesian_compliance_controller.dir/build.make:63: CMakeFiles/cartesian_compliance_controller.dir/src/cartesian_compliance_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:105: CMakeFiles/cartesian_compliance_controller.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

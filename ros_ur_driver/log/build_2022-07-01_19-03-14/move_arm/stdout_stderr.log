@@ -1,0 +1,12 @@
+[35m[1mScanning dependencies of target move_to_point[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/move_to_point.dir/src/move_to_point.cpp.o[0m
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_to_point.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_to_point.cpp:152:37:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Ktarget_pose1[m[K’
+  152 |   target_pose1.orientation.y = -0.01
+      |                                     [01;31m[K^[m[K
+      |                                     [32m[K;[m[K
+  153 |   [32m[Ktarget_pose1[m[K.orientation.z = 0.97;
+      |   [32m[K~~~~~~~~~~~~[m[K                       
+make[2]: *** [CMakeFiles/move_to_point.dir/build.make:63: CMakeFiles/move_to_point.dir/src/move_to_point.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/move_to_point.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

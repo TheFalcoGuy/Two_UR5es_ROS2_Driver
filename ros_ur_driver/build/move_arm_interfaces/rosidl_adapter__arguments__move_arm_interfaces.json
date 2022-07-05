@@ -1,0 +1,6 @@
+{
+  "package_name": "move_arm_interfaces",
+  "non_idl_tuples": [
+    "/home/d-lab/workspace/ros_ur_driver/src/move_arm_interfaces:srv/MoveArm.srv"
+  ]
+}

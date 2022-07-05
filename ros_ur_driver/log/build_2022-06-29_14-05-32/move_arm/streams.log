@@ -1,0 +1,98 @@
+[0.218s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/move_arm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/d-lab/workspace/ros_ur_driver/install/utils:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes:/home/d-lab/workspace/ros_ur_driver/install/robotiq_control:/home/d-lab/workspace/ros_ur_driver/install/gripper_control:/opt/ros/foxy /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/move_arm -- -j16 -l16
+[0.457s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.458s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.458s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.466s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.467s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.612s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.657s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.660s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.760s] -- Found moveit: 2.2.3 (/opt/ros/foxy/share/moveit/cmake)
+[0.760s] -- Found moveit_msgs: 2.1.0 (/opt/ros/foxy/share/moveit_msgs/cmake)
+[1.693s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[1.693s] -- Found moveit_ros_planning_interface: 2.2.3 (/opt/ros/foxy/share/moveit_ros_planning_interface/cmake)
+[1.696s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0")  
+[1.703s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: date_time filesystem program_options system thread 
+[1.743s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.753s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: filesystem 
+[1.784s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[2.307s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system filesystem date_time program_options thread chrono 
+[2.470s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: thread 
+[2.957s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: thread system filesystem regex date_time program_options 
+[3.224s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system filesystem date_time program_options thread 
+[3.619s] -- Found moveit_visual_tools: 4.0.0 (/home/d-lab/workspace/ros_ur_driver/install/moveit_visual_tools/share/moveit_visual_tools/cmake)
+[3.934s] -- Setting OGRE_DIR to: '/opt/ros/foxy/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[3.936s] -- Found OGRE
+[3.936s] --   static     : OFF
+[3.936s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[3.936s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[3.936s] --   media      : /opt/ros/foxy/opt/rviz_ogre_vendor/share/OGRE/Media
+[3.936s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[3.936s] -- OGRE_LIBRARY_DIRS: /opt/ros/foxy/opt/rviz_ogre_vendor/lib
+[3.936s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[3.936s] -- OGRE_PLUGIN_DIR: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/OGRE
+[3.936s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[3.936s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[3.936s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[3.937s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[3.957s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[3.963s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[4.056s] -- Found X11: /usr/include   
+[4.056s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[4.151s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[4.151s] -- Looking for gethostbyname
+[4.218s] -- Looking for gethostbyname - found
+[4.218s] -- Looking for connect
+[4.309s] -- Looking for connect - found
+[4.309s] -- Looking for remove
+[4.395s] -- Looking for remove - found
+[4.395s] -- Looking for shmat
+[4.470s] -- Looking for shmat - found
+[4.470s] -- Looking for IceConnectionNumber in ICE
+[4.539s] -- Looking for IceConnectionNumber in ICE - found
+[4.543s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+[4.543s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+[4.581s] -- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+[4.989s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[5.031s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.032s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.032s] -- Configured cppcheck include dirs: 
+[5.032s] -- Configured cppcheck exclude dirs and/or files: 
+[5.032s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.032s] -- Configured cpplint exclude dirs and/or files: 
+[5.033s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.033s] -- Added test 'lint_cmake' to check CMake code style
+[5.033s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[5.033s] -- Added test 'uncrustify' to check C / C++ code style
+[5.033s] -- Configured uncrustify additional arguments: 
+[5.034s] -- Added test 'xmllint' to check XML markup files
+[5.036s] -- Configuring done
+[5.065s] -- Generating done
+[5.066s] -- Build files have been written to: /home/d-lab/workspace/ros_ur_driver/build/move_arm
+[5.094s] [35m[1mScanning dependencies of target move_to_point[0m
+[5.118s] [ 50%] [32mBuilding CXX object CMakeFiles/move_to_point.dir/src/move_to_point.cpp.o[0m
+[6.917s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_to_point.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[6.917s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_to_point.cpp:105:19:[m[K [01;31m[Kerror: [m[K‘[01m[Krviz_visual_tools[m[K’ is not a namespace-name
+[6.917s]   105 |   namespace rvt = [01;31m[Krviz_visual_tools[m[K;
+[6.917s]       |                   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[6.917s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_to_point.cpp:106:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit_visual_tools[m[K’ has not been declared
+[6.917s]   106 |   [01;31m[Kmoveit_visual_tools[m[K::MoveItVisualTools visual_tools(move_group_node, "panda_link0", "move_group_tutorial",
+[6.917s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[6.920s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_to_point.cpp:109:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvisual_tools[m[K’ was not declared in this scope
+[6.920s]   109 |   [01;31m[Kvisual_tools[m[K.deleteAllMarkers();
+[6.920s]       |   [01;31m[K^~~~~~~~~~~~[m[K
+[6.927s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_to_point.cpp:118:66:[m[K [01;31m[Kerror: [m[K‘[01m[Krvt[m[K’ has not been declared
+[6.927s]   118 | ls.publishText(text_pose, "MoveGroupInterface_Demo", [01;31m[Krvt[m[K::WHITE, rvt::XLARGE);
+[6.927s]       |                                                      [01;31m[K^~~[m[K
+[6.927s] 
+[6.927s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_to_point.cpp:118:78:[m[K [01;31m[Kerror: [m[K‘[01m[Krvt[m[K’ has not been declared
+[6.927s]   118 | ishText(text_pose, "MoveGroupInterface_Demo", rvt::WHITE, [01;31m[Krvt[m[K::XLARGE);
+[6.927s]       |                                                           [01;31m[K^~~[m[K
+[6.927s] 
+[6.928s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_to_point.cpp:91:40:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kjoint_model_group[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[6.928s]    91 |   const moveit::core::JointModelGroup* [01;35m[Kjoint_model_group[m[K =
+[6.928s]       |                                        [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[8.229s] make[2]: *** [CMakeFiles/move_to_point.dir/build.make:63: CMakeFiles/move_to_point.dir/src/move_to_point.cpp.o] Error 1
+[8.229s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/move_to_point.dir/all] Error 2
+[8.229s] make: *** [Makefile:141: all] Error 2
+[8.231s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/build/move_arm' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/d-lab/workspace/ros_ur_driver/install/utils:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes:/home/d-lab/workspace/ros_ur_driver/install/robotiq_control:/home/d-lab/workspace/ros_ur_driver/install/gripper_control:/opt/ros/foxy /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/move_arm -- -j16 -l16

@@ -1,0 +1,28 @@
+[0.212s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/move_arm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/d-lab/workspace/ros_ur_driver/install/utils:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes:/home/d-lab/workspace/ros_ur_driver/install/robotiq_control:/home/d-lab/workspace/ros_ur_driver/install/gripper_control:/opt/ros/foxy /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/move_arm -- -j16 -l16
+[0.425s] [35m[1mScanning dependencies of target move_to_point[0m
+[0.425s] [ 50%] [32mBuilding CXX object CMakeFiles/move_to_point.dir/src/move_to_point.cpp.o[0m
+[2.648s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_to_point.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.648s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_to_point.cpp:105:19:[m[K [01;31m[Kerror: [m[K‘[01m[Krviz_visual_tools[m[K’ is not a namespace-name
+[2.649s]   105 |   namespace rvt = [01;31m[Krviz_visual_tools[m[K;
+[2.649s]       |                   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[2.649s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_to_point.cpp:106:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit_visual_tools[m[K’ has not been declared
+[2.649s]   106 |   [01;31m[Kmoveit_visual_tools[m[K::MoveItVisualTools visual_tools(move_group_node, "panda_link0", "move_group_tutorial",
+[2.649s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.651s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_to_point.cpp:109:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvisual_tools[m[K’ was not declared in this scope
+[2.651s]   109 |   [01;31m[Kvisual_tools[m[K.deleteAllMarkers();
+[2.651s]       |   [01;31m[K^~~~~~~~~~~~[m[K
+[2.658s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_to_point.cpp:118:66:[m[K [01;31m[Kerror: [m[K‘[01m[Krvt[m[K’ has not been declared
+[2.658s]   118 | ls.publishText(text_pose, "MoveGroupInterface_Demo", [01;31m[Krvt[m[K::WHITE, rvt::XLARGE);
+[2.658s]       |                                                      [01;31m[K^~~[m[K
+[2.658s] 
+[2.658s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_to_point.cpp:118:78:[m[K [01;31m[Kerror: [m[K‘[01m[Krvt[m[K’ has not been declared
+[2.658s]   118 | ishText(text_pose, "MoveGroupInterface_Demo", rvt::WHITE, [01;31m[Krvt[m[K::XLARGE);
+[2.658s]       |                                                           [01;31m[K^~~[m[K
+[2.658s] 
+[2.659s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_to_point.cpp:91:40:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kjoint_model_group[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.659s]    91 |   const moveit::core::JointModelGroup* [01;35m[Kjoint_model_group[m[K =
+[2.659s]       |                                        [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[4.234s] make[2]: *** [CMakeFiles/move_to_point.dir/build.make:63: CMakeFiles/move_to_point.dir/src/move_to_point.cpp.o] Error 1
+[4.234s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/move_to_point.dir/all] Error 2
+[4.234s] make: *** [Makefile:141: all] Error 2
+[4.236s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/build/move_arm' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/d-lab/workspace/ros_ur_driver/install/utils:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes:/home/d-lab/workspace/ros_ur_driver/install/robotiq_control:/home/d-lab/workspace/ros_ur_driver/install/gripper_control:/opt/ros/foxy /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/move_arm -- -j16 -l16

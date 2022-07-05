@@ -1,0 +1,12 @@
+[ 20%] Built target gmock
+[ 20%] Built target gmock_main
+[ 28%] Built target controller_manager
+[ 60%] Built target test_controller_failed_init
+[ 60%] Built target test_controller_with_interfaces
+[ 60%] Built target test_controller
+[ 60%] Built target ros2_control_node
+[ 84%] Built target test_controller_manager_srvs
+[ 84%] Built target test_spawner_unspawner
+[ 84%] Built target test_controller_manager
+[ 92%] Built target test_release_interfaces
+[100%] Built target test_load_controller

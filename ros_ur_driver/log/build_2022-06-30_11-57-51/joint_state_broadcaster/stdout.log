@@ -1,0 +1,5 @@
+[ 27%] Built target gmock
+[ 45%] Built target gmock_main
+[ 63%] Built target joint_state_broadcaster
+[ 81%] Built target test_load_joint_state_broadcaster
+[100%] Built target test_joint_state_broadcaster

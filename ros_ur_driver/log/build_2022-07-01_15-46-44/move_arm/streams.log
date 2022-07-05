@@ -1,0 +1,284 @@
+[0.019s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/move_arm': CMAKE_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/moveit_visual_tools:/home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools:/home/d-lab/workspace/ros_ur_driver/install/graph_msgs:/home/d-lab/workspace/ros_ur_driver/install/eigen3_cmake_module:/home/d-lab/workspace/ros_ur_driver/install/run_ompl_constrained_planning:/home/d-lab/workspace/ros_ur_driver/install/run_moveit_cpp:/home/d-lab/workspace/ros_ur_driver/install/run_move_group:/home/d-lab/workspace/ros_ur_driver/install/warehouse_ros_mongo:/home/d-lab/workspace/ros_ur_driver/install/ros2_controllers:/home/d-lab/workspace/ros_ur_driver/install/velocity_controllers:/home/d-lab/workspace/ros_ur_driver/install/ur_robot_driver:/home/d-lab/workspace/ros_ur_driver/install/ur_controllers:/home/d-lab/workspace/ros_ur_driver/install/ur_msgs:/home/d-lab/workspace/ros_ur_driver/install/ur_moveit_config:/home/d-lab/workspace/ros_ur_driver/install/ur_description:/home/d-lab/workspace/ros_ur_driver/install/ur_dashboard_msgs:/home/d-lab/workspace/ros_ur_driver/install/ur_client_library:/home/d-lab/workspace/ros_ur_driver/install/ur_bringup:/home/d-lab/workspace/ros_ur_driver/install/ur5_robotiq_moveit_config:/home/d-lab/workspace/ros_ur_driver/install/transmission_interface:/home/d-lab/workspace/ros_ur_driver/install/srdfdom:/home/d-lab/workspace/ros_ur_driver/install/move_arm:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_demos:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_demo_bringup:/home/d-lab/workspace/ros_ur_driver/install/rrbot_description:/home/d-lab/workspace/ros_ur_driver/install/ros2_control:/home/d-lab/workspace/ros_ur_driver/install/utils:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes:/home/d-lab/workspace/ros_ur_driver/install/robotiq_control:/home/d-lab/workspace/ros_ur_driver/install/gripper_control:/opt/ros/foxy:/home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_examples:/home/d-lab/workspace/ros_ur_driver/install/controller_manager:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_assets:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_demo_hardware:/home/d-lab/workspace/ros_ur_driver/install/robotiq_description:/home/d-lab/workspace/ros_ur_driver/install/position_controllers:/home/d-lab/workspace/ros_ur_driver/install/joint_trajectory_controller:/home/d-lab/workspace/ros_ur_driver/install/joint_state_controller:/home/d-lab/workspace/ros_ur_driver/install/joint_state_broadcaster:/home/d-lab/workspace/ros_ur_driver/install/imu_sensor_broadcaster:/home/d-lab/workspace/ros_ur_driver/install/gripper_controllers:/home/d-lab/workspace/ros_ur_driver/install/effort_controllers:/home/d-lab/workspace/ros_ur_driver/install/forward_command_controller:/home/d-lab/workspace/ros_ur_driver/install/force_torque_sensor_broadcaster:/home/d-lab/workspace/ros_ur_driver/install/diff_drive_controller:/home/d-lab/workspace/ros_ur_driver/install/cartesian_compliance_controller:/home/d-lab/workspace/ros_ur_driver/install/cartesian_motion_controller:/home/d-lab/workspace/ros_ur_driver/install/cartesian_force_controller:/home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base:/home/d-lab/workspace/ros_ur_driver/install/controller_interface:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/install/filters:/home/d-lab/workspace/ros_ur_driver/install/diffbot_description:/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs:/home/d-lab/workspace/ros_ur_driver/install/control_msgs:/home/d-lab/workspace/ros_ur_driver/install/chomp_motion_planner LD_LIBRARY_PATH=/home/d-lab/workspace/ros_ur_driver/install/moveit_visual_tools/lib:/home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/lib:/home/d-lab/workspace/ros_ur_driver/install/graph_msgs/lib:/home/d-lab/workspace/ros_ur_driver/install/warehouse_ros_mongo/lib:/home/d-lab/workspace/ros_ur_driver/install/velocity_controllers/lib:/home/d-lab/workspace/ros_ur_driver/install/ur_robot_driver/lib:/home/d-lab/workspace/ros_ur_driver/install/ur_controllers/lib:/home/d-lab/workspace/ros_ur_driver/install/ur_msgs/lib:/home/d-lab/workspace/ros_ur_driver/install/ur_dashboard_msgs/lib:/home/d-lab/workspace/ros_ur_driver/install/ur_client_library/lib:/home/d-lab/workspace/ros_ur_driver/install/srdfdom/lib:/home/d-lab/workspace/ros_ur_driver/install/controller_manager/lib:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_demo_hardware/lib:/home/d-lab/workspace/ros_ur_driver/install/position_controllers/lib:/home/d-lab/workspace/ros_ur_driver/install/joint_trajectory_controller/lib:/home/d-lab/workspace/ros_ur_driver/install/joint_state_controller/lib:/home/d-lab/workspace/ros_ur_driver/install/joint_state_broadcaster/lib:/home/d-lab/workspace/ros_ur_driver/install/imu_sensor_broadcaster/lib:/home/d-lab/workspace/ros_ur_driver/install/gripper_controllers/lib:/home/d-lab/workspace/ros_ur_driver/install/effort_controllers/lib:/home/d-lab/workspace/ros_ur_driver/install/forward_command_controller/lib:/home/d-lab/workspace/ros_ur_driver/install/force_torque_sensor_broadcaster/lib:/home/d-lab/workspace/ros_ur_driver/install/diff_drive_controller/lib:/home/d-lab/workspace/ros_ur_driver/install/cartesian_compliance_controller/lib:/home/d-lab/workspace/ros_ur_driver/install/cartesian_motion_controller/lib:/home/d-lab/workspace/ros_ur_driver/install/cartesian_force_controller/lib:/home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/lib:/home/d-lab/workspace/ros_ur_driver/install/controller_interface/lib:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface/lib:/home/d-lab/workspace/ros_ur_driver/install/filters/lib:/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs/lib:/home/d-lab/workspace/ros_ur_driver/install/control_msgs/lib:/home/d-lab/workspace/ros_ur_driver/install/chomp_motion_planner/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/d-lab/workspace/ros_ur_driver/install/graph_msgs/lib/python3.8/site-packages:/home/d-lab/workspace/ros_ur_driver/install/warehouse_ros_mongo/lib/python3.8/site-packages:/home/d-lab/workspace/ros_ur_driver/install/utils/lib/python3.8/site-packages:/home/d-lab/workspace/ros_ur_driver/install/ur_msgs/lib/python3.8/site-packages:/home/d-lab/workspace/ros_ur_driver/install/ur_dashboard_msgs/lib/python3.8/site-packages:/home/d-lab/workspace/ros_ur_driver/install/srdfdom/lib/python3.8/site-packages:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli/lib/python3.8/site-packages:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes/lib/python3.8/site-packages:/home/d-lab/workspace/ros_ur_driver/install/controller_manager/lib/python3.8/site-packages:/home/d-lab/workspace/ros_ur_driver/install/robotiq_control/lib/python3.8/site-packages:/home/d-lab/workspace/ros_ur_driver/install/gripper_control/lib/python3.8/site-packages:/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs/lib/python3.8/site-packages:/home/d-lab/workspace/ros_ur_driver/install/control_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/move_arm -- -j16 -l16
+[0.061s] [35m[1mScanning dependencies of target move_to_point[0m
+[0.115s] [ 50%] [32mBuilding CXX object CMakeFiles/move_to_point.dir/src/move_to_point.cpp.o[0m
+[4.185s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+[4.185s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[4.185s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[4.185s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[4.185s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[4.185s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[4.185s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[4.185s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[4.185s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[4.185s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[4.185s]                  from [01m[K/opt/ros/foxy/include/moveit/kinematics_base/kinematics_base.h:42[m[K,
+[4.185s]                  from [01m[K/opt/ros/foxy/include/moveit/robot_model/joint_model_group.h:42[m[K,
+[4.185s]                  from [01m[K/opt/ros/foxy/include/moveit/robot_model/robot_model.h:45[m[K,
+[4.185s]                  from [01m[K/opt/ros/foxy/include/moveit/robot_state/robot_state.h:40[m[K,
+[4.185s]                  from [01m[K/opt/ros/foxy/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+[4.185s]                  from [01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_to_point.cpp:38[m[K:
+[4.185s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_to_point.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[4.185s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_to_point.cpp:96:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kto_string[m[K’ was not declared in this scope
+[4.185s]    96 |   RCLCPP_INFO(LOGGER, [01;31m[Kto_string[m[K(move_group.getCurrentPose().pose.orientation.w));
+[4.185s]       |                       [01;31m[K^~~~~~~~~[m[K
+[4.185s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_to_point.cpp:96:23:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[4.185s] In file included from [01m[K/usr/include/c++/9/string:55[m[K,
+[4.186s]                  from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+[4.186s]                  from [01m[K/usr/include/c++/9/array:39[m[K,
+[4.186s]                  from [01m[K/usr/include/c++/9/tuple:39[m[K,
+[4.186s]                  from [01m[K/usr/include/c++/9/bits/unique_ptr.h:37[m[K,
+[4.186s]                  from [01m[K/usr/include/c++/9/memory:80[m[K,
+[4.186s]                  from [01m[K/opt/ros/foxy/include/moveit/macros/declare_ptr.h:37[m[K,
+[4.186s]                  from [01m[K/opt/ros/foxy/include/moveit/macros/class_forward.h:39[m[K,
+[4.186s]                  from [01m[K/opt/ros/foxy/include/moveit/move_group_interface/move_group_interface.h:40[m[K,
+[4.186s]                  from [01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_to_point.cpp:38[m[K:
+[4.186s] [01m[K/usr/include/c++/9/bits/basic_string.h:6601:3:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::__cxx11::to_string[m[K’
+[4.186s]  6601 |   [01;36m[Kto_string[m[K(long double __val)
+[4.186s]       |   [01;36m[K^~~~~~~~~[m[K
+[4.186s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/parameter.hpp:26[m[K,
+[4.186s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_parameters_interface.hpp:28[m[K,
+[4.186s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:51[m[K,
+[4.186s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[4.186s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[4.186s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[4.186s]                  from [01m[K/opt/ros/foxy/include/moveit/kinematics_base/kinematics_base.h:42[m[K,
+[4.186s]                  from [01m[K/opt/ros/foxy/include/moveit/robot_model/joint_model_group.h:42[m[K,
+[4.187s]                  from [01m[K/opt/ros/foxy/include/moveit/robot_model/robot_model.h:45[m[K,
+[4.187s]                  from [01m[K/opt/ros/foxy/include/moveit/robot_state/robot_state.h:40[m[K,
+[4.187s]                  from [01m[K/opt/ros/foxy/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+[4.187s]                  from [01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_to_point.cpp:38[m[K:
+[4.187s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:341:1:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp::to_string[m[K’
+[4.187s]   341 | [01;36m[Kto_string[m[K(const ParameterValue & type);
+[4.187s]       | [01;36m[K^~~~~~~~~[m[K
+[4.187s] In file included from [01m[K/opt/ros/foxy/include/rclcpp_action/client_goal_handle.hpp:29[m[K,
+[4.187s]                  from [01m[K/opt/ros/foxy/include/rclcpp_action/client.hpp:39[m[K,
+[4.187s]                  from [01m[K/opt/ros/foxy/include/rclcpp_action/rclcpp_action.hpp:36[m[K,
+[4.187s]                  from [01m[K/opt/ros/foxy/include/moveit/move_group_interface/move_group_interface.h:57[m[K,
+[4.187s]                  from [01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_to_point.cpp:38[m[K:
+[4.187s] [01m[K/opt/ros/foxy/include/rclcpp_action/types.hpp:39:1:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp_action::to_string[m[K’
+[4.187s]    39 | [01;36m[Kto_string[m[K(const GoalUUID & goal_id);
+[4.187s]       | [01;36m[K^~~~~~~~~[m[K
+[4.187s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:34[m[K,
+[4.187s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[4.187s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[4.187s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[4.187s]                  from [01m[K/opt/ros/foxy/include/moveit/kinematics_base/kinematics_base.h:42[m[K,
+[4.187s]                  from [01m[K/opt/ros/foxy/include/moveit/robot_model/joint_model_group.h:42[m[K,
+[4.188s]                  from [01m[K/opt/ros/foxy/include/moveit/robot_model/robot_model.h:45[m[K,
+[4.188s]                  from [01m[K/opt/ros/foxy/include/moveit/robot_state/robot_state.h:40[m[K,
+[4.188s]                  from [01m[K/opt/ros/foxy/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+[4.188s]                  from [01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_to_point.cpp:38[m[K:
+[4.188s] [01m[K/opt/ros/foxy/include/rclcpp/future_return_code.hpp:53:1:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp::executor::to_string[m[K’
+[4.188s]    53 | [01;36m[Kto_string[m[K(const rclcpp::FutureReturnCode & future_return_code)
+[4.188s]       | [01;36m[K^~~~~~~~~[m[K
+[4.188s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+[4.188s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[4.188s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[4.188s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[4.188s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[4.188s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[4.188s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[4.188s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[4.188s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[4.188s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[4.188s]                  from [01m[K/opt/ros/foxy/include/moveit/kinematics_base/kinematics_base.h:42[m[K,
+[4.188s]                  from [01m[K/opt/ros/foxy/include/moveit/robot_model/joint_model_group.h:42[m[K,
+[4.188s]                  from [01m[K/opt/ros/foxy/include/moveit/robot_model/robot_model.h:45[m[K,
+[4.188s]                  from [01m[K/opt/ros/foxy/include/moveit/robot_state/robot_state.h:40[m[K,
+[4.188s]                  from [01m[K/opt/ros/foxy/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+[4.188s]                  from [01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_to_point.cpp:38[m[K:
+[4.189s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_to_point.cpp:97:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kto_string[m[K’ was not declared in this scope
+[4.189s]    97 |   RCLCPP_INFO(LOGGER, [01;31m[Kto_string[m[K(move_group.getCurrentPose().pose.orientation.x));
+[4.189s]       |                       [01;31m[K^~~~~~~~~[m[K
+[4.189s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_to_point.cpp:97:23:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[4.189s] In file included from [01m[K/usr/include/c++/9/string:55[m[K,
+[4.189s]                  from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+[4.189s]                  from [01m[K/usr/include/c++/9/array:39[m[K,
+[4.189s]                  from [01m[K/usr/include/c++/9/tuple:39[m[K,
+[4.189s]                  from [01m[K/usr/include/c++/9/bits/unique_ptr.h:37[m[K,
+[4.189s]                  from [01m[K/usr/include/c++/9/memory:80[m[K,
+[4.189s]                  from [01m[K/opt/ros/foxy/include/moveit/macros/declare_ptr.h:37[m[K,
+[4.189s]                  from [01m[K/opt/ros/foxy/include/moveit/macros/class_forward.h:39[m[K,
+[4.189s]                  from [01m[K/opt/ros/foxy/include/moveit/move_group_interface/move_group_interface.h:40[m[K,
+[4.189s]                  from [01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_to_point.cpp:38[m[K:
+[4.189s] [01m[K/usr/include/c++/9/bits/basic_string.h:6601:3:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::__cxx11::to_string[m[K’
+[4.189s]  6601 |   [01;36m[Kto_string[m[K(long double __val)
+[4.189s]       |   [01;36m[K^~~~~~~~~[m[K
+[4.189s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/parameter.hpp:26[m[K,
+[4.189s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_parameters_interface.hpp:28[m[K,
+[4.189s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:51[m[K,
+[4.189s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[4.189s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[4.189s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[4.189s]                  from [01m[K/opt/ros/foxy/include/moveit/kinematics_base/kinematics_base.h:42[m[K,
+[4.189s]                  from [01m[K/opt/ros/foxy/include/moveit/robot_model/joint_model_group.h:42[m[K,
+[4.189s]                  from [01m[K/opt/ros/foxy/include/moveit/robot_model/robot_model.h:45[m[K,
+[4.189s]                  from [01m[K/opt/ros/foxy/include/moveit/robot_state/robot_state.h:40[m[K,
+[4.189s]                  from [01m[K/opt/ros/foxy/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+[4.189s]                  from [01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_to_point.cpp:38[m[K:
+[4.190s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:341:1:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp::to_string[m[K’
+[4.190s]   341 | [01;36m[Kto_string[m[K(const ParameterValue & type);
+[4.190s]       | [01;36m[K^~~~~~~~~[m[K
+[4.190s] In file included from [01m[K/opt/ros/foxy/include/rclcpp_action/client_goal_handle.hpp:29[m[K,
+[4.190s]                  from [01m[K/opt/ros/foxy/include/rclcpp_action/client.hpp:39[m[K,
+[4.190s]                  from [01m[K/opt/ros/foxy/include/rclcpp_action/rclcpp_action.hpp:36[m[K,
+[4.190s]                  from [01m[K/opt/ros/foxy/include/moveit/move_group_interface/move_group_interface.h:57[m[K,
+[4.190s]                  from [01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_to_point.cpp:38[m[K:
+[4.190s] [01m[K/opt/ros/foxy/include/rclcpp_action/types.hpp:39:1:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp_action::to_string[m[K’
+[4.190s]    39 | [01;36m[Kto_string[m[K(const GoalUUID & goal_id);
+[4.190s]       | [01;36m[K^~~~~~~~~[m[K
+[4.190s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:34[m[K,
+[4.190s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[4.190s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[4.190s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[4.190s]                  from [01m[K/opt/ros/foxy/include/moveit/kinematics_base/kinematics_base.h:42[m[K,
+[4.190s]                  from [01m[K/opt/ros/foxy/include/moveit/robot_model/joint_model_group.h:42[m[K,
+[4.190s]                  from [01m[K/opt/ros/foxy/include/moveit/robot_model/robot_model.h:45[m[K,
+[4.190s]                  from [01m[K/opt/ros/foxy/include/moveit/robot_state/robot_state.h:40[m[K,
+[4.190s]                  from [01m[K/opt/ros/foxy/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+[4.190s]                  from [01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_to_point.cpp:38[m[K:
+[4.190s] [01m[K/opt/ros/foxy/include/rclcpp/future_return_code.hpp:53:1:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp::executor::to_string[m[K’
+[4.190s]    53 | [01;36m[Kto_string[m[K(const rclcpp::FutureReturnCode & future_return_code)
+[4.190s]       | [01;36m[K^~~~~~~~~[m[K
+[4.190s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+[4.190s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[4.190s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[4.190s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[4.191s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[4.191s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[4.191s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[4.191s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[4.191s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[4.191s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[4.191s]                  from [01m[K/opt/ros/foxy/include/moveit/kinematics_base/kinematics_base.h:42[m[K,
+[4.191s]                  from [01m[K/opt/ros/foxy/include/moveit/robot_model/joint_model_group.h:42[m[K,
+[4.191s]                  from [01m[K/opt/ros/foxy/include/moveit/robot_model/robot_model.h:45[m[K,
+[4.191s]                  from [01m[K/opt/ros/foxy/include/moveit/robot_state/robot_state.h:40[m[K,
+[4.191s]                  from [01m[K/opt/ros/foxy/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+[4.191s]                  from [01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_to_point.cpp:38[m[K:
+[4.191s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_to_point.cpp:98:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kto_string[m[K’ was not declared in this scope
+[4.191s]    98 |   RCLCPP_INFO(LOGGER, [01;31m[Kto_string[m[K(move_group.getCurrentPose().pose.orientation.y));
+[4.191s]       |                       [01;31m[K^~~~~~~~~[m[K
+[4.191s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_to_point.cpp:98:23:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[4.191s] In file included from [01m[K/usr/include/c++/9/string:55[m[K,
+[4.191s]                  from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+[4.191s]                  from [01m[K/usr/include/c++/9/array:39[m[K,
+[4.191s]                  from [01m[K/usr/include/c++/9/tuple:39[m[K,
+[4.191s]                  from [01m[K/usr/include/c++/9/bits/unique_ptr.h:37[m[K,
+[4.191s]                  from [01m[K/usr/include/c++/9/memory:80[m[K,
+[4.191s]                  from [01m[K/opt/ros/foxy/include/moveit/macros/declare_ptr.h:37[m[K,
+[4.191s]                  from [01m[K/opt/ros/foxy/include/moveit/macros/class_forward.h:39[m[K,
+[4.191s]                  from [01m[K/opt/ros/foxy/include/moveit/move_group_interface/move_group_interface.h:40[m[K,
+[4.191s]                  from [01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_to_point.cpp:38[m[K:
+[4.191s] [01m[K/usr/include/c++/9/bits/basic_string.h:6601:3:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::__cxx11::to_string[m[K’
+[4.191s]  6601 |   [01;36m[Kto_string[m[K(long double __val)
+[4.192s]       |   [01;36m[K^~~~~~~~~[m[K
+[4.192s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/parameter.hpp:26[m[K,
+[4.192s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_parameters_interface.hpp:28[m[K,
+[4.192s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:51[m[K,
+[4.192s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[4.192s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[4.192s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[4.192s]                  from [01m[K/opt/ros/foxy/include/moveit/kinematics_base/kinematics_base.h:42[m[K,
+[4.192s]                  from [01m[K/opt/ros/foxy/include/moveit/robot_model/joint_model_group.h:42[m[K,
+[4.192s]                  from [01m[K/opt/ros/foxy/include/moveit/robot_model/robot_model.h:45[m[K,
+[4.192s]                  from [01m[K/opt/ros/foxy/include/moveit/robot_state/robot_state.h:40[m[K,
+[4.192s]                  from [01m[K/opt/ros/foxy/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+[4.192s]                  from [01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_to_point.cpp:38[m[K:
+[4.192s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:341:1:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp::to_string[m[K’
+[4.192s]   341 | [01;36m[Kto_string[m[K(const ParameterValue & type);
+[4.192s]       | [01;36m[K^~~~~~~~~[m[K
+[4.192s] In file included from [01m[K/opt/ros/foxy/include/rclcpp_action/client_goal_handle.hpp:29[m[K,
+[4.192s]                  from [01m[K/opt/ros/foxy/include/rclcpp_action/client.hpp:39[m[K,
+[4.192s]                  from [01m[K/opt/ros/foxy/include/rclcpp_action/rclcpp_action.hpp:36[m[K,
+[4.192s]                  from [01m[K/opt/ros/foxy/include/moveit/move_group_interface/move_group_interface.h:57[m[K,
+[4.192s]                  from [01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_to_point.cpp:38[m[K:
+[4.192s] [01m[K/opt/ros/foxy/include/rclcpp_action/types.hpp:39:1:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp_action::to_string[m[K’
+[4.192s]    39 | [01;36m[Kto_string[m[K(const GoalUUID & goal_id);
+[4.192s]       | [01;36m[K^~~~~~~~~[m[K
+[4.192s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:34[m[K,
+[4.192s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[4.192s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[4.193s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[4.193s]                  from [01m[K/opt/ros/foxy/include/moveit/kinematics_base/kinematics_base.h:42[m[K,
+[4.193s]                  from [01m[K/opt/ros/foxy/include/moveit/robot_model/joint_model_group.h:42[m[K,
+[4.193s]                  from [01m[K/opt/ros/foxy/include/moveit/robot_model/robot_model.h:45[m[K,
+[4.193s]                  from [01m[K/opt/ros/foxy/include/moveit/robot_state/robot_state.h:40[m[K,
+[4.193s]                  from [01m[K/opt/ros/foxy/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+[4.193s]                  from [01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_to_point.cpp:38[m[K:
+[4.193s] [01m[K/opt/ros/foxy/include/rclcpp/future_return_code.hpp:53:1:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp::executor::to_string[m[K’
+[4.193s]    53 | [01;36m[Kto_string[m[K(const rclcpp::FutureReturnCode & future_return_code)
+[4.193s]       | [01;36m[K^~~~~~~~~[m[K
+[4.193s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+[4.193s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[4.193s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[4.193s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[4.193s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[4.193s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[4.193s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[4.193s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[4.193s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[4.193s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[4.193s]                  from [01m[K/opt/ros/foxy/include/moveit/kinematics_base/kinematics_base.h:42[m[K,
+[4.193s]                  from [01m[K/opt/ros/foxy/include/moveit/robot_model/joint_model_group.h:42[m[K,
+[4.193s]                  from [01m[K/opt/ros/foxy/include/moveit/robot_model/robot_model.h:45[m[K,
+[4.193s]                  from [01m[K/opt/ros/foxy/include/moveit/robot_state/robot_state.h:40[m[K,
+[4.193s]                  from [01m[K/opt/ros/foxy/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+[4.193s]                  from [01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_to_point.cpp:38[m[K:
+[4.194s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_to_point.cpp:99:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kto_string[m[K’ was not declared in this scope
+[4.194s]    99 |   RCLCPP_INFO(LOGGER, [01;31m[Kto_string[m[K(move_group.getCurrentPose().pose.orientation.z));
+[4.194s]       |                       [01;31m[K^~~~~~~~~[m[K
+[4.194s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_to_point.cpp:99:23:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[4.194s] In file included from [01m[K/usr/include/c++/9/string:55[m[K,
+[4.194s]                  from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+[4.194s]                  from [01m[K/usr/include/c++/9/array:39[m[K,
+[4.194s]                  from [01m[K/usr/include/c++/9/tuple:39[m[K,
+[4.194s]                  from [01m[K/usr/include/c++/9/bits/unique_ptr.h:37[m[K,
+[4.194s]                  from [01m[K/usr/include/c++/9/memory:80[m[K,
+[4.194s]                  from [01m[K/opt/ros/foxy/include/moveit/macros/declare_ptr.h:37[m[K,
+[4.194s]                  from [01m[K/opt/ros/foxy/include/moveit/macros/class_forward.h:39[m[K,
+[4.194s]                  from [01m[K/opt/ros/foxy/include/moveit/move_group_interface/move_group_interface.h:40[m[K,
+[4.195s]                  from [01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_to_point.cpp:38[m[K:
+[4.195s] [01m[K/usr/include/c++/9/bits/basic_string.h:6601:3:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::__cxx11::to_string[m[K’
+[4.195s]  6601 |   [01;36m[Kto_string[m[K(long double __val)
+[4.195s]       |   [01;36m[K^~~~~~~~~[m[K
+[4.195s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/parameter.hpp:26[m[K,
+[4.195s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_parameters_interface.hpp:28[m[K,
+[4.195s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:51[m[K,
+[4.195s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[4.195s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[4.195s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[4.195s]                  from [01m[K/opt/ros/foxy/include/moveit/kinematics_base/kinematics_base.h:42[m[K,
+[4.195s]                  from [01m[K/opt/ros/foxy/include/moveit/robot_model/joint_model_group.h:42[m[K,
+[4.195s]                  from [01m[K/opt/ros/foxy/include/moveit/robot_model/robot_model.h:45[m[K,
+[4.195s]                  from [01m[K/opt/ros/foxy/include/moveit/robot_state/robot_state.h:40[m[K,
+[4.195s]                  from [01m[K/opt/ros/foxy/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+[4.195s]                  from [01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_to_point.cpp:38[m[K:
+[4.195s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:341:1:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp::to_string[m[K’
+[4.195s]   341 | [01;36m[Kto_string[m[K(const ParameterValue & type);
+[4.195s]       | [01;36m[K^~~~~~~~~[m[K
+[4.195s] In file included from [01m[K/opt/ros/foxy/include/rclcpp_action/client_goal_handle.hpp:29[m[K,
+[4.196s]                  from [01m[K/opt/ros/foxy/include/rclcpp_action/client.hpp:39[m[K,
+[4.196s]                  from [01m[K/opt/ros/foxy/include/rclcpp_action/rclcpp_action.hpp:36[m[K,
+[4.196s]                  from [01m[K/opt/ros/foxy/include/moveit/move_group_interface/move_group_interface.h:57[m[K,
+[4.196s]                  from [01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_to_point.cpp:38[m[K:
+[4.196s] [01m[K/opt/ros/foxy/include/rclcpp_action/types.hpp:39:1:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp_action::to_string[m[K’
+[4.196s]    39 | [01;36m[Kto_string[m[K(const GoalUUID & goal_id);
+[4.196s]       | [01;36m[K^~~~~~~~~[m[K
+[4.196s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:34[m[K,
+[4.196s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[4.196s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[4.196s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[4.196s]                  from [01m[K/opt/ros/foxy/include/moveit/kinematics_base/kinematics_base.h:42[m[K,
+[4.196s]                  from [01m[K/opt/ros/foxy/include/moveit/robot_model/joint_model_group.h:42[m[K,
+[4.196s]                  from [01m[K/opt/ros/foxy/include/moveit/robot_model/robot_model.h:45[m[K,
+[4.196s]                  from [01m[K/opt/ros/foxy/include/moveit/robot_state/robot_state.h:40[m[K,
+[4.196s]                  from [01m[K/opt/ros/foxy/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+[4.196s]                  from [01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/move_to_point.cpp:38[m[K:
+[4.196s] [01m[K/opt/ros/foxy/include/rclcpp/future_return_code.hpp:53:1:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp::executor::to_string[m[K’
+[4.196s]    53 | [01;36m[Kto_string[m[K(const rclcpp::FutureReturnCode & future_return_code)
+[4.196s]       | [01;36m[K^~~~~~~~~[m[K
+[6.493s] make[2]: *** [CMakeFiles/move_to_point.dir/build.make:63: CMakeFiles/move_to_point.dir/src/move_to_point.cpp.o] Error 1
+[6.493s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/move_to_point.dir/all] Error 2
+[6.493s] make: *** [Makefile:141: all] Error 2
+[6.495s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/build/move_arm' returned '2': CMAKE_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/moveit_visual_tools:/home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools:/home/d-lab/workspace/ros_ur_driver/install/graph_msgs:/home/d-lab/workspace/ros_ur_driver/install/eigen3_cmake_module:/home/d-lab/workspace/ros_ur_driver/install/run_ompl_constrained_planning:/home/d-lab/workspace/ros_ur_driver/install/run_moveit_cpp:/home/d-lab/workspace/ros_ur_driver/install/run_move_group:/home/d-lab/workspace/ros_ur_driver/install/warehouse_ros_mongo:/home/d-lab/workspace/ros_ur_driver/install/ros2_controllers:/home/d-lab/workspace/ros_ur_driver/install/velocity_controllers:/home/d-lab/workspace/ros_ur_driver/install/ur_robot_driver:/home/d-lab/workspace/ros_ur_driver/install/ur_controllers:/home/d-lab/workspace/ros_ur_driver/install/ur_msgs:/home/d-lab/workspace/ros_ur_driver/install/ur_moveit_config:/home/d-lab/workspace/ros_ur_driver/install/ur_description:/home/d-lab/workspace/ros_ur_driver/install/ur_dashboard_msgs:/home/d-lab/workspace/ros_ur_driver/install/ur_client_library:/home/d-lab/workspace/ros_ur_driver/install/ur_bringup:/home/d-lab/workspace/ros_ur_driver/install/ur5_robotiq_moveit_config:/home/d-lab/workspace/ros_ur_driver/install/transmission_interface:/home/d-lab/workspace/ros_ur_driver/install/srdfdom:/home/d-lab/workspace/ros_ur_driver/install/move_arm:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_demos:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_demo_bringup:/home/d-lab/workspace/ros_ur_driver/install/rrbot_description:/home/d-lab/workspace/ros_ur_driver/install/ros2_control:/home/d-lab/workspace/ros_ur_driver/install/utils:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes:/home/d-lab/workspace/ros_ur_driver/install/robotiq_control:/home/d-lab/workspace/ros_ur_driver/install/gripper_control:/opt/ros/foxy:/home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_examples:/home/d-lab/workspace/ros_ur_driver/install/controller_manager:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_assets:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_demo_hardware:/home/d-lab/workspace/ros_ur_driver/install/robotiq_description:/home/d-lab/workspace/ros_ur_driver/install/position_controllers:/home/d-lab/workspace/ros_ur_driver/install/joint_trajectory_controller:/home/d-lab/workspace/ros_ur_driver/install/joint_state_controller:/home/d-lab/workspace/ros_ur_driver/install/joint_state_broadcaster:/home/d-lab/workspace/ros_ur_driver/install/imu_sensor_broadcaster:/home/d-lab/workspace/ros_ur_driver/install/gripper_controllers:/home/d-lab/workspace/ros_ur_driver/install/effort_controllers:/home/d-lab/workspace/ros_ur_driver/install/forward_command_controller:/home/d-lab/workspace/ros_ur_driver/install/force_torque_sensor_broadcaster:/home/d-lab/workspace/ros_ur_driver/install/diff_drive_controller:/home/d-lab/workspace/ros_ur_driver/install/cartesian_compliance_controller:/home/d-lab/workspace/ros_ur_driver/install/cartesian_motion_controller:/home/d-lab/workspace/ros_ur_driver/install/cartesian_force_controller:/home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base:/home/d-lab/workspace/ros_ur_driver/install/controller_interface:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/install/filters:/home/d-lab/workspace/ros_ur_driver/install/diffbot_description:/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs:/home/d-lab/workspace/ros_ur_driver/install/control_msgs:/home/d-lab/workspace/ros_ur_driver/install/chomp_motion_planner LD_LIBRARY_PATH=/home/d-lab/workspace/ros_ur_driver/install/moveit_visual_tools/lib:/home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/lib:/home/d-lab/workspace/ros_ur_driver/install/graph_msgs/lib:/home/d-lab/workspace/ros_ur_driver/install/warehouse_ros_mongo/lib:/home/d-lab/workspace/ros_ur_driver/install/velocity_controllers/lib:/home/d-lab/workspace/ros_ur_driver/install/ur_robot_driver/lib:/home/d-lab/workspace/ros_ur_driver/install/ur_controllers/lib:/home/d-lab/workspace/ros_ur_driver/install/ur_msgs/lib:/home/d-lab/workspace/ros_ur_driver/install/ur_dashboard_msgs/lib:/home/d-lab/workspace/ros_ur_driver/install/ur_client_library/lib:/home/d-lab/workspace/ros_ur_driver/install/srdfdom/lib:/home/d-lab/workspace/ros_ur_driver/install/controller_manager/lib:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_demo_hardware/lib:/home/d-lab/workspace/ros_ur_driver/install/position_controllers/lib:/home/d-lab/workspace/ros_ur_driver/install/joint_trajectory_controller/lib:/home/d-lab/workspace/ros_ur_driver/install/joint_state_controller/lib:/home/d-lab/workspace/ros_ur_driver/install/joint_state_broadcaster/lib:/home/d-lab/workspace/ros_ur_driver/install/imu_sensor_broadcaster/lib:/home/d-lab/workspace/ros_ur_driver/install/gripper_controllers/lib:/home/d-lab/workspace/ros_ur_driver/install/effort_controllers/lib:/home/d-lab/workspace/ros_ur_driver/install/forward_command_controller/lib:/home/d-lab/workspace/ros_ur_driver/install/force_torque_sensor_broadcaster/lib:/home/d-lab/workspace/ros_ur_driver/install/diff_drive_controller/lib:/home/d-lab/workspace/ros_ur_driver/install/cartesian_compliance_controller/lib:/home/d-lab/workspace/ros_ur_driver/install/cartesian_motion_controller/lib:/home/d-lab/workspace/ros_ur_driver/install/cartesian_force_controller/lib:/home/d-lab/workspace/ros_ur_driver/install/cartesian_controller_base/lib:/home/d-lab/workspace/ros_ur_driver/install/controller_interface/lib:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface/lib:/home/d-lab/workspace/ros_ur_driver/install/filters/lib:/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs/lib:/home/d-lab/workspace/ros_ur_driver/install/control_msgs/lib:/home/d-lab/workspace/ros_ur_driver/install/chomp_motion_planner/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/d-lab/workspace/ros_ur_driver/install/graph_msgs/lib/python3.8/site-packages:/home/d-lab/workspace/ros_ur_driver/install/warehouse_ros_mongo/lib/python3.8/site-packages:/home/d-lab/workspace/ros_ur_driver/install/utils/lib/python3.8/site-packages:/home/d-lab/workspace/ros_ur_driver/install/ur_msgs/lib/python3.8/site-packages:/home/d-lab/workspace/ros_ur_driver/install/ur_dashboard_msgs/lib/python3.8/site-packages:/home/d-lab/workspace/ros_ur_driver/install/srdfdom/lib/python3.8/site-packages:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli/lib/python3.8/site-packages:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes/lib/python3.8/site-packages:/home/d-lab/workspace/ros_ur_driver/install/controller_manager/lib/python3.8/site-packages:/home/d-lab/workspace/ros_ur_driver/install/robotiq_control/lib/python3.8/site-packages:/home/d-lab/workspace/ros_ur_driver/install/gripper_control/lib/python3.8/site-packages:/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs/lib/python3.8/site-packages:/home/d-lab/workspace/ros_ur_driver/install/control_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/move_arm -- -j16 -l16

@@ -1,0 +1,27 @@
+Error parsing '/home/d-lab/workspace/ros_ur_driver/src/move_arm_server/package.xml':
+Traceback (most recent call last):
+  File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 143, in <module>
+    main()
+  File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 52, in main
+    raise e
+  File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 48, in main
+    package = parse_package_string(
+  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 786, in parse_package_string
+    raise InvalidPackage('Error(s):%s' % (''.join(['\n- %s' % e for e in errors])), filename)
+catkin_pkg.package.InvalidPackage: Error(s) in package '/home/d-lab/workspace/ros_ur_driver/src/move_arm_server/package.xml':
+Error(s):
+- The generic dependency on 'rclcpp' is redundant with: build_depend, build_export_depend, exec_depend
+- The generic dependency on 'move_arm_interfaces' is redundant with: build_depend, build_export_depend, exec_depend
+CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):
+  execute_process(/usr/bin/python3
+  /opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+  /home/d-lab/workspace/ros_ur_driver/src/move_arm_server/package.xml
+  /home/d-lab/workspace/ros_ur_driver/build/move_arm_server/ament_cmake_core/package.cmake)
+  returned error code 1
+Call Stack (most recent call first):
+  /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+  /opt/ros/foxy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+  CMakeLists.txt:53 (ament_lint_auto_find_test_dependencies)
+
+
+make: *** [Makefile:310: cmake_check_build_system] Error 1

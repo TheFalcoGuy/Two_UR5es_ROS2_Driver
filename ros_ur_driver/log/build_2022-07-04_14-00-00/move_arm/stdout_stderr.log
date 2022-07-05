@@ -1,0 +1,21 @@
+[35m[1mScanning dependencies of target moveArmServer[0m
+[  2%] Built target move_arm__cpp
+[ 11%] Built target move_arm__rosidl_generator_c
+[ 17%] Built target move_to_point
+[ 25%] Built target move_arm__rosidl_typesupport_c
+[ 34%] Built target move_arm__rosidl_typesupport_cpp
+[ 42%] Built target move_arm__rosidl_typesupport_introspection_cpp
+[ 51%] Built target move_arm__rosidl_typesupport_introspection_c
+[ 60%] Built target move_arm__rosidl_typesupport_fastrtps_cpp
+[ 62%] [32mBuilding CXX object CMakeFiles/moveArmServer.dir/src/moveArmServer.cpp.o[0m
+[ 71%] Built target move_arm__rosidl_typesupport_fastrtps_c
+[ 71%] Built target move_arm
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm/src/moveArmServer.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kmove_arm/action/move_arm.hpp: No such file or directory
+    5 | #include [01;31m[K"move_arm/action/move_arm.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/moveArmServer.dir/build.make:63: CMakeFiles/moveArmServer.dir/src/moveArmServer.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:215: CMakeFiles/moveArmServer.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[ 74%] Built target move_arm__py
+make: *** [Makefile:141: all] Error 2

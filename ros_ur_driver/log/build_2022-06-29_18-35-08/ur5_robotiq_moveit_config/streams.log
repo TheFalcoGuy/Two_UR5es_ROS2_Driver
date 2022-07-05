@@ -1,0 +1,59 @@
+[0.406s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/ur5_robotiq_moveit_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/d-lab/workspace/ros_ur_driver/install/utils:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes:/home/d-lab/workspace/ros_ur_driver/install/robotiq_control:/home/d-lab/workspace/ros_ur_driver/install/gripper_control:/opt/ros/foxy /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/ur5_robotiq_moveit_config -- -j16 -l16
+[0.421s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.433s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.600s] -- Found urdf: 2.4.0 (/opt/ros/foxy/share/urdf/cmake)
+[0.620s] -- Found xacro: 2.0.7 (/opt/ros/foxy/share/xacro/cmake)
+[0.671s] -- Configuring done
+[0.672s] -- Generating done
+[0.673s] -- Build files have been written to: /home/d-lab/workspace/ros_ur_driver/build/ur5_robotiq_moveit_config
+[0.892s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/build/ur5_robotiq_moveit_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/d-lab/workspace/ros_ur_driver/install/utils:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes:/home/d-lab/workspace/ros_ur_driver/install/robotiq_control:/home/d-lab/workspace/ros_ur_driver/install/gripper_control:/opt/ros/foxy /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/ur5_robotiq_moveit_config -- -j16 -l16
+[1.093s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/ur5_robotiq_moveit_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/d-lab/workspace/ros_ur_driver/install/utils:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes:/home/d-lab/workspace/ros_ur_driver/install/robotiq_control:/home/d-lab/workspace/ros_ur_driver/install/gripper_control:/opt/ros/foxy /usr/bin/cmake --install /home/d-lab/workspace/ros_ur_driver/build/ur5_robotiq_moveit_config
+[1.094s] -- Install configuration: "Release"
+[1.094s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/ur5_robotiq_moveit_config/share/ur5_robotiq_moveit_config/config
+[1.094s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/ur5_robotiq_moveit_config/share/ur5_robotiq_moveit_config/config/cartesian_limits.yaml
+[1.094s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/ur5_robotiq_moveit_config/share/ur5_robotiq_moveit_config/config/ompl_planning.yaml
+[1.094s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/ur5_robotiq_moveit_config/share/ur5_robotiq_moveit_config/config/fake_controllers.yaml
+[1.094s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/ur5_robotiq_moveit_config/share/ur5_robotiq_moveit_config/config/sensors_3d.yaml
+[1.094s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/ur5_robotiq_moveit_config/share/ur5_robotiq_moveit_config/config/chomp_planning.yaml
+[1.094s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/ur5_robotiq_moveit_config/share/ur5_robotiq_moveit_config/config/stomp_planning.yaml
+[1.094s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/ur5_robotiq_moveit_config/share/ur5_robotiq_moveit_config/config/joint_limits.yaml
+[1.094s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/ur5_robotiq_moveit_config/share/ur5_robotiq_moveit_config/config/simple_moveit_controllers.yaml
+[1.094s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/ur5_robotiq_moveit_config/share/ur5_robotiq_moveit_config/config/ur5_2f.srdf
+[1.094s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/ur5_robotiq_moveit_config/share/ur5_robotiq_moveit_config/config/controllers.yaml
+[1.094s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/ur5_robotiq_moveit_config/share/ur5_robotiq_moveit_config/config/gazebo_controllers.yaml
+[1.094s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/ur5_robotiq_moveit_config/share/ur5_robotiq_moveit_config/config/kinematics.yaml
+[1.094s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/ur5_robotiq_moveit_config/share/ur5_robotiq_moveit_config/config/ros_controllers.yaml
+[1.094s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/ur5_robotiq_moveit_config/share/ur5_robotiq_moveit_config/launch
+[1.094s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/ur5_robotiq_moveit_config/share/ur5_robotiq_moveit_config/launch/sensor_manager.launch.xml
+[1.094s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/ur5_robotiq_moveit_config/share/ur5_robotiq_moveit_config/launch/ros_control_moveit_controller_manager.launch.xml
+[1.094s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/ur5_robotiq_moveit_config/share/ur5_robotiq_moveit_config/launch/ros_controllers.launch
+[1.094s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/ur5_robotiq_moveit_config/share/ur5_robotiq_moveit_config/launch/moveit.rviz
+[1.095s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/ur5_robotiq_moveit_config/share/ur5_robotiq_moveit_config/launch/run_benchmark_ompl.launch
+[1.095s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/ur5_robotiq_moveit_config/share/ur5_robotiq_moveit_config/launch/ompl_planning_pipeline.launch.xml
+[1.095s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/ur5_robotiq_moveit_config/share/ur5_robotiq_moveit_config/launch/pilz_industrial_motion_planner_planning_pipeline.launch.xml
+[1.095s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/ur5_robotiq_moveit_config/share/ur5_robotiq_moveit_config/launch/ur5_2f_moveit_sensor_manager.launch.xml
+[1.095s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/ur5_robotiq_moveit_config/share/ur5_robotiq_moveit_config/launch/move_group.launch
+[1.095s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/ur5_robotiq_moveit_config/share/ur5_robotiq_moveit_config/launch/warehouse_settings.launch.xml
+[1.095s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/ur5_robotiq_moveit_config/share/ur5_robotiq_moveit_config/launch/joystick_control.launch
+[1.095s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/ur5_robotiq_moveit_config/share/ur5_robotiq_moveit_config/launch/demo_gazebo.launch
+[1.095s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/ur5_robotiq_moveit_config/share/ur5_robotiq_moveit_config/launch/planning_pipeline.launch.xml
+[1.095s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/ur5_robotiq_moveit_config/share/ur5_robotiq_moveit_config/launch/ompl-chomp_planning_pipeline.launch.xml
+[1.095s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/ur5_robotiq_moveit_config/share/ur5_robotiq_moveit_config/launch/chomp_planning_pipeline.launch.xml
+[1.095s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/ur5_robotiq_moveit_config/share/ur5_robotiq_moveit_config/launch/stomp_planning_pipeline.launch.xml
+[1.095s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/ur5_robotiq_moveit_config/share/ur5_robotiq_moveit_config/launch/planning_context.launch
+[1.095s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/ur5_robotiq_moveit_config/share/ur5_robotiq_moveit_config/launch/simple_moveit_controller_manager.launch.xml
+[1.095s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/ur5_robotiq_moveit_config/share/ur5_robotiq_moveit_config/launch/setup_assistant.launch
+[1.095s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/ur5_robotiq_moveit_config/share/ur5_robotiq_moveit_config/launch/trajectory_execution.launch.xml
+[1.095s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/ur5_robotiq_moveit_config/share/ur5_robotiq_moveit_config/launch/gazebo.launch
+[1.095s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/ur5_robotiq_moveit_config/share/ur5_robotiq_moveit_config/launch/fake_moveit_controller_manager.launch.xml
+[1.095s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/ur5_robotiq_moveit_config/share/ur5_robotiq_moveit_config/launch/default_warehouse_db.launch
+[1.095s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/ur5_robotiq_moveit_config/share/ur5_robotiq_moveit_config/launch/warehouse.launch
+[1.095s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/ur5_robotiq_moveit_config/share/ur5_robotiq_moveit_config/launch/demo.launch
+[1.095s] -- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/ur5_robotiq_moveit_config/share/ur5_robotiq_moveit_config/launch/moveit_rviz.launch
+[1.095s] CMake Error at cmake_install.cmake:41 (file):
+[1.096s]   file INSTALL cannot find
+[1.096s]   "/home/d-lab/workspace/ros_ur_driver/src/ur5_robotiq_moveit_config/rviz2":
+[1.096s]   No such file or directory.
+[1.096s] 
+[1.096s] 
+[1.096s] Invoked command in '/home/d-lab/workspace/ros_ur_driver/build/ur5_robotiq_moveit_config' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/d-lab/workspace/ros_ur_driver/install/utils:/home/d-lab/workspace/ros_ur_driver/install/ros2controlcli:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_nodes:/home/d-lab/workspace/ros_ur_driver/install/robotiq_control:/home/d-lab/workspace/ros_ur_driver/install/gripper_control:/opt/ros/foxy /usr/bin/cmake --install /home/d-lab/workspace/ros_ur_driver/build/ur5_robotiq_moveit_config

@@ -284,12 +284,27 @@ def generate_launch_description():
         parameters=[{"robot_ip": robot_ip}],
     )
 
+    cartesian_force_controller_spawner_stopped = Node(
+     package="controller_manager",
+     executable="spawner.py",
+     arguments=["cartesian_force_controller", "-c", "/controller_manager", "--stopped"],
+    )
+
+    cartesian_compliance_controller_spawner_stopped = Node(
+     package="controller_manager",
+     executable="spawner.py",
+     remappings=[('/m_ft_sensor_wrench', '/ft_data')],
+     arguments=["cartesian_compliance_controller", "-c", "/controller_manager", "--stopped"],
+    )
+
+
     #### End of added node
 
     control_node = Node(
         package="controller_manager",
         executable="ros2_control_node",
         parameters=[robot_description, robot_controllers],
+        # prefix="gdb -ex run --args",
         output={
             "stdout": "screen",
             "stderr": "screen",
@@ -304,6 +319,8 @@ def generate_launch_description():
         emulate_tty=True,
         parameters=[{"robot_ip": robot_ip}],
     )
+
+    
 
     controller_stopper_node = Node(
         package="ur_robot_driver",
@@ -374,9 +391,11 @@ def generate_launch_description():
     robot_controller_spawner = Node(
         package="controller_manager",
         executable="spawner.py",
+        remappings=[('/m_ft_sensor_wrench', '/ft_data')],
         arguments=[robot_controller, "-c", "/controller_manager"],
     )
 
+    
     nodes_to_start = [
         control_node,
         dashboard_client_node,
@@ -389,7 +408,8 @@ def generate_launch_description():
         force_torque_sensor_broadcaster_spawner,
         robot_controller_spawner,
         torque_broadcaster,
-        robotiq_node
+        cartesian_force_controller_spawner_stopped,
+        cartesian_compliance_controller_spawner_stopped
     ]
 
     return LaunchDescription(declared_arguments + nodes_to_start)

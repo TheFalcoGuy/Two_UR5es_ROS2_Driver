@@ -16,7 +16,7 @@ set(_diff_drive_controller_CONFIG_INCLUDED TRUE)
 
 # output package information
 if(NOT diff_drive_controller_FIND_QUIETLY)
-  message(STATUS "Found diff_drive_controller: 0.7.0 (${diff_drive_controller_DIR})")
+  message(STATUS "Found diff_drive_controller: 0.8.0 (${diff_drive_controller_DIR})")
 endif()
 
 # warn when using a deprecated package

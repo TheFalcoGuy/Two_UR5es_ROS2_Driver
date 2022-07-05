@@ -1,0 +1,41 @@
+[ 27%] Built target gmock
+[ 45%] Built target gmock_main
+[ 54%] [32mBuilding CXX object CMakeFiles/joint_state_broadcaster.dir/src/joint_state_broadcaster.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/test_load_joint_state_broadcaster.dir/test/test_load_joint_state_broadcaster.cpp.o[0m
+[ 72%] [32m[1mLinking CXX executable test_load_joint_state_broadcaster[0m
+[ 72%] Built target test_load_joint_state_broadcaster
+[ 81%] [32m[1mLinking CXX shared library libjoint_state_broadcaster.so[0m
+[ 81%] Built target joint_state_broadcaster
+[35m[1mScanning dependencies of target test_joint_state_broadcaster[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/test_joint_state_broadcaster.dir/test/test_joint_state_broadcaster.cpp.o[0m
+[100%] [32m[1mLinking CXX executable test_joint_state_broadcaster[0m
+[100%] Built target test_joint_state_broadcaster
+-- Install configuration: "Release"
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/joint_state_broadcaster/share/joint_state_broadcaster/joint_state_plugin.xml
+-- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/joint_state_broadcaster/include
+-- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/joint_state_broadcaster/include/joint_state_broadcaster
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/joint_state_broadcaster/include/joint_state_broadcaster/joint_state_broadcaster.hpp
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/joint_state_broadcaster/include/joint_state_broadcaster/visibility_control.h
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/joint_state_broadcaster/lib/libjoint_state_broadcaster.so
+-- Set runtime path of "/home/d-lab/workspace/ros_ur_driver/install/joint_state_broadcaster/lib/libjoint_state_broadcaster.so" to ""
+-- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/joint_state_broadcaster/share/joint_state_broadcaster/environment/library_path.sh
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/joint_state_broadcaster/share/joint_state_broadcaster/environment/library_path.dsv
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/joint_state_broadcaster/share/ament_index/resource_index/package_run_dependencies/joint_state_broadcaster
+-- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/joint_state_broadcaster/share/ament_index/resource_index/parent_prefix_path/joint_state_broadcaster
+-- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/joint_state_broadcaster/share/joint_state_broadcaster/environment/ament_prefix_path.sh
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/joint_state_broadcaster/share/joint_state_broadcaster/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/joint_state_broadcaster/share/joint_state_broadcaster/environment/path.sh
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/joint_state_broadcaster/share/joint_state_broadcaster/environment/path.dsv
+-- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/joint_state_broadcaster/share/joint_state_broadcaster/local_setup.bash
+-- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/joint_state_broadcaster/share/joint_state_broadcaster/local_setup.sh
+-- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/joint_state_broadcaster/share/joint_state_broadcaster/local_setup.zsh
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/joint_state_broadcaster/share/joint_state_broadcaster/local_setup.dsv
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/joint_state_broadcaster/share/joint_state_broadcaster/package.dsv
+-- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/joint_state_broadcaster/share/ament_index/resource_index/packages/joint_state_broadcaster
+-- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/joint_state_broadcaster/share/ament_index/resource_index/controller_interface__pluginlib__plugin/joint_state_broadcaster
+-- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/joint_state_broadcaster/share/joint_state_broadcaster/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/joint_state_broadcaster/share/joint_state_broadcaster/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/joint_state_broadcaster/share/joint_state_broadcaster/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/joint_state_broadcaster/share/joint_state_broadcaster/cmake/joint_state_broadcasterConfig.cmake
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/joint_state_broadcaster/share/joint_state_broadcaster/cmake/joint_state_broadcasterConfig-version.cmake
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/joint_state_broadcaster/share/joint_state_broadcaster/package.xml

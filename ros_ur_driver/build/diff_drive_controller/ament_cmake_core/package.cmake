@@ -1,5 +1,5 @@
 set(_AMENT_PACKAGE_NAME "diff_drive_controller")
-set(diff_drive_controller_VERSION "0.7.0")
+set(diff_drive_controller_VERSION "0.8.0")
 set(diff_drive_controller_MAINTAINER "Bence Magyar <bence.magyar.robotics@gmail.com>, Jordan Palacios <jordan.palacios@pal-robotics.com>")
 set(diff_drive_controller_BUILD_DEPENDS "pluginlib" "controller_interface" "geometry_msgs" "hardware_interface" "nav_msgs" "rclcpp" "rclcpp_lifecycle" "realtime_tools" "tf2" "tf2_msgs")
 set(diff_drive_controller_BUILDTOOL_DEPENDS "ament_cmake")

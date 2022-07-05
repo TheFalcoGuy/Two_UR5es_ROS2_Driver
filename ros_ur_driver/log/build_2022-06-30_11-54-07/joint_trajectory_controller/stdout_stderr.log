@@ -1,0 +1,7 @@
+[ 13%] Built target gtest
+[ 26%] Built target gtest_main
+[ 46%] Built target joint_trajectory_controller
+[ 60%] Built target test_load_joint_trajectory_controller
+[ 73%] Built target test_trajectory
+[ 86%] Built target test_trajectory_controller
+[100%] Built target test_trajectory_actions

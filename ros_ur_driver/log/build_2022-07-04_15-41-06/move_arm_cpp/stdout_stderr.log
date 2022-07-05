@@ -1,0 +1,84 @@
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found move_arm_interfaces: 0.0.0 (/home/d-lab/workspace/ros_ur_driver/install/move_arm_interfaces/share/move_arm_interfaces/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_action: 2.4.1 (/opt/ros/foxy/share/rclcpp_action/cmake)
+-- Found rclcpp_components: 2.4.1 (/opt/ros/foxy/share/rclcpp_components/cmake)
+-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/d-lab/workspace/ros_ur_driver/src/move_arm_cpp/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/d-lab/workspace/ros_ur_driver/build/move_arm_cpp
+[35m[1mScanning dependencies of target move_arm_client[0m
+[35m[1mScanning dependencies of target action_client[0m
+[ 25%] Built target move_arm_server
+[ 50%] Built target action_server
+[ 62%] [32mBuilding CXX object CMakeFiles/move_arm_client.dir/rclcpp_components/node_main_move_arm_client.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/action_client.dir/src/move_arm_client.cpp.o[0m
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm_cpp/src/move_arm_client.cpp:21:69:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KFibonacciActionClient[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+   21 |   explicit FibonacciActionClient(const rclcpp::NodeOptions & options[01;31m[K)[m[K
+      |                                                                     [01;31m[K^[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm_cpp/src/move_arm_client.cpp:21:3:[m[K [01;31m[Kerror: [m[Konly declarations of constructors and conversion operators can be ‘[01m[Kexplicit[m[K’
+   21 |   [01;31m[Kexplicit[m[K FibonacciActionClient(const rclcpp::NodeOptions & options)
+      |   [01;31m[K^~~~~~~~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm_cpp/src/move_arm_client.cpp:[m[K In member function ‘[01m[Kint action_tutorials_cpp::MoveArmClient::FibonacciActionClient(const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm_cpp/src/move_arm_client.cpp:22:5:[m[K [01;31m[Kerror: [m[Konly constructors take member initializers
+   22 |   : [01;31m[KNode[m[K("move_arm_action_client", options)
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm_cpp/src/move_arm_client.cpp:30:18:[m[K [01;31m[Kerror: [m[K‘[01m[KFibonacciActionClient[m[K’ is not a class, namespace, or enumeration
+   30 |       std::bind(&[01;31m[KFibonacciActionClient[m[K::send_goal, this));
+      |                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm_cpp/src/move_arm_client.cpp:31:3:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   31 |   [01;35m[K}[m[K
+      |   [01;35m[K^[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm_cpp/src/move_arm_client.cpp:[m[K In member function ‘[01m[Kvoid action_tutorials_cpp::MoveArmClient::send_goal()[m[K’:
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm_cpp/src/move_arm_client.cpp:51:18:[m[K [01;31m[Kerror: [m[K‘[01m[KFibonacciActionClient[m[K’ is not a class, namespace, or enumeration
+   51 |       std::bind(&[01;31m[KFibonacciActionClient[m[K::goal_response_callback, this, _1);
+      |                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm_cpp/src/move_arm_client.cpp:53:18:[m[K [01;31m[Kerror: [m[K‘[01m[KFibonacciActionClient[m[K’ is not a class, namespace, or enumeration
+   53 |       std::bind(&[01;31m[KFibonacciActionClient[m[K::feedback_callback, this, _1, _2);
+      |                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm_cpp/src/move_arm_client.cpp:55:18:[m[K [01;31m[Kerror: [m[K‘[01m[KFibonacciActionClient[m[K’ is not a class, namespace, or enumeration
+   55 |       std::bind(&[01;31m[KFibonacciActionClient[m[K::result_callback, this, _1);
+      |                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/class_loader/class_loader.hpp:56[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp_components/register_node_macro.hpp:18[m[K,
+                 from [01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm_cpp/src/move_arm_client.cpp:11[m[K:
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm_cpp/src/move_arm_client.cpp:[m[K At global scope:
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm_cpp/src/move_arm_client.cpp:112:55:[m[K [01;31m[Kerror: [m[K‘[01m[KFibonacciActionClient[m[K’ is not a member of ‘[01m[Kaction_tutorials_cpp[m[K’
+  112 | RCLCPP_COMPONENTS_REGISTER_NODE(action_tutorials_cpp::[01;31m[KFibonacciActionClient[m[K)
+      |                                                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm_cpp/src/move_arm_client.cpp:112:55:[m[K [01;31m[Kerror: [m[K‘[01m[KFibonacciActionClient[m[K’ is not a member of ‘[01m[Kaction_tutorials_cpp[m[K’
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm_cpp/src/move_arm_client.cpp:112:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  112 | [01;31m[KRCLCPP_COMPONENTS_REGISTER_NODE[m[K(action_tutorials_cpp::FibonacciActionClient)
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[ 87%] [32m[1mLinking CXX executable move_arm_client[0m
+In file included from [01m[K/opt/ros/foxy/include/class_loader/class_loader_core.hpp:57[m[K,
+                 from [01m[K/opt/ros/foxy/include/class_loader/class_loader.hpp:55[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp_components/register_node_macro.hpp:18[m[K,
+                 from [01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm_cpp/src/move_arm_client.cpp:11[m[K:
+/opt/ros/foxy/include/class_loader/meta_object.hpp: In instantiation of ‘[01m[KB* class_loader::impl::MetaObject<C, B>::create() const [with C = int; B = rclcpp_components::NodeFactory][m[K’:
+[01m[K/opt/ros/foxy/include/class_loader/meta_object.hpp:216:7:[m[K   required from here
+[01m[K/opt/ros/foxy/include/class_loader/meta_object.hpp:218:12:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kint*[m[K’ to ‘[01m[Krclcpp_components::NodeFactory*[m[K’ in return
+  218 |     return [01;31m[Knew C[m[K;
+      |            [01;31m[K^~~~~[m[K
+      |            [01;31m[K|[m[K
+      |            [01;31m[Kint*[m[K
+[ 87%] Built target move_arm_client
+make[2]: *** [CMakeFiles/action_client.dir/build.make:63: CMakeFiles/action_client.dir/src/move_arm_client.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:111: CMakeFiles/action_client.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

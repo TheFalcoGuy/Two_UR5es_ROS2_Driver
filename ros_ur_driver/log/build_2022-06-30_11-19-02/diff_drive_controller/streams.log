@@ -1,0 +1,47 @@
+[0.040s] Invoking command in '/home/d-lab/workspace/ros_ur_driver/build/diff_drive_controller': AMENT_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/controller_manager:/home/d-lab/workspace/ros_ur_driver/install/controller_interface:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_assets:/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs:/home/d-lab/workspace/ros_ur_driver/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/d-lab/workspace/ros_ur_driver/install/controller_manager:/home/d-lab/workspace/ros_ur_driver/install/controller_interface:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface:/home/d-lab/workspace/ros_ur_driver/install/ros2_control_test_assets:/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs:/home/d-lab/workspace/ros_ur_driver/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/d-lab/workspace/ros_ur_driver/install/controller_manager/lib:/home/d-lab/workspace/ros_ur_driver/install/controller_interface/lib:/home/d-lab/workspace/ros_ur_driver/install/hardware_interface/lib:/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs/lib:/home/d-lab/workspace/ros_ur_driver/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/d-lab/workspace/ros_ur_driver/install/controller_manager/lib/python3.8/site-packages:/home/d-lab/workspace/ros_ur_driver/install/controller_manager_msgs/lib/python3.8/site-packages:/home/d-lab/workspace/ros_ur_driver/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/d-lab/workspace/ros_ur_driver/build/diff_drive_controller -- -j16 -l16
+[0.061s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.079s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.247s] -- Found controller_interface: 0.10.0 (/home/d-lab/workspace/ros_ur_driver/install/controller_interface/share/controller_interface/cmake)
+[0.276s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.281s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.434s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.141s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.143s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.430s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[1.533s] -- Found realtime_tools: 2.2.0 (/opt/ros/foxy/share/realtime_tools/cmake)
+[1.584s] -- Found tf2: 0.13.13 (/opt/ros/foxy/share/tf2/cmake)
+[1.595s] -- Found tf2_msgs: 0.13.13 (/opt/ros/foxy/share/tf2_msgs/cmake)
+[1.856s] -- Found ament_cmake_gmock: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gmock/cmake)
+[1.856s] -- Found controller_manager: 0.10.0 (/home/d-lab/workspace/ros_ur_driver/install/controller_manager/share/controller_manager/cmake)
+[1.933s] -- Found gmock sources under '/opt/ros/foxy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[1.934s] -- Found ament_cmake_gtest: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[1.935s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.123s] -- Configuring done
+[2.227s] -- Generating done
+[2.236s] -- Build files have been written to: /home/d-lab/workspace/ros_ur_driver/build/diff_drive_controller
+[2.261s] [35m[1mScanning dependencies of target diff_drive_controller[0m
+[2.267s] [ 20%] Built target gmock
+[2.271s] [ 33%] Built target gmock_main
+[2.286s] [35m[1mScanning dependencies of target test_accumulator[0m
+[2.287s] [35m[1mScanning dependencies of target test_load_diff_drive_controller[0m
+[2.306s] [ 40%] [32mBuilding CXX object CMakeFiles/test_accumulator.dir/test/test_accumulator.cpp.o[0m
+[2.309s] [ 46%] [32mBuilding CXX object CMakeFiles/diff_drive_controller.dir/src/diff_drive_controller.cpp.o[0m
+[2.319s] [ 53%] [32mBuilding CXX object CMakeFiles/diff_drive_controller.dir/src/speed_limiter.cpp.o[0m
+[2.329s] [ 60%] [32mBuilding CXX object CMakeFiles/diff_drive_controller.dir/src/odometry.cpp.o[0m
+[2.380s] [ 66%] [32mBuilding CXX object CMakeFiles/test_load_diff_drive_controller.dir/test/test_load_diff_drive_controller.cpp.o[0m
+[3.539s] [ 73%] [32m[1mLinking CXX executable test_accumulator[0m
+[3.661s] [ 73%] Built target test_accumulator
+[4.216s] In file included from [01m[K/home/d-lab/workspace/ros_ur_driver/src/ros2_controllers/diff_drive_controller/src/diff_drive_controller.cpp:25[m[K:
+[4.216s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/ros2_controllers/diff_drive_controller/include/diff_drive_controller/diff_drive_controller.hpp:67:18:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn diff_drive_controller::DiffDriveController::on_init()[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+[4.216s]    67 |   CallbackReturn [01;31m[Kon_init[m[K() override;
+[4.216s]       |                  [01;31m[K^~~~~~~[m[K
+[4.268s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/ros2_controllers/diff_drive_controller/src/diff_drive_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::return_type diff_drive_controller::DiffDriveController::update()[m[K’:
+[4.269s] [01m[K/home/d-lab/workspace/ros_ur_driver/src/ros2_controllers/diff_drive_controller/src/diff_drive_controller.cpp:138:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_state[m[K’ was not declared in this scope; did you mean ‘[01m[Ksetstate[m[K’?
+[4.269s]   138 |   if ([01;31m[Kget_state[m[K().id() == State::PRIMARY_STATE_INACTIVE)
+[4.269s]       |       [01;31m[K^~~~~~~~~[m[K
+[4.269s]       |       [32m[Ksetstate[m[K
+[5.928s] [ 80%] [32m[1mLinking CXX executable test_load_diff_drive_controller[0m
+[6.078s] [ 80%] Built target test_load_diff_drive_controller
+[6.445s] make[2]: *** [CMakeFiles/diff_drive_controller.dir/build.make:63: CMakeFiles/diff_drive_controller.dir/src/diff_drive_controller.cpp.o] Error 1
+[6.446s] make[1]: *** [CMakeFiles/Makefile2:212: CMakeFiles/diff_drive_controller.dir/all] Error 2
+[6.446s] make: *** [Makefile:141: all] Error 2

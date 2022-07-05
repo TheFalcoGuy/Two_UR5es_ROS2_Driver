@@ -16,7 +16,7 @@ set(_effort_controllers_CONFIG_INCLUDED TRUE)
 
 # output package information
 if(NOT effort_controllers_FIND_QUIETLY)
-  message(STATUS "Found effort_controllers: 0.7.0 (${effort_controllers_DIR})")
+  message(STATUS "Found effort_controllers: 0.8.0 (${effort_controllers_DIR})")
 endif()
 
 # warn when using a deprecated package

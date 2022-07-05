@@ -1,0 +1,12 @@
+In file included from [01m[K/home/d-lab/workspace/ros_ur_driver/src/ros2_controllers/diff_drive_controller/src/diff_drive_controller.cpp:25[m[K:
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/ros2_controllers/diff_drive_controller/include/diff_drive_controller/diff_drive_controller.hpp:67:18:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn diff_drive_controller::DiffDriveController::on_init()[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+   67 |   CallbackReturn [01;31m[Kon_init[m[K() override;
+      |                  [01;31m[K^~~~~~~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/ros2_controllers/diff_drive_controller/src/diff_drive_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::return_type diff_drive_controller::DiffDriveController::update()[m[K’:
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/ros2_controllers/diff_drive_controller/src/diff_drive_controller.cpp:138:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_state[m[K’ was not declared in this scope; did you mean ‘[01m[Ksetstate[m[K’?
+  138 |   if ([01;31m[Kget_state[m[K().id() == State::PRIMARY_STATE_INACTIVE)
+      |       [01;31m[K^~~~~~~~~[m[K
+      |       [32m[Ksetstate[m[K
+make[2]: *** [CMakeFiles/diff_drive_controller.dir/build.make:63: CMakeFiles/diff_drive_controller.dir/src/diff_drive_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:212: CMakeFiles/diff_drive_controller.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

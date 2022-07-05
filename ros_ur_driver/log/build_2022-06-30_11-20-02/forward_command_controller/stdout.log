@@ -1,0 +1,6 @@
+[ 21%] Built target gmock
+[ 35%] Built target gmock_main
+[ 42%] [32mBuilding CXX object CMakeFiles/forward_command_controller.dir/src/forward_command_controller.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/forward_command_controller.dir/src/multi_interface_forward_controller.cpp.o[0m
+[ 64%] Built target test_multi_interface_forward_controller
+[ 78%] Built target test_load_forward_command_controller
