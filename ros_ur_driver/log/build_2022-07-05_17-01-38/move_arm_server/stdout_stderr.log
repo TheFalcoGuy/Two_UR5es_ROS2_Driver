@@ -1,0 +1,108 @@
+[35m[1mScanning dependencies of target server[0m
+[ 50%] Built target move_to_point
+[ 75%] [32mBuilding CXX object CMakeFiles/server.dir/src/move_arm_server.cpp.o[0m
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm_server/src/move_arm_server.cpp:[m[K In constructor ‘[01m[KMoveArmServer::MoveArmServer()[m[K’:
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm_server/src/move_arm_server.cpp:29:111:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kstd::unique_ptr<moveit::planning_interface::MoveGroupInterface>::unique_ptr(std::shared_ptr<rclcpp::Node>&, std::string&)[m[K’
+   29 | moveit::planning_interface::MoveGroupInterface> move_group(move_group_node, PLANNING_GROUP[01;31m[K)[m[K;
+      |                                                                                           [01;31m[K^[m[K
+
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm_server/src/move_arm_server.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:281:2:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Up, class> std::unique_ptr<_Tp, _Dp>::unique_ptr(std::auto_ptr<_Up>&&)[m[K’
+  281 |  [01;36m[Kunique_ptr[m[K(auto_ptr<_Up>&& __u) noexcept;
+      |  [01;36m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:281:2:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm_server/src/move_arm_server.cpp:29:111:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<rclcpp::Node>[m[K’ is not derived from ‘[01m[Kstd::auto_ptr<_Up>[m[K’
+   29 | moveit::planning_interface::MoveGroupInterface> move_group(move_group_node, PLANNING_GROUP[01;36m[K)[m[K;
+      |                                                                                           [01;36m[K^[m[K
+
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm_server/src/move_arm_server.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:271:2:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Up, class _Ep, class> std::unique_ptr<_Tp, _Dp>::unique_ptr(std::unique_ptr<_Up, _Ep>&&)[m[K’
+  271 |  [01;36m[Kunique_ptr[m[K(unique_ptr<_Up, _Ep>&& __u) noexcept
+      |  [01;36m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:271:2:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm_server/src/move_arm_server.cpp:29:111:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<rclcpp::Node>[m[K’ is not derived from ‘[01m[Kstd::unique_ptr<_Tp, _Dp>[m[K’
+   29 | moveit::planning_interface::MoveGroupInterface> move_group(move_group_node, PLANNING_GROUP[01;36m[K)[m[K;
+      |                                                                                           [01;36m[K^[m[K
+
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm_server/src/move_arm_server.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:257:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::unique_ptr<_Tp, _Dp>::unique_ptr(std::unique_ptr<_Tp, _Dp>&&) [with _Tp = moveit::planning_interface::MoveGroupInterface; _Dp = std::default_delete<moveit::planning_interface::MoveGroupInterface>][m[K’
+  257 |       [01;36m[Kunique_ptr[m[K(unique_ptr&& __u) noexcept
+      |       [01;36m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:257:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:250:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Del, class> constexpr std::unique_ptr<_Tp, _Dp>::unique_ptr(std::nullptr_t)[m[K’
+  250 |  constexpr [01;36m[Kunique_ptr[m[K(nullptr_t) noexcept
+      |            [01;36m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:250:12:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm_server/src/move_arm_server.cpp:29:111:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+   29 | moveit::planning_interface::MoveGroupInterface> move_group(move_group_node, PLANNING_GROUP[01;36m[K)[m[K;
+      |                                                                                           [01;36m[K^[m[K
+
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm_server/src/move_arm_server.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:244:2:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Del, class _DelUnref> std::unique_ptr<_Tp, _Dp>::unique_ptr(std::unique_ptr<_Tp, _Dp>::pointer, std::__enable_if_t<std::is_lvalue_reference<_Del>::value, _DelUnref&&>)[m[K’ <deleted>
+  244 |  [01;36m[Kunique_ptr[m[K(pointer,
+      |  [01;36m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:244:2:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm_server/src/move_arm_server.cpp:29:80:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kmove_group_node[m[K’ (type ‘[01m[Kstd::shared_ptr<rclcpp::Node>[m[K’) to type ‘[01m[Kstd::unique_ptr<moveit::planning_interface::MoveGroupInterface>::pointer[m[K’ {aka ‘[01m[Kmoveit::planning_interface::MoveGroupInterface*[m[K’}
+   29 |     std::unique_ptr<moveit::planning_interface::MoveGroupInterface> move_group([01;36m[Kmove_group_node[m[K, PLANNING_GROUP);
+      |                                                                                [01;36m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm_server/src/move_arm_server.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:236:2:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Del, class> std::unique_ptr<_Tp, _Dp>::unique_ptr(std::unique_ptr<_Tp, _Dp>::pointer, std::__enable_if_t<(! std::is_lvalue_reference<_Del>::value), _Del&&>)[m[K’
+  236 |  [01;36m[Kunique_ptr[m[K(pointer __p,
+      |  [01;36m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:236:2:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm_server/src/move_arm_server.cpp:29:80:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kmove_group_node[m[K’ (type ‘[01m[Kstd::shared_ptr<rclcpp::Node>[m[K’) to type ‘[01m[Kstd::unique_ptr<moveit::planning_interface::MoveGroupInterface>::pointer[m[K’ {aka ‘[01m[Kmoveit::planning_interface::MoveGroupInterface*[m[K’}
+   29 |     std::unique_ptr<moveit::planning_interface::MoveGroupInterface> move_group([01;36m[Kmove_group_node[m[K, PLANNING_GROUP);
+      |                                                                                [01;36m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm_server/src/move_arm_server.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:224:2:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Del, class> std::unique_ptr<_Tp, _Dp>::unique_ptr(std::unique_ptr<_Tp, _Dp>::pointer, const deleter_type&)[m[K’
+  224 |  [01;36m[Kunique_ptr[m[K(pointer __p, const deleter_type& __d) noexcept
+      |  [01;36m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:224:2:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm_server/src/move_arm_server.cpp:29:80:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kmove_group_node[m[K’ (type ‘[01m[Kstd::shared_ptr<rclcpp::Node>[m[K’) to type ‘[01m[Kstd::unique_ptr<moveit::planning_interface::MoveGroupInterface>::pointer[m[K’ {aka ‘[01m[Kmoveit::planning_interface::MoveGroupInterface*[m[K’}
+   29 |     std::unique_ptr<moveit::planning_interface::MoveGroupInterface> move_group([01;36m[Kmove_group_node[m[K, PLANNING_GROUP);
+      |                                                                                [01;36m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm_server/src/move_arm_server.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:211:2:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Del, class> std::unique_ptr<_Tp, _Dp>::unique_ptr(std::unique_ptr<_Tp, _Dp>::pointer)[m[K’
+  211 |  [01;36m[Kunique_ptr[m[K(pointer __p) noexcept
+      |  [01;36m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:211:2:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm_server/src/move_arm_server.cpp:29:111:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+   29 | moveit::planning_interface::MoveGroupInterface> move_group(move_group_node, PLANNING_GROUP[01;36m[K)[m[K;
+      |                                                                                           [01;36m[K^[m[K
+
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm_server/src/move_arm_server.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:199:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Del, class> constexpr std::unique_ptr<_Tp, _Dp>::unique_ptr()[m[K’
+  199 |  constexpr [01;36m[Kunique_ptr[m[K() noexcept
+      |            [01;36m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:199:12:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm_server/src/move_arm_server.cpp:29:111:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+   29 | moveit::planning_interface::MoveGroupInterface> move_group(move_group_node, PLANNING_GROUP[01;36m[K)[m[K;
+      |                                                                                           [01;36m[K^[m[K
+
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm_server/src/move_arm_server.cpp:[m[K In function ‘[01m[Kvoid add(std::shared_ptr<move_arm_interfaces::srv::MoveArm_Request_<std::allocator<void> > >, std::shared_ptr<move_arm_interfaces::srv::MoveArm_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm_server/src/move_arm_server.cpp:44:76:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   44 | void add([01;35m[Kconst std::shared_ptr<move_arm_interfaces::srv::MoveArm::Request> request[m[K,
+      |          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm_server/src/move_arm_server.cpp:[m[K In function ‘[01m[Kvoid writeToCsv(moveit_msgs::msg::RobotTrajectory)[m[K’:
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm_server/src/move_arm_server.cpp:51:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktrajectory[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   51 | void writeToCsv([01;35m[Kmoveit_msgs::msg::RobotTrajectory trajectory[m[K){
+      |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/server.dir/build.make:63: CMakeFiles/server.dir/src/move_arm_server.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/server.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -49,7 +49,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/move_arm_server/server")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/move_arm_server/server"
-         OLD_RPATH "/opt/ros/foxy/lib:/home/d-lab/workspace/ros_ur_driver/install/move_arm_interfaces/lib:"
+         OLD_RPATH "/opt/ros/foxy/lib:/home/d-lab/workspace/ros_ur_driver/install/moveit_visual_tools/lib:/home/d-lab/workspace/ros_ur_driver/install/rviz_visual_tools/lib:/home/d-lab/workspace/ros_ur_driver/install/move_arm_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/home/d-lab/workspace/ros_ur_driver/install/graph_msgs/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/move_arm_server/server")

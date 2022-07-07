@@ -35,7 +35,7 @@ add_executable(move_to_point src/move_to_point.cpp)
 ament_target_dependencies(move_to_point rclcpp std_msgs moveit Eigen3 moveit_ros_planning_interface moveit_msgs moveit_visual_tools rviz_visual_tools)
 
 add_executable(server src/move_arm_server.cpp)
-ament_target_dependencies(server rclcpp move_arm_interfaces)
+ament_target_dependencies(server rclcpp std_msgs moveit Eigen3 moveit_ros_planning_interface moveit_msgs moveit_visual_tools rviz_visual_tools move_arm_interfaces)
 
 ament_export_dependencies(eigen3_cmake_module)
 ament_export_dependencies(Eigen3)

@@ -145,9 +145,17 @@ def generate_launch_description():
             description="Trajectory port number",
         )
     )
+    declared_arguments.append(
+        DeclareLaunchArgument(
+            "controller_namespace",
+            default_value="/controller_manager",
+            description="Namespace of controller_manager"
+        )
+    )
     reverse_port = LaunchConfiguration("reverse_port")
     script_sender_port = LaunchConfiguration("script_sender_port")
     trajectory_port = LaunchConfiguration("trajectory_port")
+    controller_namespace = LaunchConfiguration("controller_namespace")
     ### END OF ADDED STUFF
 
 
@@ -257,6 +265,10 @@ def generate_launch_description():
             " ",
             "trajectory_port:=",
             trajectory_port,
+            " ",
+            "controller_namespace:=",
+            controller_namespace,
+            " "
             ### END OF ADDED STUFF
         ]
     )
@@ -287,14 +299,14 @@ def generate_launch_description():
     cartesian_force_controller_spawner_stopped = Node(
      package="controller_manager",
      executable="spawner.py",
-     arguments=["cartesian_force_controller", "-c", "/controller_manager", "--stopped"],
+     arguments=["cartesian_force_controller", "-c", controller_namespace, "--stopped"],
     )
 
     cartesian_compliance_controller_spawner_stopped = Node(
      package="controller_manager",
      executable="spawner.py",
      remappings=[('/m_ft_sensor_wrench', '/ft_data')],
-     arguments=["cartesian_compliance_controller", "-c", "/controller_manager", "--stopped"],
+     arguments=["cartesian_compliance_controller", "-c", controller_namespace, "--stopped"],
     )
 
 
@@ -304,7 +316,6 @@ def generate_launch_description():
         package="controller_manager",
         executable="ros2_control_node",
         parameters=[robot_description, robot_controllers],
-        # prefix="gdb -ex run --args",
         output={
             "stdout": "screen",
             "stderr": "screen",
@@ -359,13 +370,13 @@ def generate_launch_description():
     joint_state_broadcaster_spawner = Node(
         package="controller_manager",
         executable="spawner.py",
-        arguments=["joint_state_broadcaster", "--controller-manager", "/controller_manager"],
+        arguments=["joint_state_broadcaster", "--controller-manager", controller_namespace],
     )
 
     io_and_status_controller_spawner = Node(
         package="controller_manager",
         executable="spawner.py",
-        arguments=["io_and_status_controller", "-c", "/controller_manager"],
+        arguments=["io_and_status_controller", "-c", controller_namespace],
     )
 
     speed_scaling_state_broadcaster_spawner = Node(
@@ -374,7 +385,7 @@ def generate_launch_description():
         arguments=[
             "speed_scaling_state_broadcaster",
             "--controller-manager",
-            "/controller_manager",
+            controller_namespace,
         ],
     )
 
@@ -384,7 +395,7 @@ def generate_launch_description():
         arguments=[
             "force_torque_sensor_broadcaster",
             "--controller-manager",
-            "/controller_manager",
+            controller_namespace,
         ],
     )
 
@@ -392,7 +403,7 @@ def generate_launch_description():
         package="controller_manager",
         executable="spawner.py",
         remappings=[('/m_ft_sensor_wrench', '/ft_data')],
-        arguments=[robot_controller, "-c", "/controller_manager"],
+        arguments=[robot_controller, "-c", controller_namespace],
     )
 
     

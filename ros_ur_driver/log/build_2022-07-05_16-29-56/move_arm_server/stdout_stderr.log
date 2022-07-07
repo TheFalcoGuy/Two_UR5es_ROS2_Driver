@@ -1,0 +1,35 @@
+[35m[1mScanning dependencies of target server[0m
+[ 50%] Built target move_to_point
+[ 75%] [32mBuilding CXX object CMakeFiles/server.dir/src/move_arm_server.cpp.o[0m
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm_server/src/move_arm_server.cpp:[m[K In function ‘[01m[Kvoid add(std::shared_ptr<move_arm_interfaces::srv::MoveArm_Request_<std::allocator<void> > >, std::shared_ptr<move_arm_interfaces::srv::MoveArm_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm_server/src/move_arm_server.cpp:40:76:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   40 | void add([01;35m[Kconst std::shared_ptr<move_arm_interfaces::srv::MoveArm::Request> request[m[K,
+      |          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm_server/src/move_arm_server.cpp:[m[K In function ‘[01m[Kvoid writeToCsv(moveit_msgs::msg::RobotTrajectory)[m[K’:
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm_server/src/move_arm_server.cpp:47:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktrajectory[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   47 | void writeToCsv([01;35m[Kmoveit_msgs::msg::RobotTrajectory trajectory[m[K){
+      |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable server[0m
+[100%] Built target server
+-- Install configuration: ""
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/move_arm_server/lib/move_arm_server/server
+-- Set runtime path of "/home/d-lab/workspace/ros_ur_driver/install/move_arm_server/lib/move_arm_server/server" to ""
+-- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/move_arm_server/lib/move_arm_server/move_to_point
+-- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/move_arm_server/share/move_arm_server/launch
+-- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/move_arm_server/share/move_arm_server/launch/move_arm.launch.py
+-- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/move_arm_server/share/ament_index/resource_index/package_run_dependencies/move_arm_server
+-- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/move_arm_server/share/ament_index/resource_index/parent_prefix_path/move_arm_server
+-- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/move_arm_server/share/move_arm_server/environment/ament_prefix_path.sh
+-- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/move_arm_server/share/move_arm_server/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/move_arm_server/share/move_arm_server/environment/path.sh
+-- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/move_arm_server/share/move_arm_server/environment/path.dsv
+-- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/move_arm_server/share/move_arm_server/local_setup.bash
+-- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/move_arm_server/share/move_arm_server/local_setup.sh
+-- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/move_arm_server/share/move_arm_server/local_setup.zsh
+-- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/move_arm_server/share/move_arm_server/local_setup.dsv
+-- Installing: /home/d-lab/workspace/ros_ur_driver/install/move_arm_server/share/move_arm_server/package.dsv
+-- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/move_arm_server/share/ament_index/resource_index/packages/move_arm_server
+-- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/move_arm_server/share/move_arm_server/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/move_arm_server/share/move_arm_server/cmake/move_arm_serverConfig.cmake
+-- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/move_arm_server/share/move_arm_server/cmake/move_arm_serverConfig-version.cmake
+-- Up-to-date: /home/d-lab/workspace/ros_ur_driver/install/move_arm_server/share/move_arm_server/package.xml

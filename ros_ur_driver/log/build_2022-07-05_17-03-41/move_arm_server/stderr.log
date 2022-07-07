@@ -1,0 +1,8 @@
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm_server/src/move_arm_server.cpp:[m[K In function ‘[01m[Kvoid add(std::shared_ptr<move_arm_interfaces::srv::MoveArm_Request_<std::allocator<void> > >, std::shared_ptr<move_arm_interfaces::srv::MoveArm_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm_server/src/move_arm_server.cpp:44:76:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   44 | void add([01;35m[Kconst std::shared_ptr<move_arm_interfaces::srv::MoveArm::Request> request[m[K,
+      |          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm_server/src/move_arm_server.cpp:[m[K In function ‘[01m[Kvoid writeToCsv(moveit_msgs::msg::RobotTrajectory)[m[K’:
+[01m[K/home/d-lab/workspace/ros_ur_driver/src/move_arm_server/src/move_arm_server.cpp:51:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktrajectory[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   51 | void writeToCsv([01;35m[Kmoveit_msgs::msg::RobotTrajectory trajectory[m[K){
+      |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K

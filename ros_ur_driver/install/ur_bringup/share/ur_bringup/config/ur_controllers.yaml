@@ -94,6 +94,7 @@ cartesian_compliance_controller:
     end_effector_link: "tool0"
     robot_base_link: "base_link"
     ft_sensor_ref_link: "tool0"
+    complaince_ref_link: "tool0"
     joints:
       - shoulder_pan_joint
       - shoulder_lift_joint
@@ -102,33 +103,32 @@ cartesian_compliance_controller:
       - wrist_2_joint
       - wrist_3_joint
       
+
+      # Observations
+      # 1. Arm is falling when compliance controller is being started - Is this an issue?
+      # 2. Large applications of force in one direction leads to drifting behavior
     pd_gains:
-        trans_x: {p: -0.02}
-        trans_y: {p: -0.02}
-        trans_z: {p: 0.02}
+        trans_x: {p: -0.05, i: -0.04, d: -0.02}
+        trans_y: {p: -0.05, i: -0.04, d: -0.02}
+        trans_z: {p: 0.05}
         rot_x: {p: 0.01}
         rot_y: {p: 0.01}
         rot_z: {p: 0.01}
     
     stiffness:  # w.r.t. compliance_ref_link
-        trans_x: 40.0
-        trans_y: 50.0
-        trans_z: 40.0
+        trans_x: 20.0
+        trans_y: 20.0
+        trans_z: 20.0
         rot_x: 10.0
         rot_y: 10.0
         rot_z: 10.0
-    
+
+    solver:
+      error_scale: 0.07
+      
     command_interfaces:
       - position
-    state_interfaces:
-      - position
-      - velocity
-    state_publish_rate: 100.0
-    action_monitor_rate: 20.0
-    allow_partial_joints_goal: false
-    constraints:
-      stopped_velocity_tolerance: 0.0
-      goal_time: 0.0
+
 
 cartesian_force_controller:
   ros__parameters:
@@ -162,3 +162,335 @@ cartesian_force_controller:
     constraints:
       stopped_velocity_tolerance: 0.0
       goal_time: 0.0
+
+left:
+  controller_manager:
+    ros__parameters:
+      update_rate: 600  # Hz
+
+      joint_state_broadcaster:
+        type: joint_state_broadcaster/JointStateBroadcaster
+
+      io_and_status_controller:
+        type: ur_controllers/GPIOController
+
+      speed_scaling_state_broadcaster:
+        type: ur_controllers/SpeedScalingStateBroadcaster
+
+      force_torque_sensor_broadcaster:
+        type: ur_controllers/ForceTorqueStateBroadcaster
+
+      joint_trajectory_controller:
+        type: joint_trajectory_controller/JointTrajectoryController
+
+      scaled_joint_trajectory_controller:
+        type: ur_controllers/ScaledJointTrajectoryController
+
+      cartesian_compliance_controller:
+        type: cartesian_compliance_controller/CartesianComplianceController
+      
+      cartesian_force_controller:
+        type: cartesian_force_controller/CartesianForceController
+
+  speed_scaling_state_broadcaster:
+    ros__parameters:
+      state_publish_rate: 100.0
+
+
+  force_torque_sensor_broadcaster:
+    ros__parameters:
+      sensor_name: tcp_fts_sensor
+      state_interface_names:
+        - force.x
+        - force.y
+        - force.z
+        - torque.x
+        - torque.y
+        - torque.z
+      frame_id: tool0
+      topic_name: ft_data
+
+
+  joint_trajectory_controller:
+    ros__parameters:
+      joints:
+        - shoulder_pan_joint
+        - shoulder_lift_joint
+        - elbow_joint
+        - wrist_1_joint
+        - wrist_2_joint
+        - wrist_3_joint
+      command_interfaces:
+        - position
+      state_interfaces:
+        - position
+        - velocity
+      state_publish_rate: 100.0
+      action_monitor_rate: 20.0
+      allow_partial_joints_goal: false
+      constraints:
+        stopped_velocity_tolerance: 0.0
+        goal_time: 0.0
+
+
+  scaled_joint_trajectory_controller:
+    ros__parameters:
+      joints:
+        - shoulder_pan_joint
+        - shoulder_lift_joint
+        - elbow_joint
+        - wrist_1_joint
+        - wrist_2_joint
+        - wrist_3_joint
+      command_interfaces:
+        - position
+      state_interfaces:
+        - position
+        - velocity
+      state_publish_rate: 100.0
+      action_monitor_rate: 20.0
+      allow_partial_joints_goal: false
+      constraints:
+        stopped_velocity_tolerance: 0.2
+        goal_time: 0.0
+
+
+  cartesian_compliance_controller:
+    ros__parameters:
+      end_effector_link: "tool0"
+      robot_base_link: "base_link"
+      ft_sensor_ref_link: "tool0"
+      complaince_ref_link: "tool0"
+      joints:
+        - shoulder_pan_joint
+        - shoulder_lift_joint
+        - elbow_joint
+        - wrist_1_joint
+        - wrist_2_joint
+        - wrist_3_joint
+        
+
+        # Observations
+        # 1. Arm is falling when compliance controller is being started - Is this an issue?
+        # 2. Large applications of force in one direction leads to drifting behavior
+      pd_gains:
+          trans_x: {p: -0.05, i: -0.04, d: -0.02}
+          trans_y: {p: -0.05, i: -0.04, d: -0.02}
+          trans_z: {p: 0.05}
+          rot_x: {p: 0.01}
+          rot_y: {p: 0.01}
+          rot_z: {p: 0.01}
+      
+      stiffness:  # w.r.t. compliance_ref_link
+          trans_x: 20.0
+          trans_y: 20.0
+          trans_z: 20.0
+          rot_x: 10.0
+          rot_y: 10.0
+          rot_z: 10.0
+
+      solver:
+        error_scale: 0.07
+        
+      command_interfaces:
+        - position
+
+
+  cartesian_force_controller:
+    ros__parameters:
+      end_effector_link: "tool0"
+      robot_base_link: "base_link"
+      ft_sensor_ref_link: "tool0"
+      joints:
+        - shoulder_pan_joint
+        - shoulder_lift_joint
+        - elbow_joint
+        - wrist_1_joint
+        - wrist_2_joint
+        - wrist_3_joint
+        
+      pd_gains:
+          trans_x: {p: 0.05}
+          trans_y: {p: 0.05}
+          trans_z: {p: 0.05}
+          rot_x: {p: 0.01}
+          rot_y: {p: 0.01}
+          rot_z: {p: 0.01}
+
+      command_interfaces:
+        - position
+      state_interfaces:
+        - position
+        - velocity
+      state_publish_rate: 100.0
+      action_monitor_rate: 20.0
+      allow_partial_joints_goal: false
+      constraints:
+        stopped_velocity_tolerance: 0.0
+        goal_time: 0.0
+
+right:
+  controller_manager:
+    ros__parameters:
+      update_rate: 600  # Hz
+
+      joint_state_broadcaster:
+        type: joint_state_broadcaster/JointStateBroadcaster
+
+      io_and_status_controller:
+        type: ur_controllers/GPIOController
+
+      speed_scaling_state_broadcaster:
+        type: ur_controllers/SpeedScalingStateBroadcaster
+
+      force_torque_sensor_broadcaster:
+        type: ur_controllers/ForceTorqueStateBroadcaster
+
+      joint_trajectory_controller:
+        type: joint_trajectory_controller/JointTrajectoryController
+
+      scaled_joint_trajectory_controller:
+        type: ur_controllers/ScaledJointTrajectoryController
+
+      cartesian_compliance_controller:
+        type: cartesian_compliance_controller/CartesianComplianceController
+      
+      cartesian_force_controller:
+        type: cartesian_force_controller/CartesianForceController
+
+  speed_scaling_state_broadcaster:
+    ros__parameters:
+      state_publish_rate: 100.0
+
+
+  force_torque_sensor_broadcaster:
+    ros__parameters:
+      sensor_name: tcp_fts_sensor
+      state_interface_names:
+        - force.x
+        - force.y
+        - force.z
+        - torque.x
+        - torque.y
+        - torque.z
+      frame_id: tool0
+      topic_name: ft_data
+
+
+  joint_trajectory_controller:
+    ros__parameters:
+      joints:
+        - shoulder_pan_joint
+        - shoulder_lift_joint
+        - elbow_joint
+        - wrist_1_joint
+        - wrist_2_joint
+        - wrist_3_joint
+      command_interfaces:
+        - position
+      state_interfaces:
+        - position
+        - velocity
+      state_publish_rate: 100.0
+      action_monitor_rate: 20.0
+      allow_partial_joints_goal: false
+      constraints:
+        stopped_velocity_tolerance: 0.0
+        goal_time: 0.0
+
+
+  scaled_joint_trajectory_controller:
+    ros__parameters:
+      joints:
+        - shoulder_pan_joint
+        - shoulder_lift_joint
+        - elbow_joint
+        - wrist_1_joint
+        - wrist_2_joint
+        - wrist_3_joint
+      command_interfaces:
+        - position
+      state_interfaces:
+        - position
+        - velocity
+      state_publish_rate: 100.0
+      action_monitor_rate: 20.0
+      allow_partial_joints_goal: false
+      constraints:
+        stopped_velocity_tolerance: 0.2
+        goal_time: 0.0
+
+
+  cartesian_compliance_controller:
+    ros__parameters:
+      end_effector_link: "tool0"
+      robot_base_link: "base_link"
+      ft_sensor_ref_link: "tool0"
+      complaince_ref_link: "tool0"
+      joints:
+        - shoulder_pan_joint
+        - shoulder_lift_joint
+        - elbow_joint
+        - wrist_1_joint
+        - wrist_2_joint
+        - wrist_3_joint
+        
+
+        # Observations
+        # 1. Arm is falling when compliance controller is being started - Is this an issue?
+        # 2. Large applications of force in one direction leads to drifting behavior
+      pd_gains:
+          trans_x: {p: -0.05, i: -0.04, d: -0.02}
+          trans_y: {p: -0.05, i: -0.04, d: -0.02}
+          trans_z: {p: 0.05}
+          rot_x: {p: 0.01}
+          rot_y: {p: 0.01}
+          rot_z: {p: 0.01}
+      
+      stiffness:  # w.r.t. compliance_ref_link
+          trans_x: 20.0
+          trans_y: 20.0
+          trans_z: 20.0
+          rot_x: 10.0
+          rot_y: 10.0
+          rot_z: 10.0
+
+      solver:
+        error_scale: 0.07
+        
+      command_interfaces:
+        - position
+
+
+  cartesian_force_controller:
+    ros__parameters:
+      end_effector_link: "tool0"
+      robot_base_link: "base_link"
+      ft_sensor_ref_link: "tool0"
+      joints:
+        - shoulder_pan_joint
+        - shoulder_lift_joint
+        - elbow_joint
+        - wrist_1_joint
+        - wrist_2_joint
+        - wrist_3_joint
+        
+      pd_gains:
+          trans_x: {p: 0.05}
+          trans_y: {p: 0.05}
+          trans_z: {p: 0.05}
+          rot_x: {p: 0.01}
+          rot_y: {p: 0.01}
+          rot_z: {p: 0.01}
+
+      command_interfaces:
+        - position
+      state_interfaces:
+        - position
+        - velocity
+      state_publish_rate: 100.0
+      action_monitor_rate: 20.0
+      allow_partial_joints_goal: false
+      constraints:
+        stopped_velocity_tolerance: 0.0
+        goal_time: 0.0

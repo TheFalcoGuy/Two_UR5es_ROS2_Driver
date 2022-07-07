@@ -159,9 +159,9 @@ def generate_launch_description():
 
     # MoveGroupInterface demo executable
     move_group_demo = Node(
-        name="move_group_interface_tutorial",
-        package="move_arm",
-        executable="move_to_point",
+        name="move_arm_server",
+        package="move_arm_server",
+        executable="server",
         output="screen",
         parameters=[robot_description, robot_description_semantic, kinematics_yaml],
     )
